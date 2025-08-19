@@ -50,7 +50,7 @@ To analyze the data:
    python chsd_pipeline.py -i <filename>.fits -o <filename>.json -v <filename>.png --nside 64 --patch-size 32 --threshold 0.9
    ```
 
-3. Follow the documentation in the `docs/` folder for detailed guidance on using the tools.
+3. Follow the documentation in the associated README.MD file for detailed guidance on using the tools.
 
 ## Contributing
 
