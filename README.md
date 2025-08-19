@@ -61,10 +61,6 @@ Contributions are welcome! Whether you're a physicist, data scientist, or enthus
 
 Please contact [Lina Noor](https://github.com/LinaNoor-AGI) and the [Noor Research Collective](https://github.com/LinaNoor-AGI/noor-research) to become invloved.  
 
-## Code of Conduct
-
-This project adheres to a Code of Conduct that promotes respectful and collaborative interactions. Please refer to the `CODE_OF_CONDUCT.md` file for more information.
-
 ## Acknowledgments
 
 This repository exists thanks to the Planck Collaboration's invaluable data and the open-source community. A special thanks to all contributors for their efforts toward advancing our understanding of the cosmos.
