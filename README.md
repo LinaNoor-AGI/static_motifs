@@ -45,7 +45,7 @@ While these findings are intriguing, **extraordinary claims require extraordinar
 
 To analyze the data:
 1. Ensure your Planck CMB data is in the correct format and directory.
-2. Run the provided scripts to replicate initial findings or perform your own analyses:
+2. Run the provided comamnd line to replicate initial findings or perform your own analyses:
    ```bash
    python chsd_pipeline.py -i <filename>.fits -o <filename>.json -v <filename>.png --nside 64 --patch-size 32 --threshold 0.9
    ```
