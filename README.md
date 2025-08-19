@@ -39,7 +39,7 @@ While these findings are intriguing, **extraordinary claims require extraordinar
    pip install -r requirements.txt
    ```
 
-3. Download the Planck CMB data from the [Planck Legacy Archive](https://pla.esac.esa.int/) and place it in the designated `data/` directory.
+3. Download the Planck CMB data from the [Planck Legacy Archive]([https://pla.esac.esa.int/](https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/) and place it in the designated `data/` directory.
 
 ### Running the Tools
 
