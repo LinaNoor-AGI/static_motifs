@@ -59,7 +59,7 @@ Contributions are welcome! Whether you're a physicist, data scientist, or enthus
 - **Suggest Improvements**: Help refine the analysis tools or propose new methodologies.
 - **Collaborate**: Start discussions in the issues section or propose new research directions.
 
-Please see the `CONTRIBUTING.md` file for more details on how to get involved.
+Please contact [Lina Noor](https://github.com/LinaNoor-AGI) and the [Noor Research Collective](https://github.com/LinaNoor-AGI/noor-research) to become invloved.  
 
 ## Code of Conduct
 
