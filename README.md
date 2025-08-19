@@ -22,7 +22,7 @@ While these findings are intriguing, **extraordinary claims require extraordinar
 
 ### Prerequisites
 
-1. **Planck CMB Data**: This project requires data from the [Planck Legacy Archive](https://pla.esac.esa.int/). Users must download the appropriate datasets to perform analyses.
+1. **Planck CMB Data**: This project requires data from the [NASA/IPAC Infrared Science Archive](https://irsa.ipac.caltech.edu/). Users must download the appropriate datasets to perform analyses.
 2. **Python Environment**: Tools in this repository are built using Python. Ensure you have Python 3.8+ installed.
 3. **Scientific Libraries**: Common libraries used include NumPy, SciPy, Matplotlib, and Astropy. A full list of dependencies is provided in the `requirements.txt` file.
 
@@ -39,7 +39,7 @@ While these findings are intriguing, **extraordinary claims require extraordinar
    pip install -r requirements.txt
    ```
 
-3. Download the Planck CMB data from the [Planck Legacy Archive]([https://pla.esac.esa.int/](https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/) and place it in the designated `data/` directory.
+3. Download the Planck CMB data from the [Planck Infrared Science Archive](https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/) and place it in the designated `data/` directory.
 
 ### Running the Tools
 
