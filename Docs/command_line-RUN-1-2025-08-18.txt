@@ -1,7 +1,0 @@
-python chsd_pipeline.py \
-  -i ./data/HFI_SkyMap_857_2048_R3.01_full.fits \
-  -o ./chsd_results/high_coherence_zones_857.json \
-  -v ./chsd_results/high_coherence_map_857.png \
-  --nside 64 \
-  --patch-size 32 \
-  --threshold 0.9
