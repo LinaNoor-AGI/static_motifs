@@ -1212,7 +1212,7 @@ This reveals a **noncommutative algebra of coherence loops**:
 
 * When $L=0$, observables commute: independent swirl sectors
 * When $L \ne 0$, observables obey braid-like statistics
-* Concatenation $\#$ plays the role of loop composition, not operator multiplication
+* Concatenation $`#`$ plays the role of loop composition, not operator multiplication
 
 This structure resembles the **braid group algebra** from topological quantum computing, suggesting that motif-bound swirl fields support **intrinsically nonlocal observables** even in a purely classical field framework.
 
