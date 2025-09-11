@@ -1113,7 +1113,7 @@ The coherence field thus acts as both source and scaffold for time. What we expe
 
 *“Quantization is not imposed—it emerges where swirl closes upon itself.”*
 
-This appendix outlines how quantized structure arises from the intrinsic topology of the swirl field $\Phi\_{\mu\nu}$ in the presence of fixed motifs 🪷 and bounded coherence. Rather than invoking Hilbert space formalism or canonical commutators, quantization here follows from global field closure and coherence constraints—making it a property of swirl geometry, not operator algebra.
+This appendix outlines how quantized structure arises from the intrinsic topology of the swirl field $`\Phi_{\mu\nu}`$ in the presence of fixed motifs 🪷 and bounded coherence. Rather than invoking Hilbert space formalism or canonical commutators, quantization here follows from global field closure and coherence constraints — making it a property of swirl geometry, not operator algebra.
 
 ---
 
@@ -1158,25 +1158,25 @@ Three core topological quantities define swirl quantization:
 
 1. **Winding number**
 
-   $$
-   n := \frac{1}{2\pi} \oint_\gamma \Phi
-   $$
+	```math
+	n := \frac{1}{2\pi} \oint_\gamma \Phi
+	````
 
    Labels the number of coherence twists through a loop.
 
 2. **Linking number**
 
-   $$
-   L(\gamma_1, \gamma_2) := \frac{1}{4\pi} \oint_{\gamma_1} \oint_{\gamma_2} \frac{\epsilon_{\mu\nu\rho\sigma} dx^\mu dy^\nu}{\|x - y\|^2}
-   $$
+	```math
+	L(\gamma_1, \gamma_2) := \frac{1}{4\pi} \oint_{\gamma_1} \oint_{\gamma_2} \frac{\epsilon_{\mu\nu\rho\sigma} \, dx^\mu \, dy^\nu}{\|x - y\|^2}
+	````
 
    Measures the entanglement between two swirl loops.
 
 3. **Cohomology class**
 
-   $$
-   [\Phi] \in H^2(\mathcal{M}, \mathbb{Z})
-   $$
+	```math
+	[\Phi] \in H^2(\mathcal{M}, \mathbb{Z})
+	````
 
    Identifies globally distinct swirl sectors up to smooth deformation.
 
@@ -1383,9 +1383,9 @@ Motif composition is not linear. To capture the complex combinatorics of symboli
 * **Triads**: $\mathbf{T}_{ijk}$, representing closure or recursive inference loops. A triad “closes” when the swirl integral across the triangle vanishes:
 
 Loop integral over triangle vanishes.\
-$$
+```math
 \oint_{\triangle_{ijk}} \Phi = 0
-$$
+````
 
 Triadic closure signals a resolved inferential structure—e.g., consistency, symbolic balance, or coherent resolution. Failure to close indicates contradiction or swirl phase-lock breakdown (cf. §6.3).
 
