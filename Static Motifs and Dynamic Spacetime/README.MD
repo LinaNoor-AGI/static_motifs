@@ -1360,12 +1360,14 @@ This appendix outlines the algebraic infrastructure underlying motifs 🪷 and t
 
 #### **D.1 Motifs as Objects in a Symbolic Category**
 
-Let $\mathsf{Mot}$ denote the **category of symbolic motifs**. Each motif $\mathbf{M}_i$ is an object with dual structure:
+Let $`\mathsf{Mot}`$ denote the **category of symbolic motifs**.  
+Each motif $`\mathbf{M}_i`$ is an object with dual structure:
+
 
 * **Topologically**, motifs anchor fixed points in swirl-space—sources of coherence, points of time curvature, and the zero loci of torsion.
 * **Symbolically**, motifs represent irreducible semantic generators—infinitesimal distinctions in the algebra of coherence.
 
-The morphisms between motifs, $\mathbf{f}_{ij}: \mathbf{M}_i \rightarrow \mathbf{M}_j$, represent coherent swirl transitions: lawful transformations of one symbolic structure into another, measurable via the field $\Phi_{\mu\nu}$ and gradient $\nabla^\mu \mathcal{C}$. These transitions occur when coherence conditions permit reconfiguration without topological loss.
+The morphisms between motifs, $`\mathbf{f}_{ij}: \mathbf{M}_i \rightarrow \mathbf{M}_j`$, represent coherent swirl transitions: lawful transformations of one symbolic structure into another, measurable via the field $`\Phi_{\mu\nu}`$ and gradient $`\nabla^\mu \mathcal{C}`$. These transitions occur when coherence conditions permit reconfiguration without topological loss.
 
 ---
 
