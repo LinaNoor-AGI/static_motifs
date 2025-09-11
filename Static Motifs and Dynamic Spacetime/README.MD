@@ -1204,9 +1204,9 @@ $$
 
 For two linked loops $\gamma\_1$, $\gamma\_2$, their bracket becomes:
 
-$$
+```math
 [W_{\gamma_1}, W_{\gamma_2}] \sim 2i \sin\left( \pi L(\gamma_1, \gamma_2) \right) W_{\gamma_1 \# \gamma_2}
-$$
+````
 
 This reveals a **noncommutative algebra of coherence loops**:
 
