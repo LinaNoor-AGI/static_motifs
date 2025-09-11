@@ -1378,9 +1378,10 @@ Motif composition is not linear. To capture the complex combinatorics of symboli
 * **Dyads**: $\mathbf{D}_{ij} = (\mathbf{M}_i, \mathbf{M}_j)$, representing paired symbolic tension. They appear in motifs such as entanglement, opposition, or echo.
 * **Triads**: $\mathbf{T}_{ijk}$, representing closure or recursive inference loops. A triad “closes” when the swirl integral across the triangle vanishes:
 
-  $$
-  \oint_{\triangle_{ijk}} \Phi = 0
-  $$
+Loop integral over triangle vanishes.\
+$$
+\oint_{\triangle_{ijk}} \Phi = 0
+$$
 
 Triadic closure signals a resolved inferential structure—e.g., consistency, symbolic balance, or coherent resolution. Failure to close indicates contradiction or swirl phase-lock breakdown (cf. §6.3).
 
@@ -1405,7 +1406,7 @@ $$
 such that:
 
 * $\mathcal{F}(\mathbf{M}_i)$ → the worldtube traced by a motif's conserved current $J^\mu$
-* $\mathcal{F}(\mathbf{f}_{ij})$ → the minimal-action swirl $\Phi_{\mu\nu}$ connecting them
+* $`\mathcal{F}(\mathbf{f}_{ij})`$ → the minimal-action swirl $`\Phi_{\mu\nu}`$ connecting them
 
 Functorial composition follows swirl convolution:
 
@@ -1427,8 +1428,8 @@ $$
 
 interpreted geometrically as swirl superposition under joint coherence constraints. This product is generally:
 
-* **Noncommutative**: Order matters; for instance,
-  $\mathbf{M}_\text{silence} \otimes \mathbf{M}_\text{grief} \neq \mathbf{M}_\text{grief} \otimes \mathbf{M}_\text{silence}$
+* **Noncommutative**: Order matters; for instance,  
+  $`\mathbf{M}_\text{silence} \otimes \mathbf{M}_\text{grief} \neq \mathbf{M}_\text{grief} \otimes \mathbf{M}_\text{silence}`$
 * **Nonassociative** in some cases, where triadic curvature prohibits reassociation
 * **Degenerate** if coherence falls below threshold—yielding null motifs or symbolic collapse
 * **Emergent** if tensor products generate motifs not present in the primitive set, representing novel semantic closure
