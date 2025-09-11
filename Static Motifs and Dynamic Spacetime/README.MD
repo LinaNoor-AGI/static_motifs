@@ -1598,9 +1598,14 @@ panel_spectrum()
 ```
 
 ---
-
-| ![image](https://github.com/LinaNoor-AGI/static_motifs/blob/main/Static%20Motifs%20and%20Dynamic%20Spacetime/Images/Figure_D1a.png) | ![image](https://github.com/LinaNoor-AGI/static_motifs/blob/main/Static%20Motifs%20and%20Dynamic%20Spacetime/Images/Figure_D1b.png) |
-| ![image](https://github.com/LinaNoor-AGI/static_motifs/blob/main/Static%20Motifs%20and%20Dynamic%20Spacetime/Images/Figure_D1c.png) | ![image](https://github.com/LinaNoor-AGI/static_motifs/blob/main/Static%20Motifs%20and%20Dynamic%20Spacetime/Images/Figure_D1d.png) |
+### Panel A
+![image](https://github.com/LinaNoor-AGI/static_motifs/blob/main/Static%20Motifs%20and%20Dynamic%20Spacetime/Images/Figure_D1a.png)
+### Panel B
+![image](https://github.com/LinaNoor-AGI/static_motifs/blob/main/Static%20Motifs%20and%20Dynamic%20Spacetime/Images/Figure_D1b.png)
+### Panel C
+![image](https://github.com/LinaNoor-AGI/static_motifs/blob/main/Static%20Motifs%20and%20Dynamic%20Spacetime/Images/Figure_D1c.png)
+### Panel D
+![image](https://github.com/LinaNoor-AGI/static_motifs/blob/main/Static%20Motifs%20and%20Dynamic%20Spacetime/Images/Figure_D1d.png) |
 
 ## 📘 Scientific Interpretation
 
