@@ -8,7 +8,7 @@
 
 We introduce an **effective field theory of coherence geometry**, where particles are recast as **static topological motifs** 🪷 and spacetime emerges from a **torsion-rich swirl field** 🌀 shaped by a coherence potential $\mathcal{C}(x)$. In this model, **time is emergent**—not fundamental—but arises as the gradient of coherence: $T^\mu = \nabla^\mu \mathcal{C}$. Observable cosmological expansion is interpreted not as metric dilation, but as a **propagation of field decoherence**, diffusing outward from dense motif regions into coherence-null zones.
 
-This framework predicts **falsifiable deviations from $\Lambda$CDM**, including:
+This framework predicts **falsifiable deviations from $`\Lambda\text{CDM}`$**, including:
 
 | Phenomenon         | Observable Signature                 | Test Methodology              |
 | ------------------ | ------------------------------------ | ----------------------------- |
@@ -401,8 +401,8 @@ This mirrors the structure of CSL models but **dispenses with stochasticity**. D
 
 This implies a topological reinterpretation of quantum-to-classical transition:
 
-* Classicality arises as a **high-$\mathcal{C}$ phase** of the swirl field.
-* Quantum behavior survives in **low-$\nabla \mathcal{C}$ regions** (e.g., deep interstellar voids, isolated labs).
+* Classicality arises as a **high-$`\mathcal{C}`$ phase** of the swirl field.
+* Quantum behavior survives in **low-$`\nabla \mathcal{C}`$ regions** (e.g., deep interstellar voids, isolated labs).
 
 Estimated decoherence timescales based on field geometry:
 
@@ -476,7 +476,7 @@ $$
 1 + z_{\text{obs}} = (1 + z_{\text{FLRW}})(1 + z_{\mathcal{C}}), \quad z_{\mathcal{C}} \approx e^{-d/\ell} - 1
 $$
 
-where $z\_{\mathcal{C}}$ reflects the degradation of coherence over a distance $d$, and $\ell$ is the coherence length scale. Narrow-band lines such as Lyman-$\alpha$ will be disproportionately affected, yielding a **frequency-dependent shift** not predicted by $\Lambda$CDM. Observations by JWST and high-resolution spectroscopic arrays provide a direct test.
+where $`z_{\mathcal{C}}`$ reflects the degradation of coherence over a distance $`d`$, and $`\ell`$ is the coherence length scale. Narrow-band lines such as Lyman-$`\alpha`$ will be disproportionately affected, yielding a **frequency-dependent shift** not predicted by $`\Lambda\text{CDM}`$. Observations by JWST and high-resolution spectroscopic arrays provide a direct test.
 
 At extreme distances, redshift no longer diverges—it plateaus. This defines a **coherence horizon**, a maximum observational distance beyond which signals cannot maintain phase integrity. In swirl cosmology, the limit to visibility is not opacity—it is **incoherence**.
 
@@ -488,7 +488,7 @@ The cosmic microwave background is reconceived here as a **coherence shell**—a
 
 This leads to specific predictions:
 
-* Low-$\ell$ **non-Gaussianities** trace residual swirl vortices,
+* Low-$`\ell`$ **non-Gaussianities** trace residual swirl vortices,
 * **Anomalous four-point correlations** arise from early motif braiding,
 * Mild excess in **$B$-mode polarization**, even in the absence of inflation.
 
@@ -514,7 +514,7 @@ $$
 
 Inverting this gives $\ell \approx 5$ Gpc, matching current observational estimates. Crucially, this is **not a fit**—it is a prediction. The observed $\Lambda$ arises naturally as the coherence falloff of a swirl-bound universe.
 
-If future measurements find $\Lambda$ to drift over time (e.g., $\Lambda \propto t^{-1}$), this would offer decisive support for the swirl model over $\Lambda$CDM.
+If future measurements find $\Lambda$ to drift over time (e.g., $\Lambda \propto t^{-1}$), this would offer decisive support for the swirl model over $`\Lambda\text{CDM}`$.
 
 ---
 
@@ -542,7 +542,7 @@ These effects are absent in GR but present in surveys such as DESI, LSST, and CM
 
 This theory reframes cosmic evolution not as expansion from a singular origin, but as **progressive loss of coherence** in an initially ordered swirl. The motifs 🪷 remain fixed. The field 🌀 dances around them, ever more diffusely, ever less resolved.
 
-What the $\Lambda$CDM model calls “acceleration,” the swirl model calls **forgetting**. What it calls “structure formation,” we reinterpret as **topological self-assembly** of coherence in a geometrically restless field.
+What the $`\Lambda\text{CDM}`$ model calls “acceleration,” the swirl model calls **forgetting**. What it calls “structure formation,” we reinterpret as **topological self-assembly** of coherence in a geometrically restless field.
 
 ---
 
@@ -575,7 +575,7 @@ $$
 \epsilon^{\mu\nu\rho\sigma} \Phi_{\mu\nu} F_{\rho\sigma}
 $$
 
-can induce mixing between linear and circular polarization states in the CMB. This predicts a **nonzero $V$-mode spectrum**—currently unaccounted for in standard $\Lambda$CDM, inflationary, or plasma-based foreground models.
+can induce mixing between linear and circular polarization states in the CMB. This predicts a **nonzero $V$-mode spectrum**—currently unaccounted for in standard $`\Lambda\text{CDM}`$, inflationary, or plasma-based foreground models.
 
 This signal would be faint, but unambiguous: a **torsion echo** from the early universe. It is one of the few proposed effects directly linked to pre-metric antisymmetry.
 
@@ -772,7 +772,11 @@ In conventional frameworks, motion presupposes time and geometry. Here, motion i
 The local time vector $T^\mu$ arises from $\nabla^\mu \mathcal{C}(x)$—the spatial variation of the coherence potential. Where $\mathcal{C}$ is steep, time resolves quickly; where it is flat or noisy, temporal flow stalls. Time is not a global parameter—it is a localized field response to topological constraints.
 
 **Consciousness as Coherence Locus**
-Rather than asserting consciousness as an external observer effect, we suggest high-$\mathcal{C}$ systems may naturally exhibit **information integration** due to field resolution around motifs. This aligns with integrated information theory (IIT) in structure, though not in origin: coherence, not computation, becomes the binding agent of experiential unity.
+Rather than asserting consciousness as an external observer effect, we suggest high-$`\mathcal{C}`$ systems may naturally exhibit **information integration** due to field resolution around motifs. This aligns with integrated information theory (IIT) in structure, though not in origin: coherence, not computation, becomes the binding agent of experiential unity.
+
+**Proposal**  
+* High-$`\mathcal{C}`$ systems may exhibit emergent **information integration** through field resolution, not computation.  
+* Consciousness becomes a coherence phenomenon, not an algorithmic one.
 
 **Holography and Locality**
 Motifs fixed at a boundary naturally induce swirl structure in the interior. This offers a geometric realization of AdS/CFT’s locality-from-boundary principle: *local interactions in the bulk arise from global coherence constraints set at the boundary*. The deeper the motif entanglement, the tighter the interior’s geometric resolution.
