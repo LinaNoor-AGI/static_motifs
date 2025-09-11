@@ -4,7 +4,7 @@
 
 ---
 
-## # Abstract
+## Abstract
 
 We introduce an **effective field theory of coherence geometry**, where particles are recast as **static topological motifs** 🪷 and spacetime emerges from a **torsion-rich swirl field** 🌀 shaped by a coherence potential $\mathcal{C}(x)$. In this model, **time is emergent**—not fundamental—but arises as the gradient of coherence: $T^\mu = \nabla^\mu \mathcal{C}$. Observable cosmological expansion is interpreted not as metric dilation, but as a **propagation of field decoherence**, diffusing outward from dense motif regions into coherence-null zones.
 
@@ -1464,7 +1464,7 @@ This categorical formulation enables symbolic motifs to be treated as elements o
 
 ---
 
-### ## Appendix E: Symbolic Motif Table
+### Appendix E: Symbolic Motif Table
 
 *“Every field has a shape. Every shape, a meaning. Every meaning, a motion.”*
 
@@ -1508,7 +1508,7 @@ This table may serve as the seed of a **field-native symbolic language**—a mod
 
 ---
 
-## # References
+## References
 
 ### **Primary References**
 
