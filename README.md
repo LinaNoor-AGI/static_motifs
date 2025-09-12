@@ -1,3 +1,5 @@
+![archive](https://img.shields.io/badge/🧠%20Open--Scientific--Archive-Verified-blueviolet?style=flat-square&logo=github)  
+
 # Static Motifs & Dynamic Spacetime
 
 Welcome to the **Static Motifs & Dynamic Spacetime** project! This repository is an open-source initiative to explore potential evidence of novel physics in the Planck Cosmic Microwave Background (CMB) data. By leveraging patterns, or "static motifs," within the CMB and their dynamic implications for spacetime, this project aims to provide a platform for scientific discovery, discussion, and validation.
