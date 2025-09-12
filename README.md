@@ -1,4 +1,4 @@
-![archive](https://img.shields.io/badge/🧠%20Open--Scientific--Archive-Verified-blueviolet?style=flat-square&logo=github)  
+![archive](https://img.shields.io/badge/Open--Scientific--Archive-Verified-blueviolet?style=flat-square&logo=github)  
 
 # Static Motifs & Dynamic Spacetime
 
