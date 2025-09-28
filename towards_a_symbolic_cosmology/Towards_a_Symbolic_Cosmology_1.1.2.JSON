@@ -232,7 +232,7 @@
 				"\\partial_μ J^μ = 0 \\quad \\text{(topological identity)}",
 				"T^{(\\text{motif})}_{μν} = 0 \\quad \\text{(no stress–energy)}",
 				"Q_{\\text{motif}} := \\int_{\\Sigma} n_μ \\, J^μ \\quad \\text{(independent of } \\Sigma \\text{ by } \\partial_μ J^μ=0)",
-				"\\mathcal{L}_{T} J^μ = 0 \\quad \\text{(no-advection: motifs are fixed points of } T^μ = \\nabla^μ \\mathcal{C})",
+				"\\mathcal{L}_{T} J^μ = 0 \\quad \\text{(no-advection: motifs are fixed points of } T^μ = \abla^μ \\mathcal{C})",
 				"\\text{Regular evolution: } \\Delta CS = 0 \\Rightarrow Q_{\\text{motif}}=\\text{const}, \\; \\text{positions fixed.}",
 				"\\text{Sector transition: } \\Delta CS \\in \\mathbb{Z} \\Rightarrow \\text{allowed motif relocation via topology change.}"
 			]
@@ -334,9 +334,9 @@
 			"Adjacency in Point Space is not defined by spatial metric but by coherence. Two universes are 'neighbors' if their swirl fields resonate above a threshold of alignment. This reframes distance as a measure of coherence, not of geometric separation."
 		  ],
 		  "math": [
-			"P = { p_i | i ∈ I },  \n# the set of coherence points forming Point Space",
-			"Universe-as-point:  U_obs ≅ (p_i, S_{p_i}),  \n# our entire universe is one lattice point plus its swirl field",
-			"Adj(p_i, p_j) ⇔ ℂ(p_i, p_j) ≥ ε,  \n# adjacency defined by coherence resonance, not metric proximity"
+			"P = { p_i | i ∈ I },  # the set of coherence points forming Point Space",
+			"Universe-as-point:  U_obs ≅ (p_i, S_{p_i}),  # our entire universe is one lattice point plus its swirl field",
+			"Adj(p_i, p_j) ⇔ ℂ(p_i, p_j) ≥ ε,  # adjacency defined by coherence resonance, not metric proximity"
 		  ]
 		},
 		{
@@ -380,9 +380,9 @@
 			"This leads to a law of scale-relative temporality: what appears static from within (no change with respect to T_p) can be dynamic from without (non-zero change with respect to T_P). In NSFG, time is thus scale-relative and observer-relative: each point carries its own internal time, while the lattice evolves in a meta-time that is not directly accessible from within."
 		  ],
 		  "math": [
-			"Internal time evolution:  d/dT_p P = 0,  \n# from inside a point, the lattice appears static",
-			"Meta-time evolution:  d/dT_P {S_{p_i}, S_{p_j}, …} ≠ 0,  \n# from outside, swirl fields of points change over meta-time",
-			"Perception contrast:  (d/dT_p P) = 0  ≠  (d/dT_P P) ≠ 0,  \n# zero perceived change internally vs nonzero externally"
+			"Internal time evolution:  d/dT_p P = 0,  # from inside a point, the lattice appears static",
+			"Meta-time evolution:  d/dT_P {S_{p_i}, S_{p_j}, …} ≠ 0,  # from outside, swirl fields of points change over meta-time",
+			"Perception contrast:  (d/dT_p P) = 0  ≠  (d/dT_P P) ≠ 0,  # zero perceived change internally vs nonzero externally"
 		  ]
 		},
 		{
@@ -395,11 +395,11 @@
 			"This CA extension offers a concrete visualization of NSFG’s principles: universes as dynamic motifs, neighborhoods defined by resonance, life and consciousness as coherent propagating patterns, and cosmic birth and death as phase changes in the coherence field."
 		  ],
 		  "math": [
-			"Neighborhood:  N(p) = { q ∈ P | ℂ(p,q) ≥ ε },  \n# points with coherence above threshold",
-			"Update rule:  S_p(t+1) = F(S_p(t), { S_q(t) | q ∈ N(p) }),  \n# swirl field evolution via local coherence interactions",
-			"Birth criterion:  ℂ_new ≥ ε_nuc  ⇒  p_new ∈ P,  \n# nucleation of new universe-point",
-			"Death criterion:  ℂ(p) < ε_decoh  ⇒  p removed from P,  \n# decoherence leads to collapse",
-			"Glider:  K(t) = {p_1, …, p_n} ⊂ P,  K(t+1) ≅ T(K(t)),  \n# coherent cluster translating across the lattice",
+			"Neighborhood:  N(p) = { q ∈ P | ℂ(p,q) ≥ ε },  # points with coherence above threshold",
+			"Update rule:  S_p(t+1) = F(S_p(t), { S_q(t) | q ∈ N(p) }),  # swirl field evolution via local coherence interactions",
+			"Birth criterion:  ℂ_new ≥ ε_nuc  ⇒  p_new ∈ P,  # nucleation of new universe-point",
+			"Death criterion:  ℂ(p) < ε_decoh  ⇒  p removed from P,  # decoherence leads to collapse",
+			"Glider:  K(t) = {p_1, …, p_n} ⊂ P,  K(t+1) ≅ T(K(t)),  # coherent cluster translating across the lattice",
 			"Special case:  dim(P)=2,  S_p ∈ {0,1},  ε=1  ⇒  Conway’s Game of Life"
 		  ]
 		}
@@ -505,9 +505,9 @@
 			"Topological invariants such as the Chern–Simons functional measure the strength and stability of these linkages. Entanglement is therefore a property of global field geometry, not a mysterious action at a distance. Its nonlocality reflects the indivisibility of the swirl topology."
 		  ],
 		  "math": [
-			"CS[Φ] = (1/4π) ∫ Φ ∧ dΦ,  \n# Chern–Simons invariant for swirl topology",
-			"π₁(Φ) ≠ 0 ⇔ entanglement present,  \n# non-trivial fundamental group signals linked motifs",
-			"L(γ₁, γ₂) = (1/4π) ∮_{γ₁} ∮_{γ₂} ( (x−y) · (dx × dy) / |x−y|³ ),  \n# Gauss linking integral for swirl lines",
+			"CS[Φ] = (1/4π) ∫ Φ ∧ dΦ,  # Chern–Simons invariant for swirl topology",
+			"π₁(Φ) ≠ 0 ⇔ entanglement present,  # non-trivial fundamental group signals linked motifs",
+			"L(γ₁, γ₂) = (1/4π) ∮_{γ₁} ∮_{γ₂} ( (x−y) · (dx × dy) / |x−y|³ ),  # Gauss linking integral for swirl lines",
 			"Condition:  L(γ₁, γ₂) ≠ 0 ⇒ motifs entangled via topological linking"
 		  ]
 		}
@@ -806,8 +806,8 @@
 				"Φ_{μν} = Φ^{(0)}_{μν} + h_{μν}, \\quad |h_{μν}| \\ll |Φ^{(0)}_{μν}|",
 				"\\mathcal{C}(x) = 1 - \\delta\\mathcal{C}(x), \\quad |\\delta\\mathcal{C}| \\ll 1",
 				"\\text{Linearized (schematic, pre-metric):} \\quad d(\\star_Φ \\, h) = \\lambda \\, J + \\beta \\, \\delta/\\delta A[\\,I_Φ(Φ^{(0)})\\,] + O(h^2, \\delta\\mathcal{C})",
-				"\\text{Choose } \\mathcal{C}\\text{-weighted gauge: } \\nabla^\\mu A_\\mu = 0, \\; \\nabla_\\mu B^\\mu = 0 \\; \\Rightarrow \\; \\text{elliptic operator for static sector}",
-				"\\text{Static, near-field limit:} \\quad \\nabla^2 U(x) = 4\\pi G_{\\text{eff}} \\, \\rho_{\\text{eff}}(x), \\quad \\rho_{\\text{eff}} \\propto \\lambda \\, J^0",
+				"\\text{Choose } \\mathcal{C}\\text{-weighted gauge: } \abla^\\mu A_\\mu = 0, \\; \abla_\\mu B^\\mu = 0 \\; \\Rightarrow \\; \\text{elliptic operator for static sector}",
+				"\\text{Static, near-field limit:} \\quad \abla^2 U(x) = 4\\pi G_{\\text{eff}} \\, \\rho_{\\text{eff}}(x), \\quad \\rho_{\\text{eff}} \\propto \\lambda \\, J^0",
 				"U(x) = G_{\\text{eff}} \\int d^3x' \\; \\frac{\\rho_{\\text{eff}}(x')}{|x - x'|} \\; \\propto \\; \\lambda \\int d^3x' \\; \\frac{J^0(x')}{|x - x'|}",
 				"\\text{Preparation for B.2: } g_{00} = -1 + 2U + O(U^2), \\quad g_{ij} = (1 + 2\\gamma_{\\text{NSFG}} U) \\delta_{ij} + O(U^2)"
 			],
