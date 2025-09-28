@@ -811,11 +811,36 @@
 			  "U(x) = G_{\\text{eff}} \\int d^3x' \\, \\frac{\\rho_{\\text{eff}}(x')}{|x - x'|} \\; \\propto \\; \\lambda \\int d^3x' \\, \\frac{J^0(x')}{|x - x'|}",
 			  "\\text{Preparation for B.2: } g_{00} = -1 + 2U + O(U^2), \\quad g_{ij} = (1 + 2\\gamma_{\\text{NSFG}} U) \\delta_{ij} + O(U^2)"
 			],
-			"validation": [
-				"Recover the Poisson equation in the limits: (a) high coherence (\\mathcal{C} \\rightarrow 1), (b) time-independence, and (c) small |h|. Confirm that U reproduces Newtonian gravity to leading order.",
-				"Check gauge independence of U by confirming that gauge transformations of (A, B) leave Φ and the derived U unchanged at this order.",
-				"Demonstrate that the pre-metric solution for U matches the emergent-metric description once simplicity/non-degeneracy hold and \\star_Φ \\rightarrow \\star_g."
-			],
+			"validation": {
+			  "theorem": {
+				"name": "Consistency of the Linearized Swirl Field in the Weak-Field Limit",
+				"hypotheses": [
+				  "H1 (High-Coherence Regime): The coherence potential satisfies \\mathcal{C}(x) = 1 - \\delta\\mathcal{C}(x) with |\\delta\\mathcal{C}(x)| \\ll 1.",
+				  "H2 (Small Perturbation): The field is decomposed as Φ_{μν} = Φ^{(0)}_{μν} + h_{μν} with |h_{μν}| \\ll |Φ^{(0)}_{μν}|.",
+				  "H3 (Gauge Choice): A \\mathcal{C}-weighted gauge is imposed (\\nabla^{\\mu} A_{\\mu} = 0, \\nabla_{\\mu} B^{\\mu} = 0), ensuring elliptic structure in the static sector.",
+				  "H4 (Static Limit): Time-dependence of Φ and ℂ-variations are negligible, reducing equations to elliptic form.",
+				  "H5 (Simplicity & Non-degeneracy): When conditions for the Urbantke construction hold, the emergent metric g_{μν}(Φ) exists and \\star_{Φ} → \\star_{g} is well-defined."
+				],
+				"statement": "Under H1–H5, the linearized swirl equations reduce in the static, weak-field limit to a Poisson-type equation for the effective potential U. This U serves as the Newtonian potential in the emergent metric g_{μν}(Φ), reproducing the standard Newtonian limit.",
+				"conclusion": [
+				  "C1: The effective potential satisfies \\nabla^2 U(x) = 4\\pi G_{\\text{eff}} \\rho_{\\text{eff}}(x), with \\rho_{\\text{eff}} \\propto \\lambda J^0.",
+				  "C2: U is gauge-independent at leading order; transformations of (A,B) leave Φ and U invariant.",
+				  "C3: The emergent metric components recover the Newtonian/PPN form: g_{00} = -1 + 2U + O(U^2), g_{ij} = (1 + 2\\gamma_{NSFG} U) \\delta_{ij} + O(U^2)."
+				],
+				"proof_sketch": [
+				  "(i) Expand Φ about Φ^{(0)} and insert into the pre-metric Euler–Lagrange equations with ⋆_{Φ}.",
+				  "(ii) Impose the \\mathcal{C}-weighted gauge; the principal symbol reduces to an elliptic operator for the static sector.",
+				  "(iii) Identify the time–time component of g_{μν}(Φ) with the scalar potential sourced by J^0.",
+				  "(iv) Show that the resulting equation for U matches the Poisson form under H1–H4.",
+				  "(v) Once H5 holds, transition from ⋆_{Φ} to ⋆_{g} validates the Newtonian correspondence."
+				],
+				"remarks": [
+				  "R1: The effective Newtonian constant G_{eff} may differ from bare G depending on λ, β couplings in the action.",
+				  "R2: Failure of H1 or H2 leads to non-linear corrections, which are addressed in B.2 and B.3.",
+				  "R3: The γ_{NSFG} parameter links directly to PPN phenomenology; its observational constraints appear in §6.2."
+				]
+			  }
+			},
 			"cross_refs": [
 				"Appendix A: The Swirl Action and Field Equations",
 				"4.1 Emergent Metric",
