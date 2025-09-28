@@ -803,13 +803,13 @@
 				"Interpretation: ‘Weak field’ here means small departures of Φ from Φ^{(0)} and small gradients of ℂ. In this limit, the coherent background defines inertial frames; the perturbation h encodes the potential U that will enter g_{00} at leading order."
 			],
 			"math": [
-				"Φ_{μν} = Φ^{(0)}_{μν} + h_{μν}, \\quad |h_{μν}| \\ll |Φ^{(0)}_{μν}|",
-				"\\mathcal{C}(x) = 1 - \\delta\\mathcal{C}(x), \\quad |\\delta\\mathcal{C}| \\ll 1",
-				"\\text{Linearized (schematic, pre-metric):} \\quad d(\\star_Φ \\, h) = \\lambda \\, J + \\beta \\, \\delta/\\delta A[\\,I_Φ(Φ^{(0)})\\,] + O(h^2, \\delta\\mathcal{C})",
-				"\\text{Choose } \\mathcal{C}\\text{-weighted gauge: } \abla^\\mu A_\\mu = 0, \\; \abla_\\mu B^\\mu = 0 \\; \\Rightarrow \\; \\text{elliptic operator for static sector}",
-				"\\text{Static, near-field limit:} \\quad \abla^2 U(x) = 4\\pi G_{\\text{eff}} \\, \\rho_{\\text{eff}}(x), \\quad \\rho_{\\text{eff}} \\propto \\lambda \\, J^0",
-				"U(x) = G_{\\text{eff}} \\int d^3x' \\; \\frac{\\rho_{\\text{eff}}(x')}{|x - x'|} \\; \\propto \\; \\lambda \\int d^3x' \\; \\frac{J^0(x')}{|x - x'|}",
-				"\\text{Preparation for B.2: } g_{00} = -1 + 2U + O(U^2), \\quad g_{ij} = (1 + 2\\gamma_{\\text{NSFG}} U) \\delta_{ij} + O(U^2)"
+			  "Φ_{μν} = Φ^{(0)}_{μν} + h_{μν}, \\quad |h_{μν}| \\ll |Φ^{(0)}_{μν}|",
+			  "\\mathcal{C}(x) = 1 - \\delta\\mathcal{C}(x), \\quad |\\delta\\mathcal{C}(x)| \\ll 1",
+			  "\\text{Linearized pre-metric form: } d(\\star_{Φ} h) = \\lambda J + \\beta \\, \\frac{\\delta I_Φ[Φ^{(0)}]}{\\delta A} + O(h^2, \\delta\\mathcal{C})",
+			  "\\text{Choose } \\mathcal{C}\\text{-weighted gauge: } \\nabla^{\\mu} A_{\\mu} = 0, \\; \\nabla_{\\mu} B^{\\mu} = 0 \\; \\Rightarrow \\; \\text{elliptic operator for static sector}",
+			  "\\text{Static, near-field limit: } \\nabla^2 U(x) = 4\\pi G_{\\text{eff}} \\, \\rho_{\\text{eff}}(x), \\quad \\rho_{\\text{eff}} \\propto \\lambda J^0",
+			  "U(x) = G_{\\text{eff}} \\int d^3x' \\, \\frac{\\rho_{\\text{eff}}(x')}{|x - x'|} \\; \\propto \\; \\lambda \\int d^3x' \\, \\frac{J^0(x')}{|x - x'|}",
+			  "\\text{Preparation for B.2: } g_{00} = -1 + 2U + O(U^2), \\quad g_{ij} = (1 + 2\\gamma_{\\text{NSFG}} U) \\delta_{ij} + O(U^2)"
 			],
 			"validation": [
 				"Recover the Poisson equation in the limits: (a) high coherence (\\mathcal{C} \\rightarrow 1), (b) time-independence, and (c) small |h|. Confirm that U reproduces Newtonian gravity to leading order.",
