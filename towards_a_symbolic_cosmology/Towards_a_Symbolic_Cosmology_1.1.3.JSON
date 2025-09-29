@@ -108,7 +108,7 @@
 
   "_file_layout": [
     {
-      "file_name": "NSFG_Meta_Cosmology.JSON",
+      "file_name": "Towards_a_Symbolic_Cosmology.JSON",
       "purpose": "Canonical paper bundle (header + index + sections + appendices).",
       "contains": ["header", "index", "sections", "appendices"]
     }
