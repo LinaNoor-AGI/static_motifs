@@ -17,8 +17,14 @@
 
   "_title_short": "Toward a Symbolic Cosmology",
   "_publication_type": "Academic Paper",
-  "_publication_location": "GitHub",
-  "_canonical_source": "https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/towards_a_symbolic_cosmology/Towards_a_Symbolic_Cosmology.JSON",
+  "_publication_location": [
+	"GitHub",
+	"PASTEBIN"
+  ],
+  "_canonical_source": [
+	"https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/towards_a_symbolic_cosmology/Towards_a_Symbolic_Cosmology.JSON",
+	"https://pastebin.com/fTZaNUVW"
+  ],
   "_doi": "",
   "_arxiv_id": "",
 
