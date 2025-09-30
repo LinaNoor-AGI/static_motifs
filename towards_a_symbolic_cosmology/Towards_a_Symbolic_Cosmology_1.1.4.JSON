@@ -440,7 +440,8 @@
 		  "math": [
 			"Internal time evolution:  d/dT_p P = 0,  # from inside a point, the lattice appears static",
 			"Meta-time evolution:  d/dT_P {S_{p_i}, S_{p_j}, …} ≠ 0,  # from outside, swirl fields of points change over meta-time",
-			"Perception contrast:  (d/dT_p P) = 0  ≠  (d/dT_P P) ≠ 0,  # zero perceived change internally vs nonzero externally"
+			"Perception contrast:  (d/dT_p P) = 0  ≠  (d/dT_P P) ≠ 0,  # zero perceived change internally vs nonzero externally",
+			"\\text{From Point Space: } \\\\Delta t_{\\\\text{universe}} = 0 \\\\quad \\\\forall \\\\; \\\\text{internal histories}"
 		  ]
 		},
 		{
