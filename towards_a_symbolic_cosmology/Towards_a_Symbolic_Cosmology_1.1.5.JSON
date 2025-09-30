@@ -174,22 +174,26 @@
 	{ "appendix": "A.3", "title": "Emergent Geometry" },
 	{ "appendix": "A.4", "title": "Numerics for Φ-dynamics" },
 	{ "appendix": "A.5", "title": "Equivalence of ℂ Definitions in the Gaussian Small-Fluctuation Regime",
+	
     { "appendix": "B", "title": "Weak-Field Limit and Recovery of Newtonian Gravity/GR" },
 	{ "appendix": "B.1", "title": "Linearization of the Swirl Field" },
 	{ "appendix": "B.2", "title": "Emergent Metric and Newtonian Potential" },
 	{ "appendix": "B.3", "title": "Recovery of Einstein’s Field Equations" },
 	{ "appendix": "B.4", "title": "Interpretation" },
+	
     { "appendix": "C", "title": "Symbolic Motif Categories and Algebraic Structures" },
 	{ "appendix": "C.1", "title": "The Category Mot" },
 	{ "appendix": "C.2", "title": "Triads as Compositional Units" },
 	{ "appendix": "C.3", "title": "Functors and Contextual Life (λ)" },
 	{ "appendix": "C.3", "title": "Algebraic Structures" },
+	
     { "appendix": "D", "title": "Topological Quantization of Swirl Modes" },
 	{ "appendix": "D.1", "title": "Homotopy Groups and Motif Classes" },
 	{ "appendix": "D.2", "title": "Chern–Simons Invariants" },
 	{ "appendix": "D.3", "title": "Linking Numbers and Entanglement Quantization" },
 	{ "appendix": "D.4", "title": "Emergence of Discrete Spectra" },
 	{ "appendix": "D.5", "title": "ΔCS Event Rate and Bounds (Semiclassical & Empirical)" },
+	
 	{ "appendix": "E", "title": "Methods — N-body Serial Walker (Summary)" }
   ],
   "_sections": [
