@@ -702,8 +702,6 @@ P(c_1 \mid \text{data})
 
 *Cross-references.* See §2.3 on coherence and time, §4.1 on the emergent metric, §4.2 on gravitational curvature, Appendix D.2 on Chern–Simons invariants, Appendix D.4 on discrete spectra, Appendix A.4 on numerics, and §6.2 for predictions. Comparative context with GRW and Diósi–Penrose collapse models is explicit above.
 
-*Editorial notes.* In equations use $\Phi$; in prose use “swirl field” $S$. Distinguish $\star_\Phi$ (pre-metric) from $\star_g$ (metric). Retain “crystallization” as the metaphor for collapse; use “decoherence” only for $\Gamma_{\text{decoh}}$ with $\Delta CS=0$. Ensure $\Delta \mathcal C \propto \Delta CS$ phrasing is consistent with §2.1 and Appendix D.4. The coefficient $c_1$ encodes motif–swirl microphysics and bath overlap; it is context-dependent, calibrated in laboratory settings, and propagated as a hyperparameter in astrophysical analyses.
-
 ---
 
 ## 4.4 Entanglement as Swirl Linking
@@ -745,8 +743,6 @@ L(\gamma_1,\gamma_2) \neq 0 \;\;\Rightarrow\;\;
 ```
 
 *Cross-references.* See §2.2 on the torsion and topology of swirl fields, §2.3 on coherence potential, and Appendix C on symbolic motif categories and algebraic structures.
-
-*Editorial notes.* This section parallels §4.3 in structure, emphasizing that entanglement is a field-topological property rather than an abstract correlation. Possible experimental settings include quantum simulators, Bell-test contexts, and the black-hole information paradox.
 
 ---
 
