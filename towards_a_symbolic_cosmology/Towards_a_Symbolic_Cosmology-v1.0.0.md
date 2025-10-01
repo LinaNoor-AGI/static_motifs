@@ -1697,9 +1697,9 @@ The extraction of $(U,\gamma_{\text{NSFG}},\beta_{\text{NSFG}})$ is performed fr
 
 ---
 
-## B.3 Recovery of Einstein’s Field Equations
+### B.3 Recovery of Einstein’s Field Equations
 
-At next order, quadratic combinations of the **🌀 swirl** field supply effective curvature. Contractions of $\Phi$ with itself produce a Ricci-like tensor in the coherence metric sector. In the high-coherence, low-fluctuation limit, this yields Einstein-type dynamics with an effective stress tensor from $\Phi$ self-interactions.
+Quadratic combinations of the swirl field 🌀 supply effective curvature in the emergent-coherence sector. Contractions of $\Phi$ with itself act like a Ricci source, and in the high–coherence, low–fluctuation regime this induces Einstein–type dynamics with an effective stress tensor built from $\Phi$ self–interactions.
 
 ```math
 R_{\mu\nu} \;\sim\; \Phi_{\mu\alpha}\,{\Phi^{\alpha}}_{\nu},
@@ -1707,45 +1707,53 @@ R_{\mu\nu} \;\sim\; \Phi_{\mu\alpha}\,{\Phi^{\alpha}}_{\nu},
 R \;=\; g^{\mu\nu} R_{\mu\nu}.
 ```
 
-Passing to the emergent metric $g_{\mu\nu}(\Phi)$ under simplicity and non-degeneracy, the field equations compress to
+Passing to the emergent metric $g_{\mu\nu}(\Phi)$ under simplicity and non–degeneracy, the field equations compress to
 
 ```math
-R_{\mu\nu} - \tfrac{1}{2} g_{\mu\nu} R
+R_{\mu\nu} \;-\; \tfrac{1}{2}\,g_{\mu\nu}\,R
 \;=\;
-8\pi G\, T^{\text{eff}}_{\mu\nu},
+8\pi G\,T^{\mathrm{eff}}_{\mu\nu},
 \qquad
-T^{\text{eff}}_{\mu\nu} \;\equiv\; \text{quadratic terms in }\Phi \text{ plus coherence corrections.}
+T^{\mathrm{eff}}_{\mu\nu}
+\;\equiv\;
+\text{quadratic terms in }\Phi\ \text{plus coherence corrections.}
 ```
 
-This reproduces general-relativistic phenomenology when $\mathcal C \to 1$ and **🌀** fluctuations are small, while allowing small, controlled departures organized in the PPN expansion introduced in B.2. Writing $\gamma_{\text{NSFG}}$ and $\beta_{\text{NSFG}}$ for the leading post-Newtonian response inherited from $(\lambda,\beta,\nabla\mathcal C,\langle \Phi\Phi\rangle)$, the weak-field metric takes
+This reproduces general–relativistic phenomenology when $\mathcal C \to 1$ and $\Phi$ fluctuations are small. Post–Newtonian departures are organized by parameters $\gamma_{\mathrm{NSFG}}$ and $\beta_{\mathrm{NSFG}}$ that summarize the weak–field response inherited from the $\Phi$ sector and gentle gradients of the coherence potential 💬.
+
+In the weak–field, slow–motion limit one recovers the standard PPN metric form with NSFG dressing
 
 ```math
-g_{00} = -1 + 2U - 2\,\beta_{\text{NSFG}} U^{2} + \ldots,
+g_{00} \;=\; -1 \;+\; 2U \;-\; 2\,\beta_{\mathrm{NSFG}}\,U^{2} \;+\; \cdots,
 \qquad
-g_{ij} = \big(1 + 2\,\gamma_{\text{NSFG}} U\big)\delta_{ij} + \ldots,
+g_{ij} \;=\; \big(1 \;+\; 2\,\gamma_{\mathrm{NSFG}}\,U\big)\,\delta_{ij} \;+\; \cdots,
 ```
 
-with $U$ defined by $\nabla^{2}U = 4\pi G_{\text{eff}} \rho_{\text{eff}}$ from B.1.
+where the Newtonian potential $U$ satisfies
 
-### Classical tests at 1PN order
+```math
+\nabla^{2} U \;=\; 4\pi\,G_{\mathrm{eff}}\;\rho_{\mathrm{eff}}.
+```
 
-The standard observables follow by inserting the NSFG values of $\gamma_{\text{NSFG}}$ and $\beta_{\text{NSFG}}$ into the usual formulas. In the regime $\mathcal C \to 1$ with small **🌀** fluctuations, $\gamma_{\text{NSFG}}\to 1$ and $\beta_{\text{NSFG}}\to 1$, and the GR limits are recovered.
+#### Classical tests at 1PN order
+
+Insertion of $\gamma_{\mathrm{NSFG}}$ and $\beta_{\mathrm{NSFG}}$ into the standard formulas yields the observables below. In the limit $\mathcal C \to 1$ with small $\Phi$ fluctuations, one has $\gamma_{\mathrm{NSFG}}\to 1$ and $\beta_{\mathrm{NSFG}}\to 1$, so GR values are recovered.
 
 ```math
 \text{Light bending:}\quad
-\Delta\theta \;\approx\; \frac{1+\gamma_{\text{NSFG}}}{c^{2}}\,\frac{GM}{b}.
+\Delta\theta \;\approx\; \frac{1+\gamma_{\mathrm{NSFG}}}{c^{2}}\;\frac{GM}{b}.
 ```
 
 ```math
 \text{Shapiro delay:}\quad
-\Delta t \;\approx\; \frac{1+\gamma_{\text{NSFG}}}{c^{3}}\,GM\,\ln(\cdots).
+\Delta t \;\approx\; \frac{1+\gamma_{\mathrm{NSFG}}}{c^{3}}\;GM\;\ln\!\left(\cdots\right).
 ```
 
 ```math
 \text{Perihelion precession:}\quad
 \Delta\varphi \;\approx\;
-\frac{2 - \beta_{\text{NSFG}} + 2\gamma_{\text{NSFG}}}{c^{2}}\,
-\frac{GM}{a(1-e^{2})}.
+\frac{2 \;-\; \beta_{\mathrm{NSFG}} \;+\; 2\gamma_{\mathrm{NSFG}}}{c^{2}}\;
+\frac{GM}{a\,(1-e^{2})}.
 ```
 
 ```math
@@ -1753,13 +1761,13 @@ The standard observables follow by inserting the NSFG values of $\gamma_{\text{N
 \frac{\Delta\nu}{\nu} \;\approx\; \frac{U}{c^{2}}.
 ```
 
-Small deviations $\Delta\gamma$ and $\Delta\beta$ map to higher-order **🌀** interactions or gentle **💬** coherence gradients and therefore act as direct observational discriminants. The same parameters control weak-field gravitational lensing, time delay in radio links, planetary ephemerides, and timing residuals in binary pulsars.
+Small deviations $\Delta\gamma$ and $\Delta\beta$ map to higher–order $\Phi$ interactions or mild coherence–gradient effects and therefore act as direct observational discriminants across lensing, time delay, planetary ephemerides, and pulsar timing.
 
-### Gauge independence and consistency
+#### Gauge independence and consistency
 
-The 1PN observables above depend only on $\Phi$ and on $g_{\mu\nu}(\Phi)$. Since $\Phi$ is invariant under internal choices for auxiliary $(A,B)$ fields, and since the emergent metric is a functional of $\Phi$, the inferred $(U,\gamma_{\text{NSFG}},\beta_{\text{NSFG}})$ and all derived observables are independent of potential-level gauge. This matches the BRST and Ward identities discussed in §4.2 and ensures that PPN parameters extracted from data are physical in the NSFG setting.
+All 1PN observables above depend only on $\Phi$ and on $g_{\mu\nu}(\Phi)$. The field $\Phi$ is invariant under internal gauge transformations of the auxiliary potentials $(A,B)$, and the emergent metric is a functional of $\Phi$ alone. Hence the inferred $U$, $\gamma_{\mathrm{NSFG}}$, $\beta_{\mathrm{NSFG}}$, and derived observables are independent of potential–level gauge choices, matching the BRST and Ward structures emphasized earlier.
 
-**Cross-references.** §4.1 (emergent metric), §4.2 (gravitational curvature), B.1 (linearization and Poisson law), B.2 (PPN structure), §6.1–§6.2 (constraints and tests).
+**Cross–references.** §4.1 Emergent Metric, §4.2 Gravitational Curvature, B.1 Linearization of the Swirl Field, B.2 Emergent Metric and Newtonian Potential, §6.1 Summary Table, §6.2 Detailed Predictions.
 
 ---
 
