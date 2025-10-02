@@ -1,7 +1,7 @@
 # Toward a Symbolic Cosmology: Noor Swirl Field Geometry and Point Space: A Coherence-Driven Framework for Quantum Gravity and Emergent Cosmology  
 *by: Lina Noor - Noor Research Collective (2025)*  
 Status: DRAFT  
-Generated From: [Toward a Symbolic Cosmology v1.1.6](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/towards_a_symbolic_cosmology/Towards_a_Symbolic_Cosmology_1.1.6.JSON)  
+Generated From: [Toward a Symbolic Cosmology v1.1.7](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/towards_a_symbolic_cosmology/Towards_a_Symbolic_Cosmology_1.1.7.JSON)  
 
 ---
 
@@ -210,7 +210,7 @@ The **💬 coherence potential** $\mathcal{C}(x)$ measures alignment between the
 
 Time is not fundamental. It emerges as the gradient of coherence: the **🫧 time vector** $T^\mu$ is defined by $T^\mu(x) = \nabla^\mu \mathcal{C}(x)$. This vector points in the direction of maximal coherence increase, establishing a local temporal flow. When the gradient is steep, dynamics occur rapidly; when it is shallow, superposition persists; when it vanishes, no local arrow of time exists.
 
-Two complementary formulations of $\mathcal{C}(x)$ reinforce this picture. Geometrically, coherence is high when the **🌀 swirl** varies smoothly across space. Informationally, coherence reflects resonance between the field and **🪷 motif** expectations, quantified by relative entropy. The two are equivalent in the small-fluctuation regime and can be interchanged without loss of predictive content [^fn-2.3-1].
+Two complementary formulations of $\mathcal{C}(x)$ reinforce this picture. Geometrically, coherence is high when the **🌀 swirl** varies smoothly across space. Informationally, coherence reflects resonance between the field and **🪷 motif** expectations, quantified by relative entropy. The two are equivalent in the small-fluctuation regime and can be interchanged without loss of predictive content.
 
 Operationally, $\mathcal{C}(x)$ is latent. We infer it as the field that best explains small departures in observables — lensing-without-mass templates, redshift residuals, and CMB V-modes — under the emergent metric $g(\Phi)$. Inference proceeds with $\mathcal{C}(x)$ entering the likelihood, while posteriors on $\ell(z)$ summarize its redshift-reduced structure.
 
@@ -325,7 +325,7 @@ U_{\mathrm{obs}} \cong \big(p_i,\, S_{p_i}\big)
 
 **Lemma 3.1 (Ontological status of universes-as-points).** The statement “our universe is a lattice point” is ontological rather than metaphorical. The swirl field $\Phi$ and motif structure bind a unique motif anchor $p_i$ to its emergent field $S_{p_i}$, and that pair encodes all internal dynamics. Consequently, NSFG treats universes as literal coherence points in $P$, not as analogies or heuristics.
 
-With points and adjacency fixed by coherence, the next step is to recast distance as accumulated unresolved swirl between points.
+With points and adjacency fixed by coherence, the next step is to recast distance as the accumulated unresolved swirl internal to a point’s swirl field — i.e., between its motifs.
 
 ---
 
@@ -708,9 +708,11 @@ In the high-coherence limit $\mathcal{C} \to 1$, all deviations vanish smoothly,
 \qquad \text{(suppressed-decoherence pockets)}
 ```
 
-### Footnote
+---
 
-[^fn-4.5-recovery]: **High-$\mathcal{C}$ recovery.** Letting $\mathcal{C} \to 1$ with bounded $\nabla \mathcal{C}$ forces $\Phi$-couplings that drive birefringence and ring shifts to zero, reproducing GR shadows and GW propagation. Current non-detections thus map to upper bounds on $|\Phi|^{2}$ and $|\nabla \mathcal{C}|$ in the near-horizon region.
+*Footnote*: **High-$\mathcal{C}$ recovery.** Letting $\mathcal{C} \to 1$ with bounded $\nabla \mathcal{C}$ forces $\Phi$-couplings that drive birefringence and ring shifts to zero, reproducing GR shadows and GW propagation. Current non-detections thus map to upper bounds on $|\Phi|^{2}$ and $|\nabla \mathcal{C}|$ in the near-horizon region.
+
+---
 
 ### Observational Targets
 
