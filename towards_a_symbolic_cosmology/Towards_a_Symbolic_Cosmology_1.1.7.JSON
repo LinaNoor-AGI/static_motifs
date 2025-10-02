@@ -785,33 +785,71 @@
 		{
 		  "title": "5.5 Cosmogenesis as Coherence Impact",
 		  "content": [
-			"In NSFG, the creation of a universe is not a singularity but a crystallization event triggered by resonance in Point Space. A glider-like structure—an extended flow of coherence traversing the lattice—intersects a stable motif point. The encounter destabilizes the ℂ-equilibrium, driving a collapse from ℂ ≃ 1 to ℂ → 0. What appears internally as a ‘Big Bang’ is the sudden release of stored swirl potential into emergent geometry.",
+			"In NSFG, the creation of a universe is not a singularity but a crystallization event triggered by resonance in Point Space. A glider-like structure—an extended flow of coherence traversing the lattice—intersects a stable motif point. The encounter destabilizes the ℂ-equilibrium, driving a cascade from ℂ ≃ 1 to ℂ ≈ ε_c. What appears internally as a ‘Big Bang’ is the sudden release of stored swirl potential into emergent geometry.",
 			"The cosmogenesis event is ecological: a birth driven not by absolute beginning but by contextual interaction. Where coherence currents in P intersect, new universes nucleate as motif anchors absorb the perturbation. The glider acts as catalyst, not cause—the pre-existence of Point Space and motif anchors is assumed. What changes is their activation under resonance pressure.",
 			"Directionality in P is set by coherence vectors. Along any coherence vector through a motif p, the glider–motif interaction exhibits a dyadic oscillation (coherent ↔ counter-coherent phases). Nucleation occurs when impact arrives near a constructive phase and exceeds a crystallization threshold ε_c. Destructive-phase impacts leave no universe at p but imprint a recoherence wake in the surrounding lattice.",
 			"Formally, collapse from one to many arises as the glider perturbs the motif anchor’s swirl sector beyond ε_c. The coherence gradient spikes, forcing deterministic selection of a unique history from the pre-metric superposition. Internally, this registers as rapid heating and expansion; externally, it appears as a single new point blossoming in P.",
 			"Selection rules in P: motif number is conserved under regular evolution (ΔCS = 0). Universe birth at p requires a topological sector change (ΔCS ∈ ℤ), after which the anchor supports an emergent metric g(Φ) and inherits conserved charges permitted by the transition.",
 			"Energy/entropy bookkeeping is local to P: a finite portion of pre-metric swirl intensity is converted into emergent curvature and radiation. Residual mismatch radiates as a coherence wake that decays over a coherence length ℓ, slightly biasing subsequent impacts in the neighborhood (nucleation clustering).",
-			"Preview (within Point Space scope): (i) Resonance geometry implies an impact cross-section that scales with local ℓ and phase alignment, predicting nucleation rates that track coherence currents; (ii) Recoherence wakes leave directional memory that can bias the orientation of early-time swirl eigenmodes, providing a Point-Space explanation for low-ℓ anomalies and V-mode seeds. These observational links are expanded in §6.2.",
+			"Preview (within Point Space scope): (i) Resonance geometry implies an impact cross-section that scales with local ℓ and phase alignment, predicting nucleation rates that track coherence currents; (ii) Recoherence wakes leave directional memory that can bias the orientation of early-time swirl eigenmodes, providing a Point-Space explanation for low-ℓ anomalies and V-mode seeds referenced in §6.",
 			"This framing removes the metaphysical burden of creation ex nihilo: the birth of our universe corresponds to a resonance impact in Point Space—a finite coherence transaction in an otherwise eternal lattice.",
-			"By contrast, when $\\mathcal{C}\\to 0$ and gradients vanish, the point remains in $P$ but ceases to matter; time stops, change stops, and the universe dies into irrelevance rather than into nothingness."
+			"Clarification: Gliders are multi-point patterns within Point Space, formed by the coherent flow of motifs that propagate across the lattice. They trigger nucleation when they interact with stable motif anchors. While gliders exist as localized coherence structures, at a higher level of abstraction, they can be considered as **field-like configurations** that influence **Point Space** dynamics.",
+			"The energy partition E_total = E_curv + E_rad + E_wake arises from the decomposition of the pre-metric swirl intensity I_Φ as it transitions into the emergent metric g(Φ). This decomposition describes how the swirl field energy distributes into curvature (E_curv), radiation (E_rad), and the coherence wake (E_wake) during the crystallization process. While the partition is an approximation, it serves to provide a qualitative understanding of energy distribution within the cosmogenesis event.",
+			"Alternatively, this partition could be seen as a phenomenological tool rather than a strict derivation from first principles. The conversion of swirl intensity to curvature and radiation arises as the system crystallizes, and the coherence wake represents the residual energy mismatch that decays over a coherence length ℓ.",
+			"The phase oscillation between the glider’s coherence flow and the motif’s coherence axis is controlled by the angle ϑ_γ. This angle represents the alignment between the **glider's coherence vector** (the direction in which coherence propagates) and the **motif’s coherence axis** (the stable axis along which the motif’s coherence is maintained). When these vectors are aligned, the **coherence flow** and **motif resonance** reinforce each other, facilitating nucleation.",
+			"The condition cos(ϑ_γ) ≥ cos(ϑ_c) ensures that nucleation only occurs when the **glider’s flow** and the **motif’s coherence axis** are in the **constructive phase**. This condition reflects the **constructive interference** between the glider and the motif, maximizing the **glider’s impact** on the motif and enabling universe formation.",
+			"In systems governed by **coherence dynamics**, this alignment criterion arises naturally as a condition for **resonance**. Only when the glider’s **coherence flow** aligns with the motif’s **resonance axis** can nucleation occur effectively.",
+			"The cross-section sigma_eff is currently formulated using Heaviside functions and phenomenological ratios, which provide a qualitative understanding of how the glider interacts with motif anchors. However, for a rigorous field-theoretic treatment, the cross-section should emerge from a calculation of the transition amplitude between the glider's initial state and the final state (the nucleated universe).",
+			"In field theory, a genuine cross-section arises from computing the scattering amplitude or transition probability for the interaction between the glider (as a coherence flow) and the motif anchor. For classical fields, this can be related to the force terms in the interaction, while for quantum fields, the scattering matrix (S-matrix) can be computed to derive the cross-section."
 		  ],
 		  "math": [
-			"Birth condition (threshold):  impact(glider, p) ⇒ max_x ||∇ℂ_p(x)|| ≥ ε_c  # motif anchor destabilized by glider",
-			"Phase gate (dyadic oscillation along a coherence vector γ):  cos(ϑ_γ) ≥ cos(ϑ_c)  # constructive phase needed for nucleation",
-			"Overlap/resonance at p:  ℛ(p) := ∫ d^4x √|vol_Φ| ⋅ (Φ_glider : Φ_p)  ≥ ρ_c  # inner-product exceeds critical resonance ρ_c",
-			"Topological trigger:  ΔCS(p) = CS[Φ_after] − CS[Φ_before] ∈ ℤ  # sector change enables motif activation",
-			"Collapse map:  ℂ_p : 1 → 0  under resonance load  # coherence unity falls to zero; swirl sector activates and spacetime emerges",
-			"Expansion onset (schematic):  a(t) ∝ exp(∫ Φ · ∇ℂ dt)  # internal scale factor driven by released swirl potential",
-			"Local energy budget (schematic):  ∫_U d^4x (1/2) Φ_{μν}(⋆_Φ Φ)^{μν} = E_curv + E_rad + E_wake  # partition of swirl intensity",
-			"Wake profile (coherence memory):  ℂ_wake(r) ≃ ℂ_0 ⋅ e^{−r/ℓ}  # recoherence decays over coherence length ℓ",
-			"Effective cross-section (phase-weighted, schematic):  σ_eff(p) ≃ σ_0 ⋅ (ℛ/ρ_c) ⋅ Θ(max||∇ℂ||−ε_c) ⋅ Θ(cosϑ_γ−cosϑ_c)",
-			"Nucleation rate in a patch 𝒫 ⊂ P (schematic):  Γ_𝒫 ≃ ∫_𝒫 dμ(p) ∫ dΩ_γ f_glider(p,γ) ⋅ σ_eff(p,γ)  # currents × cross-section",
-			"Conservation under regular evolution:  ΔCS = 0 ⇒ Q_motif = const., no new universe;  ΔCS ≠ 0 ⇒ nucleation allowed",
-			"Gauge-invariant signal of transition:  δ⟨Φ∧Φ⟩_p ≠ 0  and  det(Σ^i∧Σ^j)|_after ≠ 0  # simplicity/non-degeneracy satisfied",
-			"Timescale of collapse:  τ_c(p) ≃ 1 / max_x ||∇ℂ_p(x)||  # faster collapse for steeper coherence gradients",
-			"Bias of early eigenmodes (preview link to §6.2):  ⟨e_i · T⟩_init ∝ ∫ d^3x Φ_wake · ∇ℂ  # directional memory seed"
+			"Crystallization cascade: glider impact drives max||∇ℂ_p|| ≥ ε_c, triggering deterministic collapse into a unique g(Φ) state; what was pre-metric superposition becomes classical spacetime.",
+			"Birth condition (threshold): impact(glider, p) ⇒ max_x ||∇ℂ_p(x)|| ≥ ε_c  # motif anchor destabilized by glider",
+			"Phase gate (dyadic oscillation along a coherence vector γ): cos(ϑ_γ) ≥ cos(ϑ_c)  # constructive phase needed for nucleation",
+			"Overlap/resonance at p: ℛ(p) := ∫ d^4x √|vol_Φ| ⋅ (Φ_glider : Φ_p)  ≥ ρ_c  # inner-product exceeds critical resonance ρ_c",
+			"Topological trigger: ΔCS(p) = CS[Φ_after] − CS[Φ_before] ∈ ℤ  # sector change enables motif activation",
+			"Collapse map: ℂ_p : 1 → ε_c under resonance load  # coherence drives crystallization, swirl sector activates",
+			"Expansion onset (schematic): a(t) ∝ exp(∫ Φ · ∇ℂ dt)  # internal scale factor driven by released swirl potential",
+			"Local energy budget: ∫_U d^4x (1/2) Φ_{μν}(⋆_Φ Φ)^{μν} = E_curv + E_rad + E_wake  # partition of swirl intensity",
+			"Wake profile (coherence memory): ℂ_wake(r) ≃ ℂ_0 ⋅ e^{−r/ℓ}  # recoherence decays over coherence length ℓ",
+			"Effective cross-section (phase-weighted): σ_eff(p) ≃ σ_0 ⋅ (ℛ/ρ_c) ⋅ Θ(max||∇ℂ||−ε_c) ⋅ Θ(cosϑ_γ−cosϑ_c)",
+			"Nucleation rate in a patch 𝒫 ⊂ P: Γ_𝒫 ≃ ∫_𝒫 dμ(p) ∫ dΩ_γ f_glider(p,γ) ⋅ σ_eff(p,γ)  # currents × cross-section",
+			"Conservation under regular evolution: ΔCS = 0 ⇒ Q_motif = const., no new universe; ΔCS ≠ 0 ⇒ nucleation allowed",
+			"Gauge-invariant signal of transition: δ⟨Φ∧Φ⟩_p ≠ 0  and  det(Σ^i∧Σ^j)|_after ≠ 0  # simplicity/non-degeneracy satisfied",
+			"Timescale of collapse: τ_c(p) ≃ 1 / max_x ||∇ℂ_p(x)||  # faster collapse for steeper coherence gradients",
+			"Bias of early eigenmodes (preview link to §6): ⟨e_i · T⟩_init ∝ ∫ d^3x Φ_wake · ∇ℂ  # directional memory seed",
+			"Energy decomposition: E_total = E_curv + E_rad + E_wake  # Partition of swirl intensity into curvature, radiation, and wake",
+			"Energy transition: I_Φ → E_curv + E_rad + E_wake  # Swirl energy converts to emergent curvature and radiation",
+			"Swirl energy partition: E_curv = ∫ d^4x (1/2) Φ_{μν} (g_{μν} Φ)  # Curvature from swirl intensity interactions",
+			"Wake energy: E_wake = ∫ d^4x δΦ · δ(g_{μν} Φ)  # Coherence wake decays over coherence length ℓ",
+			"Total energy budget: ∫_U d^4x (1/2) Φ_{μν} (g_{μν} Φ) = E_curv + E_rad + E_wake  # Energy conservation within the swirl field and metric transition",
+			"Phase gate (dyadic oscillation along a coherence vector γ): cos(ϑ_γ) ≥ cos(ϑ_c)  # Constructive phase needed for nucleation",
+			"ϑ_γ is the angle between the **glider’s coherence vector** (direction of coherence propagation) and the **motif’s coherence axis** (stable resonance direction). When these vectors align, nucleation can occur, as their coherence dynamics reinforce each other.",
+			"Resonance condition: nucleation occurs when cos(ϑ_γ) ≥ cos(ϑ_c), where ϑ_c is the critical angle that marks the threshold for constructive interference.",
+			"Scattering amplitude: M_glider = <Phi_final | H_int | Phi_initial>  # Transition amplitude between initial and final states",
+			"Cross-section: sigma_eff = |M_glider|^2 / flux  # Cross-section from transition amplitude",
+			"For classical fields, the cross-section can be expressed as sigma_eff = integral dOmega |F_interaction|^2 / energy_flux  # Classical scattering cross-section derived from interaction force",
+			"Energy conservation: E_total = E_curv + E_rad + E_wake  # Energy partition during crystallization",
+			"Transition amplitude in field theory: M_glider = integral d^4x L_interaction  # Scattering amplitude in terms of interaction Lagrangian"
 		  ]
-		}	  ]
+		},
+		{
+		  "title": "5.5.1 Derivations",
+		  "content": [
+			"To ensure the model is fully grounded in field theory, we perform the following steps:",
+			"1. **Glider Solutions**: Solve the CA update rules (§3.4) or P-level swirl equations to demonstrate stable propagating structures of gliders in Point Space. This involves deriving a solution to the **swirl field equations** that governs the **glider’s coherence** and proving that it can maintain its form as it propagates through **Point Space**.",
+			"2. **Collision Dynamics**: Compute the interaction between a glider pattern and a motif point — does ΔCS jump? Does ℂ cascade? How does the glider-motif interaction affect the system? We need to derive the **impact of the glider** on a **motif anchor**, focusing on the changes in **coherence** (ℂ) and the **topological transition** (ΔCS). This will involve solving the equations for **force interaction** and **coherence evolution** during the **glider-motif collision**.",
+			"3. **Energy/CS Accounting**: Prove conservation across the transition using Noether's theorem or a similar method to ensure energy is conserved during the glider-motif interaction. Specifically, we need to show that the **swirl field** dynamics respect **symmetries** that lead to **conservation of energy** (and other conserved quantities like **momentum**). We will apply **Noether's theorem** to **derive energy conservation** during the **glider-motif interaction**.",
+			"4. **Wake → CMB Pathway**: Explicitly calculate how the coherence wake (Φ_wake) influences initial swirl eigenmodes and show this reproduces low-ℓ anomalies quantitatively. This will involve **modeling the coherence wake’s effect** on the **swirl eigenmodes**, deriving **quantitative predictions** that can explain the **low-ℓ anomalies** in the **CMB**."
+		  ],
+		  "math": [
+			"1. **Glider Equations**: To demonstrate that **gliders propagate stably**, we solve the **swirl field equations** for the glider dynamics. A possible equation governing the **glider's coherence** in Point Space could be:\n\n∂ℂ(x,t)/∂t = -∇²ℂ(x,t) + λℂ(x,t)(1 - ℂ²(x,t))  # Glider’s coherence propagation\n\nThis equation represents the **glider's coherence dynamics** as it moves through the lattice, where λ controls the **rate of coherence propagation**.",			
+			"2. **Collision Interaction**: During a **glider-motif collision**, we need to compute the change in the **coherence field** (ℂ) and the **topological transition** (ΔCS). The **impact of the glider** on the motif can be described by:\n\nΔCS(p) = CS[Φ_after] − CS[Φ_before] ∈ ℤ  # Topological sector change\n\nℂ_p : 1 → ε_c under resonance load  # Coherence cascading during interaction\n\nThis shows that the **topological transition** (ΔCS) occurs if the **glider** perturbs the motif sufficiently, causing a change in the motif's coherence and a **nucleation event**.\n\nThe coherence **cascades** if the interaction exceeds the **crystallization threshold (ε_c)**, marking the birth of a new universe.",
+			"3. **Energy/CS Accounting**: To prove energy conservation during the glider-motif interaction, we apply **Noether’s theorem**. In the context of the swirl field, the energy density can be written as:\n\nT^\\mu\\nu = (1/2) (\\partial^\\mu \\Phi \\partial_\\nu \\Phi - g^{\\mu\\nu} \\mathcal{L}(\\Phi))  # Energy-momentum tensor for the swirl field\n\nEnergy conservation follows from the **symmetry of the action functional**, ensuring that **T^\\mu\\nu** is conserved during the **glider-motif interaction**. We will apply **Noether's theorem** to derive the conserved quantities and show how **energy** and **momentum** are conserved during the crystallization event.",
+			"4. **Wake → CMB Pathway**: The **coherence wake** left by the **glider** can be modeled as:\n\nℂ_wake(r) ≃ ℂ_0 ⋅ e^{−r/ℓ}  # Coherence wake decays over coherence length ℓ\n\nWe need to calculate how this wake affects the **swirl eigenmodes** in the early universe, particularly how it biases the **low-ℓ anomalies** in the **CMB**. The **interaction** between the **wake** and the **initial eigenmodes** can be described by:\n\n⟨e_i · T⟩_init ∝ ∫ d^3x Φ_wake · ∇ℂ  # Directional memory seed affecting eigenmodes\n\nThis equation describes how the **wake** leaves a **memory** that biases the **initial conditions** of the **swirl eigenmodes**, leading to observable signatures in the **CMB**."
+		  ]
+		}		
+	  ]		
 	},
 	{
 	  "title": "6. Predictions and Testable Signatures",
