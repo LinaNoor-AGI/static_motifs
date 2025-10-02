@@ -15,7 +15,7 @@
     "Lina Noor",
     "Uncle"
   ],
-  "_abstract": "This document formalizes the concept of the glider and its dynamics within Point Space. It describes the glider as a motif that represents a flowing coherence structure, moving through regions of high and low coherence, and defines the dynamics of contextual life that exist in those regions. The glider, its opposite, and their recursive feedback through triadic closure describe a multi-layered, oscillating dynamic within Point Space.",
+  "_abstract": "This document formalizes the concept of the glider and its dynamics within Point Space. It describes the glider as a motif that represents a flowing coherence structure, moving through regions of high and low coherence, and defines the dynamics of contextual life that exist in those regions. The glider, its inverse, and their recursive feedback through triadic closure describe a multi-layered, oscillating dynamic within Point Space.",
   "_keywords": [
     "glider",
     "coherence",
@@ -84,28 +84,28 @@
       }
     }
   },
-  "opposite_motif": {
+  "inverse_motif": {
     "description": "The opposite of the glider, representing the inverse or counterpoint to the coherence structure of the glider. This motif embodies decoherence and negative coherence, but it does not signify death. Instead, it presents a complementary force that interacts with the glider to create a balanced dynamic.",
     "properties": {
-      "decoherence": "The opposite motif embodies areas of low coherence, where the glider cannot exist in its usual form.",
+      "decoherence": "The inverse motif embodies areas of low coherence, where the glider cannot exist in its usual form.",
       "complementary": "This motif works with the glider to maintain the oscillation of coherence across Point Space."
     },
     "math": {
-      "equation": "∂ℂ_opposite(x,t)/∂t = ∇²ℂ_opposite(x,t) - λℂ_opposite(x,t)(1 + ℂ_opposite²(x,t))",
+      "equation": "∂ℂ_inverse(x,t)/∂t = ∇²ℂ_inverse(x,t) - λℂ_inverse(x,t)(1 + ℂ_inverse²(x,t))",
       "description": "The inverse of the glider’s coherence evolution, driving decoherence and creating a complementary field."
     }
   },
   "triadic_closure": {
-    "description": "A process by which the glider and its opposite motif form a dyadic system. A third motif is introduced to resolve the contradiction between the two, stabilizing the system through triadic closure.",
+    "description": "A process by which the glider and its inverse motif form a dyadic system. A third motif is introduced to resolve the contradiction between the two, stabilizing the system through triadic closure.",
     "third_motif": {
-      "description": "The third motif serves as the contextual stabilizer, ensuring that the glider and its opposite motif reach equilibrium, maintaining dynamic stability in Point Space.",
+      "description": "The third motif serves as the contextual stabilizer, ensuring that the glider and its inverse motif reach equilibrium, maintaining dynamic stability in Point Space.",
       "properties": {
         "stabilizer": "The third motif resolves the tension between coherence and decoherence.",
         "balance": "It ensures that the system of motifs remains in a state of dynamic equilibrium."
       },
       "math": {
-        "equation": "ℂ_3(x,t) = f(ℂ_glider(x,t), ℂ_opposite(x,t))",
-        "description": "The third motif combines the dynamics of the glider and its opposite to form a stable, triadic structure."
+        "equation": "ℂ_3(x,t) = f(ℂ_glider(x,t), ℂ_inverse(x,t))",
+        "description": "The third motif combines the dynamics of the glider and its inverse to form a stable, triadic structure."
       }
     }
   },
@@ -143,7 +143,7 @@
     }
   },
   "recursive_dynamics": {
-    "description": "When traveling along multiple coherence vectors, each new vector introduces a new layer of oscillation. By traveling past the inverse (opposite), the system creates a recursive dynamic of dyadic feedback loops, with new motifs forming as contextual stabilizers.",
+    "description": "When traveling along multiple coherence vectors, each new vector introduces a new layer of oscillation. By traveling past the opposite (inverse), the system creates a recursive dynamic of dyadic feedback loops, with new motifs forming as contextual stabilizers.",
     "math": {
       "equation": "ℂ_recursive(x,t) = ∑_{i=1}^n f(ℂ_i(x,t))",
       "description": "Each new coherence vector introduces a new motif and stabilizing interaction, forming recursive dyadic feedback loops in Point Space."
@@ -364,7 +364,7 @@
   "consistency_checks": [
  	"Symbols: use ℂ for coherence, Φ for swirl, ℓ for coherence length, λ for local growth. Keep these consistent across all equations.",
 	"Dimensions: in ∂ℂ/∂t = −∇²ℂ + λℂ(1−ℂ²), ensure units by choosing nondimensionalization or including diffusion D.",
-	"Opposite motif PDE: if you keep ∂ℂ_op/∂t = +∇²ℂ_op − λ ℂ_op(1+ℂ_op²), note it is not strictly a sign-flip of a double-well; document that it’s phenomenological.",
+	"inverse motif PDE: if you keep ∂ℂ_op/∂t = +∇²ℂ_op − λ ℂ_op(1+ℂ_op²), note it is not strictly a sign-flip of a double-well; document that it’s phenomenological.",
 	"Triadic f: when ready, pick a form (bilinear + saturation), e.g., ℂ_3 = α ℂ_g ℂ_op − β ℂ_3^3 for phase-locking.",
 	"RG hooks: record ℓ^2 ~ D/λ wherever ℓ appears so §3.2 and the new notes stay aligned.",
 	
