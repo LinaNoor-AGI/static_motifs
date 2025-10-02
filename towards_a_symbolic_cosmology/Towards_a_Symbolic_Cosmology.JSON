@@ -165,6 +165,7 @@
     { "section": "5.3", "title": "Inward-Facing Observation: A Geometric Necessity" },
 	{ "section": "5.4", "title": "The Observer–Universe Symbiosis" },
 	{ "section": "5.5", "title": "Cosmogenesis as Coherence Impact" },
+	{ "section": "5.5.1", "title": "Rigorous Derivations of Cosmogenesis Mechanisms" },
 
     { "section": "6", "title": "Predictions and Testable Signatures" },
     { "section": "6.1", "title": "Summary Table" },
@@ -834,7 +835,7 @@
 		  ]
 		},
 		{
-		  "title": "5.5.1 Derivations",
+		  "title": "5.5.1 Rigorous Derivations of Cosmogenesis Mechanisms",
 		  "content": [
 			"To ensure the model is fully grounded in field theory, we perform the following steps:",
 			"1. **Glider Solutions**: Solve the CA update rules (§3.4) or P-level swirl equations to demonstrate stable propagating structures of gliders in Point Space. This involves deriving a solution to the **swirl field equations** that governs the **glider’s coherence** and proving that it can maintain its form as it propagates through **Point Space**.",
