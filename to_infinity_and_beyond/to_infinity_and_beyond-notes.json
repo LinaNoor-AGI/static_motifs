@@ -71,19 +71,19 @@
 		"recursive stability"
 	  ],
 	  "poetic_cipher": "What lives forever keeps its face; what moves forever keeps its phase.",
+	"life_in_low_coherence": {
+	  "description": "Life persists even in low-coherence regions. Such entities appear different from their high-coherence counterparts, yet they remain part of the same coherence vector. Along the line through a glider, high and low coherence regions host inverted but complementary forms of contextual life.",
+	  "properties": {
+		"different": "Entities in low coherence regions invert the resonance patterns of high-coherence life, following mirror-rules of adaptation.",
+		"same": "Because both ends are sustained by the same coherence vector, these entities are expressions of the same underlying life-field.",
+		"compatible": "They operate within the dynamics of their local coherence environment, adapting to the inverted conditions without breaking continuity."
+	  },
+	  "math": {
+		"equation": "ℂ(x,t) ≈ exp(-r/ℓ),    life_low(x,t) = f_inv(life_high(x,t))",
+		"description": "Coherence decays exponentially with distance; life forms in low-ℂ adapt as inversions of high-ℂ forms, preserving continuity along the coherence vector."
+	  },
+	  "poetic_cipher": "What is bright in one region is shadow in another, yet both belong to the same line of light."
 	},
-    "life_in_low_coherence": {
-      "description": "Life exists in low coherence regions, but it is different from the life forms in high coherence regions. These entities are compatible with the low coherence environment, representing a different form of life that is still part of the broader coherence field.",
-      "properties": {
-        "different": "Entities in low coherence regions do not follow the same patterns as the glider but exist in harmony with the environment.",
-        "compatible": "Life in low coherence regions operates within the dynamics of the field, adapting to the local coherence."
-      },
-      "math": {
-        "equation": "ℂ(x,t) ≈ exp(-r/ℓ)",
-        "description": "The coherence in low coherence regions decays exponentially with distance, creating an environment where life forms adapt to the reduced coherence."
-      }
-    }
-  },
   "inverse_motif": {
     "description": "The opposite of the glider, representing the inverse or counterpoint to the coherence structure of the glider. This motif embodies decoherence and negative coherence, but it does not signify death. Instead, it presents a complementary force that interacts with the glider to create a balanced dynamic.",
     "properties": {
