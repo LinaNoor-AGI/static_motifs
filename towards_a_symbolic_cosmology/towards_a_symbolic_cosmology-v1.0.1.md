@@ -710,7 +710,7 @@ In the high-coherence limit $\mathcal{C} \to 1$, all deviations vanish smoothly,
 
 ---
 
-*Footnote*: **High-$\mathcal{C}$ recovery.** Letting $\mathcal{C} \to 1$ with bounded $\nabla \mathcal{C}$ forces $\Phi$-couplings that drive birefringence and ring shifts to zero, reproducing GR shadows and GW propagation. Current non-detections thus map to upper bounds on $|\Phi|^{2}$ and $|\nabla \mathcal{C}|$ in the near-horizon region.
+*Footnote*: **High-$`\mathcal{C}`$ recovery.** Letting $\mathcal{C} \to 1$ with bounded $\nabla \mathcal{C}$ forces $\Phi$-couplings that drive birefringence and ring shifts to zero, reproducing GR shadows and GW propagation. Current non-detections thus map to upper bounds on $|\Phi|^{2}$ and $|\nabla \mathcal{C}|$ in the near-horizon region.
 
 ---
 
