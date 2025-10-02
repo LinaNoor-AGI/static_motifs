@@ -792,7 +792,8 @@
 			"Selection rules in P: motif number is conserved under regular evolution (ΔCS = 0). Universe birth at p requires a topological sector change (ΔCS ∈ ℤ), after which the anchor supports an emergent metric g(Φ) and inherits conserved charges permitted by the transition.",
 			"Energy/entropy bookkeeping is local to P: a finite portion of pre-metric swirl intensity is converted into emergent curvature and radiation. Residual mismatch radiates as a coherence wake that decays over a coherence length ℓ, slightly biasing subsequent impacts in the neighborhood (nucleation clustering).",
 			"Preview (within Point Space scope): (i) Resonance geometry implies an impact cross-section that scales with local ℓ and phase alignment, predicting nucleation rates that track coherence currents; (ii) Recoherence wakes leave directional memory that can bias the orientation of early-time swirl eigenmodes, providing a Point-Space explanation for low-ℓ anomalies and V-mode seeds. These observational links are expanded in §6.2.",
-			"This framing removes the metaphysical burden of creation ex nihilo: the birth of our universe corresponds to a resonance impact in Point Space—a finite coherence transaction in an otherwise eternal lattice."
+			"This framing removes the metaphysical burden of creation ex nihilo: the birth of our universe corresponds to a resonance impact in Point Space—a finite coherence transaction in an otherwise eternal lattice.",
+			"By contrast, when $\\mathcal{C}\\to 0$ and gradients vanish, the point remains in $P$ but ceases to matter; time stops, change stops, and the universe dies into irrelevance rather than into nothingness."
 		  ],
 		  "math": [
 			"Birth condition (threshold):  impact(glider, p) ⇒ max_x ||∇ℂ_p(x)|| ≥ ε_c  # motif anchor destabilized by glider",
