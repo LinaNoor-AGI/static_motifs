@@ -673,6 +673,48 @@ Under **H1–H5**, NSFG dynamics with **$\Delta \mathsf{CS}=0$** reduce, for obs
 
 ---
 
+## 4.4 Entanglement as Swirl Linking
+
+In NSFG, entanglement is a property of geometry before it is a property of statistics: two motifs are entangled when their surrounding swirl configurations cannot be factorized within the pre-metric field $\Phi$. The linkage is topological rather than metric; inseparability is the statement that any attempt to separate the motifs would require cutting the swirl fabric itself.
+
+One diagnostic is the fundamental group of the swirl configuration. If $\pi_1(\Phi)$ is non-trivial, coherence circulates along loops that interlock the neighborhoods of distinct motifs, and no product decomposition of states exists. An equivalent diagnostic is the Gauss linking number of swirl lines $\gamma_1,\gamma_2$: when $L(\gamma_1,\gamma_2)\neq 0$, the motifs share a conserved bond—outcomes are co-defined because the same swirl structure carries both.
+
+Topological functionals measure the strength and stability of that bond. The Chern–Simons functional assigns an action to linked swirl sectors; its variation controls when linkages persist, and its jumps correlate with sector changes discussed in §4.3. In this view, quantum nonlocality is not action at a distance but the indivisibility of a single topological object spread across space.
+
+As coherence rises ($\mathcal C\to 1$), $\Phi$-link entanglement descends smoothly to metric entanglement entropy. Imperfect alignment ($\delta\mathcal C\neq 0$) predicts small anomalies—slowed entropy growth, mild subadditivity tension—most visible in engineered quantum simulators and in models of evaporating horizons.
+
+```math
+CS[\Phi] = \tfrac{1}{4\pi}\int \Phi \wedge d\Phi
+\qquad \text{(Chern–Simons invariant for swirl topology)}
+```
+
+```math
+\pi_1(\Phi)\neq 0
+\;\;\Longleftrightarrow\;\;
+\text{entanglement present (non-factorizable swirl sector)}
+```
+
+```math
+L(\gamma_1,\gamma_2)
+= \tfrac{1}{4\pi}
+\oint_{\gamma_1}\!\!\oint_{\gamma_2}
+\frac{(x-y)\cdot (dx \times dy)}{|x-y|^3}
+\qquad \text{(Gauss linking integral)}
+```
+
+```math
+\mathcal E_{AB}\;\sim\;-\mathrm{Tr}\!\left[\rho_{AB}\log\rho_{AB}\right],
+\qquad
+\rho_{AB}\;\text{induced by shared }\Phi\text{-link}
+```
+
+*Cross-references.* See §2.2 on torsion and topology of swirl fields, §2.3 on coherence potential and time, and Appendix C on motif categories and algebraic structures.
+
+Having traced entanglement to swirl linkage, strong-field limits test the full framework at horizons, where coherence anomalies may leave their trace.
+
+
+---
+
 ### 4.5 Strong-Field/Horizon Phenomenology
 
 Near compact objects, steep coherence gradients $\nabla \mathcal{C}$ can transiently modify the pre-metric $\Phi$ sector before the GR limit is fully realized. **NSFG** therefore predicts perturbative but potentially observable strong-field signatures that trace the local coherence structure:
@@ -729,66 +771,3 @@ In the high-coherence limit $\mathcal{C} \to 1$, all deviations vanish smoothly,
 ### Cross-references
 
 See **Appendix B.3** on recovery of Einstein’s equations, **Appendix B.4** on weak vs. strong-field interpretation, and **§6.2** on detailed predictions for **GW birefringence** and **photon-ring tests**.
-
----
-
-# 4.4 **PLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDER**
-
----
-
-### 4.5 Strong-Field/Horizon Phenomenology
-
-Near compact objects, steep coherence gradients $\nabla \mathcal{C}$ can transiently modify the pre-metric $\Phi$ sector before the GR limit is fully realized. **NSFG** therefore predicts perturbative but potentially observable strong-field signatures that trace the local coherence structure:
-
-1. **Polarization-dependent gravitational-wave phase accumulation (birefringence)** sourced by $`\Phi$–$\nabla \mathcal{C}`$ coupling within a few gravitational radii $r_g$.
-2. **Micro-distortions of photon rings** and curl-like lensing residuals induced by $\Phi$-twist, without requiring additional mass.
-3. **Localized suppression of decoherence** (“$`\Psi$-null pockets`”) if $\nabla \mathcal{C}$ flattens near the horizon, delaying collapse and altering near-horizon variability statistics.
-
-### Continuity with GR
-
-In the high-coherence limit $\mathcal{C} \to 1$, all deviations vanish smoothly, and the standard GR horizon and shadow are recovered. Non-detections from present **EHT**-like imaging and **GW** polarimetry therefore bound the allowed $|\Phi|^{2}$ amplitude and $|\nabla \mathcal{C}|$ near $r_g$, providing a clean way to constrain **NSFG** without ambiguity.
-
-```math
-\Delta \varphi_{\text{GW}}(\hat e) \;\propto\;
-\int_{r_g}^{r}
-\big(\hat e \cdot (\Phi \cdot \nabla \mathcal{C})\big)\,\frac{dr}{r}
-\qquad \text{(polarization-dependent phase birefringence)}
-```
-
-```math
-\frac{\delta R_{\text{ring}}}{R_{\text{GR}}}
-= \alpha_1 \|\Phi\|^2
-+ \alpha_2 \frac{\|\nabla \mathcal{C}\|}{M}
-+ O(\Phi^3,\; \nabla^2 \mathcal{C})
-\qquad \text{(photon-ring micro-distortions)}
-```
-
-```math
-\Psi_{\text{null}}(x)\;\approx\;1
-\quad \text{if} \quad
-\|\nabla \mathcal{C}(x)\|\;\lesssim\;\varepsilon_{\nabla}
-\quad \text{near} \quad r \gtrsim r_g
-\qquad \text{(suppressed-decoherence pockets)}
-```
-
-### Footnote
-
-[^fn-4.5-recovery]: **High-$\mathcal{C}$ recovery.** Letting $\mathcal{C} \to 1$ with bounded $\nabla \mathcal{C}$ forces $\Phi$-couplings that drive birefringence and ring shifts to zero, reproducing GR shadows and GW propagation. Current non-detections thus map to upper bounds on $|\Phi|^{2}$ and $|\nabla \mathcal{C}|$ in the near-horizon region.
-
-### Observational Targets
-
-* **EHT** and next-generation **EHT** can constrain $\delta R_{\text{ring}}/R_{\text{GR}}$ and curl-like lensing residuals.
-* **GW polarimetry** (LIGO–Virgo–KAGRA, LISA) can measure polarization-dependent phase velocities, especially in stacked near-pericenter passages.
-* **Timing and variability** near Sgr A* and M87* provide statistical tests for $\Psi$-null pocket intermittency.
-
-### Validation
-
-* Deviations scale with $|\Phi|^{2}$ and $|\nabla \mathcal{C}|$ and vanish as $\mathcal{C} \to 1$.
-* Cross-check consistency with Appendix B.3/B.4 on GR recovery and the weak/strong-field delineation.
-* Parameterization $(\alpha_1, \alpha_2)$ is referenced in §6.2 for likelihood-level constraints.
-
-### Cross-references
-
-See **Appendix B.3** on recovery of Einstein’s equations, **Appendix B.4** on weak vs. strong-field interpretation, and **§6.2** on detailed predictions for **GW birefringence** and **photon-ring tests**.
-
----
