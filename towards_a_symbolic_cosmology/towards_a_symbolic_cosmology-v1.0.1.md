@@ -731,3 +731,64 @@ In the high-coherence limit $\mathcal{C} \to 1$, all deviations vanish smoothly,
 See **Appendix B.3** on recovery of Einstein’s equations, **Appendix B.4** on weak vs. strong-field interpretation, and **§6.2** on detailed predictions for **GW birefringence** and **photon-ring tests**.
 
 ---
+
+# 4.4 **PLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDERPLACEHOLDER**
+
+---
+
+### 4.5 Strong-Field/Horizon Phenomenology
+
+Near compact objects, steep coherence gradients $\nabla \mathcal{C}$ can transiently modify the pre-metric $\Phi$ sector before the GR limit is fully realized. **NSFG** therefore predicts perturbative but potentially observable strong-field signatures that trace the local coherence structure:
+
+1. **Polarization-dependent gravitational-wave phase accumulation (birefringence)** sourced by $`\Phi$–$\nabla \mathcal{C}`$ coupling within a few gravitational radii $r_g$.
+2. **Micro-distortions of photon rings** and curl-like lensing residuals induced by $\Phi$-twist, without requiring additional mass.
+3. **Localized suppression of decoherence** (“$`\Psi$-null pockets`”) if $\nabla \mathcal{C}$ flattens near the horizon, delaying collapse and altering near-horizon variability statistics.
+
+### Continuity with GR
+
+In the high-coherence limit $\mathcal{C} \to 1$, all deviations vanish smoothly, and the standard GR horizon and shadow are recovered. Non-detections from present **EHT**-like imaging and **GW** polarimetry therefore bound the allowed $|\Phi|^{2}$ amplitude and $|\nabla \mathcal{C}|$ near $r_g$, providing a clean way to constrain **NSFG** without ambiguity.
+
+```math
+\Delta \varphi_{\text{GW}}(\hat e) \;\propto\;
+\int_{r_g}^{r}
+\big(\hat e \cdot (\Phi \cdot \nabla \mathcal{C})\big)\,\frac{dr}{r}
+\qquad \text{(polarization-dependent phase birefringence)}
+```
+
+```math
+\frac{\delta R_{\text{ring}}}{R_{\text{GR}}}
+= \alpha_1 \|\Phi\|^2
++ \alpha_2 \frac{\|\nabla \mathcal{C}\|}{M}
++ O(\Phi^3,\; \nabla^2 \mathcal{C})
+\qquad \text{(photon-ring micro-distortions)}
+```
+
+```math
+\Psi_{\text{null}}(x)\;\approx\;1
+\quad \text{if} \quad
+\|\nabla \mathcal{C}(x)\|\;\lesssim\;\varepsilon_{\nabla}
+\quad \text{near} \quad r \gtrsim r_g
+\qquad \text{(suppressed-decoherence pockets)}
+```
+
+### Footnote
+
+[^fn-4.5-recovery]: **High-$\mathcal{C}$ recovery.** Letting $\mathcal{C} \to 1$ with bounded $\nabla \mathcal{C}$ forces $\Phi$-couplings that drive birefringence and ring shifts to zero, reproducing GR shadows and GW propagation. Current non-detections thus map to upper bounds on $|\Phi|^{2}$ and $|\nabla \mathcal{C}|$ in the near-horizon region.
+
+### Observational Targets
+
+* **EHT** and next-generation **EHT** can constrain $\delta R_{\text{ring}}/R_{\text{GR}}$ and curl-like lensing residuals.
+* **GW polarimetry** (LIGO–Virgo–KAGRA, LISA) can measure polarization-dependent phase velocities, especially in stacked near-pericenter passages.
+* **Timing and variability** near Sgr A* and M87* provide statistical tests for $\Psi$-null pocket intermittency.
+
+### Validation
+
+* Deviations scale with $|\Phi|^{2}$ and $|\nabla \mathcal{C}|$ and vanish as $\mathcal{C} \to 1$.
+* Cross-check consistency with Appendix B.3/B.4 on GR recovery and the weak/strong-field delineation.
+* Parameterization $(\alpha_1, \alpha_2)$ is referenced in §6.2 for likelihood-level constraints.
+
+### Cross-references
+
+See **Appendix B.3** on recovery of Einstein’s equations, **Appendix B.4** on weak vs. strong-field interpretation, and **§6.2** on detailed predictions for **GW birefringence** and **photon-ring tests**.
+
+---
