@@ -765,7 +765,7 @@ In the high-coherence limit $\mathcal{C} \to 1$, all deviations vanish smoothly,
 ### Validation
 
 * Deviations scale with $|\Phi|^{2}$ and $|\nabla \mathcal{C}|$ and vanish as $\mathcal{C} \to 1$.
-* Cross-check consistency with Appendix B.3/B.4 on GR recovery and the weak/strong-field delineation.
+* Consistency with Appendix B.3/B.4 on GR recovery and the weak/strong-field delineation.
 * Parameterization $(\alpha_1, \alpha_2)$ is referenced in §6.2 for likelihood-level constraints.
 
 ### Cross-references
