@@ -985,7 +985,7 @@ G_p(\Phi,J)-D_p
 
 *Validation.* The cross-variation and superadditivity restate the $\lambda$-grading of §5.2 and the triadic closure of §2.4.1 as a coupled functional; the protection bound matches the $\Delta CS$ crystallization channel of §4.3 while preserving the inward projection of §5.3; stability under ${T_p,T_P}$ aligns with the scale-relative temporality of §3.3 and resonance neighborhoods of §3.4.
 
-With observers and universes co-stabilized by coherence, the stage is set for §5.5 The Ontology of Gliders in Point Space, where traveling eigenpatterns of coherence prepare the ground for cosmogenesis.
+With observers and universes co-stabilized by coherence, the stage is set for **§5.5 The Ontology of Gliders in Point Space**, where traveling eigenpatterns of coherence prepare the ground for cosmogenesis.
 
 ---
 
