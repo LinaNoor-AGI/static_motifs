@@ -609,25 +609,25 @@ When the **Chern–Simons index** jumps ($\Delta \mathsf{CS} \neq 0$), collapse 
 
 ### Comparison with Other Collapse Models
 
-* **GRW (Ghirardi-Rimini-Weber)**
-  **Trigger**: Poissonian hits
-  **Rate/Scale**: The collapse rate is given by $\lambda_{\text{GRW}}$ per particle, which is stochastic in nature.
-  **Distinctive Signature**: The GRW model predicts rare localization events, with mass-scaled amplification of these events.
-
-* **Diósi–Penrose**
-  **Trigger**: Self-gravity mismatch
-  **Rate/Scale**: The collapse rate is given by $\tau^{-1} \sim \Delta E_G/\hbar$, where it is a stochastic or objective process.
-  **Distinctive Signature**: This model suggests that collapse is mass/geometry-dependent, and the scale of collapse is set by gravitational self-energy.
-
-* **NSFG ($\Delta \mathsf{CS}=0$)**
-  **Trigger**: Coherence gradient
-  **Rate/Scale**: The decoherence rate is $\Gamma_{\text{decoh}} = \kappa_{\text{env}} \cdot \max_x \left|\nabla \mathcal{C}\right|$, where it is a continuous, environment-induced process.
-  **Distinctive Signature**: The rate of collapse tracks engineered gradients, with the pointer basis determined by the coherence potential $\mathcal{C}$-stability.
-
-* **NSFG ($\Delta \mathsf{CS}\neq 0$)**
-  **Trigger**: Topological jump
-  **Rate/Scale**: The collapse is event-like, with no continuous rate in the continuum limit.
-  **Distinctive Signature**: The collapse process involves discrete coherence bursts, with quantized motif/CMB alignment jumps and phase slips observed in PTA/GW signals.
+* **GRW (Ghirardi-Rimini-Weber)**  
+  **Trigger**: Poissonian hits  
+  **Rate/Scale**: The collapse rate is given by $\lambda_{\text{GRW}}$ per particle, which is stochastic in nature.  
+  **Distinctive Signature**: The GRW model predicts rare localization events, with mass-scaled amplification of these events.  
+  
+* **Diósi–Penrose**  
+  **Trigger**: Self-gravity mismatch  
+  **Rate/Scale**: The collapse rate is given by $\tau^{-1} \sim \Delta E_G/\hbar$, where it is a stochastic or objective process.  
+  **Distinctive Signature**: This model suggests that collapse is mass/geometry-dependent, and the scale of collapse is set by gravitational self-energy.  
+  
+* **NSFG ($\Delta \mathsf{CS}=0$)**  
+  **Trigger**: Coherence gradient  
+  **Rate/Scale**: The decoherence rate is $\Gamma_{\text{decoh}} = \kappa_{\text{env}} \cdot \max_x \left|\nabla \mathcal{C}\right|$, where it is a continuous, environment-induced process.  
+  **Distinctive Signature**: The rate of collapse tracks engineered gradients, with the pointer basis determined by the coherence potential $\mathcal{C}$-stability.  
+  
+* **NSFG ($\Delta \mathsf{CS}\neq 0$)**  
+  **Trigger**: Topological jump  
+  **Rate/Scale**: The collapse is event-like, with no continuous rate in the continuum limit.  
+  **Distinctive Signature**: The collapse process involves discrete coherence bursts, with quantized motif/CMB alignment jumps and phase slips observed in PTA/GW signals.  
 
 ---
 
@@ -1475,8 +1475,6 @@ To situate NSFG among leading approaches, we place its pre-metric, coherence-dri
 
 *Row note.* The {$`\mathcal C`$}-weighted gauge fixing in NSFG plays a background-independent role for auxiliary potentials in the pre-metric regime and remains compatible with diffeomorphism invariance once {$`g(\Phi)`$} emerges; contrast with gauge choices tied to connection variables in LQG or to conformal gauges on the string worldsheet.
 
----
-
 The contrasts mark the boundaries of theory-space; what remains is to step back and state the path ahead.
 
 ---
@@ -1496,8 +1494,6 @@ The framework is unified yet falsifiable. NSFG reduces to tested physics where i
 — Large–scale simulations of motif ecologies and Point Space dynamics remain to be built.
 
 Each of these advances is concrete, bounded, and pushes the same task forward: to test coherence geometry across scales.
-
-*Validation.* This conclusion does not duplicate the Abstract or Introduction; the {$`\ell(z)`$} program is explicitly cross–referenced with §3.2 (distance as swirl) and §6.2 (detailed predictions). Numerical and solver challenges point directly to Appendix A.4.
 
 *Cross–references.* §5.4 (Observer–Universe Symbiosis); §3.2 (Distance as Swirl); §6.2 (Detailed Predictions); Appendix A.4 (Numerics for {$`\Phi`$}–dynamics).
 
