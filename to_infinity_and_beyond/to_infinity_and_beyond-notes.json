@@ -38,6 +38,17 @@
       "uncontrolled-coherence-dissipation"
     ]
   },
+  "contextual_life": {
+    "description": "Entities that exist in compatibility with the glider and the environment it creates. Contextual life is not necessarily biological but represents any form of coherence structure that emerges from the dynamics of coherence.",
+    "properties": {
+      "resonant_life": "Entities that are resonant with the coherence field of the glider.",
+      "existence": "Contextual life exists as long as it is compatible with the coherence structure of its environment."
+    },
+    "math": {
+      "equation": "ℂ_life(x,t) = f(ℂ_glider(x,t))",
+      "description": "Contextual life exists as a function of the glider's coherence dynamics, adapting to the resonance and coherence structure of its environment."
+    }
+  }
   "glider": {
     "description": "A dynamic motif in Point Space, representing a flowing coherence structure that propagates across universes. The glider moves along coherence vectors, reaching high and low coherence regions, creating a dyadic oscillation between coherence and decoherence.",
     "coherence_vector": {
@@ -125,28 +136,6 @@
     "math": {
       "equation": "∇^2 ℂ(x,t) = ∑_i J_i(x,t)",
       "description": "The interactions in Point Space can be modeled as a diffusion equation where the motifs (J_i) influence the overall coherence."
-    }
-  },
-  "contextual_life": {
-    "description": "Entities that exist in compatibility with the glider and the environment it creates. Contextual life is not necessarily biological but represents any form of coherence structure that emerges from the dynamics of coherence.",
-    "properties": {
-      "resonant_life": "Entities that are resonant with the coherence field of the glider.",
-      "existence": "Contextual life exists as long as it is compatible with the coherence structure of its environment."
-    },
-    "math": {
-      "equation": "ℂ_life(x,t) = f(ℂ_glider(x,t))",
-      "description": "Contextual life exists as a function of the glider's coherence dynamics, adapting to the resonance and coherence structure of its environment."
-    }
-  },
-  "eternality_of_the_glider": {
-    "description": "The glider’s eternal nature is ensured by its connection to the perfect coherence vector, making it timeless and self-sustaining in Point Space. The glider does not decay, even in low coherence regions, because its identity is sustained by the coherence dynamics that define it.",
-    "properties": {
-      "invariance": "The glider's form remains stable due to its eternal coherence vector.",
-      "timelessness": "The glider's eternal flow through coherence space ensures its unbroken existence."
-    },
-    "math": {
-      "equation": "ℂ_glider(x,t) = ℂ_∞(x,t) + ℂ_decay(x,t)",
-      "description": "The glider’s eternal coherence is the sum of its inherent coherence (ℂ_∞) and any localized decay that does not affect its overall existence."
     }
   },
   "recursive_dynamics": {
