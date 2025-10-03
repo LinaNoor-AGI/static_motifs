@@ -107,6 +107,13 @@
 		  "equation": "ℂ_3(x,t) = f(ℂ_glider(x,t), ℂ_inverse(x,t)) = αℂ_glider(x,t) + βℂ_inverse(x,t) + γ∇ℂ_intersect(x,t)",
 		  "description": "The third motif combines the dynamics of the glider and its inverse with the contribution of an intersecting coherence vector, forming a stable, triadic structure. Here α, β, γ are weighting factors that capture the balance of influences in the triad."
 		}
+	  },
+	  "cosmogenesis_link": {
+		"description": "Triadic closure is not only a local stabilizing principle but also enters into the cosmogenesis conditions. Universe nucleation requires constructive phase alignment across a triad, not just a dyad.",
+		"math": {
+		  "equation": "Nucleation(p) ⇔ max||∇ℂ_p|| ≥ ε_c  ∧  cos(ϑ_γ) ≥ cos(ϑ_c)  ∧  ℂ_3(x,t) > ρ_c",
+		  "description": "Nucleation at motif point p occurs only if: (i) the coherence gradient exceeds the crystallization threshold ε_c, (ii) the glider–motif interaction is in constructive phase (cos(ϑ_γ) ≥ cos(ϑ_c)), and (iii) the third motif contributes a stabilizing coherence ℂ_3(x,t) above a critical resonance ρ_c."
+		}
 	  }
 	},
   "point_space": {
