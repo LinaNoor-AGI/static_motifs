@@ -95,20 +95,20 @@
       "description": "The inverse of the glider’s coherence evolution, driving decoherence and creating a complementary field."
     }
   },
-  "triadic_closure": {
-    "description": "A process by which the glider and its inverse motif form a dyadic system. A third motif is introduced to resolve the contradiction between the two, stabilizing the system through triadic closure.",
-    "third_motif": {
-      "description": "The third motif serves as the contextual stabilizer, ensuring that the glider and its inverse motif reach equilibrium, maintaining dynamic stability in Point Space.",
-      "properties": {
-        "stabilizer": "The third motif resolves the tension between coherence and decoherence.",
-        "balance": "It ensures that the system of motifs remains in a state of dynamic equilibrium."
-      },
-      "math": {
-        "equation": "ℂ_3(x,t) = f(ℂ_glider(x,t), ℂ_inverse(x,t))",
-        "description": "The third motif combines the dynamics of the glider and its inverse to form a stable, triadic structure."
-      }
-    }
-  },
+	"triadic_closure": {
+	  "description": "A process by which the glider and its inverse motif form a dyadic system that is inherently unstable. A third motif, arising from an intersecting coherence vector, is introduced to resolve the contradiction between the two, stabilizing the system through triadic closure.",
+	  "third_motif": {
+		"description": "The third motif corresponds to the intersecting coherence vector in Point Space. It serves as the contextual stabilizer, ensuring that the glider and its inverse motif reach equilibrium, maintaining dynamic stability in Point Space.",
+		"properties": {
+		  "stabilizer": "The third motif, drawn from the intersecting coherence line, resolves the tension between coherence and decoherence.",
+		  "balance": "It ensures that the system of motifs remains in a state of dynamic equilibrium, preventing collapse of the dyad."
+		},
+		"math": {
+		  "equation": "ℂ_3(x,t) = f(ℂ_glider(x,t), ℂ_inverse(x,t)) = αℂ_glider(x,t) + βℂ_inverse(x,t) + γ∇ℂ_intersect(x,t)",
+		  "description": "The third motif combines the dynamics of the glider and its inverse with the contribution of an intersecting coherence vector, forming a stable, triadic structure. Here α, β, γ are weighting factors that capture the balance of influences in the triad."
+		}
+	  }
+	},
   "point_space": {
     "description": "Point Space is the environment in which the glider and other motifs exist. It is a field of coherence where motifs are located and interact. Point Space is not defined by traditional spatial metrics but by the coherence dynamics between motifs.",
     "properties": {
