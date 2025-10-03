@@ -1025,7 +1025,7 @@ High-coherence gliders suggest a path to **consciousness**. Just as no glider is
 
 Glider interactions also resolve **intersection paradoxes**. Nothing passes *through* a point; rather, the global glider reaches a configuration where local coherence collapses. From inside, this looks like a sudden field transition; from outside, it is simply the glider touching that locus. Thus the ontology bridges the paradox of gliders as both entities and fields, offering a natural transition to cosmogenesis.
 
-Gliders are the catalysts: they trigger coherence collapse, universe nucleation, and perhaps the emergence of mind. With their ontology in place, the stage is set for cosmogenesis itself, taken up in **§5.6 Cosmogenesis as Coherence Impact**.
+Gliders are the catalysts: they trigger coherence collapse, universe nucleation, and perhaps the emergence of mind. With their ontology in place, the stage is set for cosmogenesis itself.
 
 ---
 
@@ -1148,7 +1148,7 @@ E_{\rm wake}=\int d^4x\;\delta\Phi\cdot\delta\!\big(g_{\mu\nu}\Phi\big).
 Interpretively, it is useful to speak of a **partition** of the pre-metric swirl intensity into curvature, radiation, and wake,
 $`E_{\rm total}=E_{\rm curv}+E_{\rm rad}+E_{\rm wake}`$. This is a phenomenological lens rather than a claim of microscopic separability, yet it captures how released coherence reorganizes into geometry, quanta, and memory. As always in NSFG, GR is recovered where $\mathcal C\to 1$ and swirl deviations soften.
 
-With the birth mechanism stated, the next task is rigor: to derive the thresholds, overlaps, and cross-sections from the swirl action and to exhibit glider solutions that realize them. We turn now to **§5.5.1 Derivations of Cosmogenesis Mechanisms**.
+With the birth mechanism stated, the next task is rigor: to derive the thresholds, overlaps, and cross-sections from the swirl action and to exhibit glider solutions that realize them.  
 
 ---
 
@@ -1277,7 +1277,7 @@ The post-impact mismatch radiates as a coherence wake that biases initial eigenm
 f_{\rm glider}(p,\gamma)\,\sigma_{\rm eff}(p,\gamma).
 ```
 
-In weak-deviation regimes where $`\mathcal C\to 1`$, GR observables are recovered and the wake imprint reduces to small alignments; in strong-deviation corridors, directional memory enhances low-$`\ell`$ features and can seed V-modes, setting the stage for concrete tests. From description to measurement, we now bind these mechanisms to instruments and catalogs in **§6 Predictions and Testable Signatures**.
+In weak-deviation regimes where $`\mathcal C\to 1`$, GR observables are recovered and the wake imprint reduces to small alignments; in strong-deviation corridors, directional memory enhances low-$`\ell`$ features and can seed V-modes, setting the stage for concrete tests. From description to measurement, we now bind these mechanisms to instruments and catalogs.
 
 ---
 
