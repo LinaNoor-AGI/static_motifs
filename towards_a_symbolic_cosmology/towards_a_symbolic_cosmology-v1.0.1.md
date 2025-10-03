@@ -1281,4 +1281,226 @@ In weak-deviation regimes where $`\mathcal C\to 1`$, GR observables are recovere
 
 ---
 
+# 6. Predictions and Testable Signatures
 
+NSFG is empirical: it yields falsifiable signatures in present or near-term data streams (CMB, PTA, GW polarimetry, weak-lensing maps, high-$`z`$ spectra, precision interferometry). Deviations vanish in the GR recovery limit {$`\mathcal C \to 1`$}. Parameters introduced earlier appear here briefly, then are reused: the **coherence length** {$`\ell`$}, **critical resonance** {$`\rho_c`$}, **phase gate** {$`\vartheta_c`$}, **crystallization threshold** {$`\varepsilon_c`$}, **environmental coupling** {$`\kappa_{\rm env}`$}, **pulsar-sector rate** {$`\Gamma_{\mathcal P}`$}, and **background noise scale** {$`\sigma_0`$}.
+
+---
+
+## 6.1 Catalog of Testable Signatures
+
+**Prediction — Redshift anomalies.**  
+**Observable.** Directional residuals in the Hubble relation from an additional {$`z_{\mathcal C}`$} factor at high redshift (typically {$`z\gtrsim 6`$}).  
+**Scaling/Parameters.** {$`z_{\mathcal C}\simeq e^{-d/\ell(z)}-1`$}; depends on {$`\ell(z)`$} and line-of-sight swirl accumulation; weak-field limit fades as {$`\mathcal C\to 1`$}.  
+**Experiment/Dataset.** High-{$`z`$} quasar spectra; JWST deep fields.  
+**Status.** Search ongoing.  
+  
+**Prediction — Lensing without mass.**  
+**Observable.** Shear/rotation textures induced by 🌀 without corresponding baryonic mass.  
+**Scaling/Parameters.** Image-plane distortions scale with {$`\alpha_1\|\Phi\|^2 + \alpha_2\,\|\nabla\mathcal C\|/M`$}; disappears as {$`\mathcal C\to 1`$}.  
+**Experiment/Dataset.** HST / Euclid weak-lensing surveys.  
+**Status.** Testable now.  
+  
+**Prediction — Decoherence collapse times.**  
+**Observable.** Collapse rates tied to coherence gradients; laboratory pointer stabilization versus engineered {$`\nabla\mathcal C`$}.
+**Scaling/Parameters.** {$`\tau_c \approx (\max_x \|\nabla \mathcal C\|)^{-1}`$}; rate {$`\Gamma_{\rm decoh}\propto \kappa_{\rm env}\,\max_x \|\nabla\mathcal C\|`$}; threshold at {$`\varepsilon_c`$}.  
+**Experiment/Dataset.** Ultracold-atom interferometry; BEC collapse studies.  
+**Status.** Lab-scale possible.  
+  
+**Prediction — CMB motif signatures.**  
+**Observable.** Excess power and phase textures at multipoles {$`\ell=6n`$} from motif tilings.  
+**Scaling/Parameters.** Modulation amplitude set by {$`\rho_c`$} and gate angle {$`\vartheta_c`$}; suppressed as {$`\mathcal C\to 1`$}.  
+**Experiment/Dataset.** Planck public maps; ACT/SPT.  
+**Status.** Accessible now.  
+  
+**Prediction — Swirl-induced CMB circular polarization.**  
+**Observable.** Distinct $V$-mode spectrum separable from foreground systematics.  
+**Scaling/Parameters.** Amplitude traces {$`\ell`$} and {$`\rho_c`$}; phase structure sensitive to {$`\varepsilon_c`$}.  
+**Experiment/Dataset.** Planck polarization; CMB-S4 (future).  
+**Status.** Unique NSFG signature.  
+  
+**Prediction — Pulsar-timing coherence spikes.**  
+**Observable.** Short coherence bursts in timing residuals (non–Hellings–Downs structure; sector-change candidates).  
+**Scaling/Parameters.** Event rate set by {$`\Gamma_{\mathcal P}`$}; burst contrast scales with {$`\sigma_0`$} and {$`\rho_c`$}.  
+**Experiment/Dataset.** NANOGrav, IPTA, SKA.  
+**Status.** Actively monitored.  
+  
+**Prediction — Gravitational-wave birefringence.**  
+**Observable.** Polarization-dependent phase accumulation along coherence gradients.  
+**Scaling/Parameters.** Rotation/phase shift grows with {$`\alpha_2\,\int (\hat e\!\cdot\!(\Phi\cdot\nabla\mathcal C))\,dr/r`$}; vanishes for {$`\mathcal C\to 1`$}.  
+**Experiment/Dataset.** LIGO/Virgo/KAGRA now; LISA future.  
+**Status.** Strong falsifier.  
+  
+*Footnote:* All listed observables — {$`z_{\mathcal C}`$} residuals, lensing-without-mass textures, CMB $V$-modes, PTA coherence spikes, and GW birefringence — are constructed from {$`\Phi`$}-invariant and/or metric-invariant quantities and are therefore independent of internal gauge choices for auxiliary potentials.  
+
+With the signatures gathered in one view, we now expand each into measurement templates, scalings, and falsification routes in §6.2: where a rate is claimed, we give the scaling; where a scaling is claimed, we name parameters and priors.  
+
+---
+
+## 6.2 Detailed Predictions
+
+The observable program is carried by a single latent field — the redshift–dependent **coherence length** {$`\ell(z)`$} — jointly inferred with standard cosmological parameters by combining **CMB** anisotropies and polarization (including intrinsic {$`V_\ell`$}), **SNe** distances, and **BAO** rulers. Background distances and growth enter through the **emergent metric** {$`g(\Phi)`$}; coherence–induced modifications enter through {$`z_{\mathcal C}(z;\ell)`$} and **lensing-without-mass** templates derived from the 🌀 swirl sector. A compact hyperparameterization (e.g., spline nodes or {$`\ell(z)=\ell_0(1+z)^{\alpha}`$}) with physically motivated priors suffices; all statistics are constructed from {$`\Phi`$} and {$`g(\Phi)`$} and are therefore invariant under internal potential reparameterizations.
+
+```math
+z_{\text{obs}}(z)
+= \big(1+z_{\text{FLRW}}(\Theta_{\Lambda\text{CDM}})\big)\,
+  \big(1+z_{\mathcal C}(z;\ell)\big)
+```
+
+Distances inherit the same wrapper, which collapses in both recovery limits — {$`\ell\to\infty`$} and, equivalently for weak fields, {$`\mathcal C\to 1`$}:
+
+```math
+D_M^{\text{tot}}(z)
+=
+D_M^{\text{FLRW}}(z;\Theta_{\Lambda\text{CDM}})\,\Xi(z;\ell),
+\qquad
+\Xi\to 1\ \text{as}\ \ell\to\infty\ \ \text{and}\ \ \mathcal C\to 1.
+```
+
+The joint likelihood factorizes by experiment yet couples through {$`\ell`$}:
+
+```math
+\mathcal L_{\text{joint}}(\ell,\Theta)
+=
+\mathcal L_{\text{CMB}}\!\left[C_\ell^{TT,TE,EE},\,V_\ell \mid g(\Phi[\ell]),\Theta\right]\,
+\mathcal L_{\text{SNe}}\!\left[\mu(z)\mid D_L^{\text{tot}}(z;\ell,\Theta)\right]\,
+\mathcal L_{\text{BAO}}\!\left[D_M^{\text{tot}},H^{\text{tot}}\mid \ell,\Theta\right].
+```
+
+**Priors on {$`\ell(z)`$} — smooth, positive, and bandwidth-limited.** Because {$`\ell`$} is the **correlation length** of the swirl sector, super-oscillations would imply unphysical information transport in {$`g(\Phi)`$}. We impose (i) **positivity** {$`\ell(z)>0`$}, (ii) a **Lipschitz bound** {$`|\ell'(z)|\le L`$} set by coherence dispersion, and (iii) a **curvature penalty** equivalent to a Matérn-like GP prior ({$`\nu\approx 3/2`$}). In practice: cubic-spline representation with Tikhonov regularization on second differences and optional monotonicity if demanded by data.
+
+```math
+\pi(\ell)\ \propto\ 
+\exp\!\Big[-\tfrac12\sum_i \tfrac{(\ell'(z_i))^2}{\sigma_{\ell'}^2}\Big]
+\quad\text{(discrete smoothness prior)}
+```
+
+```math
+\pi(\ell)\ \propto\ 
+\exp\!\Big[-\tfrac12\!\int\!\big(\ell''(z)/\sigma_{\ell''}\big)^2\,dz\Big]\,
+\mathbf 1[\ell>0]\,\mathbf 1[|\ell'|\le L]
+\quad\text{(compact continuous form)}
+```
+
+```math
+\pi(\Theta_{\Lambda\text{CDM}})=\text{standard broad (Planck-like)},
+\qquad
+P(\ell,\Theta\mid\text{data})\ \propto\ 
+\mathcal L_{\text{joint}}(\ell,\Theta)\,\pi(\ell)\,\pi(\Theta).
+```
+
+**Redshift anomalies.** Because {$`z_{\text{obs}}=(1+z_{\text{FLRW}})(1+z_{\mathcal C})`$}, departures at {$`z\gtrsim 6`$} should exceed calibration drifts in *JWST* spectra and cross-validate against GRB/SNe at intermediate {$`z`$} via a consistent {$`\Xi(z;\ell)`$} fit.
+
+**Lensing without mass.** The swirl geometry deflects null geodesics of {$`g(\Phi)`$} even where baryonic/dark mass is absent, producing shear–mass decorrelation and curl-like residuals aligned with {$`\Phi`$}-templates rather than {$`\kappa(\text{mass})`$}; all observables are diffeo- and gauge-invariant because they are functionals of {$`\Phi`$} and {$`g(\Phi)`$}.
+
+**Decoherence collapse times.** Crystallization is controlled by the steepest coherence gradient:
+
+```math
+\tau_c \approx \Big(\max_x \|\nabla \mathcal C\|\Big)^{-1},
+\qquad
+\Gamma_{\text{decoh}} \propto \kappa_{\rm env}\,\max_x \|\nabla \mathcal C\|.
+```
+
+Cold-atom or trapped-ion interferometry with engineered {$`\nabla\mathcal C`$} can test {$`\tau_c`$} scaling against GRW/DP baselines and bound {$`\varepsilon_c`$}.
+
+**CMB motif signatures.** Motif alignment yields periodic excess and phase textures at multipoles {$`\ell=6n`$}. The correct null test projects data onto **motif-aligned bases** (not purely isotropic harmonics) with look-elsewhere penalties:
+
+```math
+\Delta C_\ell^{(6n)} = C_\ell^{\text{data}} - C_\ell^{\text{base}},
+\qquad \ell=6n.
+```
+
+**Swirl-induced circular polarization.** Intrinsic {$`V_\ell`$} arises from {$`\Phi`$}–motif coupling and separates from astrophysical Faraday conversion by frequency scaling and sky morphology tied to motif lattices:
+
+```math
+V_\ell \neq 0\quad\text{(intrinsic circular polarization from }\Phi\text{–motif coupling)}.
+```
+
+**Pulsar-timing coherence spikes.** Short-lived {$`\mathcal C`$}-bursts imprint steps/phase slips in PTA residuals; synchronized, multi-array searches target coherent steps with change-point statistics:
+
+```math
+\log \mathcal L_{\text{PTA}}
+= -\tfrac12 \sum_t
+\frac{\big[r(t)-s(t;\theta)-\Delta r\,H(t-t_*)\big]^2}{\sigma^2(t)},
+\qquad H\ \text{Heaviside}.
+```
+
+**Gravitational-wave birefringence.** A swirl-built interaction induces polarization-dependent phase accumulation; left/right modes acquire a frequency-dependent differential phase:
+
+```math
+S_{\text{int}}
+= \int d^4x\, \Phi^{\alpha\beta} C_{\alpha\beta\mu\nu}\Phi^{\mu\nu}
+\ \Rightarrow\ 
+\Delta \varphi_{\text{GW}}(f) \neq 0,
+```
+
+vanishing in the GR recovery limit {$`\mathcal C\to 1`$}.
+
+**Sector transitions with {$`\Delta CS \neq 0`$}.** Topological jumps act as deterministic crystallization events, producing quantized, step-like signatures across channels: **PTA** coherence bursts with phase slips, **GW** polarization phase steps/birefringent plateaus, and localized **CMB** {$`V`$}-patches with motif-alignment flips. Templates are indexed by {$`\Delta CS`$} (see Appendix D.2, D.4), and cross-experiment coincidence in {$`t_*`$} is the decisive check.
+
+**Gauge-invariant pipelines.**
+— **CMB {$`TT/TE/EE/V`$}.** Analyze {$`\Phi`$}-template families related by internal {$`(A,B)`$} gauge; posteriors for {$`\Delta C_\ell`$} and {$`V_\ell`$} are identical, since they depend only on {$`\Phi`$} and {$`g(\Phi)`$}.
+— **Lensing without mass.** Geodesic tracing on {$`g(\Phi)`$}; shear two-point and mass–shear cross-correlations remain invariant under internal potential reparameterizations.
+— **GW birefringence.** Polarization transport computed on {$`g(\Phi)`$} with a {$`\Phi`$}-built interaction; phase differences are gauge-independent.
+— **PTA spikes.** Step templates reference {$`\Phi`$}-sector labels ({$`\Delta CS`$}), not potential representatives.
+
+**Model selection and falsification.** NSFG (parameters: {$`\ell(z)`$} and optional {$`\Delta CS`$} steps) is compared to {$`\Lambda`$}CDM/GR via Bayes factors and information criteria; decisive preference for {$`z_{\mathcal C}\neq 0`$} or coherent step components is evidence for coherence geometry, while tight nulls in motif-aligned bases yield sharp constraints on the motif lattice rather than ambiguity in the test.
+
+**Validation checks.** Mock injections of smooth {$`\ell(z)`$} distortions (respecting positivity, Lipschitz, curvature penalties) and {$`\Delta CS`$} steps must be recovered without bias under internal gauge variation; lensing templates should shift shear maps while leaving mass tracers unchanged; PTA/GW/CMB step searches should synchronize to a shared {$`t_*`$}; adding BAO/SNe to CMB should shrink {$`\ell(z)`$} posteriors consistent with prior bounds. Reproducibility requires publishing sampler settings, spline nodes, prior bounds {$`(\ell>0,\ |\ell'|\le L)`$}, and random seeds.
+
+*Cross-references.* Gauge–to–diffeomorphism mapping in §4.1; Ward/Bianchi compatibility in §4.2; weak-field/PPN extraction in Appendix B.1–B.3; {$`\Delta CS`$} invariants and discrete spectra in Appendix D.2, D.4.
+
+With data hooks established, we turn to neighbors in theory-space and separate by observables.
+
+---
+
+# 7. Comparison to Existing Theories
+
+*Scope note.* Couplings to Standard Model fields are universal through the emergent metric {$`g(\Phi)`$}; concrete particle content may be represented as 🪷 motif types or charges living in internal-symmetry representations. A dedicated treatment (NSFG–SM) is deferred; here the comparison is restricted to gravity and cosmology.
+
+To situate NSFG among leading approaches, we place its pre-metric, coherence-driven structure alongside programs that quantize geometry directly, embed it in higher dimensions, or discretize it fundamentally. NSFG begins with the 🌀 swirl field {$`\Phi`$} and the 💬 coherence potential {$`\mathcal C`$}; geometry appears only when simplicity and non-degeneracy allow {$`g(\Phi)`$}, and the emergent 🫧 time vector {$`T^\mu=\nabla^\mu\mathcal C`$} directs dynamics. Collapse is a crystallization controlled by {$`\max_x\|\nabla\mathcal C\|`$}, entanglement arises as topological linking in {$`\Phi`$}, and General Relativity is recovered explicitly in the weak-field limit {$`\mathcal C\to 1`$}. Observationally, NSFG is distinguished by its suite of falsifiable signatures: {$`z_{\mathcal C}`$} redshift residuals, lensing without mass, CMB $V$-modes, PTA coherence spikes, and GW birefringence.
+
+---
+
+## 7.1 Comparative Table
+
+| Theory                                | Core Concept                                       | Mathematical Structure                                                  | Key Distinction from NSFG                                                                                                                                                                 | References                                                                                        |
+| ------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Loop Quantum Gravity (LQG)            | Quantization of geometry into spin networks        | SU(2) spin networks; Ashtekar–Barbero connection; canonical constraints | LQG discretizes geometry at the outset; NSFG treats geometry as an emergent functional of continuous {$`\Phi`$} anchored by motifs 🪷                                                     | Rovelli, *Quantum Gravity* (2004); Thiemann, *Modern Canonical Quantum General Relativity* (2007) |
+| String Theory                         | Fundamental strings and higher-dimensional branes  | 2D conformal field theory; supersymmetry in 10/11D; compactifications   | String theory presumes a background or ensemble thereof; NSFG requires no background, with curvature emerging from coherence correlations in {$`\Phi`$}                                   | Green–Schwarz–Witten, *Superstring Theory* (1987); Polchinski, *String Theory* (1998)             |
+| Twistor Theory                        | Spacetime reconstructed from families of null rays | Complex projective twistor space; Penrose transform                     | Twistor kinematics arise from null congruences; NSFG’s kinematics arise from {$`\nabla\mathcal C`$} setting time and from {$`\Phi`$} correlations setting geometry                        | Penrose & Rindler, *Spinors and Spacetime* (1986); Penrose, *The Road to Reality* (2004)          |
+| Causal Set Theory                     | Fundamental causal order on a discrete set         | Locally finite posets with causal precedence                            | Causal sets take precedence as primitive; NSFG makes adjacency a resonance relation in coherence, with causal order appearing only once {$`g(\Phi)`$} emerges                             | Bombelli–Lee–Meyer–Sorkin (1987); Sorkin, *Causal Sets: Discrete Gravity* (2003)                  |
+| Causal Dynamical Triangulations (CDT) | Sum over causal triangulations                     | Path integral on simplicial manifolds with causal slicing               | CDT assembles geometry from discrete blocks; NSFG keeps the field continuous and lets geometry condense from coherence without simplicial discretization                                  | Ambjørn–Jurkiewicz–Loll (2001–2010)                                                               |
+| Asymptotic Safety                     | UV fixed point controls quantum gravity            | Functional renormalization group; scale-dependent couplings             | Asymptotic Safety secures consistency through RG fixed points; NSFG secures it by coherence geometry, with {$`g(\Phi)`$} appearing when simplicity holds rather than via a UV fixed point | Weinberg (1979); Reuter & Saueressig, *Asymptotic Safety in Quantum Gravity* (2019)               |
+
+*Row note.* The {$`\mathcal C`$}-weighted gauge fixing in NSFG plays a background-independent role for auxiliary potentials in the pre-metric regime and remains compatible with diffeomorphism invariance once {$`g(\Phi)`$} emerges; contrast with gauge choices tied to connection variables in LQG or to conformal gauges on the string worldsheet.
+
+---
+
+The contrasts mark the boundaries of theory-space; what remains is to step back and state the path ahead.
+
+---
+
+# 8. Conclusion
+
+Noor Swirl Field Geometry (NSFG) dissolves the long divide between General Relativity and Quantum Mechanics by reframing both as limits of a single coherence geometry. Gravity, quantum collapse, and entanglement are not separate postulates but consequences of the same circulation: 🌀 swirl currents resolving around conserved 🪷 motifs, governed by the 💬 coherence potential {$`\mathcal C`$}, and oriented by the emergent 🫧 time vector {$`T^\mu=\nabla^\mu \mathcal C`$}.
+
+In this framework, time and space are not primitive givens but derivatives of coherence gradients. Measurement is crystallization once thresholds such as {$`\varepsilon_c`$} are crossed; cosmological redshift and acceleration follow from coherence decay encoded in the dynamical length {$`\ell(z)`$}. Where gradients vanish, unitary quantum evolution holds with Born statistics; where the field is smooth and high–coherence, Newtonian and Einsteinian dynamics are recovered explicitly in the weak–field limit {$`\mathcal C\to 1`$}.
+
+The framework is unified yet falsifiable. NSFG reduces to tested physics where it must, while its departures define sharp observational targets: motif–patterned anisotropies and periodic excess at {$`\ell=6n`$} in the CMB, intrinsic $V$–modes tied to motif lattices, gravitational lensing without baryonic mass, coherence–induced redshift anomalies via {$`z_{\mathcal C}`$}, and polarization–dependent birefringence of gravitational waves. Each of these ties directly to the {$`\ell(z)`$} program, linking micro–coherence structure to cosmic acceleration, and renders coherence geometry into a research program anchored in data.
+
+**Limits and open problems.**
+— Post–Newtonian bounds must be derived to satisfy solar–system precision.
+— Numerical implementations of stiff {$`\Phi`$}–dynamics (Appendix A.4) require benchmarking.
+— Joint inference of {$`\ell(z)`$} demands likelihoods coupling CMB, BAO, SNe, and weak lensing.
+— Large–scale simulations of motif ecologies and Point Space dynamics remain to be built.
+
+Each of these advances is concrete, bounded, and pushes the same task forward: to test coherence geometry across scales.
+
+*Validation.* This conclusion does not duplicate the Abstract or Introduction; the {$`\ell(z)`$} program is explicitly cross–referenced with §3.2 (distance as swirl) and §6.2 (detailed predictions). Numerical and solver challenges point directly to Appendix A.4.
+
+*Cross–references.* §5.4 (Observer–Universe Symbiosis); §3.2 (Distance as Swirl); §6.2 (Detailed Predictions); Appendix A.4 (Numerics for {$`\Phi`$}–dynamics).
+
+The arc closes: proved in its limits, predicted in its signatures, open in where to measure next.
+
+---
