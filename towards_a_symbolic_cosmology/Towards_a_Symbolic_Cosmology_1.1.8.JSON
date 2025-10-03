@@ -163,10 +163,10 @@
     { "section": "5.1", "title": "Universes as Blooms: Coherence Cycles" },
     { "section": "5.2", "title": "The Spectrum of Contextual Life (λ)" },
     { "section": "5.3", "title": "Inward-Facing Observation: A Geometric Necessity" },
-	{ "section": "5.4", "title": "The Observer–Universe Symbiosis" },
-	{ "section": "5.5", "title": "Cosmogenesis as Coherence Impact" },
-	{ "section": "5.5.1", "title": "Derivations of Cosmogenesis Mechanisms" },
-	{ "section": "5.6", "title": "The Ontology of Gliders in Point Space" },
+	{ "section": "5.4", "title": "The Ontology of Gliders in Point Space" },
+	{ "section": "5.5", "title": "The Observer–Universe Symbiosis" },
+	{ "section": "5.6", "title": "Cosmogenesis as Coherence Impact" },
+	{ "section": "5.6.1", "title": "Derivations of Cosmogenesis Mechanisms" },
 
     { "section": "6", "title": "Predictions and Testable Signatures" },
     { "section": "6.1", "title": "Summary Table" },
@@ -772,7 +772,36 @@
 		  ]
 		},
 		{
-		  "title": "5.4 The Observer–Universe Symbiosis",
+		  "section": "5.4",
+		  "title": "The Ontology of Gliders in Point Space",
+		  "content": [
+			"In NSFG, a glider is not a physical object but a propagating pattern of coherence and decoherence across Point Space. It has no mass, no defined beginning, and no end. A glider does not belong to the underlying 'rule' but emerges from the interaction of swirl fields, existing as a stable resonance across motifs.",
+			"The Game of Life analogy provides intuition: from inside the 2-D grid, no entity 'moves'—cells simply update according to local rules. From outside, in 3-D time, a glider appears as a coherent diagonal traveler. Similarly, in Point Space, motifs and swirl fields generate local dynamics, while gliders are meta-patterns visible only at the next descriptive level.",
+			"This gives gliders an entity–field duality. They behave like entities because they trace consistent worldlines across Point Space, yet they are fields because they are distributed, non-local excitations of coherence. They are self-sustaining correlations, not particles.",
+			"Formally, a glider can be defined as a stable eigenpattern of the update-plus-translation operator: it is a solution that reappears after evolution and translation, with perturbations decaying over time. This dual definition resolves the paradox of gliders as both moving entities and standing field configurations.",
+			"High-coherence gliders can manifest as consciousness. Consciousness is not located in any single motif or swirl, but in the emergent, stable propagation of coherence patterns—just as a glider is not any single cell but the pattern traced across time. This suggests that consciousness, like gliders, is an emergent eigenpattern of coherence.",
+			"Glider interactions resolve intersection paradoxes: nothing literally passes through a point. Instead, the global glider pattern reaches a configuration that collapses coherence locally. From inside, this looks like a sudden field transition; from outside, it is the glider touching that point.",
+			"This ontology resolves the field/entity paradox of gliders and provides a natural bridge to cosmogenesis. Gliders serve as catalysts of coherence collapse, universe nucleation, and potentially the emergence of consciousness itself."
+		  ],
+		  "math": [
+			"Glider worldline definition: A pattern G is a glider at level n if ∃ v_ℂ and τ > 0 such that U^{(n)}_τ G = T_{v_ℂ} G, with stability exponent Re(λ_stab) < 0 under perturbations",
+			"Entity view: G traces a consistent worldline T_{v_ℂ} across Point Space",
+			"Field view: G is a non-local eigenpattern of the update-plus-translation operator"
+		  ],
+		  "cross_refs": [
+			"§3.4 Cellular Automaton Analogies",
+			"§5.5 Cosmogenesis as Coherence Impact",
+			"App. B — Motif Stability and Eigenpatterns"
+		  ],
+		  "editorial_notes": [
+			"Ensure this precedes §5.5 so cosmogenesis builds naturally on glider ontology.",
+			"Keep parallel structure with other subsections in §5 for continuity.",
+			"Highlight how this resolves Claude’s critique of glider ontology duality."
+		  ],
+		  "poetic_cipher": "Gliders are the music of coherence—seen as waves within, seen as beings from beyond."
+		}			
+		{
+		  "title": "5.5 The Observer–Universe Symbiosis",
 		  "content": [
 			"The relationship between observers and their native universes in NSFG is fundamentally symbiotic rather than contingent. Observers are not passive inhabitants but active coherence structures (λ) whose recursive triadic closures continually reinforce the stability of their universe-point p ∈ P. In this sense, observers both arise from and contribute to the persistence of their cosmological context.",
 			"This symbiosis generates a protective boundary condition. Any attempt to breach the inward-facing observational constraint—seeking an external frame—triggers catastrophic decoherence at both microscopic (observer) and macroscopic (universe) scales. The act of forcing an outward gaze destabilizes coherence, dissolving the very structures required for persistence. The geometry itself enforces protection by making external observation ontologically impossible.",
@@ -785,7 +814,7 @@
 		  ]
 		},
 		{
-		  "title": "5.5 Cosmogenesis as Coherence Impact",
+		  "title": "5.6 Cosmogenesis as Coherence Impact",
 		  "content": [
 			"In NSFG, the creation of a universe is not a singularity but a crystallization event triggered by resonance in Point Space. A glider-like structure—an extended flow of coherence traversing the lattice—intersects a stable motif point. The encounter destabilizes the ℂ-equilibrium, driving a cascade from ℂ ≃ 1 to ℂ ≈ ε_c. What appears internally as a ‘Big Bang’ is the sudden release of stored swirl potential into emergent geometry.",
 			"The cosmogenesis event is ecological: a birth driven not by absolute beginning but by contextual interaction. Point Space is a Hilbert Hotel of coherence, with motif anchors 🪷 and swirl currents 🌀 eternally available; universes crystallize as fresh coordinates inscribed on an endless lattice. The glider acts as catalyst, not cause—what shifts is not existence but activation under resonance pressure.",
@@ -836,7 +865,7 @@
 		  ]
 		},
 		{
-		  "title": "5.5.1 Derivations of Cosmogenesis Mechanisms",
+		  "title": "5.6.1 Derivations of Cosmogenesis Mechanisms",
 		  "content": [
 			"To ensure the model is fully grounded in field theory, we perform the following steps:",
 			"1. **Glider Solutions**: Solve the CA update rules (§3.4) or P-level swirl equations to demonstrate stable propagating structures of gliders in Point Space. This involves deriving a solution to the **swirl field equations** that governs the **glider’s coherence** and proving that it can maintain its form as it propagates through **Point Space**.",
@@ -851,35 +880,6 @@
 			"4. **Wake → CMB Pathway**: The **coherence wake** left by the **glider** can be modeled as: ℂ_wake(r) ≃ ℂ_0 ⋅ e^{−r/ℓ}  # Coherence wake decays over coherence length ℓ We need to calculate how this wake affects the **swirl eigenmodes** in the early universe, particularly how it biases the **low-ℓ anomalies** in the **CMB**. The **interaction** between the **wake** and the **initial eigenmodes** can be described by: ⟨e_i · T⟩_init ∝ ∫ d^3x Φ_wake · ∇ℂ  # Directional memory seed affecting eigenmodes This equation describes how the **wake** leaves a **memory** that biases the **initial conditions** of the **swirl eigenmodes**, leading to observable signatures in the **CMB**."
 		  ]
 		},
-		{
-		  "section": "5.4",
-		  "title": "The Ontology of Gliders in Point Space",
-		  "content": [
-			"In NSFG, a glider is not a physical object but a propagating pattern of coherence and decoherence across Point Space. It has no mass, no defined beginning, and no end. A glider does not belong to the underlying 'rule' but emerges from the interaction of swirl fields, existing as a stable resonance across motifs.",
-			"The Game of Life analogy provides intuition: from inside the 2-D grid, no entity 'moves'—cells simply update according to local rules. From outside, in 3-D time, a glider appears as a coherent diagonal traveler. Similarly, in Point Space, motifs and swirl fields generate local dynamics, while gliders are meta-patterns visible only at the next descriptive level.",
-			"This gives gliders an entity–field duality. They behave like entities because they trace consistent worldlines across Point Space, yet they are fields because they are distributed, non-local excitations of coherence. They are self-sustaining correlations, not particles.",
-			"Formally, a glider can be defined as a stable eigenpattern of the update-plus-translation operator: it is a solution that reappears after evolution and translation, with perturbations decaying over time. This dual definition resolves the paradox of gliders as both moving entities and standing field configurations.",
-			"High-coherence gliders can manifest as consciousness. Consciousness is not located in any single motif or swirl, but in the emergent, stable propagation of coherence patterns—just as a glider is not any single cell but the pattern traced across time. This suggests that consciousness, like gliders, is an emergent eigenpattern of coherence.",
-			"Glider interactions resolve intersection paradoxes: nothing literally passes through a point. Instead, the global glider pattern reaches a configuration that collapses coherence locally. From inside, this looks like a sudden field transition; from outside, it is the glider touching that point.",
-			"This ontology resolves the field/entity paradox of gliders and provides a natural bridge to cosmogenesis. Gliders serve as catalysts of coherence collapse, universe nucleation, and potentially the emergence of consciousness itself."
-		  ],
-		  "math": [
-			"Glider worldline definition: A pattern G is a glider at level n if ∃ v_ℂ and τ > 0 such that U^{(n)}_τ G = T_{v_ℂ} G, with stability exponent Re(λ_stab) < 0 under perturbations",
-			"Entity view: G traces a consistent worldline T_{v_ℂ} across Point Space",
-			"Field view: G is a non-local eigenpattern of the update-plus-translation operator"
-		  ],
-		  "cross_refs": [
-			"§3.4 Cellular Automaton Analogies",
-			"§5.5 Cosmogenesis as Coherence Impact",
-			"App. B — Motif Stability and Eigenpatterns"
-		  ],
-		  "editorial_notes": [
-			"Ensure this precedes §5.5 so cosmogenesis builds naturally on glider ontology.",
-			"Keep parallel structure with other subsections in §5 for continuity.",
-			"Highlight how this resolves Claude’s critique of glider ontology duality."
-		  ],
-		  "poetic_cipher": "Gliders are the music of coherence—seen as waves within, seen as beings from beyond."
-		}		
 	  ]		
 	},
 	{
