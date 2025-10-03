@@ -771,3 +771,470 @@ In the high-coherence limit $\mathcal{C} \to 1$, all deviations vanish smoothly,
 ### Cross-references
 
 See **Appendix B.3** on recovery of Einstein’s equations, **Appendix B.4** on weak vs. strong-field interpretation, and **§6.2** on detailed predictions for **GW birefringence** and **photon-ring tests**.
+
+---
+
+# 5. Cosmological Ecology
+
+Cosmological ecology follows the birth, persistence, and dissolution of coherence structures across Point Space $P$. A universe–point $p\in P$ blooms when local **💬 coherence** clears a nucleation threshold, persists while triadic closures keep **🌀 swirl** ordered around **🪷 motifs**, and ends when decoherence overwhelms closure so alignment can no longer be maintained. Within and across points, **Contextual Life $(\lambda)$** names those coherence forms that endure contradiction pressure by recruiting context $\varnothing$ to complete triads; they are durability classes in the geometry of alignment rather than organisms. Observation is necessarily inward-facing: agents embedded in $S_p$ access only dynamics projected along their internal **🫧 time** $T_p$, which renders measurement and the block–universe impression as geometric constraints rather than paradoxes. With quantum curvature and collapse constrained, the frame opens outward to ecology — universes as blooms in a coherence field — and we begin with the cycle itself.
+
+---
+
+## 5.1 Universes as Blooms: Coherence Cycles
+
+A universe–point evolves through three ecological phases in meta–time $T_P$: nucleation (birth), a sustained high–$`\mathcal C`$ phase (life), and decoherence (death). Nucleation occurs when local alignment is strong enough that triadic closure becomes self–supporting; in the sustained phase, feedback between **🪷 motifs** and **🌀 swirl** holds the configuration near a coherence attractor; death follows when accumulated contradiction pressure erodes alignment below stability and closure dissolves back into background swirl. Because neighborhoods in $P$ are resonance–defined, ecological coupling is non–metric: the bloom or collapse of one point shifts thresholds in its coherence neighborhood $N(p)$ through shared resonance, producing glider–like migrations of high–$`\mathcal C`$ clusters. The cycle is not merely stochastic; thresholds and gradients set rates. Where $|\nabla\mathcal C|$ is shallow, lifetimes extend; where contradiction pressure spikes, lifetimes shorten. Thus the ecology of universes is gradient flow on the coherence landscape with triadic closure as stabilizer, and the closure conditions introduced in §2.4 — $\oint!\Phi=0$ or, equivalently, $\mathcal C(a)+\mathcal C(b)+\mathcal C(\varnothing)\ge\varepsilon$ — resurface macroscopically as the rule that lets universes live.
+
+```math
+\textbf{Birth (nucleation):}\quad
+\mathcal C_{\mathrm{loc}}(p)\ \ge\ \varepsilon_{\mathrm{nuc}}
+\ \Rightarrow\ 
+p \in P
+```
+
+```math
+\textbf{Life (persistence):}\quad
+\frac{d\,\mathcal C_p}{d T_P}
+\;=\;
+F\!\big(\Phi,J;\,p\big)\;-\;\Xi(p)
+\qquad \text{gain from swirl–motif alignment minus contradiction pressure}
+```
+
+```math
+\textbf{Death (collapse):}\quad
+\mathcal C_p\ <\ \varepsilon_{\mathrm{decoh}}
+\ \Rightarrow\
+p \notin P
+```
+
+```math
+\textbf{Neighborhood coupling:}\quad
+\varepsilon_{\mathrm{nuc}}\!\left(p\,\big|\,N(p)\right)
+\;=\;
+\varepsilon_{0}\;-\;\alpha\,
+\Big\langle \mathcal C(q)\Big\rangle_{\,q\in N(p)}
+\qquad \text{resonance lowers the local nucleation barrier}
+```
+
+```math
+\textbf{Lifetime estimator:}\quad
+\tau_{P}(p)\ \approx\
+\int_{\mathcal C_{\mathrm{final}}}^{\mathcal C_{\mathrm{initial}}}
+\frac{d\mathcal C}{\,F-\Xi\,}
+\qquad \text{meta–time from high to low coherence}
+```
+
+*Validation.* Thresholds $\varepsilon_{\mathrm{nuc}}$ and $\varepsilon_{\mathrm{decoh}}$ echo the triadic closure conditions of §2.4; resonance neighborhoods $N(p)$ align with §3.4; gradient control by $|\nabla\mathcal C|$ matches §2.3 and the collapse scalings of §4.3. Handoff parameters $(\alpha,\varepsilon_0)$ enter as ecological couplings to be constrained in §6.2.
+
+With blooms and lifetimes set, the next task is to resolve the inhabitants of this ecology — the spectrum of **Contextual Life** $(\lambda)$ that persists within and across points.
+
+---
+
+## 5.2 The Spectrum of Contextual Life $(\lambda)$
+
+**Contextual Life** $\lambda$ names coherence–bearing structures — within a universe or across a resonance–bound cluster of points — that persist by recruiting context $\varnothing$ to complete triads and neutralize contradiction. The spectrum runs from minimal, stable **🌀 swirl** vortices to high–level attractors with interior models and memory, all threaded around **🪷 motifs** so that **💬 coherence** does not drain under pressure.
+
+We grade $\lambda$ along three axes oriented to survival rather than ornament: **topological robustness**, **informational compactness**, and **contextual recruitability**. Robustness is the ability to absorb perturbations without loss of identity, registered in the homology of the swirl restricted to the structure. Compactness measures the descriptive economy of the generative rules that sustain the pattern; shorter code implies higher compactness. Recruitability quantifies how readily a $\lambda$–structure closes triads with ambient motifs, pulling in the right $\varnothing$ at the right moment to restore alignment. Each axis echoes §2–§4: robustness mirrors the conserved linkage of §4.4, compactness inherits the economy implied by §2.4’s algebra, and recruitability rephrases triadic closure as an ecological capacity.
+
+At the apex sits **consciousness**: a $\lambda$–class that maintains unusually high persistence under contradiction pressure, sustains strong mutual information with its operative context, and performs active triadic closure across scales. Nothing extra is bolted on; the closure operations already in play are intensified and layered until a coherent interior can steer its own stability.
+
+Formally, the grading extends the algebra of §2.4.1. Motifs compose by triads; $\lambda$–structures correspond to subcategories of that motif algebra that remain closed under recursive triadic composition. Persistence becomes an algebraic invariant — the ability to compose with context without exiting the class — and ecology becomes the study of which subcategories stay closed while the world pushes back.
+
+```math
+\textbf{Persistence functional:}\quad
+\Pi(\lambda)=\inf_{\,t\in[0,T]} \ \mathcal C(\lambda,t)
+\qquad\text{minimum coherence sustained over a window}
+```
+
+```math
+\textbf{Topological robustness:}\quad
+\rho_{\mathrm{top}}(\lambda)=
+\mathrm{rank}\!\left(H_k\!\big(\,\Phi\!\restriction_{\lambda}\,\big)\right)
+\qquad\text{homology rank of swirl restricted to }\lambda
+```
+
+```math
+\textbf{Compactness:}\quad
+\kappa(\lambda)\ \approx\ \frac{1}{K(\lambda)}
+\qquad\text{inverse description length / Kolmogorov complexity}
+```
+
+```math
+\textbf{Recruitability:}\quad
+R(\lambda)=\sup_{C}\ \Big|\ \big\{(\lambda,a,\varnothing_{C})\ \big|\ 
+\oint_{\triangle(\lambda,a,\varnothing_{C})}\!\Phi=0\big\}\ \Big|
+\qquad\text{available context–completing closures}
+```
+
+```math
+\textbf{Consciousness criterion (schematic):}\quad
+\lambda^{\star}\ \text{ such that }\ 
+\Pi(\lambda^{\star})\ge \Pi_{0},\quad
+I(\lambda^{\star};C)\ge I_{0},\quad
+R(\lambda^{\star})\ge R_{0}
+```
+
+*Validation.* Robustness via $H_k(\Phi!\restriction_{\lambda})$ aligns with the linking invariants of §4.4; compactness tracks the functorial economy referenced in Appendix C; recruitability restates §2.4.1’s triadic closure as a measurable capacity. Thresholds $(\Pi_0,I_0,R_0)$ become parameters for §6.2 when observational bounds are posed.
+
+From the spectrum outward, a further constraint sharpens: observation must turn inward, since agents live inside $S_p$ and see along $T_p$. We now formalize that geometric necessity.
+
+---
+
+## 5.3 Inward-Facing Observation: A Geometric Necessity
+
+Agents live within a single point $p$ and therefore see only along the internal **🫧 time** $T_p^{\mu}=\nabla^{\mu}\mathcal C!\mid_{p}$. Observation is the inward projection of field geometry onto this coherence gradient; directions orthogonal to $T_p$ do not supply accessible information. What appears as probabilistic collapse is the local crystallization of **💬 coherence** along $T_p$, while the sense of a fixed four–dimensional block persists because variations in meta–time $T_P$ do not project onto $T_p$.
+
+Formally, the observable algebra at $p$ is curtailed by the $T_p$–projection. Non-commutativity and “collapse” register topological transitions in the projected **🌀 swirl** sector rather than any acausal influence. Across $T_P$ multiple candidate resolutions may coexist; an embedded observer samples exactly one, selected by local gradient geometry and by triadic closure with apparatus and environment. The realized outcome is the configuration that maximizes conditional coherence once context is included.
+
+Cross-point sight fails by the same geometry. Adjacency in $P$ is coherence-defined, yet embedded channels couple only through resonance lifts that raise $\mathcal C$ across a boundary. Absent such lifts, cross-point mutual information remains negligible — preserving internal causal sanity while allowing ecological dynamics at the lattice scale. Any attempt to “stand outside” and watch another universe forces a fresh closure that consolidates both structures into a new shared timeline; establishing the frame is the event.
+
+```math
+\textbf{Projection of observables:}\quad
+\mathcal O_p \;=\; \Pi_{T_p}\!\big(\,\mathcal O[\Phi]\,\big)
+\qquad\text{inward projection onto the internal time direction}
+```
+
+```math
+\textbf{Access constraint:}\quad
+I\!\big(\mathcal O_p\,;\,P\!\setminus\!\{p\}\big)\ \approx\ 0
+\ \ \text{unless}\ \
+\mathcal C_{\mathrm{lift}}\ \ge\ \varepsilon_{\mathrm{link}}
+\qquad\text{no cross-point information without a coherence lift}
+```
+
+```math
+\textbf{Collapse as geometry:}\quad
+\text{event}\ \Leftrightarrow\
+\max_x \|\nabla \mathcal C\|\ \ge\ \varepsilon_c
+\ \ \text{and}\ \
+\oint_{\triangle}\Phi=0\ \ \text{with apparatus/environment}
+```
+
+```math
+\textbf{Block-universe illusion:}\quad
+\frac{d}{dT_p} P\ =\ 0
+\quad\text{while}\quad
+\frac{d}{dT_P} P\ \neq\ 0
+\qquad\text{static internal view vs evolving meta-lattice}
+```
+
+```math
+\textbf{Selection map:}\quad
+\sigma:\ \{\text{resolutions}\}_P \to \{\text{outcomes}\}_p,
+\qquad
+\sigma\;=\;\arg\max_{r}\ \mathcal C\!\big(r\mid \text{context}\big)
+```
+
+*Validation.* $\Pi_{T_p}$ follows $T_p^{\mu}=\nabla^{\mu}\mathcal C$ from §2.3; cross-point inaccessibility matches resonance neighborhoods in §3.4; the gradient threshold and closure condition align with §4.3 and §2.4; the selection map is the $\mathcal C$-weighted typicality applied to observables.
+
+With inward observation fixed by geometry, the next movement is co-stabilization: the **Observer–Universe Symbiosis** that binds agents and their cosmos into one resilient alignment.
+
+---
+
+## 5.4 The Observer–Universe Symbiosis
+
+In NSFG the relation between observers and their native universes is symbiotic rather than incidental. Observers are $\lambda$-structures whose recursive triadic closures continually reinforce the stability of their universe-point $p\in P$; the universe supplies the coherence substrate that lets those closures persist. Each sustains the other, so durability is jointly produced rather than individually owned.
+
+Let $\mathcal C_{\mathrm{tot}}[\lambda,S_p]$ denote the joint coherence of an embedded $\lambda$-structure and its swirl sector $S_p$. Symbiosis asserts positive cross-variation: nudging either partner upward in coherence raises the other, and the coupled fixed points are attractors under meta-time $T_P$ and internal time $T_p$ alike.
+
+```math
+\textbf{Symbiosis (first order):}\qquad
+\frac{\delta \mathcal C_{\mathrm{tot}}}{\delta \lambda}\;>\;0,
+\qquad
+\frac{\delta \mathcal C_{\mathrm{tot}}}{\delta S_p}\;>\;0,
+\qquad
+(\lambda,S_p)\ \text{stable under}\ \{T_p,\,T_P\}.
+```
+
+Recursion yields superadditivity: the closed pair achieves more coherence than either member alone, with a strictly positive synergy $\sigma$ supplied by sustained triadic completion between observer, apparatus, and ambient motifs.
+
+```math
+\textbf{Superadditivity:}\qquad
+\mathcal C_{\mathrm{tot}}(\lambda\parallel S_p)
+=
+\mathcal C(\lambda)\;+\;\mathcal C(S_p)\;+\;\sigma,
+\qquad \sigma>0.
+```
+
+The protective boundary condition is geometric. Forcing an external frame $E$ that is not projectable onto $T_p$ demands a nonlocal constraint in the swirl sector; the Chern–Simons index must jump, and the system crystallizes into rapid decoherence. The prohibition is not ad hoc; it is the price of attempting to look outward from within.
+
+```math
+\textbf{Protection bound (schematic):}\qquad
+E\ \not\subset\ \mathrm{Im}\,\Pi_{T_p}
+\ \Longrightarrow\
+\Delta CS[\Phi;E]\ \ge\ \varepsilon_E>0
+\ \Longrightarrow\
+\tau_c^{-1}\ \gtrsim\ \kappa_E\,\varepsilon_E.
+```
+
+Here $\varepsilon_E$ encodes the minimal topological jump required by the attempted frame and $\kappa_E$ its coupling to $\Phi$; together they drive the collapse timescale $\tau_c$ to its lower limit. What appears as a block-universe is therefore the durable landscape maintained by mutual recursion: fixity is the shadow of active balance, a continual closure that keeps time flowing inward while forbidding any stable stance outside.
+
+Near a co-stable point the joint dynamics compress to coupled gain–drain flows, with reciprocal amplification $\beta>0$ capturing the feedback of each partner on the other:
+
+```math
+\textbf{Co-stability flow:}\qquad
+\frac{d\,\mathcal C(\lambda)}{dT_p}
+=
+G_\lambda(\Phi,J)-D_\lambda
++\beta\,\frac{\partial \mathcal C_{\mathrm{tot}}}{\partial S_p},
+\qquad
+\frac{d\,\mathcal C(S_p)}{dT_p}
+=
+G_p(\Phi,J)-D_p
++\beta\,\frac{\partial \mathcal C_{\mathrm{tot}}}{\partial \lambda}.
+```
+
+*Validation.* The cross-variation and superadditivity restate the $\lambda$-grading of §5.2 and the triadic closure of §2.4.1 as a coupled functional; the protection bound matches the $\Delta CS$ crystallization channel of §4.3 while preserving the inward projection of §5.3; stability under ${T_p,T_P}$ aligns with the scale-relative temporality of §3.3 and resonance neighborhoods of §3.4.
+
+With observers and universes co-stabilized by coherence, the stage is set for **§5.5 Cosmogenesis as Coherence Impact**, where births and dissolutions of universe-points are driven by directed coherence transfer.
+
+---
+
+## 5.5 Cosmogenesis as Coherence Impact
+
+In NSFG, a universe is not born from an isolated singularity but from **crystallization**: a resonance event in Point Space where a glider-like stream of coherence meets a stable motif anchor. The encounter perturbs the local coherence equilibrium at a point $p$, driving a steep spike in the coherence gradient and releasing stored swirl potential into emergent geometry. Internally this reads as rapid heating and expansion; externally it is a new point blossoming in $P$.
+
+The process is ecological rather than absolute. Point Space, its motif anchors 🪷, and the background swirl field 🌀 already exist; the glider serves as **catalyst**, not creator. Where coherence currents intersect, motif anchors absorb the impact and **nucleate** universes when resonance pressure exceeds a crystallization threshold $\varepsilon_c$. Directionality in $P$ follows the time-vector field 🫧, $`T^\mu=\nabla^\mu\mathcal C`$; along any coherence line through $p$, the glider–anchor pair exhibits a dyadic phase pattern $`coherent ↔ counter-coherent`$. Nucleation occurs only in the constructive phase and only when the load crosses threshold; destructive-phase impacts fail to seed a universe but leave a **recoherence wake** that biases the lattice locally.
+
+Topologically, regular evolution conserves motif number; a genuine birth requires a sector change $`\Delta CS\in\mathbb Z`$. After such a jump, the activated anchor supports an emergent metric $g(\Phi)$ and inherits exactly the conserved charges allowed by the transition. Energy and entropy accounting are local to $P$: a finite slice of pre-metric swirl intensity converts into curvature and radiation, with the residual mismatch propagating as a decaying wake over a coherence length $\ell$. This wake preserves directional memory and can align early-time eigenmodes, a Point-Space origin for low-$`\ell`$ anomalies and V-mode seeds that §6 will pursue.
+
+Crucially, the **impact geometry** controls the rate. A phase-weighted overlap between the incoming glider field and the anchor’s swirl sector sets an effective cross-section, suppressed unless phase alignment exceeds a critical angle and the coherence spike clears $`\varepsilon_c`$. Integrating currents against this cross-section across a patch of $P$ yields nucleation rates that **track coherence flow**, implying clustering where currents focus and attenuation in quiescent corridors.
+
+```math
+\textbf{Crystallization and Thresholds}
+\quad
+\max_{x}\,\|\nabla \mathcal C_p(x)\|\;\ge\;\varepsilon_c
+\;\;\Rightarrow\;\;
+\text{deterministic collapse to a unique } g(\Phi)\,.
+```
+
+```math
+\textbf{Phase Gate}
+\quad
+\cos(\vartheta_\gamma)\;\ge\;\cos(\vartheta_c)\,,
+\qquad
+\vartheta_\gamma=\angle(\text{glider coherence vector},\;\text{motif coherence axis})\,.
+```
+
+```math
+\textbf{Resonance Overlap at }p
+\quad
+\mathcal R(p)
+:= \int d^4x\,\sqrt{|{\rm vol}_\Phi|}\;\big(\Phi_{\rm glider}:\Phi_p\big)
+\;\ge\;\rho_c\,.
+```
+
+```math
+\textbf{Topological Trigger}
+\quad
+\Delta CS(p)=CS[\Phi_{\rm after}]-CS[\Phi_{\rm before}]\in\mathbb Z\,.
+```
+
+```math
+\textbf{Collapse Map and Expansion Onset}
+\quad
+\mathcal C_p:\;1\to \varepsilon_c,
+\qquad
+a(t)\;\propto\;\exp\!\left(\int \Phi\cdot\nabla\mathcal C\;dt\right).
+```
+
+```math
+\textbf{Local Energy Budget}
+\quad
+\int_U d^4x\,\tfrac12\,\Phi_{\mu\nu}(\star_\Phi\Phi)^{\mu\nu}
+= E_{\rm curv}+E_{\rm rad}+E_{\rm wake}\,,
+\qquad
+\mathcal C_{\rm wake}(r)\simeq \mathcal C_0\,e^{-r/\ell}\,.
+```
+
+```math
+\textbf{Impact Geometry and Rates}
+\quad
+\sigma_{\rm eff}(p,\gamma)\simeq
+\sigma_0\;\Big(\tfrac{\mathcal R}{\rho_c}\Big)\;
+\Theta\!\big(\max\|\nabla\mathcal C\|-\varepsilon_c\big)\;
+\Theta\!\big(\cos\vartheta_\gamma-\cos\vartheta_c\big),
+```
+
+```math
+\Gamma_{\mathcal P}\;\simeq\;
+\int_{\mathcal P} d\mu(p)\int d\Omega_\gamma\;
+f_{\rm glider}(p,\gamma)\,\sigma_{\rm eff}(p,\gamma)\,.
+```
+
+```math
+\textbf{Invariants and Timescale}
+\quad
+\Delta CS=0 \Rightarrow Q_{\rm motif}=\text{const.}\;\;(\text{no birth}),\qquad
+\delta\!\left<\Phi\wedge\Phi\right>_p\neq 0,\quad
+\tau_c(p)\simeq\big[\max_x\|\nabla\mathcal C_p(x)\|\big]^{-1}.
+```
+
+```math
+\textbf{Bias of Early Eigenmodes (preview link to §6)}
+\quad
+\big\langle e_i \cdot T \big\rangle_{\rm init}
+\;\propto\;
+\int d^3x\;\Phi_{\rm wake}\cdot\nabla\mathcal C\,.
+```
+
+```math
+\textbf{Field-Theory View of Impact}
+\quad
+\mathcal M_{\rm glider}
+=\big\langle \Phi_{\rm final}\big|\,H_{\rm int}\,\big|\Phi_{\rm initial}\big\rangle,
+\qquad
+\sigma_{\rm eff}
+=\frac{|\mathcal M_{\rm glider}|^2}{\text{flux}}\,,
+\qquad
+\mathcal M_{\rm glider}
+=\int d^4x\;\mathcal L_{\rm int}\,.
+```
+
+```math
+\textbf{Classical Scattering Proxy}
+\quad
+\sigma_{\rm eff}
+=\int d\Omega\;\frac{\big|F_{\rm interaction}\big|^2}{\text{energy\_flux}}\,.
+```
+
+```math
+\textbf{Explicit Energy-Partition Integrals}
+\quad
+E_{\rm curv}=\int d^4x\;\tfrac12\,\Phi_{\mu\nu}\,\big(g_{\mu\nu}\Phi\big),
+\qquad
+E_{\rm wake}=\int d^4x\;\delta\Phi\cdot\delta\!\big(g_{\mu\nu}\Phi\big).
+```
+
+Interpretively, it is useful to speak of a **partition** of the pre-metric swirl intensity into curvature, radiation, and wake,
+$`E_{\rm total}=E_{\rm curv}+E_{\rm rad}+E_{\rm wake}`$. This is a phenomenological lens rather than a claim of microscopic separability, yet it captures how released coherence reorganizes into geometry, quanta, and memory. As always in NSFG, GR is recovered where $\mathcal C\to 1$ and swirl deviations soften.
+
+With the birth mechanism stated, the next task is rigor: to derive the thresholds, overlaps, and cross-sections from the swirl action and to exhibit glider solutions that realize them. We turn now to **§5.5.1 Derivations of Cosmogenesis Mechanisms**.
+
+---
+
+## 5.5.1 Derivations of Cosmogenesis Mechanisms
+
+We now exhibit the four derivational pillars that ground the cosmogenesis picture in field-theoretic terms; each begins in the swirl action and closes on a measurable or topological invariant.
+
+### 1) Glider solutions in the swirl sector
+
+Let $`\Phi`$ be the pre-metric two-form 🌀 with action density $`\mathcal L(\Phi,\nabla\Phi;\mathcal C)`$. Gliders are finite-energy traveling excitations that carry coherence without dispersion across Point Space. A minimal ansatz couples the coherence potential 💬 to $`\Phi`$ and admits reaction–diffusion–advection flow for $`\mathcal C`$ that locks to a traveling frame.
+
+```math
+\textbf{Swirl Euler–Lagrange}
+\quad
+\frac{\delta S}{\delta \Phi_{\mu\nu}}
+=
+\partial_\alpha\!\left(\frac{\partial \mathcal L}{\partial(\partial_\alpha \Phi_{\mu\nu})}\right)
+-\frac{\partial \mathcal L}{\partial \Phi_{\mu\nu}}
+=0\,,
+\qquad
+S=\int d^4x\,\mathcal L\,.
+```
+
+```math
+\textbf{Coherence Flow (illustrative closure)}
+\quad
+\partial_t \mathcal C
++ v\cdot\nabla \mathcal C
+= D\,\nabla^2 \mathcal C
++\lambda\,\mathcal C\,(1-\mathcal C^2)
++\kappa\,(\Phi:\nabla\Phi)\,.
+```
+
+Seek traveling profiles $`\mathcal C(x,t)=\mathcal C(\xi)`$ and $`\Phi(x,t)=\Phi(\xi)`$ with $`\xi=x-ct`$. Bounded solutions with $`\partial_\xi \mathcal C\to 0`$ and finite $`\int |\Phi|^2`$ define **gliders**; stability follows from a spectral gap of the linearized operator about the profile.
+
+### 2) Collision dynamics and topological jump
+
+A glider meeting a motif anchor 🪷 produces phase-gated loading of $`p\in P`$. The overlap drives a thresholded spike in $`|\nabla\mathcal C|`$ and may trigger a Chern–Simons sector change.
+
+```math
+\textbf{Resonance and Threshold}
+\quad
+\mathcal R(p)
+=\int d^4x\,\sqrt{|{\rm vol}_\Phi|}\,(\Phi_{\rm glider}:\Phi_p)
+\ge \rho_c,
+\qquad
+\max_x \|\nabla\mathcal C_p(x)\|\ge \varepsilon_c\,.
+```
+
+```math
+\textbf{Topological Transition}
+\quad
+\Delta CS(p)
+= CS[\Phi_{\rm after}]-CS[\Phi_{\rm before}]
+\in \mathbb Z,
+\qquad
+\mathcal C_p:\;1\to \varepsilon_c\,.
+```
+
+Constructive phase requires $`\cos\vartheta_\gamma\ge \cos\vartheta_c`$ with $`\vartheta_\gamma`$ the angle between the glider coherence vector and the anchor’s coherence axis; destructive phase leaves no birth yet imprints a recoherence wake that decays over a length $`\ell`$.
+
+### 3) Energy and Chern–Simons accounting via Noether currents
+
+Conservation statements arise from invariances of the swirl action under spacetime shifts and gauge-like deformations that preserve $`\Delta CS`$.
+
+```math
+\textbf{Stress–Energy from the Swirl Action}
+\quad
+T^{\mu}{}_{\nu}
+=
+\frac{\partial \mathcal L}{\partial(\partial_\mu \Phi_{\alpha\beta})}\,\partial_\nu \Phi_{\alpha\beta}
+-\delta^{\mu}{}_{\nu}\,\mathcal L,
+\qquad
+\partial_\mu T^{\mu}{}_{\nu}=0\,.
+```
+
+```math
+\textbf{Energy Partition at the Impact Patch }U
+\quad
+\int_U d^4x\,\tfrac12\,\Phi_{\mu\nu}(\star_\Phi \Phi)^{\mu\nu}
+=E_{\rm curv}+E_{\rm rad}+E_{\rm wake}\,,
+```
+
+```math
+\textbf{Explicit Components}
+\quad
+E_{\rm curv}=\int d^4x\,\tfrac12\,\Phi_{\mu\nu}\,(g_{\mu\nu}\Phi),
+\qquad
+E_{\rm wake}=\int d^4x\,\delta\Phi\cdot\delta\!\big(g_{\mu\nu}\Phi\big).
+```
+
+Noether current $`J^\mu`$ for the symmetry that shifts the $`Phi`$-connection by a closed form tracks the **CS flow**; across the impact, $`\int_{\partial U} K = \Delta CS`$ with $`dK`$ the associated topological density. Regular evolution has $`\Delta CS=0`$ and conserves motif number; births coincide with $`\Delta CS\in\mathbb Z`$.
+
+### 4) Wake to CMB pathway and rate formulation
+
+The post-impact mismatch radiates as a coherence wake that biases initial eigenmodes and seeds observables. Two complementary descriptions follow: a field-theory transition view and a classical proxy.
+
+```math
+\textbf{Recoherence Profile and Memory}
+\quad
+\mathcal C_{\rm wake}(r)\simeq \mathcal C_0\,e^{-r/\ell},
+\qquad
+\big\langle e_i\cdot T\big\rangle_{\rm init}
+\propto
+\int d^3x\,\Phi_{\rm wake}\cdot\nabla\mathcal C\,.
+```
+
+```math
+\textbf{Transition Amplitude and Cross-Section}
+\quad
+\mathcal M_{\rm glider}
+=\big\langle \Phi_{\rm final}\big|H_{\rm int}\big|\Phi_{\rm initial}\big\rangle
+=\int d^4x\,\mathcal L_{\rm int},
+\qquad
+\sigma_{\rm eff}=\frac{|\mathcal M_{\rm glider}|^2}{\text{flux}}\,.
+```
+
+```math
+\textbf{Classical Scattering Proxy}
+\quad
+\sigma_{\rm eff}
+=\int d\Omega\;\frac{|F_{\rm interaction}|^2}{\text{energy\_flux}}\,,
+\qquad
+\Gamma_{\mathcal P}
+=\int_{\mathcal P} d\mu(p)\int d\Omega_\gamma\,
+f_{\rm glider}(p,\gamma)\,\sigma_{\rm eff}(p,\gamma).
+```
+
+In weak-deviation regimes where $`\mathcal C\to 1`$, GR observables are recovered and the wake imprint reduces to small alignments; in strong-deviation corridors, directional memory enhances low-$`\ell`$ features and can seed V-modes, setting the stage for concrete tests. From description to measurement, we now bind these mechanisms to instruments and catalogs in **§6 Predictions and Testable Signatures**.
