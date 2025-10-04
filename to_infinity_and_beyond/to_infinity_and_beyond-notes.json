@@ -65,8 +65,15 @@
 	"eternality": {
 	  "description": [
 		"The glider is eternal due to its connection to potentially infinite coherence vectors originating from a universe point or set of points whose pattern encodes the glider. This allows it to remain self-sustaining within the bounds of Point Space. It exists as both an entity and a location within the field of coherence.",
-		"point_space.math.equation": "∇^2 ℂ(x,t) = ∑_i J_i(x,t)",
-		"glider.coherence_vector.math.equation": "∂ℂ/∂t = −∇²ℂ + λ ℂ (1 − ℂ²)"
+		"Gliders are called eternal because they propagate along an unbounded sequence of coherence vectors. Each resolved vector hands off to the next, so the chain never terminates as long as Point Space sustains coherence directions.",
+		
+		  "math": [
+			"Eternal chain: { v_ℂ^1, v_ℂ^2, … } → ∞   # infinite coherence vectors ensure unending propagation",
+			"Persistence condition: 𝓛∘U_τ(G) ≈ T_v G,  ||𝓛∘U_τ(G) − T_v G|| < ε   # pattern survives lift/update up to shift",
+			"Motion condition: Δℂ(γ₁,γ₂) = ||γ₁ − γ₂|| > 0 ⇒ dφ/dt ≠ 0   # phase drift sustains apparent translation",
+			"point_space.math.equation: ∇^2 ℂ(x,t) = ∑_i J_i(x,t)",
+			"glider.coherence_vector.math.equation: ∂ℂ/∂t = −∇²ℂ + λ ℂ (1 − ℂ²)"
+		  ],
 		"paired_duality": {
 			"description": "Eternality provides persistence; Δℂ provides motion. A glider persists because its defining pattern is supported by a web of coherence vectors that do not extinguish under lift/reduce operations. That same pattern moves because adjacent coherence vectors are not identical (Δℂ ≠ 0), creating sustained phase drift.",
 			"math": {
@@ -76,12 +83,18 @@
 			},
 		  }		
 	  ],
+	  "implications": {
+			"ontological": "Gliders persist as both entity and trajectory — they exist as long as coherence vectors extend through Point Space.",
+			"symbolic": "Eternal not in the sense of unchanging, but as an endless unfolding of coherence; each step resolves yet renews.",
+			"contrast": "Unlike motifs (fixed anchors) and swirl (local torsion), gliders remain in motion by chaining coherence vectors without bound."
+		  },
 	  "key_concepts": [
 		"self-sustaining",
 		"eternal",
 		"recursive stability"
 	  ],
 	  "poetic_cipher": "What lives forever keeps its face; what moves forever keeps its phase.",
+	},
 	"life_in_low_coherence": {
 	  "description": "Life persists even in low-coherence regions. Such entities appear different from their high-coherence counterparts, yet they remain part of the same coherence vector. Along the line through a glider, high and low coherence regions host inverted but complementary forms of contextual life.",
 	  "properties": {
