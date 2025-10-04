@@ -431,11 +431,21 @@ The polar axis also admits a natural antipole:
 **Antipole of Coherence.** The polar axis admits a natural opposite: the direction of perfect decoherence. It is defined by the negative of the normalized time vector,
 
 ```math
-T^\mu = \nabla^\mu \mathcal C, 
-\qquad
-\hat T^\mu = \frac{T^\mu}{\|\nabla \mathcal C\|},
-\qquad
--\hat T^\mu \ \ \Rightarrow\ \ \mathcal C \to 0,
+\textbf{Time Vector (Coherence Gradient)}
+\quad
+T^\mu \;=\;\nabla^\mu \mathcal C
+```
+
+```math
+\textbf{Normalized Polar Axis}
+\quad
+\hat T^\mu \;=\;\frac{T^\mu}{\|\nabla \mathcal C\|}
+```
+
+```math
+\textbf{Antipole and Collapse Condition}
+\quad
+-\hat T^\mu \;\;\Rightarrow\;\; \mathcal C \to 0
 ```
 
 corresponding to coherence death and frozen dynamics. Internally, this marks the edge where time and change collapse; externally, it provides the comparative pole opposite to perfect coherence, completing the orientation structure of Point Space.
