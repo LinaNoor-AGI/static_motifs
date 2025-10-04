@@ -390,6 +390,42 @@ With distance recast as an internal, swirl-integrated measure, the next step is 
 
 ---
 
+## 3.2.1 Polar Orientation by Perfect Coherence
+
+Point Space admits a unique vector of perfect coherence: the gradient of the coherence field when {$`\nabla\mathcal C`$} aligns globally. This vector,
+
+```math
+T^\mu = \nabla^\mu \mathcal C,
+```
+
+functions as a polar axis in Point Space geometry. Normalized, it defines the canonical orientation
+
+```math
+\hat T^\mu = \frac{T^\mu}{\|\nabla \mathcal C\|}.
+```
+
+It is unique because coherence can be maximized in only one direction, establishing a reference axis.
+
+This axis is not new: it is the same 🫧 time vector introduced earlier, here emphasized as the polar orientation of Point Space. Temporal flow and orientation are the same phenomenon, both arising from gradients of coherence.
+
+Internally, within a single universe point, this axis provides a local “up–down” reference, similar to the definition of North and South in ordinary space. It anchors temporal directionality in the coherence lattice.
+
+Externally, when comparing different universes in Point Space, the relative angle between their polar axes furnishes a comparative geometry:
+
+```math
+\theta_{ij} = \cos^{-1}(\hat T_i \cdot \hat T_j),
+```
+
+which measures the orientation offset. Such offsets can, in principle, manifest as anisotropies or alignment patterns in observable sectors.
+
+This polar structure complements adjacency and distance (as defined by unresolved swirl). Adjacency fixes neighborhood relations, distance encodes unresolved swirl between motifs, and the polar axis supplies orientation: together they form a triadic set of geometric primitives for Point Space.
+
+In the edge case where {$`\nabla\mathcal C=0`$}, no polar axis can be defined. This reflects the physical fact that time loses its directionality when coherence vanishes, aligning with the irrelevance condition of coherence death.
+
+With adjacency, distance, and orientation aligned, Point Space geometry gains its full set of primitives, ready to host relative dynamics.
+
+---
+
 ## 3.3 Relative Dynamics
 
 Point Space presents two faces that depend on position in the hierarchy. From inside a point $p_i$ -- that is, as an observer embedded in its swirl field $S_{p_i}$ -- the lattice $P$ appears eternal and static; all change belongs to $S_{p_i}$ and the surrounding lattice reads as a timeless background. From the meta-level of $P$, the lattice is dynamic; points can nucleate, bloom, decohere, or collapse, and universes exhibit higher-order evolution.
