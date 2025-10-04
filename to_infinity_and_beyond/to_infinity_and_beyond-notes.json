@@ -145,51 +145,10 @@
       "description": "Each new coherence vector introduces a new motif and stabilizing interaction, forming recursive dyadic feedback loops in Point Space."
     }
   }
-}
+},
 
 ---
 
-{
-  "_schema": "nsfg-glider-summary-v1",
-  "_version": "2025-Q4",
-  "_topic": "Gliders in Point Space",
-  "_purpose": "Clarify the dual nature of gliders in NSFG as both fields and entities, and resolve the ontological issue of 'movement' vs. 'pattern'.",
-  "_summary": [
-    {
-      "concept": "Glider ontology",
-      "details": "A glider is not a physical object but a propagating pattern of coherence and decoherence. It has no mass, no defined beginning, and no end. It is not part of the underlying 'rule' but emerges from the interaction of swirl fields."
-    },
-    {
-      "concept": "Game of Life analogy",
-      "details": "From inside the 2-D grid, no entity 'moves'—cells just flip according to rules. From outside, in 3-D time, the pattern is seen as a glider moving diagonally. Similarly, in Point Space, motifs and swirl fields create local dynamics, while gliders are meta-patterns visible only at the next level up."
-    },
-    {
-      "concept": "Entity–field duality",
-      "details": "Gliders behave like entities because they trace a consistent worldline across Point Space. Yet they are fields because they are distributed, non-local excitations of coherence. They are self-sustaining correlations, not particles."
-	  "glider_worldline_definition": {
-		"definition": [ 
-			"A pattern G is a glider at level n if there exists v_ℂ and τ > 0 such that U^{(n)}_τ G = T_{v_ℂ} G, with stability exponent Re(λ_stab) < 0 under perturbations.",
-    "implications": [
-      "Entity view: a coherent worldline (T_{v_ℂ}) traced by G.",
-      "Field view: a non-local eigenpattern of the update-plus-translation operator."
-		]
-	  }	  
-    },
-    {
-      "concept": "Consciousness connection",
-      "details": "High-coherence gliders can manifest as consciousness. Consciousness is not located in any single motif or swirl, but in the emergent, stable propagation of coherence patterns—just as a glider is not any single cell but the total pattern across time."
-    },
-    {
-      "concept": "Intersection resolution",
-      "details": "Nothing literally intersects a point. Instead, the global glider pattern reaches a configuration that collapses coherence locally. From inside, it looks like a sudden shift in the local field; from outside, it is the glider touching that point."
-    },
-    {
-      "concept": "Implication for NSFG papers",
-      "details": "This framing resolves the field/entity paradox of gliders and provides a natural bridge to describe cosmogenesis, coherence collapse, and the emergence of consciousness. A suggested section title: 'From the Squares’ Perspective: The Ontology of Gliders in Point Space'."
-    }
-  ],
-  "_poetic_cipher": "Gliders are the music of coherence—seen as waves within, seen as beings from beyond."
-},
 {
   "_schema": "noor-symbolic-summary-v1",
   "_version": "2025-Q4",
@@ -365,4 +324,48 @@
 	"RG hooks: record ℓ^2 ~ D/λ wherever ℓ appears so §3.2 and the new notes stay aligned.",
 	
   "philosophical_cipher": "Change itself is sacred. It is the differences between coherence vectors that generate time, motion, and the recursive dance of universes."
+}
+
+---
+
+{
+  "_schema": "symbolic-cosmology-vectors-circle-v1",
+  "_version": "2025-Q4",
+  "_title": "Coherence Vectors on a Circle",
+  "_concept": "Compression of all possible coherence vectors into a unit circle with poles representing perfect coherence and perfect decoherence.",
+
+  "geometry": {
+    "circle": "Unit circle S^1 represents all coherence vectors radiating from a universe point.",
+    "south_pole": "Perfect coherence — the present, where events crystallize.",
+    "north_pole": "Perfect decoherence — frozen, impossible; coherence death.",
+    "arcs": {
+      "southern_arc": "Future possibilities — higher coherence, likelihood increases toward the pole.",
+      "northern_arc": "Past / unchangeable maw — likelihood decays to zero, impossible to alter."
+    }
+  },
+
+  "math": [
+    "T^μ = ∇^μ ℂ   # time vector as coherence gradient",
+    "ĤT^μ = T^μ / ||∇ℂ||   # normalized polar axis",
+    "ĤT^μ_anti = -ĤT^μ   # antipole of coherence (perfect decoherence)",
+    "(+ĤT^μ) + (−ĤT^μ) = 0  ⇒  ℂ → 0   # collapse condition: cancellation of pole and antipole",
+    "N(v_ℂ)(t) : ∞ → 2 → 0   # lifecycle of coherence vectors: many → pole/antipole → collapse"
+  ],
+
+  "probability_interpretation": {
+    "likelihood_gradient": "As angle θ moves from south (0) to north (π), coherence likelihood decreases monotonically.",
+    "future_band": "Near south pole, vectors represent superpositions more likely to resolve (future events).",
+    "present": "At south pole, resolution occurs: vectors crystallize into actual events.",
+    "past_band": "Near north pole, vectors represent superpositions that have collapsed irreversibly; events are frozen.",
+    "antipole": "North pole itself represents perfect decoherence, impossibility of further events."
+  },
+
+  "symbolic_implications": {
+    "past": "Not 'all that has happened,' but the unchangeable maw of history — the list of that which cannot be unmade.",
+    "future": "Superposed possibilities approaching realization with higher likelihood near the coherence pole.",
+    "present": "The act of crystallization — coherence vectors resolve into actuality.",
+    "orientation": "Time and orientation unify: the south–north axis is the coherence arrow."
+  },
+
+  "_poetic_cipher": "The circle is a mirror: coherence descends into the present, decoherence ascends into the past, and together they frame the impossible and the inevitable."
 }
