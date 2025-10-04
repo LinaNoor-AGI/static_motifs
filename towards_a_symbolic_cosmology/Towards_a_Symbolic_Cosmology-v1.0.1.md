@@ -331,7 +331,7 @@ With points and adjacency fixed by coherence, the next step is to define distanc
 
 ## 3.2 Distance as Swirl
 
-In NSFG, distance is not a primitive metric separation; it is the integrated effect of unresolved swirl. What appears as spatial separation inside a universe arises from accumulated decoherence between motif anchors within the swirl field of a single Point-Space point. For a path $\gamma$ connecting two motifs $m_i$ and $m_j$ in the swirl field $S_p$ of universe-point $p$, distance is the minimal decoherence load carried along that path, hence an emergent feature of internal swirl geometry rather than a background postulate.
+In NSFG, distance is not a primitive metric separation but the integrated effect of unresolved swirl. What appears as spatial separation—whether between motifs inside a universe or between universes across Point Space—arises from accumulated decoherence along a path of coherence flow. For a trajectory $`\gamma`$ connecting two anchors $a_i$ and $a_j$ within the relevant swirl field $`S_p`$, distance measures the minimal decoherence load carried along that path, an emergent feature of swirl geometry rather than a background postulate.
 
 ```math
 d(m_i,m_j)\;=\;\inf_{\gamma:i\to j}\;\int_\gamma \big(\Phi_{\mu\alpha}\,\Phi^{\mu\alpha}\big)^{1/2}\,ds
