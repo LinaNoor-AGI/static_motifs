@@ -386,7 +386,7 @@ Most directly, the cosmological constant emerges as a scaling of the coherence d
 \Lambda \;\sim\; \ell^{-2}
 ```
 
-With distance recast as an internal, swirl-integrated measure, the next step is to define **relative dynamics** on $P$ -- motion, geodesics, and interaction when coherence rather than background metric drives evolution.
+Adjacency and distance now stand as the first two primitives of $`P`$; what remains is to set a polar axis of coherence, completing the triad that grounds orientation.
 
 ---
 
