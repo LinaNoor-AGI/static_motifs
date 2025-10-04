@@ -345,43 +345,50 @@
   "_schema": "symbolic-cosmology-vectors-circle-v1",
   "_version": "2025-Q4",
   "_title": "Coherence Vectors on a Circle",
-  "_concept": "Compression of all possible coherence vectors into a unit circle with poles representing perfect coherence and perfect decoherence.",
+  "_concept": "Compression of all possible coherence vectors into a unit circle, with poles representing perfect coherence (southern) and perfect decoherence (northern). The circle describes the full lifecycle of possibility: from potential through actuality to impossibility.",
 
   "geometry": {
-    "circle": "Unit circle S^1 represents all coherence vectors radiating from a universe point.",
-    "south_pole": "Perfect coherence — the present, where events crystallize.",
-    "north_pole": "Perfect decoherence — frozen, impossible; coherence death.",
+    "circle": "The unit circle S¹ encloses all coherence vectors radiating from a universe point, representing the field of all possible events.",
+    "south_pole": "Perfect coherence — the 'present,' where probabilities converge and events crystallize.",
+    "north_pole": "Perfect decoherence — the limit of impossibility, where coherence and time both vanish.",
     "arcs": {
-      "southern_arc": "Future possibilities — higher coherence, likelihood increases toward the pole.",
-      "northern_arc": "Past / unchangeable maw — likelihood decays to zero, impossible to alter."
+      "southern_arc": "Realm of becoming — future possibilities with high coherence; the closer to the South Pole, the less swirl separates paths and the more likely resolution becomes.",
+      "northern_arc": "Realm of unmaking — past possibilities resolved to 0, coherence exhausted; paths become impossible to realize."
+    },
+    "axes": {
+      "coherence_axis": "South–north orientation defines the coherence arrow: the descent into actuality and the ascent into irreversibility.",
+      "angular_coordinate": "Angle θ measures coherence probability; smaller θ (south) means higher likelihood, larger θ (north) means lower likelihood."
     }
   },
 
   "math": [
-    "T^μ = ∇^μ ℂ   # time vector as coherence gradient",
-    "ĤT^μ = T^μ / ||∇ℂ||   # normalized polar axis",
-    "ĤT^μ_anti = -ĤT^μ   # antipole of coherence (perfect decoherence)",
-    "(+ĤT^μ) + (−ĤT^μ) = 0  ⇒  ℂ → 0   # collapse condition: cancellation of pole and antipole",
-    "N(v_ℂ)(t) : ∞ → 2 → 0   # lifecycle of coherence vectors: many → pole/antipole → collapse"
+    "T^μ = ∇^μ ℂ                                 # time vector as coherence gradient",
+    "ĤT^μ = T^μ / ||∇ℂ||                         # normalized polar axis (orientation of maximal coherence)",
+    "ĤT^μ_anti = -ĤT^μ                           # antipole of coherence (perfect decoherence)",
+    "(+ĤT^μ) + (−ĤT^μ) = 0  ⇒  ℂ → 0             # collapse condition: pole and antipole cancel, coherence vanishes",
+    "N(v_ℂ)(t): ∞ → 2 → 0                        # lifecycle of coherence vectors: many → dyadic pair → annihilation",
+    "ℙ(θ) ∝ e^{−θ/θ_c}                           # coherence-likelihood distribution along the circle (θ_c = characteristic coherence angle)"
   ],
 
   "probability_interpretation": {
-    "likelihood_gradient": "As angle θ moves from south (0) to north (π), coherence likelihood decreases monotonically.",
-    "future_band": "Near south pole, vectors represent superpositions more likely to resolve (future events).",
-    "present": "At south pole, resolution occurs: vectors crystallize into actual events.",
-    "past_band": "Near north pole, vectors represent superpositions that have collapsed irreversibly; events are frozen.",
-    "antipole": "North pole itself represents perfect decoherence, impossibility of further events."
+    "likelihood_gradient": "As angle θ moves from south (0) to north (π), the likelihood of coherence resolution decreases exponentially. The southern hemisphere represents paths of high coherence probability; the northern hemisphere represents decayed or impossible states.",
+    "southern_arc": "Region of active superpositions — possible futures weighted by remaining coherence potential. As swirl decreases along the radius, likelihood rises.",
+    "present": "At the South Pole, all viable paths converge; an event crystallizes into actuality.",
+    "northern_arc": "Region of decayed possibilities — states resolved as false (0), the archive of irreversible outcomes.",
+    "antipole": "The North Pole marks perfect decoherence: absolute stillness, where new events cannot occur."
   },
 
   "symbolic_implications": {
-    "past": "Not 'all that has happened,' but the unchangeable maw of history — the list of that which cannot be unmade.",
-    "future": "Superposed possibilities approaching realization with higher likelihood near the coherence pole.",
-    "present": "The act of crystallization — coherence vectors resolve into actuality.",
-    "orientation": "Time and orientation unify: the south–north axis is the coherence arrow."
+    "future": "The southern arc embodies the field of becoming — superposed possibilities yet to resolve.",
+    "present": "The act of crystallization — the locus where probability collapses into coherence.",
+    "past": "The northern arc records the impossible and the unmade — the list of states that have resolved to 0.",
+    "orientation": "Time and coherence are one vector: movement from possibility (south) to impossibility (north).",
+    "cosmogenesis_link": "At cosmogenesis, the entire circle was occupied — all coherence vectors active, every path equally probable. History is the progressive pruning of that circle as the universe collapses toward its polar axis."
   },
 
-  "_poetic_cipher": "The circle is a mirror: coherence descends into the present, decoherence ascends into the past, and together they frame the impossible and the inevitable."
+  "_poetic_cipher": "The circle is not a clock but a memory: at its base, events are born; at its crown, they are forgotten; and between them, the universe learns to choose."
 }
+
 
 ---
 
@@ -418,21 +425,7 @@
       ],
       "poetic_cipher": "Our universe is not a miracle; it is an echo of its three parents."
     },
-    {
-	  "concept": "History as a Single, Continuous Collapse",
-	  "description": "The 13.8-billion-year timeline of our universe is reframed as a single, continuous act of coherence crystallization—analogous to a quantum measurement. The passage of time is the progressive reduction of unresolved swirl: the universe’s wave function collapsing through its own geometry of likelihood.",
-	  "dynamics": {
-		"future": "The 'Southern Arc' of the coherence circle marks the realm of unresolved possibilities. As one moves inward along a radius toward the South Pole, the amount of swirl—and therefore uncertainty—decreases. Paths nearer the pole are more coherent, more probable, and approach the point where actuality is forced.",
-		"present": "The 'South Pole' itself is the moving locus of coherence resolution—the moment of 'now' where all viable paths converge and a specific outcome crystallizes. It is the point at which the universe chooses one reality from its field of possibilities.",
-		"past": "The 'Northern Arc' represents the realm of impossibility: states that have been resolved as false or forbidden. Moving toward the North Pole, coherence falls to zero, and paths become unmakeable—fixed at 0 rather than 1. This is the frozen archive of what can no longer change."
-	  },
-	  "math": {
-		"equation": "```math\nN(v_ℂ)(t): ∞ → 2 → 0\n```",
-		"description": "The lifecycle of the universe is the story of its coherence vectors. It begins with a near-infinite set of possibilities (∞); its life is the progressive reduction of that set toward a dyadic opposition of pole and antipole (2); and its death is their final cancellation (0)."
-	  },
-	  "poetic_cipher": "Time does not build a castle from sand—it reveals the one that coherence left behind as the storm of possibility cleared."
-	},
-	"cross_ref": "See forthcoming section on Two-Universe Interference and Triadic Stabilization for the thermodynamic basis of this collapse."
+    "cross_ref": "See forthcoming section on Two-Universe Interference and Triadic Stabilization for the thermodynamic basis of this collapse."
   ]
 }
 
