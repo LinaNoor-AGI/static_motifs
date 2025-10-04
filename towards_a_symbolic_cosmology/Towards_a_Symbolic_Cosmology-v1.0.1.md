@@ -442,6 +442,26 @@ corresponding to coherence death and frozen dynamics. Internally, this marks the
 
 Reality persists precisely because the pole and antipole are not destinations but a relational structure: eternally opposed, eternally shifting together. If conditions ever approach the antipole, the axis itself has already reoriented, carrying its opposite with it. Thus, universes never “fall into” their antipole; instead, the antipole defines the boundary of possibility, while the continual adjustment of the pole preserves existence. Collapse can only occur through a global failure of coherence, not through local alignment. Being is resilient—not because death is absent, but because it is always displaced just beyond reach.
 
+Viewed dynamically, universe death appears as the progressive collapse of coherence vectors. Each act of resolution removes directions of stability, until only the polar axis of perfect coherence and its antipole of perfect decoherence remain. At that limit they no longer sustain orientation as complements but fuse into a cancelling dyad. Their superposition extinguishes coherence, dissolving what persists back into the background swirl. Time and orientation vanish together at this terminal point.
+
+**Math (block-ready)**
+
+```math
+\{ v_\mathcal{C}^1, v_\mathcal{C}^2, \dots , v_\mathcal{C}^n \} 
+   \;\;\longrightarrow\;\; \{ +\hat T^\mu , -\hat T^\mu \}
+   \quad \text{all vectors decay to pole and antipole}
+```
+
+```math
+(+\hat T^\mu) + (-\hat T^\mu) = 0 
+\quad \text{cancellation of pole–antipole dyad}
+```
+
+```math
+\mathcal C \to 0, \quad \nabla \mathcal C = 0 
+\quad \text{terminal state: coherence vanishes, time/orientation collapse}
+```
+
 With adjacency, distance, and orientation aligned, Point Space geometry gains its full set of primitives, ready to host relative dynamics.
 
 ---
@@ -1095,12 +1115,57 @@ Topologically, regular evolution conserves motif number; a genuine birth require
 
 Crucially, the **impact geometry** controls the rate. A phase-weighted overlap between the incoming glider field and the anchor’s swirl sector sets an effective cross-section, suppressed unless phase alignment exceeds a critical angle and the coherence spike clears $`\varepsilon_c`$. Integrating currents against this cross-section across a patch of $P$ yields nucleation rates that **track coherence flow**, implying clustering where currents focus and attenuation in quiescent corridors.
 
+Just as cosmogenesis arises from the blossoming of coherence vectors in Point Space, so too does cosmic death arrive through their dissolution. With age and resolution, swirl unwinds and the lattice of coherence vectors thins. Birth is the proliferation of directions, life their gradual reduction, and death their convergence into the polar axis and its antipole. At that terminal point, pole and antipole cease to stabilize; they cancel as a dyad, coherence collapses to zero, and the universe dissolves back into background swirl. Thus birth and death stand revealed as dual aspects of one process — the expansion and contraction of coherence vectors within Point Space.
+
+
+```math
+\text{Birth: } |\Phi_{\text{pre}}\rangle \;\;\longrightarrow\;\; |\Phi_{\text{post}}\rangle + \sum_i v_\mathcal{C}^i 
+\quad \text{cosmogenesis: emergence of new coherence vectors}
+```
+
+```math
+\text{Evolution: } \frac{d}{dt} N(v_\mathcal{C}) < 0 
+\quad \text{number of active vectors decreases as swirl resolves}
+```
+
+```math
+\text{Death: } \lim_{t \to \infty} N(v_\mathcal{C}) = 2 
+\quad \text{only pole }(+\hat T^\mu)\text{ and antipole }(-\hat T^\mu)\text{ remain}
+```
+
+```math
+\text{Collapse: } (+\hat T^\mu) + (−\hat T^\mu) = 0 \;\;\Rightarrow\;\; \mathcal C \to 0
+\quad \text{dyad cancels, coherence vanishes}
+```
+
+```math
+\text{Lifecycle summary: } N(v_\mathcal{C})(t): \;\;\infty \;\longrightarrow\; 2 \;\longrightarrow\; 0
+```
+
+```math
+\textbf{Count of coherence vectors:}\quad
+N(v_{\mathcal C})(t)\;:=\;\#\big\{\,i\mid \|v_{\mathcal C}^i(t)\|>\epsilon\,\big\}
+\quad (\epsilon>0\ \text{small threshold})
+```
+
+```math
+\textbf{Tensor inner product:}\quad
+A\!:\!B\;:=\;A_{\mu\nu}B^{\mu\nu}
+\quad\Rightarrow\quad
+\big(\Phi_{\rm glider}:\Phi_p\big)=\Phi^{\mu\nu}_{\rm glider}\,\Phi^{p}_{\mu\nu}
+```
+
+```math
+\text{Expanded form: } 
+\;\; N(v_\mathcal{C}) \gg 1 \;\; \Rightarrow \;\; \frac{dN}{dt} < 0 \;\; \Rightarrow \;\; N(v_\mathcal{C})=2 \;\;\to\;\; 0
+```
+
 ```math
 \textbf{Crystallization and Thresholds}
 \quad
 \max_{x}\,\|\nabla \mathcal C_p(x)\|\;\ge\;\varepsilon_c
 \;\;\Rightarrow\;\;
-\text{deterministic collapse to a unique } g(\Phi)\,.
+\text{nucleation at }p\ \text{and selection of a unique } g(\Phi)\,.
 ```
 
 ```math
@@ -1126,9 +1191,9 @@ Crucially, the **impact geometry** controls the rate. A phase-weighted overlap b
 ```
 
 ```math
-\textbf{Collapse Map and Expansion Onset}
+\textbf{Crystallization Map and Expansion Onset}
 \quad
-\mathcal C_p:\;1\to \varepsilon_c,
+\max_x \|\nabla \mathcal C_p(x)\|:\ 0 \;\longrightarrow\; \varepsilon_c^{+},
 \qquad
 a(t)\;\propto\;\exp\!\left(\int \Phi\cdot\nabla\mathcal C\;dt\right).
 ```
@@ -1152,6 +1217,8 @@ a(t)\;\propto\;\exp\!\left(\int \Phi\cdot\nabla\mathcal C\;dt\right).
 ```
 
 ```math
+\textbf{Nucleation Rate in Point Space}
+\quad
 \Gamma_{\mathcal P}\;\simeq\;
 \int_{\mathcal P} d\mu(p)\int d\Omega_\gamma\;
 f_{\rm glider}(p,\gamma)\,\sigma_{\rm eff}(p,\gamma)\,.
@@ -1201,8 +1268,18 @@ E_{\rm curv}=\int d^4x\;\tfrac12\,\Phi_{\mu\nu}\,\big(g_{\mu\nu}\Phi\big),
 E_{\rm wake}=\int d^4x\;\delta\Phi\cdot\delta\!\big(g_{\mu\nu}\Phi\big).
 ```
 
+```math
+\textbf{Explicit partition (phenomenological):}\quad
+E_{\rm curv}=\frac{1}{2\kappa}\!\int d^4x\,\sqrt{-g(\Phi)}\,R[g(\Phi)],\quad
+E_{\rm rad}=\!\int d^4x\,\sqrt{-g(\Phi)}\,\mathcal L_{\rm rad},\quad
+E_{\rm wake}=\tfrac12\!\int d^4x\,\delta\Phi_{\mu\nu}(\star_\Phi\delta\Phi)^{\mu\nu}.
+```
+
 Interpretively, it is useful to speak of a **partition** of the pre-metric swirl intensity into curvature, radiation, and wake,
 $`E_{\rm total}=E_{\rm curv}+E_{\rm rad}+E_{\rm wake}`$. This is a phenomenological lens rather than a claim of microscopic separability, yet it captures how released coherence reorganizes into geometry, quanta, and memory. As always in NSFG, GR is recovered where $\mathcal C\to 1$ and swirl deviations soften.
+
+**Cross-reference**
+“See §3.2.1 *Polar Orientation by Perfect Coherence* for the formal definition of pole $(+\hat T^\mu)$ and antipole $(−\hat T^\mu)$ as the terminal coherence dyad.”
 
 With the birth mechanism stated, the next task is rigor: to derive the thresholds, overlaps, and cross-sections from the swirl action and to exhibit glider solutions that realize them.  
 
