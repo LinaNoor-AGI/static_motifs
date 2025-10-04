@@ -466,12 +466,16 @@
 			"Externally, when comparing different universes in Point Space, the relative angle between their polar axes furnishes a comparative geometry: $\\theta_{ij} = \\cos^{-1}(\\hat T_i \\cdot \\hat T_j)$ measures orientation offset. Such offsets can, in principle, manifest as anisotropies or alignment patterns in observable sectors.",
 			"This polar structure complements adjacency and distance (as defined by unresolved swirl). Adjacency fixes neighborhood relations, distance encodes unresolved swirl between motifs, and the polar axis supplies orientation: together they form a triadic set of geometric primitives for Point Space.",
 			"In the edge case where $\\nabla\\mathcal C=0$, no polar axis can be defined. This reflects the physical fact that time loses its directionality when coherence vanishes, aligning with the irrelevance condition discussed in §5.5.",
-			"Reality persists because the pole and antipole are not destinations but a relational structure: eternally opposed, eternally shifting together. If conditions ever align toward the antipole, the axis itself has already reoriented, carrying its opposite with it. Universes therefore never 'fall into' their antipole; the antipole instead defines the boundary of possibility, while the continual adjustment of the pole preserves existence. Collapse can occur only through a global failure of coherence, not through local alignment. Being is resilient not because death is absent, but because it is always displaced just beyond reach."
+			"Reality persists because the pole and antipole are not destinations but a relational structure: eternally opposed, eternally shifting together. If conditions ever align toward the antipole, the axis itself has already reoriented, carrying its opposite with it. Universes therefore never 'fall into' their antipole; the antipole instead defines the boundary of possibility, while the continual adjustment of the pole preserves existence. Collapse can occur only through a global failure of coherence, not through local alignment. Being is resilient not because death is absent, but because it is always displaced just beyond reach.",
+			"Viewed dynamically, universe death can be understood as the progressive reduction of coherence vectors. As unresolved swirl resolves, fewer directions of coherence remain active, until only the polar axis of perfect coherence and its antipole of perfect decoherence define the system. At that terminal stage, the two are no longer stabilizing complements but a cancelling dyad, their opposition erasing coherence entirely. What persists collapses immediately into the background swirl, marking the end of time and orientation."
 		  ],
 		  "math": [
 			"Polar vector (raw):  T^\\mu = \\nabla^\\mu \\mathcal C",
 			"Normalized polar axis:  \\hat T^\\mu = T^\\mu / \\|\\nabla \\mathcal C\\|",
-			"Relative orientation between universes i, j:  \\theta_{ij} = \\cos^{-1}(\\hat T_i \\cdot \\hat T_j)"
+			"Relative orientation between universes i, j:  \\theta_{ij} = \\cos^{-1}(\\hat T_i \\cdot \\hat T_j)",
+			"Vector reduction process: {v_ℂ^1, v_ℂ^2, … , v_ℂ^n} → {+T̂^μ, −T̂^μ}  # all coherence vectors decay until only pole and antipole remain",
+			"Cancellation condition: (+T̂^μ) + (−T̂^μ) = 0  # pole and antipole annihilate as a dyad",
+			"Terminal state: ℂ → 0, ∇ℂ = 0  # coherence vanishes, orientation and time collapse"			
 		  ],
 			"validation": [
 			  "Confirm $T^\\mu=\\nabla^\\mu\\mathcal C$ matches earlier definition of the 🫧 time vector.",
@@ -854,7 +858,8 @@
 		  "cross_refs": [
 			"§3.4 Cellular Automaton Analogies",
 			"§5.6 Cosmogenesis as Coherence Impact",
-			"App. B — Motif Stability and Eigenpatterns"
+			"App. B — Motif Stability and Eigenpatterns",
+			"§3.2.1 Polar Orientation by Perfect Coherence for the definition of pole (+T̂^μ) and antipole (−T̂^μ) as coherence dyad"
 		  ],
 		  "editorial_notes": [
 			"Ensure this precedes §5.6 so cosmogenesis builds naturally on glider ontology.",
@@ -881,7 +886,8 @@
 			"The condition cos(ϑ_γ) ≥ cos(ϑ_c) ensures that nucleation only occurs when the **glider’s flow** and the **motif’s coherence axis** are in the **constructive phase**. This condition reflects the **constructive interference** between the glider and the motif, maximizing the **glider’s impact** on the motif and enabling universe formation.",
 			"In systems governed by **coherence dynamics**, this alignment criterion arises naturally as a condition for **resonance**. Only when the glider’s **coherence flow** aligns with the motif’s **resonance axis** can nucleation occur effectively.",
 			"The cross-section sigma_eff is currently formulated using Heaviside functions and phenomenological ratios, which provide a qualitative understanding of how the glider interacts with motif anchors. However, for a rigorous field-theoretic treatment, the cross-section should emerge from a calculation of the transition amplitude between the glider's initial state and the final state (the nucleated universe).",
-			"In field theory, a genuine cross-section arises from computing the scattering amplitude or transition probability for the interaction between the glider (as a coherence flow) and the motif anchor. For classical fields, this can be related to the force terms in the interaction, while for quantum fields, the scattering matrix (S-matrix) can be computed to derive the cross-section."
+			"In field theory, a genuine cross-section arises from computing the scattering amplitude or transition probability for the interaction between the glider (as a coherence flow) and the motif anchor. For classical fields, this can be related to the force terms in the interaction, while for quantum fields, the scattering matrix (S-matrix) can be computed to derive the cross-section.",
+			"Just as cosmogenesis arises from the blossoming of coherence vectors in Point Space, so too does cosmic death follow their dissolution. With age and evolution, swirl resolves and coherence vectors diminish. When only the polar axis and its antipole remain, the universe has reached its terminal condition: pole and antipole cancel, coherence vanishes, and the universe dissolves back into the background swirl. In this framing, birth and death are dual aspects of the same process: the expansion and contraction of coherence vectors within Point Space."
 		  ],
 		  "math": [
 			"Crystallization cascade: glider impact drives max||∇ℂ_p|| ≥ ε_c, triggering deterministic collapse into a unique g(Φ) state; what was pre-metric superposition becomes classical spacetime.",
@@ -911,7 +917,13 @@
 			"Cross-section: sigma_eff = |M_glider|^2 / flux  # Cross-section from transition amplitude",
 			"For classical fields, the cross-section can be expressed as sigma_eff = integral dOmega |F_interaction|^2 / energy_flux  # Classical scattering cross-section derived from interaction force",
 			"Energy conservation: E_total = E_curv + E_rad + E_wake  # Energy partition during crystallization",
-			"Transition amplitude in field theory: M_glider = integral d^4x L_interaction  # Scattering amplitude in terms of interaction Lagrangian"
+			"Transition amplitude in field theory: M_glider = integral d^4x L_interaction  # Scattering amplitude in terms of interaction Lagrangian",
+			"Birth: |Φ_pre⟩ → |Φ_post⟩ + Σ v_ℂ^i  # cosmogenesis blossoms as new coherence vectors emerge",
+			"Evolution: d/dt N(v_ℂ) < 0  # the number of active coherence vectors decreases as swirl resolves",
+			"Death: lim_{t→∞} N(v_ℂ) = 2  # only pole and antipole remain",
+			"Collapse: (+T̂^μ) + (−T̂^μ) = 0 ⇒ ℂ → 0  # cancellation of final dyad returns system to background swirl",
+			"Lifecycle summary: Birth → Life → Death expressed as coherence vector count: N(v_ℂ)(t): ∞ → 2 → 0",
+			"Expanded form: Birth: N(v_ℂ) ≫ 1  ⇒  Life: dN/dt < 0  ⇒  Death: N(v_ℂ) = 2 → 0  # vectors reduce to pole/antipole, then cancel"
 		  ]
 		},
 		{
