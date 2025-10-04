@@ -495,6 +495,8 @@ This automaton view makes NSFG concrete: universes as dynamic motifs, neighborho
 
 With Point Space dynamics pictured as a resonance-driven automaton, we now turn to the physical consequences — how emergent metrics, curvature, collapse, and entanglement arise from the same coherence geometry.
 
+---
+
 # 4. Quantum Gravity Implications
 
 ## 4.1 Emergent Metric
@@ -754,37 +756,39 @@ Near compact objects, steep coherence gradients $\nabla\mathcal C$ can transient
 (ii) Micro-distortions of photon rings and curl-like lensing residuals induced by $\Phi$-twist, without requiring additional mass;
 (iii) Localized suppression of decoherence (“$\Psi$-null pockets”) if $\nabla\mathcal C$ flattens near the horizon, delaying collapse and altering near-horizon variability statistics.
 
-Continuity with GR is preserved. In the high-coherence limit $\mathcal C \to 1$, all deviations vanish smoothly and the standard GR horizon and shadow are recovered. Non-detections from present EHT-like imaging and GW polarimetry therefore bound the allowed $|\Phi|^2$ amplitude and $|\nabla\mathcal C|$ near $r_g$, providing a clean way to constrain NSFG without ambiguity.
+Continuity with GR is preserved. In the high-coherence limit $\mathcal C \to 1$, all deviations vanish smoothly and the standard GR horizon and shadow are recovered. Non-detections from present EHT-like imaging and GW polarimetry therefore bound the allowed $|\Phi|^{2}$ amplitude and $|\nabla\mathcal C|$ near $r_g$, providing a clean way to constrain NSFG without ambiguity.
 
 ```math
 \Delta \varphi_{\text{GW}}(\hat e) \;\propto\;
-\int_{r_g}^{r}\!
-\big(\hat e : (\Phi \cdot \nabla \mathcal C)\big)\,\frac{dr}{r}
+\int_{r_g}^{r}
+\big(\hat e \cdot (\Phi \cdot \nabla \mathcal C)\big)\,\frac{dr}{r}
 \qquad \text{(polarization-dependent phase birefringence)}
 ```
 
 ```math
-\delta R_{\text{ring}} / R_{\text{GR}}
-=\alpha_1 \|\Phi\|^2
+\frac{\delta R_{\text{ring}}}{R_{\text{GR}}}
+= \alpha_1 \|\Phi\|^2
 + \alpha_2 \frac{\|\nabla \mathcal C\|}{M}
-+ O(\Phi^3, \nabla^2 \mathcal C)
++ O(\Phi^3,\; \nabla^2 \mathcal C)
 \qquad \text{(photon-ring micro-distortions)}
 ```
 
 ```math
 \Psi_{\text{null}}(x)\;\approx\;1
-\quad\text{if}\quad
-\|\nabla \mathcal C(x)\|\lesssim \varepsilon_{\nabla}
-\;\;\text{near}\;\; r\gtrsim r_g
+\quad \text{if} \quad
+\|\nabla \mathcal C(x)\|\;\lesssim\;\varepsilon_{\nabla}
+\quad \text{near} \quad r \gtrsim r_g
 \qquad \text{(suppressed-decoherence pockets)}
 ```
 
-[^fn-4.5-recovery]: High-$\mathcal C$ recovery: letting $\mathcal C\to 1$ with bounded $\nabla\mathcal C$ forces $\Phi$-couplings that drive birefringence and ring shifts to zero, reproducing GR shadows and GW propagation. Current non-detections thus map to upper bounds on $|\Phi|^2$ and $|\nabla\mathcal C|$ in the near-horizon region.
+[^fn-4.5-recovery]: **High-$\mathcal C$ recovery.** Letting $\mathcal C \to 1$ with bounded $\nabla\mathcal C$ forces $\Phi$-couplings that drive birefringence and ring shifts to zero, reproducing GR shadows and GW propagation. Current non-detections thus map to upper bounds on $|\Phi|^{2}$ and $|\nabla\mathcal C|$ in the near-horizon region.
 
 **Observational targets.**
 EHT and next-generation EHT can constrain $\delta R_{\text{ring}}/R_{\text{GR}}$ and curl-like lensing residuals. GW polarimetry (LIGO–Virgo–KAGRA, LISA) can measure polarization-dependent phase velocities, especially in stacked near-pericenter passages. Timing and variability near Sgr A* and M87* provide statistical tests for $\Psi$-null pocket intermittency.
 
-*Validation.* Deviations scale with $|\Phi|^2$ and $|\nabla\mathcal C|$ and vanish as $\mathcal C\to 1$. Cross-check consistency with Appendix B.3/B.4 on GR recovery and the weak/strong-field delineation. Parameterization $(\alpha_1,\alpha_2)$ is carried forward into §6.2 for likelihood-level constraints.
+*High-$\mathcal{C}$ recovery.* Letting $\mathcal{C}\to 1$ with bounded $\nabla \mathcal{C}$ forces the $\Phi$ couplings that drive birefringence and ring shifts to zero, reproducing GR shadows and GW propagation. Current non-detections thus map to upper bounds on $\|\Phi\|^{2}$ and $\|\nabla \mathcal{C}\|$ in the near-horizon region.
+
+*Validation.* Deviations scale with $\|\Phi\|^{2}$ and $\|\nabla \mathcal{C}\|$ and vanish as $\mathcal{C}\to 1$. Cross-check consistency with Appendix B.3/B.4 on GR recovery and the weak/strong-field delineation. Parameterization $(\alpha_1,\alpha_2)$ is carried forward into §6.2 for likelihood-level constraints.
 
 *Cross-references.* See Appendix B.3 on recovery of Einstein’s equations, Appendix B.4 on weak vs. strong-field interpretation, and §6.2 on detailed predictions for GW birefringence and photon-ring tests.
 
@@ -1641,172 +1645,157 @@ C3: $,g_{00}=-1+2U+O(U^{2})$, $,g_{ij}=(1+2\gamma_{\text{NSFG}}U)\delta_{ij}+O(U
 
 ## B.2 Emergent Metric and Newtonian Potential
 
-The effective coherence metric arises as a quadratic functional of the **🌀 swirl** two-form. A convenient representative is the $\Phi$-quadratic tensor (Urbantke-type) which defines an effective inverse metric density; in the weak-field, high-coherence regime this collapses to a small perturbation of Minkowski space. Writing $\tilde g_{\mu\nu}$ for the coherence metric extracted from $\Phi$,
+The effective coherence metric is constructed as a quadratic functional of the 🌀 swirl two-form. A convenient representative is the $\Phi$-quadratic (Urbantke-type) tensor that defines an inverse metric density; in the weak-field, high-coherence regime this reduces to a small perturbation of Minkowski space. Writing $\tilde g_{\mu\nu}$ for the coherence metric extracted from $\Phi$,
 
 ```math
-\tilde g_{\mu\nu} \;=\; \eta_{\mu\nu} + h_{\mu\nu}, 
-\qquad |h_{\mu\nu}|\ll 1.
+\tilde g_{\mu\nu} = \eta_{\mu\nu} + h_{\mu\nu}
+\qquad
+|h_{\mu\nu}|\ll 1
 ```
 
 The scalar potential $U$ identified in B.1 appears as the leading correction to the time–time component:
 
 ```math
-h_{00} \;=\; 2U,
+h_{00} = 2U
 \qquad
-\nabla^{2} U \;=\; 4\pi\,G_{\text{eff}}\,\rho_{\text{eff}},
+\nabla^{2} U = 4\pi\,G_{\mathrm{eff}}\,\rho_{\mathrm{eff}}
 \qquad
-\rho_{\text{eff}} \sim \lambda\, J^{0}.
+\rho_{\mathrm{eff}} \sim \lambda\, J^{0}
 ```
 
 Interpreted through the emergent metric $g_{\mu\nu}(\Phi)$ (well-defined once simplicity and non-degeneracy hold), this reproduces Newton’s law in the static, slow-motion limit and fixes the correspondence between motif charge density and gravitational mass density at leading order.
 
 ### Post-Newtonian structure
 
-Beyond leading order the expansion is organized in parametrized post-Newtonian (PPN) form. The two principal PPN coefficients are inherited from the **🌀** sector and the **💬** coherence gradients:
+Beyond leading order the expansion is organized in parametrized post-Newtonian form. The two principal PPN coefficients are inherited from the 🌀 sector and the 💬 coherence gradients:
 
 ```math
-g_{00} \;=\; -1 \;+\; 2U \;-\; 2\,\beta_{\text{NSFG}}\,U^{2} \;+\; \ldots,
+g_{00} = -1 + 2U - 2\,\beta_{\mathrm{NSFG}}\,U^{2} + \ldots
 ```
 
 ```math
-g_{ij} \;=\; \big(1 \;+\; 2\,\gamma_{\text{NSFG}}\,U\big)\,\delta_{ij} \;+\; \ldots,
+g_{ij} = \big(1 + 2\,\gamma_{\mathrm{NSFG}}\,U\big)\,\delta_{ij} + \ldots
 ```
 
 with
 
 ```math
-\gamma_{\text{NSFG}},\ \beta_{\text{NSFG}} \;=\; 
-f\!\left(\lambda,\,\beta,\,\langle \Phi\Phi \rangle,\, \nabla \mathcal C\right),
+\gamma_{\mathrm{NSFG}} \;,\quad \beta_{\mathrm{NSFG}}
+= f\!\left(\lambda,\; \beta,\; \langle \Phi\Phi \rangle,\; \nabla \mathcal C\right)
 ```
 
-encoding the influence of the $\Phi$-sector couplings $(\lambda,\beta)$ and coherence gradients. In the limit $\mathcal C\to 1$ with small **🌀** fluctuations,
+encoding the influence of the $\Phi$-sector couplings $(\lambda,\beta)$ and coherence gradients. In the limit $\mathcal C \to 1$ with small 🌀 fluctuations,
 
 ```math
-\gamma_{\text{NSFG}} \approx 1, 
-\qquad 
-\beta_{\text{NSFG}} \approx 1,
+\gamma_{\mathrm{NSFG}} \approx 1
+\qquad
+\beta_{\mathrm{NSFG}} \approx 1
 ```
 
-so the NSFG weak-field metric agrees with the general-relativistic values to current precision. Controlled departures $\Delta\gamma$ and $\Delta\beta$ track higher-order **🌀** interactions or mild variations in **💬** coherence and furnish falsifiable targets for precision experiments (light bending, time delay, perihelion precession, GW propagation in weak fields).
+so the NSFG weak-field metric agrees with the general-relativistic values to current precision. Controlled departures $\Delta\gamma$ and $\Delta\beta$ track higher-order 🌀 interactions or mild variations in 💬 coherence and furnish falsifiable targets for precision experiments such as light bending, time delay, perihelion precession, and weak-field gravitational-wave propagation.
 
 ### Gauge independence and observables
 
-The extraction of $(U,\gamma_{\text{NSFG}},\beta_{\text{NSFG}})$ is performed from diffeomorphism-invariant data of $g_{\mu\nu}(\Phi)$. Since $\Phi$ is itself gauge-invariant in the pre-metric formulation, internal choices for auxiliary $(A,B)$ fields do not affect $U$ at leading order nor the derived PPN parameters. Consequently, standard observables—light bending, Shapiro delay, redshift in static fields—remain diffeomorphism- and gauge-invariant within the BRST/Ward structure established earlier, ensuring a consistent bridge from the pre-metric **🌀** description to the metric phenomenology.
+The extraction of $(U,\gamma_{\mathrm{NSFG}},\beta_{\mathrm{NSFG}})$ is performed from diffeomorphism-invariant data of $g_{\mu\nu}(\Phi)$. Since $\Phi$ is gauge-invariant in the pre-metric formulation, internal choices for auxiliary $(A,B)$ fields do not affect $U$ at leading order nor the derived PPN parameters. Consequently, standard observables — light bending, Shapiro delay, and redshift in static fields — remain diffeomorphism- and gauge-invariant within the BRST/Ward structure established earlier, ensuring a consistent bridge from the pre-metric 🌀 description to metric phenomenology.
 
 **Cross-references.** §4.1 (emergent metric), §4.2 (gravitational curvature), B.1 (linearization and Poisson law), B.3 (Einstein limit), §6.1–§6.2 (constraints and tests).
 
 ---
 
-### B.3 Recovery of Einstein’s Field Equations
+## B.3 Recovery of Einstein's Field Equations
 
-Quadratic combinations of the swirl field 🌀 supply effective curvature in the emergent-coherence sector. Contractions of $\Phi$ with itself act like a Ricci source, and in the high–coherence, low–fluctuation regime this induces Einstein–type dynamics with an effective stress tensor built from $\Phi$ self–interactions.
+At next order, quadratic combinations of the 🌀 swirl field supply effective curvature. Contractions of $\Phi$ with itself produce a Ricci-like tensor in the coherence-metric sector. In the high-coherence, low-fluctuation limit, this yields Einstein-type dynamics with an effective stress tensor from $\Phi$ self-interactions.
 
-```math
-R_{\mu\nu} \;\sim\; \Phi_{\mu\alpha}\,{\Phi^{\alpha}}_{\nu},
+$$
+R_{\mu\nu} \sim \Phi_{\mu\alpha},{\Phi^{\alpha}}*{\nu},
 \qquad
-R \;=\; g^{\mu\nu} R_{\mu\nu}.
-```
+R = g^{\mu\nu} R*{\mu\nu}.
+$$
 
-Passing to the emergent metric $g_{\mu\nu}(\Phi)$ under simplicity and non–degeneracy, the field equations compress to
+Passing to the emergent metric $g_{\mu\nu}(\Phi)$ under simplicity and non-degeneracy, the field equations compress to
 
-```math
-R_{\mu\nu} \;-\; \tfrac{1}{2}\,g_{\mu\nu}\,R
-\;=\;
-8\pi G\,T^{\mathrm{eff}}_{\mu\nu},
+$$
+R_{\mu\nu} - \tfrac{1}{2} g_{\mu\nu} R
+= 8\pi G, T^{\mathrm{eff}}*{\mu\nu},
 \qquad
-T^{\mathrm{eff}}_{\mu\nu}
-\;\equiv\;
-\text{quadratic terms in }\Phi\ \text{plus coherence corrections.}
-```
+T^{\mathrm{eff}}*{\mu\nu}\ \text{= quadratic in }\Phi\ \text{plus coherence corrections.}
+$$
 
-This reproduces general–relativistic phenomenology when $\mathcal C \to 1$ and $\Phi$ fluctuations are small. Post–Newtonian departures are organized by parameters $\gamma_{\mathrm{NSFG}}$ and $\beta_{\mathrm{NSFG}}$ that summarize the weak–field response inherited from the $\Phi$ sector and gentle gradients of the coherence potential 💬.
+This reproduces general-relativistic phenomenology when $\mathcal C \to 1$ and 🌀 fluctuations are small, while allowing controlled departures organized in the post-Newtonian expansion introduced in B.2. Writing $\gamma_{\mathrm{NSFG}}$ and $\beta_{\mathrm{NSFG}}$ for the leading post-Newtonian response inherited from $(\lambda,\beta,\nabla\mathcal C,\langle \Phi\Phi\rangle)$, the weak-field metric takes
 
-In the weak–field, slow–motion limit one recovers the standard PPN metric form with NSFG dressing
-
-```math
-g_{00} \;=\; -1 \;+\; 2U \;-\; 2\,\beta_{\mathrm{NSFG}}\,U^{2} \;+\; \cdots,
+$$
+g_{00} = -1 + 2U - 2,\beta_{\mathrm{NSFG}},U^{2} + \cdots,
 \qquad
-g_{ij} \;=\; \big(1 \;+\; 2\,\gamma_{\mathrm{NSFG}}\,U\big)\,\delta_{ij} \;+\; \cdots,
-```
+g_{ij} = \big(1 + 2,\gamma_{\mathrm{NSFG}},U\big)\delta_{ij} + \cdots.
+$$
 
-where the Newtonian potential $U$ satisfies
+with $U$ defined by $\nabla^{2} U = 4\pi G_{\mathrm{eff}},\rho_{\mathrm{eff}}$ from B.1.
 
-```math
-\nabla^{2} U \;=\; 4\pi\,G_{\mathrm{eff}}\;\rho_{\mathrm{eff}}.
-```
+### Classical tests at 1PN order
 
-#### Classical tests at 1PN order
+The standard observables follow by inserting $\gamma_{\mathrm{NSFG}}$ and $\beta_{\mathrm{NSFG}}$ into the usual formulas. In the regime $\mathcal C \to 1$ with small 🌀 fluctuations, $\gamma_{\mathrm{NSFG}}\to 1$ and $\beta_{\mathrm{NSFG}}\to 1$, and the GR limits are recovered.
 
-Insertion of $\gamma_{\mathrm{NSFG}}$ and $\beta_{\mathrm{NSFG}}$ into the standard formulas yields the observables below. In the limit $\mathcal C \to 1$ with small $\Phi$ fluctuations, one has $\gamma_{\mathrm{NSFG}}\to 1$ and $\beta_{\mathrm{NSFG}}\to 1$, so GR values are recovered.
+$$
+\Delta\theta \approx \frac{1+\gamma_{\mathrm{NSFG}}}{c^{2}};\frac{GM}{b}
+\quad\text{(light bending)}.
+$$
 
-```math
-\text{Light bending:}\quad
-\Delta\theta \;\approx\; \frac{1+\gamma_{\mathrm{NSFG}}}{c^{2}}\;\frac{GM}{b}.
-```
+$$
+\Delta t \approx \frac{1+\gamma_{\mathrm{NSFG}}}{c^{3}};GM,
+\ln!\left(\cdots\right)
+\quad\text{(Shapiro delay)}.
+$$
 
-```math
-\text{Shapiro delay:}\quad
-\Delta t \;\approx\; \frac{1+\gamma_{\mathrm{NSFG}}}{c^{3}}\;GM\;\ln\!\left(\cdots\right).
-```
+$$
+\Delta\varphi \approx
+\frac{2 - \beta_{\mathrm{NSFG}} + 2\gamma_{\mathrm{NSFG}}}{c^{2}},
+\frac{GM}{a(1-e^{2})}
+\quad\text{(perihelion precession)}.
+$$
 
-```math
-\text{Perihelion precession:}\quad
-\Delta\varphi \;\approx\;
-\frac{2 \;-\; \beta_{\mathrm{NSFG}} \;+\; 2\gamma_{\mathrm{NSFG}}}{c^{2}}\;
-\frac{GM}{a\,(1-e^{2})}.
-```
+$$
+\frac{\Delta\nu}{\nu} \approx \frac{U}{c^{2}}
+\quad\text{(gravitational redshift)}.
+$$
 
-```math
-\text{Gravitational redshift:}\quad
-\frac{\Delta\nu}{\nu} \;\approx\; \frac{U}{c^{2}}.
-```
+Small deviations $\Delta\gamma$ and $\Delta\beta$ map to higher-order 🌀 interactions or gentle 💬 coherence gradients and therefore act as direct observational discriminants. The same parameters control weak-field gravitational lensing, time delay in radio links, planetary ephemerides, and timing residuals in binary pulsars.
 
-Small deviations $\Delta\gamma$ and $\Delta\beta$ map to higher–order $\Phi$ interactions or mild coherence–gradient effects and therefore act as direct observational discriminants across lensing, time delay, planetary ephemerides, and pulsar timing.
+### Gauge independence and consistency
 
-#### Gauge independence and consistency
+The 1PN observables above depend only on $\Phi$ and on $g_{\mu\nu}(\Phi)$. Since $\Phi$ is invariant under internal choices for auxiliary $(A,B)$ fields, and since the emergent metric is a functional of $\Phi$, the inferred $(U,\gamma_{\mathrm{NSFG}},\beta_{\mathrm{NSFG}})$ and all derived observables are independent of potential-level gauge. This matches the BRST and Ward identities discussed in §4.2 and ensures that PPN parameters extracted from data are physical in the NSFG setting.
 
-All 1PN observables above depend only on $\Phi$ and on $g_{\mu\nu}(\Phi)$. The field $\Phi$ is invariant under internal gauge transformations of the auxiliary potentials $(A,B)$, and the emergent metric is a functional of $\Phi$ alone. Hence the inferred $U$, $\gamma_{\mathrm{NSFG}}$, $\beta_{\mathrm{NSFG}}$, and derived observables are independent of potential–level gauge choices, matching the BRST and Ward structures emphasized earlier.
-
-**Cross–references.** §4.1 Emergent Metric, §4.2 Gravitational Curvature, B.1 Linearization of the Swirl Field, B.2 Emergent Metric and Newtonian Potential, §6.1 Summary Table, §6.2 Detailed Predictions.
+**Cross-references.** §4.1 (emergent metric), §4.2 (gravitational curvature), B.1 (linearization and Poisson law), B.2 (PPN structure), §6.1–§6.2 (constraints and tests).
 
 ---
 
 ## B.4 Interpretation
 
-This derivation shows how NSFG recovers Newtonian gravity and general relativity once **💬 coherence** is nearly uniform and **🌀 swirl** fluctuations are weak. In that high–$\mathcal C$ regime, **🪷 motifs** act as effective sources through their coupling to the swirl field, creating a scalar potential $U$ that enters the emergent metric $g_{\mu\nu}(\Phi)$ and reproduces Einstein dynamics at leading orders.
+This derivation shows how NSFG recovers Newtonian gravity and General Relativity when 💬 coherence is nearly uniform and 🌀 swirl fluctuations are weak. In that high–$\mathcal C$ regime, 🪷 motifs act as effective sources through their coupling to the swirl field, producing the scalar potential $U$ that enters the emergent metric $g_{\mu\nu}(\Phi)$ and reproduces Einstein dynamics at leading orders.
 
-The ontological shift is decisive: NSFG does not treat spacetime geometry as primitive. Geometry appears as a correlation structure of coherence-weighted swirl, with the metric emerging only after simplicity and non-degeneracy give a consistent map $\star_{\Phi}!\rightarrow!\star_{g}$. In this light, GR is the high–coherence approximation to a deeper, pre-metric theory governed by coherence and swirl.
+The ontological shift is decisive: NSFG does not take spacetime geometry as primitive. Geometry arises as a correlation structure of coherence-weighted swirl; the metric appears only after simplicity and non-degeneracy allow a consistent passage $\star_{\Phi}!\to!\star_{g}$. In this view, GR is a high-coherence approximation to a deeper pre-metric theory.
 
-At current precision, NSFG shadows GR in weak fields. In the $\mathcal C!\to!1$ limit the PPN data reduce to their relativistic values,
+At current precision, NSFG shadows GR in weak fields. In the limit $\mathcal C \to 1$, the PPN parameters approach their relativistic values:
 
 ```math
-\gamma_{\text{NSFG}} \to 1,
+\gamma_{\mathrm{NSFG}} \to 1,
 \qquad
-\beta_{\text{NSFG}} \to 1,
+\beta_{\mathrm{NSFG}} \to 1.
 ```
 
-so light bending, time delay, perihelion advance, and redshift coincide with the standard formulas derived in B.2–B.3. Deviations arise only once coherence gradients and higher-order swirl interactions contribute:
+Deviations arise once coherence gradients and higher-order swirl interactions contribute:
 
 ```math
-\Delta\gamma,\ \Delta\beta \;\propto\; f\!\big(\nabla\mathcal C,\ \Phi^{2}\text{ terms}\big),
+\Delta\gamma,\ \Delta\beta \propto f\!\big(\nabla\mathcal C,\ \Phi^{2}\text{ terms}\big).
 ```
 
-providing clean handles for falsification.
+| Quantity | GR value |   NSFG high-$\mathcal C$ limit | Dominant deviation channel                   |
+| -------- | -------: | -----------------------------: | -------------------------------------------- |
+| $\gamma$ |      $1$ | $\gamma_{\mathrm{NSFG}}!\to!1$ | $\nabla\mathcal C$, $\langle\Phi\Phi\rangle$ |
+| $\beta$  |      $1$ |  $\beta_{\mathrm{NSFG}}!\to!1$ | $\Phi$ self-interaction, coherence curvature |
 
-| Quantity | GR value | NSFG high–$\mathcal C$ limit | Deviation channel                            |
-| -------- | -------: | ---------------------------: | -------------------------------------------- |
-| $\gamma$ |      $1$ | $\gamma_{\text{NSFG}}!\to!1$ | $\nabla\mathcal C$, $\langle\Phi\Phi\rangle$ |
-| $\beta$  |      $1$ |  $\beta_{\text{NSFG}}!\to!1$ | $\Phi$ self–interaction, coherence curvature |
+Where to look for nonzero $(\Delta\gamma,\Delta\beta)$: compact-object lensing and photon-ring structure; waveform phasing and timing in strong fields; long-baseline propagation where small $\nabla\mathcal C$ accumulates; high-$z$ spectroscopy sensitive to coherence-induced redshift offsets; CMB polarization channels that couple to coherence; PTA timing coherence spikes; and GW polarimetry that can register birefringent swirl effects. The mechanism is uniform: if coherence departs slightly from unity or the swirl sector becomes mildly nonlinear, the emergent metric inherits structured, testable shifts in its PPN coefficients.
 
-The first opportunities to see nonzero $(\Delta\gamma,\Delta\beta)$ come where coherence is strained or swirl nonlinearity is strong: compact-object lensing and photon-ring structure, late–inspiral timing and waveform phasing, and long-baseline propagation where small $\nabla\mathcal C$ accumulates. High–redshift spectroscopy, CMB polarization channels that are sensitive to coherence, PTA timing coherence spikes, and GW polarimetry offer complementary probes. In each case the mechanism is the same: if coherence slightly departs from unity or the swirl sector couples nonlinearly, the emergent metric inherits tiny, structured shifts in its PPN coefficients.
-
-Thus NSFG does not compete with GR so much as locate it. General relativity is the stable face of a more general coherence geometry; any verified departure from GR at high precision or in extreme regimes becomes a direct measurement of coherence structure. In practice, this yields a clear program: use precision weak–field tests to bound $(\Delta\gamma,\Delta\beta)$, and push into strong–field and long–propagation domains to search for the characteristic, coherence–linked signatures predicted by the swirl sector.
-
----
-
-# Appendix C: Symbolic Motif Categories and Algebraic Structures
-
-This appendix formalizes the symbolic algebra of motifs introduced in §2.4. We present a category $\mathbf{Mot}$ whose objects are motifs (🪷) and whose morphisms are coherence-preserving transitions generated by swirl-mediated triadic closure. The construction is not merely abstract: admissible morphisms encode constraints on the swirl field $\Phi$ and thereby limit which $\lambda$-structures can persist and which entanglement classes can be realized in physical universes. In this way the categorical frame bridges symbolic algebra and testable physics, preserving the conservation of 💬 coherence and the operational role of closure.
+Thus NSFG does not compete with GR so much as locate it. General relativity is the stable face of a broader coherence geometry. Any confirmed departure from GR at high precision or in extreme regimes becomes a direct probe of the underlying coherence field, giving NSFG clear observational targets and a concrete route to falsification.
 
 ---
 

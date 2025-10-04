@@ -492,6 +492,18 @@
 			"Cross-link also to §2.2 Swirl Fields, since orientation completes the geometric primitives (adjacency, distance, orientation).",
 			"Reference forward to §5.6 where intersecting coherence vectors establish cosmogenesis closure."
 		  ]
+		  "antipole": {
+			  "description": "The unique polar axis defined by ∇ℂ has a natural antipole: the direction of perfect decoherence. Along this axis, ℂ → 0 immediately, corresponding to coherence death and frozen dynamics.",
+			  "math": [
+				"Polar vector: T^μ = ∇^μℂ",
+				"Normalized axis:  T̂^μ = T^μ / ||∇ℂ||",
+				"Antipole: −T̂^μ, corresponding to ℂ → 0 (perfect decoherence)"
+			  ],
+			  "implications": [
+				"Internally, this defines the edge condition where time and change collapse.",
+				"Externally, it provides a comparative pole opposite to perfect coherence, completing the orientation structure of Point Space."
+			  ]
+			}
 		},		
 		{
 		  "title": "3.3 Relative Dynamics",

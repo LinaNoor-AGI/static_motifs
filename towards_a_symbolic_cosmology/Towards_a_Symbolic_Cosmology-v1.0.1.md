@@ -422,6 +422,14 @@ This polar structure complements adjacency and distance (as defined by unresolve
 
 In the edge case where {$`\nabla\mathcal C=0`$}, no polar axis can be defined. This reflects the physical fact that time loses its directionality when coherence vanishes, aligning with the irrelevance condition of coherence death.
 
+The polar axis also admits a natural antipole:
+
+```math
+-\hat T^\mu,
+```
+
+the direction of perfect decoherence. Along this axis {$`\mathcal C \to 0`$} immediately, corresponding to coherence death and frozen dynamics. Internally this marks the edge where time and change collapse; externally it provides the comparative pole opposite to perfect coherence, completing the orientation structure of Point Space.
+
 With adjacency, distance, and orientation aligned, Point Space geometry gains its full set of primitives, ready to host relative dynamics.
 
 ---

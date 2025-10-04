@@ -137,7 +137,7 @@
   "_index": [
     { "section": "Abstract", "title": "Abstract" },
     { "section": "1", "title": "Introduction" },
-    { "section": "1.4", "title": "A Guide to the Symbols" },
+    { "section": "1.1", "title": "A Guide to the Symbols" },
 
     { "section": "2", "title": "Foundations" },
     { "section": "2.1", "title": "Motifs" },
@@ -211,10 +211,10 @@
 		"The framework yields concrete, falsifiable predictions: (i) motif-patterned anisotropies and V-mode polarization in the CMB, (ii) redshift anomalies from coherence loss, (iii) gravitational lensing without dark matter, and (iv) birefringence in gravitational waves. These signals anchor NSFG as an observationally testable path toward a symbolic cosmology."
 	  ],
 	  "validation": [
-		"Ensure all symbols (ℂ, Φ, ℓ, Λ) are introduced formally in §1.4 or §2 before appearing here.",
+		"Ensure all symbols (ℂ, Φ, ℓ, Λ) are introduced formally in §1.1 or §2 before appearing here.",
 		"Cross-check that the 4 flagship predictions match §6.1–6.2 tables."
 	  ],
-	  "cross_refs": ["1.4 A Guide to the Symbols", "6.1 Summary Table", "6.2 Detailed Predictions"]
+	  "cross_refs": ["1.1 A Guide to the Symbols", "6.1 Summary Table", "6.2 Detailed Predictions"]
 	},
 	{
 	  "title": "1. Introduction",
@@ -226,7 +226,7 @@
 	  ],
 	  "subsections": [
 		{
-		  "title": "1.4 A Guide to the Symbols",
+		  "title": "1.1 A Guide to the Symbols",
 		  "content": [
 			"Throughout this paper we employ a symbolic lexicon to compress recurring mathematical objects:",
 			"🪷 — Motif: static attractor, represented formally as a conserved topological current J^μ with T_{μν}^{(motif)} = 0.",
@@ -423,23 +423,24 @@
 		{
 		  "title": "3.2 Distance as Swirl",
 		  "content": [
-			"In NSFG, distance is not a primitive metric separation but the integrated effect of unresolved swirl gradients. What we perceive as spatial separation is the accumulated decoherence between motif points along a path in Point Space.",
-			"Redshift therefore combines two factors: the usual FLRW expansion and coherence loss across distance. Light traveling through swirl fields gradually decoheres, adding a coherence-induced component z_ℂ beyond the classical Hubble law. This dual origin makes redshift a probe of both metric expansion and coherence geometry.",
-			"The key scale is the coherence length ℓ, now treated not as a constant but as a dynamical field ℓ(x,T_P) derived from Φ two-point correlations. Its variation controls the rate of coherence decay across cosmic time, introducing a new degree of freedom into cosmological dynamics.",
-			"In FLRW backgrounds, ℓ evolves with matter, radiation, and coherence content. Its evolution equation links to the damping tail of the CMB, the baryon acoustic oscillation (BAO) scale, and the supernova Hubble diagram. This provides direct observational consistency checks.",
-			"Most profoundly, the cosmological constant Λ emerges from the coherence decay scale: Λ ∼ ℓ^{−2}. The cosmic acceleration is thereby tied to the geometry of coherence itself rather than to a mysterious vacuum energy, making this a falsifiable prediction. Priors on ℓ(z) may be extracted from Planck, ACT, and SPT, while JWST spectra provide forecasts for high-redshift detectability.",
+			"In NSFG, distance is not a primitive metric separation but the integrated effect of unresolved swirl gradients. What we perceive as spatial separation within a universe is the accumulated decoherence between motif anchors inside the swirl field of a single Point-Space point.",
+			"For a path γ connecting two motifs m_i and m_j in the swirl field S_p of universe-point p, the distance is the minimal decoherence load carried along that path. Distance is therefore an emergent quantity of the internal swirl geometry, not a background metric postulate.",
+			"Redshift then combines two contributions: the usual FLRW expansion and coherence loss across motif separation. Light traveling through swirl fields gradually decoheres, adding a coherence-induced component z_ℂ beyond the classical Hubble law. This dual origin makes redshift a probe of both metric expansion and coherence geometry.",
+			"The key scale is the coherence length ℓ, treated not as a constant but as a dynamical field ℓ(x,T_P) derived from Φ two-point correlations. Its variation controls the rate of coherence decay across cosmic time, introducing a new degree of freedom into cosmological dynamics.",
+			"In FLRW backgrounds, ℓ evolves with matter, radiation, and coherence content. Its evolution equation links to the damping tail of the CMB, the baryon acoustic oscillation (BAO) scale, and the supernova Hubble diagram, providing direct observational consistency checks.",
+			"Most profoundly, the cosmological constant Λ emerges from the coherence decay scale: Λ ∼ ℓ^{−2}. The cosmic acceleration is thereby tied to the geometry of coherence itself rather than to a mysterious vacuum energy. Priors on ℓ(z) may be extracted from Planck, ACT, and SPT, while JWST spectra provide forecasts for high-redshift detectability.",
 			"Together, these elements establish distance as a swirl-governed, coherence-sensitive observable, where Λ, redshift anomalies, and horizon scales all descend from the same dynamical order parameter ℓ."
 		  ],
 		  "math": [
-			"d(p_i, p_j) = ∫_γ ||∇S(x)|| dx,                 # distance as integrated swirl gradient",
-			"ℂ(r) ≈ e^{−r/ℓ},                               # coherence decays exponentially with ℓ",
-			"ℓ^{−2}(z) ∝ ⟨Φ_{μα} Φ^{α}{}_{ν}⟩_c,             # coherence length from connected two-point correlator",
-			"dℓ/dη = f(ℂ, Φ, ρ, Λ),                         # RG-like flow equation in conformal time",
-			"1 + z_obs = (1 + z_FLRW)(1 + z_ℂ),              # observed redshift = metric × coherence terms",
-			"z_ℂ ≈ e^{−d/ℓ(z)} − 1,                         # coherence-induced redshift component",
-			"D_L^{NSFG}(z) = D_L^{FLRW}(z) · (1 + z_ℂ),     # modified luminosity distance relation",
+			"d(m_i, m_j) = inf_γ ∫_γ ||∇S(x)|| dx,        # distance as integrated swirl gradient between motifs in S_p",
+			"ℂ(r) ≈ e^{−r/ℓ},                            # coherence decays exponentially with ℓ",
+			"ℓ^{−2}(z) ∝ ⟨Φ_{μα} Φ^{μα}⟩_c,              # coherence length from connected two-point correlator",
+			"dℓ/dη = f(ℂ, Φ, ρ, Λ),                      # RG-like flow equation in conformal time",
+			"1 + z_obs = (1 + z_FLRW)(1 + z_ℂ),           # observed redshift = metric × coherence terms",
+			"z_ℂ ≈ e^{−d/ℓ(z)} − 1,                      # coherence-induced redshift component",
+			"D_L^{NSFG}(z) = D_L^{FLRW}(z) · (1 + z_ℂ),  # modified luminosity distance relation",
 			"Series expansion: D_L^{NSFG}(z) = z + (1 − q_0^{NSFG}) z^2/2 + O(z^3)",
-			"Λ ∼ ℓ^{−2},                                     # cosmological constant tied to coherence decay scale"
+			"Λ ∼ ℓ^{−2},                                  # cosmological constant tied to coherence decay scale"
 		  ],
 		  "validation": [
 			"Likelihood framework: L(data | ℓ(z), λ, β) for joint CMB+BAO+SNe+weak lensing fits.",

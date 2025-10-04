@@ -191,7 +191,7 @@
 	{ "appendix": "C.1", "title": "The Category Mot" },
 	{ "appendix": "C.2", "title": "Triads as Compositional Units" },
 	{ "appendix": "C.3", "title": "Functors and Contextual Life (λ)" },
-	{ "appendix": "C.3", "title": "Algebraic Structures" },
+	{ "appendix": "C.4", "title": "Algebraic Structures" },
 	
     { "appendix": "D", "title": "Topological Quantization of Swirl Modes" },
 	{ "appendix": "D.1", "title": "Homotopy Groups and Motif Classes" },
@@ -800,7 +800,7 @@
 			"| CMB motif signatures | Excess power at ℓ = 6n multipoles | Planck public data, ACT/SPT | Accessible now |",
 			"| Swirl-induced CMB circular polarization | V-mode spectrum distinct from foregrounds | Planck & future CMB-S4 polarization maps | Unique NSFG signature |",
 			"| Pulsar timing coherence spikes | Short coherence bursts in timing residuals | NANOGrav, IPTA, SKA | Actively monitored |",
-			"| Gravitational wave birefringence | Polarization-dependent phase velocity shifts | LIGO/Virgo/KAGRA now, LISA future | Strong falsifier |".
+			"| Gravitational wave birefringence | Polarization-dependent phase velocity shifts | LIGO/Virgo/KAGRA now, LISA future | Strong falsifier |",
 			"Append a footnote to the table indicating that all listed observables (z_ℂ features, lensing without mass, V-mode CMB, PTA spikes, GW birefringence) are constructed from Φ-invariant or metric-invariant quantities, hence independent of internal gauge choice."
 		  ]
 		},
@@ -1459,6 +1459,7 @@
 	{
 	  "title": "Appendix E: Methods",
 	  "subsections": [
+	  {
 		  "title": "E.1 N-body Serial Walker (Summary)",
 		  "purpose": "Concise, citable summary of the serial traversal algorithm used in coherence-structured N-body simulations; full proofs/benchmarks reside in the separate computational paper.",
 		  "content": [
