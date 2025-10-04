@@ -433,7 +433,11 @@
 			"The key scale is the coherence length ℓ, treated not as a constant but as a dynamical field ℓ(x,T_P) derived from Φ two-point correlations. Its variation controls the rate of coherence decay across cosmic time, introducing a new degree of freedom into cosmological dynamics.",
 			"In FLRW backgrounds, ℓ evolves with matter, radiation, and coherence content. Its evolution equation links to the damping tail of the CMB, the baryon acoustic oscillation (BAO) scale, and the supernova Hubble diagram, providing direct observational consistency checks.",
 			"Most profoundly, the cosmological constant Λ emerges from the coherence decay scale: Λ ∼ ℓ^{−2}. The cosmic acceleration is thereby tied to the geometry of coherence itself rather than to a mysterious vacuum energy. Priors on ℓ(z) may be extracted from Planck, ACT, and SPT, while JWST spectra provide forecasts for high-redshift detectability.",
-			"Together, these elements establish distance as a swirl-governed, coherence-sensitive observable, where Λ, redshift anomalies, and horizon scales all descend from the same dynamical order parameter ℓ."
+			"Together, these elements establish distance as a swirl-governed, coherence-sensitive observable, where Λ, redshift anomalies, and horizon scales all descend from the same dynamical order parameter ℓ.",
+			"Most profoundly, the cosmological constant Λ emerges from the coherence decay scale: Λ ∼ ℓ^{−2}. The cosmic acceleration is thereby tied to the geometry of coherence itself rather than to a mysterious vacuum energy. Priors on ℓ(z) may be extracted from Planck, ACT, and SPT, while JWST spectra provide forecasts for high-redshift detectability.",
+			"The same mechanism defining distance within a universe applies recursively across the lattice of universes in Point Space. At every scale, distance measures the accumulation of unresolved swirl—or equivalently, the decay of coherence—between anchors in a higher coherence field. Formally, this gives rise to meta-distance and meta-redshift phenomena between universes themselves.",
+			"These recursive effects imply that coherence-based observables—such as redshift anomalies, luminosity-distance drift, or polarization alignment—repeat in Point Space as meta-redshifts between universe-points. What appears as cosmological expansion within one universe manifests as coherence relaxation across the lattice.",
+			"Together, these elements establish distance as a swirl-governed, coherence-sensitive observable, valid both within and between universes, where Λ, redshift anomalies, and horizon scales all descend from the same dynamical order parameter ℓ."			
 		  ],
 		  "math": [
 			"d(m_i, m_j) = inf_γ ∫_γ ||∇S(x)|| dx,        # distance as integrated swirl gradient between motifs in S_p",
@@ -444,7 +448,11 @@
 			"z_ℂ ≈ e^{−d/ℓ(z)} − 1,                      # coherence-induced redshift component",
 			"D_L^{NSFG}(z) = D_L^{FLRW}(z) · (1 + z_ℂ),  # modified luminosity distance relation",
 			"Series expansion: D_L^{NSFG}(z) = z + (1 − q_0^{NSFG}) z^2/2 + O(z^3)",
-			"Λ ∼ ℓ^{−2},                                  # cosmological constant tied to coherence decay scale"
+			"D(p_i, p_j) = inf_{Γ_{ij}} ∫_{Γ_{ij}} ||∇_P Φ_P(x)|| dx,   # meta-distance between universe points in Point Space",
+			"ℂ_P(r) ≈ e^{−r/ℓ_P},                                      # meta-level coherence decay between universes",
+			"1 + z_𝓟 = (1 + z_FLRW)(1 + z_ℂ_P),   z_ℂ_P ≈ e^{−D/ℓ_P} − 1,   # meta-redshift in Point Space",
+			"Λ ∼ ℓ^{−2},                                  # cosmological constant tied to coherence decay scale",
+			"Λ_P ∼ ℓ_P^{−2},   # meta-cosmological constant scaling with meta-coherence length"
 		  ],
 		  "validation": [
 			"Likelihood framework: L(data | ℓ(z), λ, β) for joint CMB+BAO+SNe+weak lensing fits.",

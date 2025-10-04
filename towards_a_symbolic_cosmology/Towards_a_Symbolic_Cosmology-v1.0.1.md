@@ -391,16 +391,13 @@ D(p_i,p_j) = \inf_{\Gamma_{ij}} \int_{\Gamma_{ij}} \|\nabla_P \Phi_P(x)\|\,dx,
 where $\Phi_P$ is the swirl of Point Space itself and $\ell_P$ the meta-coherence length between universes.  This recursive definition implies that coherence-based phenomena—such as redshift anomalies, luminosity-distance drift, or polarization alignment—repeat in Point Space as *meta-redshifts* between universe-points.  What appears as cosmological expansion within one universe manifests as coherence relaxation across the lattice.
 
 ```math
+\qquad
 1 + z_{\mathcal P} \simeq (1 + z_{\text{FLRW}})(1 + z_{\mathcal C_P}),
 \quad
 z_{\mathcal C_P} \approx e^{-D/\ell_P} - 1
 ```
 
 Most directly, the cosmological constant emerges as a scaling of the coherence decay length rather than as a vacuum-energy term.
-
-```math
-\Lambda_P \;\sim\; \ell_P^{-2}
-```
 
 ```math
 \Lambda \;\sim\; \ell^{-2}
