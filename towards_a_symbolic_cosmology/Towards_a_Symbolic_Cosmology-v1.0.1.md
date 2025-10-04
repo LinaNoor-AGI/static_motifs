@@ -501,7 +501,7 @@ With internal and meta-time disentangled and their contrast made precise, we now
 
 ## 3.4 Cellular Automata Extension
 
-NSFG extends the spirit of Conway’s Life to a cosmological register. Each cell is a universe-as-point in Point Space; the internal swirl field $S_p$ serves as the cell’s state. Neighborhoods are not fixed by grid coordinates but by resonance: points influence each other only when their swirl fields overlap in coherence past a threshold, yielding a dynamic interaction graph rather than a static lattice.
+NSFG extends the spirit of Conway’s Game of Life to a cosmological register. Each cell is a universe-as-point in Point Space; the internal swirl field $S_p$ serves as the cell’s state. Neighborhoods are not fixed by grid coordinates but by resonance: points influence each other only when their swirl fields overlap in coherence past a threshold, yielding a dynamic interaction graph rather than a static lattice.
 
 Birth and death are phase changes of coherence. A new motif crystallizes from the background when local $\mathcal C$ crosses a nucleation threshold; a point collapses back into the background when its coherence falls beneath a decoherence bound. Between these limits, localized packets of high coherence can self-organize into propagating patterns. Glider-like structures translate across Point Space while conserving internal invariants -- motion realized as coordinated evolution of the member points rather than transport of any single point.
 
