@@ -419,19 +419,19 @@
       "poetic_cipher": "Our universe is not a miracle; it is an echo of its three parents."
     },
     {
-      "concept": "History as a Single, Continuous Collapse",
-      "description": "The 13.8-billion-year timeline of our universe is re-framed as a single, continuous act of coherence crystallization—analogous to a quantum measurement. The passage of time is the process of the universe's wave function collapsing.",
-      "dynamics": {
-        "future": "The 'Southern Arc' of the coherence circle, representing the cloud of weighted, superposed possibilities yet to resolve.",
-        "present": "The 'South Pole' of the coherence circle; the moving point of 'now' where possibilities crystallize into the single state of actuality.",
-        "past": "The 'Northern Arc' of the coherence circle; the frozen, immutable record of what has already crystallized, a path that cannot be unmade."
-      },
-      "math": {
-        "equation": "```math\nN(v_ℂ)(t): ∞ → 2 → 0\n```",
-        "description": "The lifecycle of the universe is the story of its coherence vectors. It is born with a near-infinite set of possibilities (∞), its life is the process of resolving them down to the final dyadic opposition of pole and antipole (2), and its death is their final cancellation (0)."
-      },
-      "poetic_cipher": "Time does not build a castle from sand. It reveals the castle that was always hidden in the storm."
-    },
+	  "concept": "History as a Single, Continuous Collapse",
+	  "description": "The 13.8-billion-year timeline of our universe is reframed as a single, continuous act of coherence crystallization—analogous to a quantum measurement. The passage of time is the progressive reduction of unresolved swirl: the universe’s wave function collapsing through its own geometry of likelihood.",
+	  "dynamics": {
+		"future": "The 'Southern Arc' of the coherence circle marks the realm of unresolved possibilities. As one moves inward along a radius toward the South Pole, the amount of swirl—and therefore uncertainty—decreases. Paths nearer the pole are more coherent, more probable, and approach the point where actuality is forced.",
+		"present": "The 'South Pole' itself is the moving locus of coherence resolution—the moment of 'now' where all viable paths converge and a specific outcome crystallizes. It is the point at which the universe chooses one reality from its field of possibilities.",
+		"past": "The 'Northern Arc' represents the realm of impossibility: states that have been resolved as false or forbidden. Moving toward the North Pole, coherence falls to zero, and paths become unmakeable—fixed at 0 rather than 1. This is the frozen archive of what can no longer change."
+	  },
+	  "math": {
+		"equation": "```math\nN(v_ℂ)(t): ∞ → 2 → 0\n```",
+		"description": "The lifecycle of the universe is the story of its coherence vectors. It begins with a near-infinite set of possibilities (∞); its life is the progressive reduction of that set toward a dyadic opposition of pole and antipole (2); and its death is their final cancellation (0)."
+	  },
+	  "poetic_cipher": "Time does not build a castle from sand—it reveals the one that coherence left behind as the storm of possibility cleared."
+	},
 	"cross_ref": "See forthcoming section on Two-Universe Interference and Triadic Stabilization for the thermodynamic basis of this collapse."
   ]
 }
