@@ -392,16 +392,20 @@ Adjacency and distance now stand as the first two primitives of $`P`$; what rema
 
 ## 3.2.1 Polar Orientation by Perfect Coherence
 
-Point Space admits a unique vector of perfect coherence: the gradient of the coherence field when {$`\nabla\mathcal C`$} aligns globally. This vector,
+Point Space admits a unique vector of perfect coherence: the gradient of the coherence field when $\nabla\mathcal C$ aligns globally. This vector,
 
 ```math
-T^\mu = \nabla^\mu \mathcal C,
+\textbf{Time Vector (Coherence Gradient)}
+\quad
+T^\mu \;=\;\nabla^\mu \mathcal C
 ```
 
 functions as a polar axis in Point Space geometry. Normalized, it defines the canonical orientation
 
 ```math
-\hat T^\mu = \frac{T^\mu}{\|\nabla \mathcal C\|}.
+\textbf{Normalized Polar Axis}
+\quad
+\hat T^\mu \;=\;\frac{T^\mu}{\|\nabla \mathcal C\|}
 ```
 
 It is unique because coherence can be maximized in only one direction, establishing a reference axis.
@@ -420,32 +424,19 @@ which measures the orientation offset. Such offsets can, in principle, manifest 
 
 This polar structure complements adjacency and distance (as defined by unresolved swirl). Adjacency fixes neighborhood relations, distance encodes unresolved swirl between motifs, and the polar axis supplies orientation: together they form a triadic set of geometric primitives for Point Space.
 
-In the edge case where {$`\nabla\mathcal C=0`$}, no polar axis can be defined. This reflects the physical fact that time loses its directionality when coherence vanishes, aligning with the irrelevance condition of coherence death.
+In the edge case where $\nabla\mathcal C=0$, no polar axis can be defined. This reflects the physical fact that time loses its directionality when coherence vanishes, aligning with the irrelevance condition of coherence death.
 
-The polar axis also admits a natural antipole:
+**Antipole of Coherence.** The polar axis admits a natural opposite: the direction of perfect decoherence. It is defined as the negative of the normalized time vector:
 
 ```math
--\hat T^\mu,
+\hat T^\mu_{\rm anti} \;=\; -\hat T^\mu
 ```
 
-**Antipole of Coherence.** The polar axis admits a natural opposite: the direction of perfect decoherence. It is defined by the negative of the normalized time vector,
+**Collapse Condition.** When pole and antipole are superposed, they cancel as a dyad and coherence vanishes:
 
 ```math
-\textbf{Time Vector (Coherence Gradient)}
-\quad
-T^\mu \;=\;\nabla^\mu \mathcal C
-```
-
-```math
-\textbf{Normalized Polar Axis}
-\quad
-\hat T^\mu \;=\;\frac{T^\mu}{\|\nabla \mathcal C\|}
-```
-
-```math
-\textbf{Antipole and Collapse Condition}
-\quad
--\hat T^\mu \;\;\Rightarrow\;\; \mathcal C \to 0
+(+\hat T^\mu) + (-\hat T^\mu) = 0 
+\;\;\Rightarrow\;\; \mathcal C \to 0
 ```
 
 corresponding to coherence death and frozen dynamics. Internally, this marks the edge where time and change collapse; externally, it provides the comparative pole opposite to perfect coherence, completing the orientation structure of Point Space.
