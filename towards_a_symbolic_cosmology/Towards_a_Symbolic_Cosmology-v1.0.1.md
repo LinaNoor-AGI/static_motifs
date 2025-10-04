@@ -461,7 +461,7 @@ Viewed dynamically, universe death appears as the progressive collapse of cohere
 \quad \text{terminal state: coherence vanishes, time/orientation collapse}
 ```
 
-With adjacency, distance, and orientation aligned, Point Space geometry gains its full set of primitives, ready to host relative dynamics.
+With adjacency, distance, and orientation thus defined, Point Space geometry is complete at the level of primitives, and the next task is to follow how relative dynamics unfold across the lattice
 
 ---
 
