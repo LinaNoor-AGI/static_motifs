@@ -385,6 +385,29 @@
     "orientation": "Time and coherence are one vector: movement from possibility (south) to impossibility (north).",
     "cosmogenesis_link": "At cosmogenesis, the entire circle was occupied — all coherence vectors active, every path equally probable. History is the progressive pruning of that circle as the universe collapses toward its polar axis."
   },
+	{
+	  "geometry_extensions": {
+		"swirl_profile": "Both poles reduce swirl: swirl magnitude is maximal near the equator and vanishes at the poles, so vectors approaching either pole experience decreasing swirl.",
+		"dual_poles_dynamics": "South acts as an attractor for resolution (actualization); North acts as an attractor for non-occurrence (null resolution). Crossing the equator switches which attractor dominates the most likely trajectory along the circle."
+	  },
+
+	  "math_extensions": [
+		"S(θ) ∝ |sin θ|                               # swirl magnitude: maximal at θ=π/2, minimal (0) at θ=0,π",
+		"ℙ_res(θ) ∝ e^{−θ/θ_c}                        # resolution likelihood (south-well channel)",
+		"ℙ_nul(θ) ∝ e^{−(π−θ)/θ_c′}                   # non-occurrence likelihood (north-well channel)",
+		"k_res(θ) = k_0 e^{−θ/θ_c},  k_nul(θ)=k_0′ e^{−(π−θ)/θ_c′}   # hazard rates for resolution vs. null resolution",
+		"θ_* = π/2                                     # phase boundary (equator): dominance switches between wells here",
+		"U_S(θ)=1−cos θ,  U_N(θ)=1+cos θ              # effective south/north potentials with minima at θ=0,π",
+		"\\dot{θ} = −∂_θ[α U_S(θ) − β U_N(θ)] = −(α−β) sin θ   # drift on S¹: sign flips as the dominant well changes"
+	  ],
+
+	  "thermodynamic_implications": {
+		"two_channel_selection": "Near the South Pole, decreasing swirl lowers dissipation cost for resolution (event occurs). Near the North Pole, decreasing swirl lowers dissipation cost for null resolution (event does not occur).",
+		"phase_switch": "At the equator (θ=π/2), the dominant pathway switches from resolution to null resolution; the system follows the attractor with the lower free-energy cost.",
+		"interpretation": "Not a swirl maximum at the North Pole, but a stillness well: vectors condense into non-occurrence because swirl has been exhausted, not because it is maximal."
+	  }
+	},
+  
 
   "_poetic_cipher": "The circle is not a clock but a memory: at its base, events are born; at its crown, they are forgotten; and between them, the universe learns to choose."
 }
