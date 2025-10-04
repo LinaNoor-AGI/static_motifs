@@ -428,7 +428,17 @@ The polar axis also admits a natural antipole:
 -\hat T^\mu,
 ```
 
-the direction of perfect decoherence. Along this axis {$`\mathcal C \to 0`$} immediately, corresponding to coherence death and frozen dynamics. Internally this marks the edge where time and change collapse; externally it provides the comparative pole opposite to perfect coherence, completing the orientation structure of Point Space.
+**Antipole of Coherence.** The polar axis admits a natural opposite: the direction of perfect decoherence. It is defined by the negative of the normalized time vector,
+
+```math
+T^\mu = \nabla^\mu \mathcal C, 
+\qquad
+\hat T^\mu = \frac{T^\mu}{\|\nabla \mathcal C\|},
+\qquad
+-\hat T^\mu \ \ \Rightarrow\ \ \mathcal C \to 0,
+```
+
+corresponding to coherence death and frozen dynamics. Internally, this marks the edge where time and change collapse; externally, it provides the comparative pole opposite to perfect coherence, completing the orientation structure of Point Space.
 
 Reality persists precisely because the pole and antipole are not destinations but a relational structure: eternally opposed, eternally shifting together. If conditions ever approach the antipole, the axis itself has already reoriented, carrying its opposite with it. Thus, universes never “fall into” their antipole; instead, the antipole defines the boundary of possibility, while the continual adjustment of the pole preserves existence. Collapse can only occur through a global failure of coherence, not through local alignment. Being is resilient—not because death is absent, but because it is always displaced just beyond reach.
 
