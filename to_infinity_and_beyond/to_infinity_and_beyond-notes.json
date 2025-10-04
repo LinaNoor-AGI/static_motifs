@@ -435,7 +435,12 @@
     },
 	{
 	  "concept": "Apparent Expansion as Coherence Gradient Relaxation",
-	  "description": "The rapid early expansion of the universe corresponds to the steep initial gradient of the coherence field: as near-infinite superpositions collapsed, the coherence flow projected outward as metric expansion. As the field relaxed and the number of active coherence vectors declined, this apparent expansion slowed.",
+	  "description": [
+		"The rapid early expansion of the universe corresponds to the steep initial gradient of the coherence field: as near-infinite superpositions collapsed, the coherence flow projected outward as metric expansion. As the field relaxed and the number of active coherence vectors declined, this apparent expansion slowed.",
+		"At the moment of creation, the universe was a state of maximum symbolic complexity, a near-infinite superposition of possibilities.",
+		"The `Big Bang` was the start of a massive, simultaneous collapse of these possibilities—a crystallization event of unimaginable scale.",
+		"This means the initial gradient of the coherence field, `∇ℂ`, was astronomically steep. The rate of change of coherence, `dℂ/dt`, was at its absolute maximum.",
+		"Inflation is the natural, initial state of a universe being born through coherence collapse."
 	  "math": {
 		"relation": "H(t) ∝ (1/ℂ)·(dℂ/dt)",
 		"interpretation": "Inflation reflects a high initial |∇ℂ|; cosmic slowing marks its relaxation toward equilibrium."
