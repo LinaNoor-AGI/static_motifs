@@ -380,7 +380,27 @@ D_L^{\mathrm{NSFG}}(z) \;=\; z \;+\; \frac{1 - q_0^{\mathrm{NSFG}}}{2}\,z^2 \;+\
 q_0^{\mathrm{NSFG}} \;=\; q_0^{\mathrm{FLRW}} \;+\; \delta q_0\!\big(\ell,\partial_z\ell,\dots\big)
 ```
 
+The same mechanism defining distance within a universe applies recursively across the lattice of universes in Point Space.  At every scale, distance measures the accumulation of unresolved swirl—or equivalently, the decay of coherence—between anchors in a higher coherence field.  Formally,
+
+```math
+D(p_i,p_j) = \inf_{\Gamma_{ij}} \int_{\Gamma_{ij}} \|\nabla_P \Phi_P(x)\|\,dx,
+\qquad
+\mathcal C_P(r) \simeq e^{-r/\ell_P},
+```
+
+where $\Phi_P$ is the swirl of Point Space itself and $\ell_P$ the meta-coherence length between universes.  This recursive definition implies that coherence-based phenomena—such as redshift anomalies, luminosity-distance drift, or polarization alignment—repeat in Point Space as *meta-redshifts* between universe-points.  What appears as cosmological expansion within one universe manifests as coherence relaxation across the lattice.
+
+```math
+1 + z_{\mathcal P} \simeq (1 + z_{\text{FLRW}})(1 + z_{\mathcal C_P}),
+\quad
+z_{\mathcal C_P} \approx e^{-D/\ell_P} - 1
+```
+
 Most directly, the cosmological constant emerges as a scaling of the coherence decay length rather than as a vacuum-energy term.
+
+```math
+\Lambda_P \;\sim\; \ell_P^{-2}
+```
 
 ```math
 \Lambda \;\sim\; \ell^{-2}
