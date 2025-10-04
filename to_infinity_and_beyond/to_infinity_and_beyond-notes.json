@@ -415,6 +415,20 @@
     "oscillation_source": "Mutual drag of opposite coherence gradients produces temporal oscillation of the midpoint.",
     "energy_relaxation": "Triadic intersection distributes gradient tension, allowing relaxation into the lowest-energy motif.",
     "stability_rule": "Stable configurations minimize total coherence curvature while preserving nonzero oscillatory flux."
+	"extensions": {
+	  "secondary_dyad_interaction": {
+		"description": "The third motif γ₃ is not inert; it forms its own dyadic pair along an independent coherence axis. Its internal oscillation couples to the primary dyad, producing a nested triad-of-dyads.",
+		"math": [
+		  "γ₃ ↔ γ₃'   # third motif and its antipole form a secondary dyad",
+		  "Coupling term:  E_couple ∝ ⟨∇𝒞_primary , ∇𝒞_γ₃⟩   # cross-coupling between coherence gradients",
+		  "Stability condition:  ∂_t(E_primary + E_secondary + E_couple) = 0   # dynamic equilibrium of nested dyads"
+		],
+		"implication": "The full triadic configuration is self-sustaining: each component dyad contributes oscillatory energy that stabilizes the others. This creates a coherence-locked resonance where no motif is truly external."
+	  }
+	},
+	"symbolic_extension": {
+	  "living_triad": "Every stabilizer is itself alive — the third motif carries its own dyadic rhythm. The stable triad is therefore a weave of coupled oscillations, not a fixed geometry."
+	}
   },
 
   "symbolic_interpretation": {
