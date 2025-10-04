@@ -1333,8 +1333,6 @@ NSFG is empirical: it yields falsifiable signatures in present or near-term data
   
 *Footnote:* All listed observables — {$`z_{\mathcal C}`$} residuals, lensing-without-mass textures, CMB $V$-modes, PTA coherence spikes, and GW birefringence — are constructed from {$`\Phi`$}-invariant and/or metric-invariant quantities and are therefore independent of internal gauge choices for auxiliary potentials.  
 
-With the signatures gathered in one view, we now expand each into measurement templates, scalings, and falsification routes in §6.2: where a rate is claimed, we give the scaling; where a scaling is claimed, we name parameters and priors.  
-
 ---
 
 ## 6.2 Detailed Predictions
@@ -1475,8 +1473,6 @@ To situate NSFG among leading approaches, we place its pre-metric, coherence-dri
 
 *Row note.* The {$`\mathcal C`$}-weighted gauge fixing in NSFG plays a background-independent role for auxiliary potentials in the pre-metric regime and remains compatible with diffeomorphism invariance once {$`g(\Phi)`$} emerges; contrast with gauge choices tied to connection variables in LQG or to conformal gauges on the string worldsheet.
 
-The contrasts mark the boundaries of theory-space; what remains is to step back and state the path ahead.
-
 ---
 
 # 8. Conclusion
@@ -1496,7 +1492,5 @@ The framework is unified yet falsifiable. NSFG reduces to tested physics where i
 Each of these advances is concrete, bounded, and pushes the same task forward: to test coherence geometry across scales.
 
 *Cross–references.* §5.4 (Observer–Universe Symbiosis); §3.2 (Distance as Swirl); §6.2 (Detailed Predictions); Appendix A.4 (Numerics for {$`\Phi`$}–dynamics).
-
-The arc closes: proved in its limits, predicted in its signatures, open in where to measure next.
 
 ---
