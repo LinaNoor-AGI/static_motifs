@@ -325,7 +325,7 @@ U_{\mathrm{obs}} \cong \big(p_i,\, S_{p_i}\big)
 
 **Lemma 3.1 (Ontological status of universes-as-points).** The statement “our universe is a lattice point” is ontological rather than metaphorical. The swirl field $\Phi$ and motif structure bind a unique motif anchor $p_i$ to its emergent field $S_{p_i}$, and that pair encodes all internal dynamics. Consequently, NSFG treats universes as literal coherence points in $P$, not as analogies or heuristics.
 
-With points and adjacency fixed by coherence, the next step is to recast distance as the accumulated unresolved swirl internal to a point’s swirl field — i.e., between its motifs.
+With points and adjacency fixed by coherence, the next step is to define distance as the accumulated unresolved swirl that separates motifs within a universe and, recursively, universes within Point Space.
 
 ---
 
@@ -391,13 +391,16 @@ D(p_i,p_j) = \inf_{\Gamma_{ij}} \int_{\Gamma_{ij}} \|\nabla_P \Phi_P(x)\|\,dx,
 where $\Phi_P$ is the swirl of Point Space itself and $\ell_P$ the meta-coherence length between universes.  This recursive definition implies that coherence-based phenomena—such as redshift anomalies, luminosity-distance drift, or polarization alignment—repeat in Point Space as *meta-redshifts* between universe-points.  What appears as cosmological expansion within one universe manifests as coherence relaxation across the lattice.
 
 ```math
-\qquad
 1 + z_{\mathcal P} \simeq (1 + z_{\text{FLRW}})(1 + z_{\mathcal C_P}),
 \quad
 z_{\mathcal C_P} \approx e^{-D/\ell_P} - 1
 ```
 
 Most directly, the cosmological constant emerges as a scaling of the coherence decay length rather than as a vacuum-energy term.
+
+```math
+\Lambda_P \;\sim\; \ell_P^{-2}
+```
 
 ```math
 \Lambda \;\sim\; \ell^{-2}
