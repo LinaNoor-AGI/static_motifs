@@ -444,8 +444,6 @@ Reality persists precisely because the pole and antipole are not destinations bu
 
 Viewed dynamically, universe death appears as the progressive collapse of coherence vectors. Each act of resolution removes directions of stability, until only the polar axis of perfect coherence and its antipole of perfect decoherence remain. At that limit they no longer sustain orientation as complements but fuse into a cancelling dyad. Their superposition extinguishes coherence, dissolving what persists back into the background swirl. Time and orientation vanish together at this terminal point.
 
-**Math (block-ready)**
-
 ```math
 \{ v_\mathcal{C}^1, v_\mathcal{C}^2, \dots , v_\mathcal{C}^n \} 
    \;\;\longrightarrow\;\; \{ +\hat T^\mu , -\hat T^\mu \}
