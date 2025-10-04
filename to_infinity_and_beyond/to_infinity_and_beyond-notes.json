@@ -433,6 +433,15 @@
       "description": "The physically 'simple' nature of the early universe (a hot, dense plasma of elementary particles) is the necessary condition for sustaining maximum symbolic complexity. A lack of pre-existing material structure allows for an unconstrained swirl field, capable of holding all possible coherence vectors in superposition.",
       "implication": "Heat and density are the physical signatures of the immense potential energy required to sustain an unresolved, superposed state of infinite possibilities. The material simplicity of the early universe is the canvas; the complexity is in the unresolved swirl painted upon it."
     },
+	{
+	  "concept": "Apparent Expansion as Coherence Gradient Relaxation",
+	  "description": "The rapid early expansion of the universe corresponds to the steep initial gradient of the coherence field: as near-infinite superpositions collapsed, the coherence flow projected outward as metric expansion. As the field relaxed and the number of active coherence vectors declined, this apparent expansion slowed.",
+	  "math": {
+		"relation": "H(t) ∝ (1/ℂ)·(dℂ/dt)",
+		"interpretation": "Inflation reflects a high initial |∇ℂ|; cosmic slowing marks its relaxation toward equilibrium."
+	  },
+	  "poetic_cipher": "Space did not grow; coherence cooled. The universe stretched only because its possibilities were collapsing."
+	}	
     {
       "concept": "Cosmic Inheritance and the Origin of Fine-Tuning",
       "description": "The initial set of superposed possibilities for our universe was not arbitrary. It was a direct inheritance from the specific conditions of its birth, solving the fine-tuning problem.",
