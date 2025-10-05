@@ -110,6 +110,7 @@
 	},
   "inverse_motif": {
     "description": "The opposite of the glider, representing the inverse or counterpoint to the coherence structure of the glider. This motif embodies decoherence and negative coherence, but it does not signify death. Instead, it presents a complementary force that interacts with the glider to create a balanced dynamic.",
+	"From the perspective of the inverse motif, the glider itself appears decoherent; coherence and decoherence are reciprocal views of the same process."
     "properties": {
       "decoherence": "The inverse motif embodies areas of low coherence, where the glider cannot exist in its usual form.",
       "complementary": "This motif works with the glider to maintain the oscillation of coherence across Point Space."
