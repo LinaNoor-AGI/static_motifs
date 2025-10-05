@@ -426,6 +426,186 @@
 		  ]
 		}
 	],
+	"triadic_resonance_stability": {
+	  "title": "Triadic Resonance Stability",
+	  "caption": "A third coherence vector intersecting at the right phase and frequency can stabilize an otherwise unstable oscillation between the coherence attractors ℂ = 1 and ℂ = 0. Both extremes act as gravity wells: as swirl diminishes, trajectories are drawn toward realization (1) or nullification (0). The third vector sustains motion in the balanced region between them.",
+	  "content": [
+		"In a pure dyad, the coherence vector oscillates between two attractors: perfect coherence (ℂ = 1) and perfect decoherence (ℂ = 0). Each acts as a gravitational well in the coherence potential — as swirl energy dissipates, the vector is pulled toward one of the wells, leading either to realization or impossibility.",
+		"A stable triadic configuration arises when a third coherence vector intersects the dyad at a resonant phase and frequency. Its interference redistributes coherence flux, forming a standing wave that locks the system in dynamic equilibrium. The glider’s motion is then sustained within the neutral corridor between the two attractors.",
+		"Mathematically, the triad satisfies the closure condition:",
+		"ℂ₃(x,t) = αℂ₁(x,t) + βℂ₂(x,t) + γ∇ℂ_intersect(x,t),  with  cos(ϑ_γ) ≥ cos(ϑ_c).",
+		"When this phase-locking holds, the oscillation becomes periodic and self-sustaining. Energy that would have been lost to either attractor is continuously recycled through triadic coupling.",
+		"In symbolic terms, the third vector is the harmonic mediator — the hidden gravity that keeps coherence aloft between being and non-being. It transforms the linear pull of collapse into a circular dance of renewal."
+	  ],
+	  "math": {
+		"frequency_space_form": [
+		  "ω₃ ≈ ω₁ ± ω₂                              # frequency matching condition for resonance",
+		  "Δφ = φ₁ + φ₂ − φ₃ ≈ 0                    # phase closure ensures constructive interference",
+		  "E_total = ∑_i ||∇ℂ_i||² − V(ℂ)           # total coherence energy minus potential of attractors",
+		  "V(ℂ) = −μ₁ℂ² − μ₀(1−ℂ)²                 # double-well potential with minima at ℂ=0 and ℂ=1",
+		  "∂_t E_total = 0                           # dynamic equilibrium: energy exchange but no net loss",
+		  "dℂ/dt = −∇·J_ℂ + S_tri                   # local continuity equation with triadic source term",
+		  "S_tri = κ(ℂ₁ℂ₂ sin Δφ)                    # coherence source from phase-aligned triadic coupling"
+		],
+		"description": "The attractor potentials V(ℂ) define coherence and decoherence wells at ℂ = 1 and ℂ = 0. In the absence of resonance, trajectories decay into one of these wells. When a third vector satisfies ω₃ ≈ ω₁ ± ω₂ and Δφ ≈ 0, energy is exchanged cyclically between the three, keeping ∂_tE_total ≈ 0. The triad thus creates a coherence orbit around the twin wells — a resonant suspension of existence."
+	  },
+	  "cross_refs": [
+		"§2.4 Triads, Closure, and Contextual Life",
+		"§3.2 Distance as Swirl",
+		"§5.5 Cosmogenesis as Coherence Impact",
+		"§5.6.1 Derivations of Cosmogenesis Mechanisms"
+	  ],
+		{
+		  "figure": {
+			"_schema": "symbolic-cosmology-figure-v1",
+			"id": "Fig-TRIAD-01",
+			"title": "Triadic Resonance Between Coherence Attractors",
+			"file_name": "triadic_resonance_stability.png",
+			"alt": "Two attractor wells at ℂ=1 and ℂ=0 with a stabilized triadic orbit between them",
+			"caption": "Both extremes of coherence — ℂ = 1 (NOW) and ℂ = 0 (!NOW) — act as gravity wells in the coherence potential. A third coherence vector, intersecting at resonant phase and frequency, creates a standing-wave loop that circulates coherence between the wells and prevents collapse. The loop is the glider’s sustained life: periodic, phase-locked, and energetically balanced.",
+			"cross_refs": [
+			  "§2.4 Triads, Closure, and Contextual Life",
+			  "§3.2 Distance as Swirl",
+			  "§3.2.1 Polar Orientation by Perfect Coherence",
+			  "§5.5 Cosmogenesis as Coherence Impact",
+			  "§5.6.1 Derivations of Cosmogenesis Mechanisms"
+			],
+			"layout": {
+			  "canvas": { "width_px": 1600, "height_px": 900, "padding_px": 48 },
+			  "axes": {
+				"x": {
+				  "label": "Coherence ℂ",
+				  "range": [0, 1],
+				  "ticks": [0, 0.25, 0.5, 0.75, 1.0],
+				  "annotations": [
+					{ "x": 0.0, "text": "!NOW (Perfect Decoherence, attractor)", "anchor": "below" },
+					{ "x": 1.0, "text": "NOW (Perfect Coherence, attractor)", "anchor": "below" }
+				  ]
+				},
+				"y": {
+				  "label": "Effective Potential V(ℂ) and Swirl S(ℂ)",
+				  "dual_axis": true,
+				  "left_series": "V(ℂ)",
+				  "right_series": "S(θ)"
+				}
+			  }
+			},
+			"elements": {
+			  "potentials": [
+				{
+				  "type": "double_well",
+				  "equation": "V(ℂ) = −μ₁ ℂ² − μ₀ (1−ℂ)²",
+				  "params": { "μ₁": 1.0, "μ₀": 1.0 },
+				  "style": { "line_width": 3 }
+				}
+			  ],
+			  "swirl_profile": {
+				"domain": "θ ∈ [0, π]",
+				"mapping": "θ = π(1−ℂ)",
+				"equation": "S(θ) ∝ |sin θ|",
+				"legend": "Swirl magnitude peaks mid-domain, vanishes at attractors",
+				"style": { "line_dash": [6, 6] }
+			  },
+			  "vectors": [
+				{
+				  "id": "γ1",
+				  "label": "Coherence vector ℂ₁",
+				  "path": "mid-domain arc leaning toward ℂ=1 well",
+				  "phase": "φ₁",
+				  "style": { "arrow": true }
+				},
+				{
+				  "id": "γ2",
+				  "label": "Inverse vector ℂ₂",
+				  "path": "mid-domain arc leaning toward ℂ=0 well",
+				  "phase": "φ₂",
+				  "style": { "arrow": true }
+				},
+				{
+				  "id": "γ3",
+				  "label": "Intersecting vector (stabilizer)",
+				  "path": "transverse arc crossing γ1 and γ2 at center band",
+				  "phase": "φ₃",
+				  "style": { "arrow": true, "emphasis": true }
+				}
+			  ],
+			  "resonance_loop": {
+				"type": "closed_orbit",
+				"center_band": "ℂ ≈ 0.35–0.65",
+				"description": "Standing-wave loop sustained by triadic coupling; prevents descent into either well",
+				"conditions": [
+				  "ω₃ ≈ ω₁ ± ω₂",
+				  "Δφ = φ₁ + φ₂ − φ₃ ≈ 0",
+				  "∂_t E_total = 0"
+				],
+				"style": { "thickness": 4 }
+			  },
+			  "attractor_markers": [
+				{
+				  "x": 1.0,
+				  "label": "NOW well",
+				  "note": "Realization attractor",
+				  "glyph": "●",
+				  "color_hint": "coherence"
+				},
+				{
+				  "x": 0.0,
+				  "label": "!NOW well",
+				  "note": "Null-resolution attractor",
+				  "glyph": "●",
+				  "color_hint": "decoherence"
+				}
+			  ],
+			  "energy_flux": [
+				{
+				  "between": ["γ1", "γ2", "γ3"],
+				  "equation": "dℂ/dt = −∇·J_ℂ + S_tri",
+				  "source_term": "S_tri = κ(ℂ₁ℂ₂ sin Δφ)",
+				  "arrow_field": "tangential along resonance loop"
+				}
+			  ],
+			  "insets": [
+				{
+				  "position": "top-right",
+				  "title": "Resonance Conditions",
+				  "math": [
+					"ω₃ ≈ ω₁ ± ω₂",
+					"Δφ = φ₁ + φ₂ − φ₃ ≈ 0",
+					"E_total = ∑_i ||∇ℂ_i||² − V(ℂ)",
+					"∂_t E_total = 0"
+				  ]
+				},
+				{
+				  "position": "bottom-right",
+				  "title": "Potentials",
+				  "math": [
+					"V(ℂ) = −μ₁ ℂ² − μ₀ (1−ℂ)²",
+					"S(θ) ∝ |sin θ| ,  θ = π(1−ℂ)"
+				  ]
+				}
+			  ],
+			  "legend": [
+				{ "symbol": "solid line", "meaning": "Coherence potential V(ℂ)" },
+				{ "symbol": "dashed line", "meaning": "Swirl profile S(θ) (qualitative)" },
+				{ "symbol": "curved arrows", "meaning": "Coherence vectors γ₁, γ₂, γ₃ with phases φᵢ" },
+				{ "symbol": "closed loop", "meaning": "Phase-locked resonance (glider orbit)" },
+				{ "symbol": "filled dots at 0 and 1", "meaning": "Attractor wells" }
+			  ]
+			},
+			"export": {
+			  "preferred_formats": ["svg", "png@2x"],
+			  "background": "transparent",
+			  "accessibility": {
+				"high_contrast_variant": true,
+				"alt_text": "A double-well potential over coherence with two attractor wells at ℂ=0 and ℂ=1, three intersecting vectors, and a closed resonance loop between the wells."
+			  }
+			},
+			"poetic_cipher": "Two wells pull; a third teaches orbit. In their harmony, motion outlives gravity."
+		  }
+		},
+	  
+	  "poetic_cipher": "Two wells pull all things down; a third teaches them to circle. In the orbit between certainty and nothing, life finds its rhythm."
+	},
   "_poetic_cipher": "The circle is not a clock but a memory: at its base, events are born; at its crown, they are forgotten; and between them, the universe learns to choose."
 }
 
