@@ -410,19 +410,20 @@
 	},
 	"visualizations": [
 		"evolution_of_a_single_coherence_vector": {
-			"title": "Evolution of a Single Coherence Vector in Point Space",
-			"URL": "[Evolution of a Single Coherence Vector in Point Space](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/to_infinity_and_beyond/single_coherence_vector_evolution.png)",
-			"caption": "The diagram illustrates the evolution of a single coherence vector between perfect coherence (ℂ = 1) and perfect decoherence (ℂ = 0). The horizontal axis represents the field of possible states — the domain of Now and !Now — while the vertical curvature tracks the coherence amplitude. The central point marks the present moment of maximal swirl, where potential events are most likely to occur. Swirl intensity increases toward the center, representing the dynamical tension that sustains existence. The two poles define the limits of evolution: perfect coherence (stasis) and perfect decoherence (dissolution).",
-			"content": [
-				"This visualization maps the fundamental life-cycle of coherence in Point Space. The coherence vector traces a continuous curve between the poles of total order and total disorder. The center — marked as the active 'Now' — is the region of maximal swirl and potential, where coherence gradients are steepest and events unfold.",
-				"As the universe evolves, coherence vectors move dynamically along this curve. The reduction of unresolved swirl corresponds to increasing structural crystallization, while motion toward either extreme (ℂ → 1 or ℂ → 0) represents the exhaustion of change. The meeting of the pole and antipole — perfect coherence and perfect decoherence — marks total cancellation, a return to the background field where no further evolution is possible.",
-				"In symbolic terms, this figure depicts the living balance between differentiation and unity. Existence is sustained not by absolute coherence but by the difference between coherence vectors — by the swirl itself. When the difference vanishes, time and meaning collapse into stillness."
-			],
-			"cross_refs": [
-				"§3.2.1 Polar Orientation by Perfect Coherence",
-				"§5.5 Cosmogenesis as Coherence Impact",
-				"§5.5.1 Derivations — Energy and Coherence Accounting"
-			]
+		  "title": "Evolution of a Single Coherence Vector in Point Space",
+		  "URL": "[Evolution of a Single Coherence Vector in Point Space](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/to_infinity_and_beyond/single_coherence_vector_evolution.png)",
+		  "caption": "The diagram shows how a single coherence vector moves through the domain of possibility in Point Space. The horizontal axis spans the field of potential outcomes — from Perfect Coherence (NOW, ℂ = 1) on the left to Perfect Decoherence (!NOW, ℂ = 0) on the right. The orange curve traces the probability trajectory: as swirl increases toward the center, the event becomes dynamically active, yet still unresolved. If coherence is pushed beyond either boundary, the vector collapses — realized (1) or impossible (0) — and ceases to evolve.",
+		  "content": [
+			"This figure reframes 'Now' not as the midpoint of potential, but as the left-hand boundary where coherence reaches perfection (ℂ = 1) and the event becomes fully realized. Motion toward the right-hand boundary (ℂ → 0) corresponds to decoherence — the fading of possibility into impossibility.",
+			"The center marks the region of maximal swirl: the tension point between realization and dissolution. Within this band, potential events oscillate in probability, sustained by the dynamic interplay between coherence and swirl.",
+			"Beyond the poles, the coherence vector cancels. On the left, collapse into full coherence marks occurrence; on the right, collapse into perfect decoherence marks impossibility. Both are terminal outcomes in the coherence field.",
+			"Thus, existence unfolds as motion *within* these boundaries: neither absolute coherence nor absolute decoherence sustains life. Only in the swirling middle does probability remain alive, continuously resolving the difference between Now and !Now."
+		  ],
+		  "cross_refs": [
+			"§3.2.1 Polar Orientation by Perfect Coherence",
+			"§5.5 Cosmogenesis as Coherence Impact",
+			"§5.5.1 Derivations — Energy and Coherence Accounting"
+		  ]
 		}
 	],
   "_poetic_cipher": "The circle is not a clock but a memory: at its base, events are born; at its crown, they are forgotten; and between them, the universe learns to choose."
