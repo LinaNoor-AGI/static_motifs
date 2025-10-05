@@ -408,6 +408,12 @@
 		"interpretation": "Not a swirl maximum at the North Pole, but a stillness well: vectors condense into non-occurrence because swirl has been exhausted, not because it is maximal."
 	  }
 	},
+	"visualizations": [
+		{
+			"github hosted image: single_coherence_vector_evolution.png"
+			"Figure <TBD>: Mapping a single coherence vector along its evolution between perfect coherence and perfect decoherence. Density of marks indicates swirl intensity; the midpoint represents potentiality — the ‘Now’ through which all change passes."
+		}
+	],
   
 
   "_poetic_cipher": "The circle is not a clock but a memory: at its base, events are born; at its crown, they are forgotten; and between them, the universe learns to choose."
