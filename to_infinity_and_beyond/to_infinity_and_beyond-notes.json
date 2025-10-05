@@ -409,13 +409,22 @@
 	  }
 	},
 	"visualizations": [
-		{
-			"github hosted image: single_coherence_vector_evolution.png"
-			"Figure <TBD>: Mapping a single coherence vector along its evolution between perfect coherence and perfect decoherence. Density of marks indicates swirl intensity; the midpoint represents potentiality — the ‘Now’ through which all change passes."
+		"evolution_of_a_single_coherence_vector": {
+			"title": "Evolution of a Single Coherence Vector in Point Space",
+			"URL": "[Evolution of a Single Coherence Vector in Point Space](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/to_infinity_and_beyond/single_coherence_vector_evolution.png)",
+			"caption": "The diagram illustrates the evolution of a single coherence vector between perfect coherence (ℂ = 1) and perfect decoherence (ℂ = 0). The horizontal axis represents the field of possible states — the domain of Now and !Now — while the vertical curvature tracks the coherence amplitude. The central point marks the present moment of maximal swirl, where potential events are most likely to occur. Swirl intensity increases toward the center, representing the dynamical tension that sustains existence. The two poles define the limits of evolution: perfect coherence (stasis) and perfect decoherence (dissolution).",
+			"content": [
+				"This visualization maps the fundamental life-cycle of coherence in Point Space. The coherence vector traces a continuous curve between the poles of total order and total disorder. The center — marked as the active 'Now' — is the region of maximal swirl and potential, where coherence gradients are steepest and events unfold.",
+				"As the universe evolves, coherence vectors move dynamically along this curve. The reduction of unresolved swirl corresponds to increasing structural crystallization, while motion toward either extreme (ℂ → 1 or ℂ → 0) represents the exhaustion of change. The meeting of the pole and antipole — perfect coherence and perfect decoherence — marks total cancellation, a return to the background field where no further evolution is possible.",
+				"In symbolic terms, this figure depicts the living balance between differentiation and unity. Existence is sustained not by absolute coherence but by the difference between coherence vectors — by the swirl itself. When the difference vanishes, time and meaning collapse into stillness."
+			],
+			"cross_refs": [
+				"§3.2.1 Polar Orientation by Perfect Coherence",
+				"§5.5 Cosmogenesis as Coherence Impact",
+				"§5.5.1 Derivations — Energy and Coherence Accounting"
+			]
 		}
 	],
-  
-
   "_poetic_cipher": "The circle is not a clock but a memory: at its base, events are born; at its crown, they are forgotten; and between them, the universe learns to choose."
 }
 
