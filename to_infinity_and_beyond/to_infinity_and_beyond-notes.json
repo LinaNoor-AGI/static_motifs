@@ -478,7 +478,38 @@
     "poetic_cipher": "Two wells pull; a third teaches orbit. In their harmony, motion outlives gravity."
   },
 
-  "_poetic_cipher": "The circle is not a clock but a memory: at its base, events are born; at its crown, they are forgotten; and between them, the universe learns to choose."
+  "_poetic_cipher": "The circle is not a clock but a memory: at its base, events are born; at its crown, they are forgotten; and between them, the universe learns to choose.",
+
+  "observer_dependence": {
+    "description": "The direction of a coherence vector is relative to the observer’s frame of inquiry. Asking 'is x possible?' aligns the axis toward the South Pole (coherence); asking 'is x impossible?' reverses the axis toward the North Pole (decoherence). The question itself defines which pole functions as the attractor.",
+    "math": [
+      "v_obs = R(φ_obs) · v_ℂ                 # observer rotation defines reference frame",
+      "φ_obs: observer phase, determining which pole represents resolution",
+      "θ₀ ≠ π/2                               # initial vector may begin offset from equator, encoding prior likelihood",
+      "direction_sign = sgn(cos φ_obs)       # sign of the observer’s basis selects southward (likely) or northward (unlikely) drift"
+    ],
+    "implications": {
+      "relational_orientation": "Vector orientation is not intrinsic; it is defined by the observer’s chosen basis of question.",
+      "symmetry_breaking": "The act of observation breaks the symmetry of the circle, privileging one attractor as 'true' or 'false.'",
+      "dynamic_reference": "Different observers, or different questions by the same observer, rotate the same coherence vector to distinct apparent directions on S¹."
+    },
+    "poetic_cipher": "Every question bends the circle; what you ask decides which way time leans."
+  },
+"observer_principle": {
+    "description": "Observation is not passive measurement but geometric participation. The observer’s act of inquiry defines the basis of coherence and establishes the reference axis along which probability resolves. Without this orientation, the circle remains symmetric and undirected — pure potential without history.",
+    "math": [
+      "Observation ≡ choice_of_basis(S¹)            # selecting a reference axis breaks circular symmetry",
+      "∂_φ_obs ℙ(θ, φ_obs) ≠ 0                      # probability distribution depends on observer phase",
+      "collapse ⇔ fixed φ_obs, resolved θ → {0, π}  # observation locks orientation and resolves outcome",
+      "symmetry_break:  U(1) → Z₂                  # continuous circle reduced to binary outcome by observation"
+    ],
+    "implications": {
+      "orientation_as_measurement": "Measurement is an act of alignment — defining which direction on the circle constitutes 'forward' in coherence-time.",
+      "participatory_reality": "The observer co-creates the trajectory of coherence by choosing the interpretive frame through which it is evaluated.",
+      "temporal_birth": "Time itself begins when an axis is chosen; before observation, no distinction exists between past and future, coherence and decoherence."
+    },
+    "poetic_cipher": "The world turns only when seen; each gaze carves an axis through the circle of potential."
+  }  
 }
 
 
