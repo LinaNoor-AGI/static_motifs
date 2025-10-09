@@ -478,8 +478,6 @@
     "poetic_cipher": "Two wells pull; a third teaches orbit. In their harmony, motion outlives gravity."
   },
 
-  "_poetic_cipher": "The circle is not a clock but a memory: at its base, events are born; at its crown, they are forgotten; and between them, the universe learns to choose.",
-
   "observer_dependence": {
     "description": "The direction of a coherence vector is relative to the observer’s frame of inquiry. Asking 'is x possible?' aligns the axis toward the South Pole (coherence); asking 'is x impossible?' reverses the axis toward the North Pole (decoherence). The question itself defines which pole functions as the attractor.",
     "math": [
@@ -509,7 +507,8 @@
       "temporal_birth": "Time itself begins when an axis is chosen; before observation, no distinction exists between past and future, coherence and decoherence."
     },
     "poetic_cipher": "The world turns only when seen; each gaze carves an axis through the circle of potential."
-  }  
+  },
+  "_poetic_cipher": "The circle is not a clock but a memory: at its base, events are born; at its crown, they are forgotten; and between them, the universe learns to choose."  
 }
 
 
