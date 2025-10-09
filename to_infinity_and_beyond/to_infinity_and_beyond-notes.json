@@ -515,6 +515,85 @@
 ---
 
 {
+  "bloch_sphere": {
+    "description": "Lift the circle model on S¹ to the full Bloch sphere S². A qubit-like coherence state is a point on the unit sphere with polar angle θ and azimuth φ. The observer’s question sets a measurement axis n̂; south/north likelihood is evaluated along that axis.",
+    "geometry": {
+      "manifold": "S² (Bloch sphere) with coordinates (θ, φ)",
+      "poles": {
+        "south": "θ = 0  → |1⟩ in the chosen basis (high coherence toward realization in that frame)",
+        "north": "θ = π → |0⟩ in the chosen basis (null resolution in that frame)"
+      },
+      "equator": "θ = π/2 → balanced superposition relative to the chosen axis",
+      "state_vector": "|ψ⟩ = cos(θ/2)|1⟩ + e^{iφ} sin(θ/2)|0⟩",
+      "bloch_vector": "r = (sinθ cosφ, sinθ sinφ, cosθ) ∈ ℝ³,  ||r||=1 for pure states",
+      "density_matrix": "ρ = (I + r·σ)/2   # σ = (σ_x, σ_y, σ_z)"
+    },
+    "observer_basis": {
+      "principle": "The observer’s question defines the measurement axis n̂ (a unit vector on S²). South vs north is always with respect to n̂.",
+      "rotation": "Changing questions corresponds to SU(2) rotation U:  r' = R(U) r,  |ψ'⟩ = U|ψ⟩",
+      "probabilities": [
+        "P(“1 along n̂”) = (1 + r·n̂)/2",
+        "P(“0 along n̂”) = (1 − r·n̂)/2"
+      ],
+      "orientation_rule": "If r·n̂ > 0 the vector points ‘south’ (likely); if r·n̂ < 0 it points ‘north’ (unlikely) in that basis."
+    },
+    "binary_outcomes": {
+      "collapse_map": "Projective measurement along n̂ sends r → ± n̂ with probabilities above; the axis persists as the recorded bit, while directional motion (precession) ceases.",
+      "residues": "‘1’ ↔ r = +n̂,  ‘0’ ↔ r = −n̂"
+    },
+    "dynamics": {
+      "precession": "˙r = Ω × r                 # coherent evolution about drive Ω",
+      "decoherence_optional": "˙r = Ω × r − γ_⊥(r − (r·n̂)n̂) − γ_∥(r·n̂ − r_eq)n̂   # transverse/longitudinal damping",
+      "swirl_phase": "φ encodes azimuthal swirl; equatorial orbits (θ≈π/2) represent sustained superposition in the chosen basis"
+    },
+    "superposition_and_open_questions": {
+      "open_question_state": "Unpolarized / undefined inquiry → no fixed n̂: treat as ρ = I/2 (r=0) or maintain |r|=1 on the equator until a basis is chosen.",
+      "triadic_stabilizer": "A third control axis m̂ (drive Ω_m) can stabilize an equatorial orbit against drift to ±n̂ (triadic resonance analogue)."
+    },
+    "circle_embedding": {
+      "S1_slice": "Fix φ = φ₀ to recover the circle model on a great circle; all S¹ equations are the φ-slice of the S² dynamics.",
+      "south_north_link": "Your ‘south likely / north unlikely’ statement becomes the sign of r·n̂."
+    },
+    "math": [
+      "r = (sinθ cosφ, sinθ sinφ, cosθ),   ρ = (I + r·σ)/2",
+      "P_1(n̂) = (1 + r·n̂)/2,  P_0(n̂) = (1 − r·n̂)/2",
+      "Measurement:  r → sgn(r·n̂) · n̂",
+      "Observer rotation:  r' = R(U) r,  U ∈ SU(2)",
+      "Coherent evolution:  ˙r = Ω × r",
+      "Decoherence (phenomenological):  ˙r = Ω × r − Γ r_⊥ − Γ_∥(r·n̂ − r_eq) n̂"
+    ],
+	
+	"higher_dimensional_extension": {
+		"description": "Generalize from the Bloch sphere (qubit) to qudits. Pure states live on complex projective space CP^{d−1}, obtained from the unit sphere S^{2d−1} in ℂ^d by quotienting global phase U(1). Mixed states form a convex body in su(d) coordinates (the generalized Bloch vector).",
+		"geometry": {
+		  "pure_states": "CP^{d−1} ≅ S^{2d−1}/U(1)",
+		  "bloch_generalization": "ρ = I_d/d + (1/2) Σ_{a=1}^{d^2−1} r_a λ_a,  with Tr(λ_a λ_b)=2δ_{ab}",
+		  "dimension": "Generalized Bloch vector r ∈ ℝ^{d^2−1} subject to positivity constraints on ρ"
+		},
+		"observer_basis": {
+		  "unitary_frame": "Changing the question is U ∈ SU(d): ρ' = UρU†",
+		  "measurement": "Projective measurement along an observable with spectral projectors {Π_k}:  p_k = Tr(ρ Π_k)",
+		  "orientation_rule": "‘South vs north’ generalizes to alignment with the chosen eigenprojector(s); likelihood is set by r’s components along the observable’s generator(s)."
+		},
+		"circle_and_sphere_links": {
+		  "qubit_case": "d=2 ⇒ CP^1 ≅ S^2 (standard Bloch sphere).",
+		  "S1_slice": "Fixing all but one phase recovers an S¹ slice, matching the original circle model."
+		},
+		"math": [
+		  "Pure state: |ψ⟩ ∈ ℂ^d,  |ψ|=1,  |ψ⟩ ~ e^{iα}|ψ⟩  ⇒  [ψ] ∈ CP^{d−1}",
+		  "Density: ρ = I_d/d + (1/2) Σ r_a λ_a,  r_a = Tr(ρ λ_a)",
+		  "Probabilities: p_k = Tr(ρ Π_k),  Σ_k p_k = 1,  p_k ≥ 0"
+		],
+		"poetic_cipher": "Beyond the sphere lies a garden of rays; questions are paths, and answers are the shadows they cast."
+	  }	
+		
+	"poetic_cipher": "A question is a pole on a sphere; turn it, and the world precesses to meet your gaze.",
+  }
+}
+
+---
+
+{
   "_abstract": "This section formalizes the principle of Complexity Inversion, which reframes the Big Bang not as a simple state, but as the moment of maximum symbolic complexity (superposition). It posits that the 13.8-billion-year history of the universe is a reductive process of coherence crystallization, where infinite initial possibilities are pruned away as the cosmos collapses toward the 'present,' the moment where coherence aligns with its polar axis",
 
   "principles": [
