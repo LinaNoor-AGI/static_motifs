@@ -76,6 +76,7 @@ The CHSD Pipeline consists of the following stages:
 
 ### 2. **Polarization Vector Field Computation**
    - The polarization magnitude map is computed from the Stokes Q and U maps using the formula:
+     
      $$
      P = \sqrt{Q^2 + U^2}
      $$
