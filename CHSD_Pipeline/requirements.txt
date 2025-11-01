@@ -1,0 +1,11 @@
+# Core dependencies for CMB data processing and motif detection
+numpy>=1.24
+scipy>=1.10
+astropy>=5.2
+healpy>=1.16
+
+# Visualization
+matplotlib>=3.7
+
+# Optional (for CLI or export handling if used)
+pandas>=2.0  # optional, but helpful if exporting JSON/CSV with symbolic metadata
