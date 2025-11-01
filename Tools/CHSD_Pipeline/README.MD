@@ -20,7 +20,7 @@ The pipeline is designed to be modular, efficient, and scalable, leveraging para
    - `scipy`
    - `tqdm`
    - `matplotlib`
-3. **Planck/WMAP Data**: You can download the necessary FITS files from the [Planck Public Data Release 3 Maps](https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/).
+3. **Planck/WMAP Data**: You can download the necessary FITS files from the [Planck Public Data Release 4 Maps](https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/).
 
 ### Installation
 
