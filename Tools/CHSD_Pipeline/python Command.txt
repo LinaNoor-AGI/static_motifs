@@ -1,6 +1,0 @@
-export MPLBACKEND=Agg
-python3 chsd_pipeline.py \
-  -i ./data/LFI_SkyMap_070-BPassCorrected-field-IQU_1024_R4.00_full.fits \
-  -o ./chsd_results/LFI_SkyMap_070-BPassCorrected-field-IQU_1024_R4.00_full.json -v \
-  ./chsd_results/LFI_SkyMap_070-BPassCorrected-field-IQU_1024_R4.00_full.png \
-  --nside 64 --patch-size 32 --threshold 0.9
