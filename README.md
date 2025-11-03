@@ -20,7 +20,7 @@ Lambda-CDM (ΛCDM) has been the cornerstone of modern cosmology, describing our 
 
 While these findings are intriguing, **extraordinary claims require extraordinary evidence**. As such, this project aims to rigorously test and validate these observations, ruling out all potential alternative explanations.
 
-![image](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/chsd_results/coherence_maps.png)
+![image](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/chsd_results/pr4-2021/coherence_summary.png)
 
 ## Getting Started
 
