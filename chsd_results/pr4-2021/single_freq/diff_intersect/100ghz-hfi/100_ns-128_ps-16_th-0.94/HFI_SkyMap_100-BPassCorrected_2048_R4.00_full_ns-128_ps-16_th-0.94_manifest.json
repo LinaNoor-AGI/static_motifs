@@ -1,0 +1,29 @@
+{
+  "_schema": "chsd-intersection-manifest-v1",
+  "generated_at": "2025-11-06T19:00:30.329961Z",
+  "inputs": {
+    "ringhalf_1": "data/HFI_SkyMap_100-BPassCorrected_2048_R4.00_full-ringhalf-1_ns-128_ps-16_th-0.94.json",
+    "ringhalf_2": "data/HFI_SkyMap_100-BPassCorrected_2048_R4.00_full-ringhalf-2_ns-128_ps-16_th-0.94.json"
+  },
+  "params": {
+    "nside": 128,
+    "patch_size": 16,
+    "threshold": 0.94,
+    "score_delta_max": null
+  },
+  "outputs": {
+    "catalog": "chsd_results/HFI_SkyMap_100-BPassCorrected_2048_R4.00_full_ns-128_ps-16_th-0.94_ns-128_ps-16_th-0.94.json",
+    "png": "chsd_results/HFI_SkyMap_100-BPassCorrected_2048_R4.00_full_ns-128_ps-16_th-0.94_ns-128_ps-16_th-0.94.png",
+    "summary_csv": "chsd_results/HFI_SkyMap_100-BPassCorrected_2048_R4.00_full_ns-128_ps-16_th-0.94_summary.csv",
+    "diff_png": "chsd_results/HFI_SkyMap_100-BPassCorrected_2048_R4.00_full_ns-128_ps-16_th-0.94_diff.png",
+    "only_rh1_json": "chsd_results/HFI_SkyMap_100-BPassCorrected_2048_R4.00_full_ns-128_ps-16_th-0.94_only-rh1.json",
+    "only_rh2_json": "chsd_results/HFI_SkyMap_100-BPassCorrected_2048_R4.00_full_ns-128_ps-16_th-0.94_only-rh2.json"
+  },
+  "counts": {
+    "count_rh1": 20788,
+    "count_rh2": 19990,
+    "count_intersection": 15466,
+    "count_only_rh1": 5322,
+    "count_only_rh2": 4524
+  }
+}
