@@ -695,7 +695,7 @@ fig.colorbar(im, ax=axs[2], fraction=0.046, pad=0.04)
 plt.tight_layout()
 plt.show()
 ```
-![image](https://github.com/LinaNoor-AGI/static_motifs/blob/main/Static%20Motifs%20and%20Dynamic%20Spacetime/Images/Figure_1.png)   
+![image](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/physics_and_theory/static_motifs_and_dynamic_spacetime/images/Figure_1.png)   
 
 **Panel A — Motif Lattice 🪷**
 Displays the fixed substrate of the model, rendered as a sparse grid of static anchors. Each motif corresponds to a topological source for the swirl field and defines regions of potential coherence. Represent motifs as black points, crosses, or delta-function spikes. This panel illustrates the support of the distributional current $J^\mu$.
@@ -1320,7 +1320,7 @@ plt.show()
 
 ---
 
-![image](https://github.com/LinaNoor-AGI/static_motifs/blob/main/Static%20Motifs%20and%20Dynamic%20Spacetime/Images/Figure_C1.png)  
+![image](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/physics_and_theory/static_motifs_and_dynamic_spacetime/images/Figure_C1.png)  
 
 ### 🔍 Scientific Interpretive Guide
 
