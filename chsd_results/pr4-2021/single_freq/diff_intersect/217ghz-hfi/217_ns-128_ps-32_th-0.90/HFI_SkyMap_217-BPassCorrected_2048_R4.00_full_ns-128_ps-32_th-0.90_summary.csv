@@ -1,0 +1,11 @@
+metric,value
+count_rh1,22786
+count_rh2,23052
+count_intersection,21423
+count_only_rh1,1363
+count_only_rh2,1629
+score_mean.mean,0.9729664821149849
+score_mean.min,0.9004754218099484
+score_mean.max,1.0
+delta_score.mean,0.011219999958773357
+delta_score.max,0.05601721431491091
