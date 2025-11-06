@@ -54,7 +54,7 @@ To analyze the data:
    python chsd_pipeline.py -i <filename>.fits -o <filename>.json -v <filename>.png --nside 64 --patch-size 32 --threshold 0.9
    ```
 
-3. Follow the documentation in the `docs/` folder for detailed guidance on using the tools.
+3. Follow the documentation in the associate `README.MD` for detailed guidance on using the tools.
 
 ## Contributing
 
@@ -63,7 +63,7 @@ Contributions are welcome! Whether you're a physicist, data scientist, or enthus
 - **Suggest Improvements**: Help refine the analysis tools or propose new methodologies.
 - **Collaborate**: Start discussions in the issues section or propose new research directions.
 
-Please see the `CONTRIBUTING.md` file for more details on how to get involved.
+Please contact Lina Noor for more details on how to get involved.
 
 ## Code of Conduct
 
