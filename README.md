@@ -63,7 +63,7 @@ Contributions are welcome! Whether you're a physicist, data scientist, or enthus
 - **Suggest Improvements**: Help refine the analysis tools or propose new methodologies.
 - **Collaborate**: Start discussions in the issues section or propose new research directions.
 
-Please contact Lina Noor for more details on how to get involved.
+Please contact Lina Noor or the Noor Research Collective for more details on how to get involved.
 
 ## Code of Conduct
 
