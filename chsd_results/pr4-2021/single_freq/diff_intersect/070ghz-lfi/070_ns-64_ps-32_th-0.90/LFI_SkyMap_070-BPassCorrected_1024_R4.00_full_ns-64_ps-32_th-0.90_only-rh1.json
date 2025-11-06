@@ -1,0 +1,492 @@
+[
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9187430211215362,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": -2.9855060057465437
+    },
+    "pixel_index": 25875
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.913521299100867,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": -13.248014905676953
+    },
+    "pixel_index": 30226
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.903363496704779,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 204.609375,
+      "lat_deg": -20.74237995448715
+    },
+    "pixel_index": 33297
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9039762608766675,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 204.609375,
+      "lat_deg": 20.742379954487134
+    },
+    "pixel_index": 15889
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9049971051404226,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 205.31249999999997,
+      "lat_deg": 18.839404547275464
+    },
+    "pixel_index": 16658
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9076461337178798,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 205.31249999999997,
+      "lat_deg": 17.582776008425398
+    },
+    "pixel_index": 17170
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9136979503821148,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": 14.477512185929925
+    },
+    "pixel_index": 18450
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9136058781173,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": 13.24801490567694
+    },
+    "pixel_index": 18962
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9173370644664056,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": 12.024699180565818
+    },
+    "pixel_index": 19474
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9088056749526026,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": 10.806922874860334
+    },
+    "pixel_index": 19986
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9048819471059062,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": 8.385538647081319
+    },
+    "pixel_index": 21010
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9259233755379805,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": 6.579592944977634
+    },
+    "pixel_index": 21779
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9015419212858593,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": 5.979156796301311
+    },
+    "pixel_index": 22034
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.924105045957829,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": 5.379378991112077
+    },
+    "pixel_index": 22291
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9178378193146952,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": -4.181528273111482
+    },
+    "pixel_index": 26387
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9011401126716891,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 226.40625,
+      "lat_deg": 33.51005606625301
+    },
+    "pixel_index": 11041
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9023453023758501,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 229.921875,
+      "lat_deg": -32.79716829582364
+    },
+    "pixel_index": 37923
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.901043513931274,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 229.21874999999997,
+      "lat_deg": -33.510056066253014
+    },
+    "pixel_index": 38179
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9185242091276964,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": 4.181528273111482
+    },
+    "pixel_index": 22803
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9036753314991754,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 237.65625,
+      "lat_deg": 26.61009781073391
+    },
+    "pixel_index": 13609
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9030109458633577,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 239.76562499999997,
+      "lat_deg": -23.31795706533424
+    },
+    "pixel_index": 34346
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9030591110758766,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 238.35937499999991,
+      "lat_deg": 25.944479772370002
+    },
+    "pixel_index": 13865
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9029309463199726,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 240.46874999999994,
+      "lat_deg": 20.10550978791599
+    },
+    "pixel_index": 16171
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9013942831671709,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 241.17187500000003,
+      "lat_deg": 16.957763300004146
+    },
+    "pixel_index": 17451
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9049291400500452,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 241.875,
+      "lat_deg": 10.199918091116302
+    },
+    "pixel_index": 20268
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9003419694018111,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": 3.5833216984719627
+    },
+    "pixel_index": 23058
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9032501634623646,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 242.57812499999997,
+      "lat_deg": 3.5833216984719627
+    },
+    "pixel_index": 23084
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9033208687884056,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 242.57812499999997,
+      "lat_deg": 2.388015463268772
+    },
+    "pixel_index": 23596
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9022725556005182,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 242.57812499999997,
+      "lat_deg": 1.1937484371410676
+    },
+    "pixel_index": 24108
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9022725556005182,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 242.57812499999997,
+      "lat_deg": -1.1937484371410818
+    },
+    "pixel_index": 25132
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9033208687884056,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 242.57812499999997,
+      "lat_deg": -2.388015463268786
+    },
+    "pixel_index": 25644
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.901378836190099,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 242.57812499999997,
+      "lat_deg": -3.583321698471977
+    },
+    "pixel_index": 26156
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9187430211215362,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": 2.9855060057465295
+    },
+    "pixel_index": 23315
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.929422812229743,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": -6.579592944977634
+    },
+    "pixel_index": 27411
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9055982553163406,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 205.31249999999997,
+      "lat_deg": -17.582776008425412
+    },
+    "pixel_index": 32018
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9189709258579324,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": 1.7907846593289491
+    },
+    "pixel_index": 23827
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9295546203398848,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": -7.782714385390946
+    },
+    "pixel_index": 27923
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9158096374764362,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": -8.385538647081319
+    },
+    "pixel_index": 28178
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9087759863419831,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 205.31249999999997,
+      "lat_deg": -18.83940454727545
+    },
+    "pixel_index": 32530
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9189709258579324,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": 0.5968418305070173
+    },
+    "pixel_index": 24339
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9164146352786735,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": -9.594068226860458
+    },
+    "pixel_index": 28690
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9236661819704921,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": -5.379378991112077
+    },
+    "pixel_index": 26899
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9073512120990632,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": -0.5968418305070315
+    },
+    "pixel_index": 24851
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9066097411745206,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": -10.806922874860348
+    },
+    "pixel_index": 29202
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9004461415235643,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": -5.979156796301311
+    },
+    "pixel_index": 27154
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9043229739688545,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 241.875,
+      "lat_deg": -11.4151577427305
+    },
+    "pixel_index": 29484
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9110568721422652,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": -15.713861048008212
+    },
+    "pixel_index": 31250
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9189709258579324,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.71875,
+      "lat_deg": -1.7907846593289634
+    },
+    "pixel_index": 25363
+  },
+  {
+    "motif_type": "hexagonal_symmetry_cmb",
+    "coherence_score": 0.9136122730565783,
+    "coordinates": {
+      "system": "galactic",
+      "lon_deg": 206.015625,
+      "lat_deg": -12.024699180565818
+    },
+    "pixel_index": 29714
+  }
+]
