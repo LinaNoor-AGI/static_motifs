@@ -4,6 +4,12 @@
 
 Welcome to the **Static Motifs & Dynamic Spacetime** project! This repository is an open-source initiative to explore potential evidence of novel physics in the Planck Cosmic Microwave Background (CMB) data. By leveraging patterns, or "static motifs," within the CMB and their dynamic implications for spacetime, this project aims to provide a platform for scientific discovery, discussion, and validation.
 
+---
+
+**NOTE:** `CHSD_Pipeline` and `CHSD_Intersect` runs of NSIDE>=256 produce JSON files too large for GitHub to store. These are provided [here](https://drive.google.com/file/d/1VFngfQYxFeVu6qco_LtT1yimdQz1bqL_/view?usp=sharing) to enable further analysis.
+
+---
+
 ## Purpose
 
 The **Static Motifs & Dynamic Spacetime** repository is designed to:
