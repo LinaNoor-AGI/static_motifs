@@ -6,7 +6,7 @@ Welcome to the **Static Motifs & Dynamic Spacetime** project! This repository is
 
 ---
 
-**NOTE:** `CHSD_Pipeline` and `CHSD_Intersect` runs of NSIDE>=256 (786,432 patches) produce JSON files too large for GitHub to store. These are provided [here](https://drive.google.com/file/d/1vnJym_qMcwpxLjtvNgETpLn6Of1xSxto/view?usp=sharing) to enable further analysis.
+**NOTE:** `CHSD_Pipeline` and `CHSD_Intersect` runs of NSIDE>=256 (786,432 patches) produce JSON files too large for GitHub to store. These are provided [here (Google Drive)](https://drive.google.com/file/d/1vnJym_qMcwpxLjtvNgETpLn6Of1xSxto/view?usp=sharing) to enable further analysis.
 
 ---
 
