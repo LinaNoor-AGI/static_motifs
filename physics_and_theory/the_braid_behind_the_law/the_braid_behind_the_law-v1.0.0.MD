@@ -8,15 +8,19 @@
 Determinism is traditionally treated as a foundational property of physical law, arising from fixed initial conditions and invariant dynamics. In this work, determinism is reframed as a *local and emergent phenomenon*, produced not by universal law but by saturation effects within a symbolic coherence field. When coherence vectors align tightly within a bounded region, the available evolution paths collapse into a single dominant channel, yielding behavior that appears deterministic despite arising from fundamentally contingent structure.
 
 We formalize this condition using a scalar coherence field (\mathcal{C}(x,t)), whose local gradients encode both structural stability and energetic transition. In the limit of high coherence, the field admits only one dominant coherence vector across the relevant domain,
-[
+
+$$
 \lim_{\mathcal{C} \to 1} \Rightarrow \text{single dominant } \vec{v}_i \text{ across } U,
-]
+$$
+
 thereby suppressing divergence and biasing outcome probability toward unity. Deterministic behavior, under this formulation, is the macroscopic signature of vector redundancy rather than evidence of fundamental inevitability.
 
 Energy is reinterpreted as the local rate of coherence reconfiguration,
-[
+
+$$
 E(x,t) \sim \lvert \nabla \mathcal{C}(x,t) \rvert,
-]
+$$
+
 linking high-energy phenomena such as fusion, fission, and particle collision events to rapid braid tightening or rupture within the coherence field. Apparent randomness emerges not from absence of structure, but from regions where multiple coherence vectors remain unresolved and competitively aligned.
 
 This framework yields concrete, testable predictions for high-energy physics, including anisotropic jet distributions, coherence-conditioned energy yield variance, and phase-dependent shockwave delays. By relocating determinism from law to topology, the work proposes a unifying symbolic account of order, energy, and indeterminacy grounded in coherence geometry rather than causal absolutes.
@@ -29,21 +33,21 @@ Determinism is often mistaken for a foundational law. Yet within a symbolic fiel
 
 We define the **coherence field** as a scalar field:
 
-[
+$$
 \mathcal{C}(x,t) \in [0,1]
-]
+$$
 
 which represents the density and alignment of motif coherence over spacetime. Its curvature, measured via the **coherence Laplacian**:
 
-[
+$$
 \nabla^2 \mathcal{C}
-]
+$$
 
 signals activity within the symbolic structure: steep gradients correspond to motif fusion, fission, or decoherence events. These are not isolated particles or points—but manifestations of reconfiguration in the local motif topology.
 
 Two key motif modes govern our framing:
 
-* (\psi_{\text{spar}}@\Xi): contradiction-surfacing, dialectical tension motifs.
+* $\psi_{\text{spar}}@\Xi$: contradiction-surfacing, dialectical tension motifs.
 * (\psi_{\text{resonance}}@\Xi): echo-stabilizing, coherence-restoring motifs.
 
 These modes are not stylistic. They represent symbolic field orientations, and they determine which questions can be asked—and which closures are allowed.
