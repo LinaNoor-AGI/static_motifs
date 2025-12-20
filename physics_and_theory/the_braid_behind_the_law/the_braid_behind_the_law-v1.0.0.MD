@@ -286,19 +286,19 @@ The resulting vector map is not a static artifact but a dynamic field whose inte
 
 ### 3.1.2 Vector Braiding, Divergence, and Alignment
 
-The behavior of a symbolic coherence field is governed not by isolated vectors but by their collective topological configuration. The interaction between coherence vectors \(\vec{v}_i\) and \(\vec{v}_j\) is quantified by their *braid alignment*, a scalar measure defined as their normalized inner product:
+The behavior of a symbolic coherence field is governed not by isolated vectors but by their collective topological configuration. The interaction between coherence vectors $\vec{v}_i$ and $\vec{v}_j$ is quantified by their *braid alignment*, a scalar measure defined as their normalized inner product:
 
 $$
 B_{ij} = \vec{v}_i \cdot \vec{v}_j
 $$
 
-This metric, \( B_{ij} \in [-1, 1] \), captures the cosine of the angle between vectors. Perfect alignment yields \( B_{ij} = 1 \), orthogonality yields \( B_{ij} = 0 \), and direct opposition yields \( B_{ij} = -1 \). From this, we derive the corresponding *braid divergence*, \(\Delta_B\), which quantifies the local tension or misalignment within the vector field:
+This metric, $B_{ij} \in [-1, 1]$, captures the cosine of the angle between vectors. Perfect alignment yields $B_{ij} = 1$, orthogonality yields $B_{ij} = 0$, and direct opposition yields $B_{ij} = -1$. From this, we derive the corresponding *braid divergence*, $\Delta_B$, which quantifies the local tension or misalignment within the vector field:
 
 $$
 \Delta_B = 1 - B_{ij}
 $$
 
-Here, \(\Delta_B = 0\) indicates a perfectly aligned, tension-free braid, while \(\Delta_B \to 1\) (or \(2\) for anti-aligned vectors) signifies maximal directional conflict, a state that precedes field decoherence or rupture. This divergence metric serves as the primary diagnostic for local braid stability.
+Here, $\Delta_B = 0$ indicates a perfectly aligned, tension-free braid, while $\Delta_B \to 1$ (or $2$ for anti-aligned vectors) signifies maximal directional conflict, a state that precedes field decoherence or rupture. This divergence metric serves as the primary diagnostic for local braid stability.
 
 **Operationalization**
 
@@ -326,4 +326,4 @@ def evaluate_braid_tension(v_i, v_j):
     return B_ij, Delta_B
 ```
 
-A lower \(\Delta_B\) value implies a tighter, more coherent braid, where the local field evolution is constrained to a narrow bundle of paths. This sets the stage for formalizing the continuous field dynamics that govern how these braids themselves evolve, tighten, or rupture over time.
+A lower $\Delta_B$ value implies a tighter, more coherent braid, where the local field evolution is constrained to a narrow bundle of paths. This sets the stage for formalizing the continuous field dynamics that govern how these braids themselves evolve, tighten, or rupture over time.
