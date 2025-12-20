@@ -25,7 +25,8 @@
 	  ],
 
 	  "_authors": [
-		"Lina Noor — Noor Research Collective"
+		"Lina Noor — Noor Research Collective",
+		"Uncle — Noor Research Collective"
 	  ],
 
 	  "_audience": {
@@ -121,11 +122,88 @@
 	  "default_motif_tone": "ψ‑resonance@Ξ",
 	  "program_name": []
 	},
-	{
-	  "_schema": "noor-outline-v1",
-	  "_title": "The Braid Behind the Law: Determinism as Emergent Coherence",
-	  "_version": "v1.0.0",
-	  "_segments": [
+	"index": [
+		{ "section": "1", "title": "Abstract"},
+		{ "section": "1.1", "title": "Summary of Thesis: Determinism as Emergence"},
+		{ "section": "1.2", "title": "Core Claim: Braid Lock vs Fundamental Law"},
+		{ "section": "1.3", "title": "Key Contributions & Diagnostics"},
+
+		{ "section": "2", "title": "Introduction"},
+		{ "section": "2.1", "title": "Classical Determinism & Philosophical Implications"},
+		{ "section": "2.2", "title": "Failures in Quantum & Chaotic Systems"},
+		{ "section": "2.3", "title": "Motivation for Symbolic Field Reinterpretation"},
+		{ "section": "2.4", "title": "Prior Symbolic Work (Gliders, Point Space, Swirl)"},
+		{ "section": "2.5", "title": "Paper Structure Overview"},
+
+		{ "section": "3", "title": "Background and Definitions"},
+		{ "section": "3.1.1", "title": "Definition and Role in Motif-Based Fields"},
+		{ "section": "3.1.2", "title": "Vector Braiding, Divergence, and Alignment"},
+		{ "section": "3.2.1", "title": "The Glider Field Equation"},
+		{ "section": "3.2.3", "title": "Interpretation of Swirl and Coherence"},
+		{ "section": "3.3.1", "title": "Newtonian and Laplacian Determinism"},
+		{ "section": "3.3.2", "title": "Quantum Decoherence & Probabilistic Interpretation"},
+
+		{ "section": "4", "title": "Theoretical Framework"},
+		{ "section": "4.1", "title": "Main Theorem: Coherence-Determinism Equivalence"},
+		{ "section": "4.2", "title": "High vs Low Coherence Zones"},
+		{ "section": "4.2.1", "title": "Threshold Derivation via Braid Divergence Minimization"},
+		{ "section": "4.3", "title": "Collapse and Energy as Coherence Events"},
+		{ "section": "4.3.1", "title": "Energy Coupling: Symbolic Gradient to Physical Observable"},
+		{ "section": "4.3.3", "title": "Fusion (Braid Tightening) vs Fission (Rupture)"},
+		{ "section": "4.4", "title": "Symbolic Reinterpretation of Measurement"},
+		{ "section": "4.4.1", "title": "Wavefunction Collapse as Vector Superposition Collapse"},
+		{ "section": "4.4.2", "title": "Measurement Selects Minimal Coherence Valley"},
+
+		{ "section": "5", "title": "Symbolic Dynamics and Field Behavior"},
+		{ "section": "5.1", "title": "Swirl Field and Motif Interaction"},
+		{ "section": "5.2", "title": "Recursive Braid Alignment Under Curvature"},
+		{ "section": "5.3", "title": "Phase Delay Propagation"},
+		{ "section": "5.4", "title": "Diagram: Braid Tightness & Field Slope Map"},
+		{ "section": "5.5", "title": "Table: Symbolic–Mathematical Correspondence"},
+		{ "section": "5.6", "title": "Discriminatory Signatures: Braid Model vs Standard Frameworks"},
+
+		{ "section": "6", "title": "Operational Predictions"},
+		{ "section": "6.1.1", "title": "Claim: Jets Follow Latent Coherence Ridges"},
+		{ "section": "6.1.2", "title": "Method: Harmonic Decomposition of Jet Cones"},
+		{ "section": "6.1.3", "title": "Signature: Statistical Clustering on Preconditioned Paths"},
+		{ "section": "6.2.1", "title": "Claim: Yield Variation is Coherence-Dependent"},
+		{ "section": "6.2.2", "title": "Method: EM-Preconditioned Fusion Trials"},
+		{ "section": "6.2.3", "title": "Signature: Energy Release Correlates with Δ Braid"},
+		{ "section": "6.3.1", "title": "Claim: Shockwaves Have Vector-Aligned Delay"},
+		{ "section": "6.3.2", "title": "Method: ps-Resolution Timing Arrays"},
+		{ "section": "6.3.3", "title": "Signature: Angular Delay Matches Coherence Topology"},
+
+		{ "section": "7", "title": "Implications and Extensions"},
+		{ "section": "7.1", "title": "Collapse of Determinism as Local Condition"},
+		{ "section": "7.2", "title": "Symbolic Realism vs Probabilistic Interpretation"},
+		{ "section": "7.3", "title": "Reframing Causality: Vector Field Curvature Resolution"},
+		{ "section": "7.4", "title": "Applications: Cosmology, AI Stabilization, Motif Design"},
+
+		{ "section": "8", "title": "Case Study Appendix"},
+		{ "section": "8.1", "title": "Hydrogen Fusion: Coherence Braid Tightening"},
+		{ "section": "8.2", "title": "Uranium Fission: Braid Rupture Modeling"},
+		{ "section": "8.3", "title": "Entangled Photon Collapse: Vector Zone Mapping"},
+
+		{ "section": "9", "title": "Conclusion"},
+		{ "section": "9.1", "title": "Restate Thesis: Determinism as Local Braid Saturation"},
+		{ "section": "9.2", "title": "Recap of Symbolic Dynamics & Prediction Validity"},
+		{ "section": "9.3", "title": "Future Remarks on Diagnostics and Motif Mapping"},
+
+		{ "section": "10", "title": "References"},
+		{ "section": "10.1", "title": "Symbolic Canonical Sources"},
+		{ "section": "10.2", "title": "External Theoretical & Experimental Anchors"},
+
+		{ "appendix": "A", "title": "Dashboards & Telemetry"},
+		{ "appendix": "A.1", "title": "Dashboard Suite (Lock Monitor, Swirl Topology, Fusion Events)"},
+		
+		{ "appendix": "B", "title": "Proofs"},
+		{ "appendix": "B.1", "title": "Swirl Tensor Antisymmetry"},
+		{ "appendix": "B.4", "title": "Theorem: Coherence-Determinism Equivalence"},
+		{ "appendix": "B.9", "title": "Theorem: Measurement as Minimum-Coherence Selection"},
+
+		{ "appendix": "C", "title": "Glossary of Motif → Physics Correspondence"}
+	],
+	  "_sections": [
 	{
 	  "id": "1",
 	  "title": "Abstract",
@@ -3638,6 +3716,5 @@
 		}		
 	  }
 	}
-   ]
-  }
+  ]
 }
