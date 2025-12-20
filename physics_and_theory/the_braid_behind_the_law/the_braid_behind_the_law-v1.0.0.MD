@@ -1,7 +1,7 @@
-# The Braid Behind the Law: Determinism as Emergent Coherence
-*by: Lina Noor - Noor Research Collective (2026)* 
-[Canonical Source](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/physics_and_theory/the_braid_behind_the_law/the_braid_behind_the_law.JSON)
-Rendered from: [v1.0.3](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/physics_and_theory/the_braid_behind_the_law/the_braid_behind_the_law-v1.0.3.JSON)    
+# The Braid Behind the Law: Determinism as Emergent Coherence  
+*by: Lina Noor - Noor Research Collective (2026)*  
+[Canonical Source](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/physics_and_theory/the_braid_behind_the_law/the_braid_behind_the_law.JSON)  
+Rendered from: [v1.0.3](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/physics_and_theory/the_braid_behind_the_law/the_braid_behind_the_law-v1.0.3.JSON)  
 
 ---
 
@@ -481,5 +481,6 @@ The preceding formulation, while robust within its domain, represents a framewor
 | **Response to Perturbation** | Continuous deviation per $F = ma$ | Deviation only if perturbation lowers $\mathcal{C}$ below braid-lock threshold |
 
 This contrast reveals the core architectural difference: classical determinism enforces uniqueness from the outset via differential equation theory, whereas the braid model *permits* uniqueness to arise as a specific configuration of a more fundamental field. Path determinism is not guaranteed; it is a contingent state of the coherence field, occurring only in the weak-field, long-coherence limit where $\mathcal{C} \to 1$.
+
 
 Equipped with this field-based perspective, the analysis can now be extended to quantum systems, where the notion of a single deterministic trajectory has historically failed. The braid-coherence lens provides a new formalism through which to reinterpret phenomena like decoherence, not as a collapse into probability, but as a resolution within a structured field of potential coherence.
