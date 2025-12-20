@@ -332,20 +332,20 @@ A lower $\Delta_B$ value implies a tighter, more coherent braid, where the local
 
 # 3.2.3 The Glider Field Equation
 
-The foundational dynamics governing the evolution of the symbolic coherence field are formalized by the glider field equation, a reaction-diffusion structure that intertwines motif smoothing with nonlinear saturation:
+The foundational dynamics of the coherence field are governed by the glider field equation, a reaction–diffusion formulation that encodes the interplay between spatial smoothing and nonlinear saturation:
 
-$$
-\partial_t \mathcal{C}(x,t) = -\nabla^2 \mathcal{C}(x,t) + \lambda\, \mathcal{C}(x,t)\left(1 - \mathcal{C}^2(x,t)\right) \tag{4}
-$$
+$$ \partial_t \mathcal{C}(x,t) = -\nabla^2 \mathcal{C}(x,t) + \lambda \mathcal{C}(x,t)(1 - \mathcal{C}^2(x,t)) $$
 
-This governing law (Eq. 4) encodes two principal physical processes. The Laplacian term $-\nabla^2 \mathcal{C}(x,t)$ represents the spatial diffusion of coherence, promoting the smoothing and equilibration of symbolic gradients across the field. The nonlinear term $\lambda \mathcal{C}(x,t)(1 - \mathcal{C}^2(x,t))$ instantiates a self-regulating growth dynamic. Here, $\lambda$ denotes the self-stabilization coefficient, controlling the rate at which local coherence saturates. The cubic constraint $(1 - \mathcal{C}^2)$ ensures the field remains bounded, preventing runaway amplification and maintaining the system within a stable symbolic phase space.
+**(Eq. 4)**
 
-A fundamental invariant enforced by this structure is the weak-field coherence bound:
+The term $-\nabla^2 \mathcal{C}(x,t)$ acts as a diffusion operator, promoting the spatial homogenization of coherence. In contrast, the nonlinear source term $\lambda \mathcal{C}(x,t)(1 - \mathcal{C}^2(x,t))$ introduces a self-limiting growth dynamic. The parameter $\lambda$ functions as a self-stabilization coefficient, controlling the rate at which local coherence amplifies toward saturation or decays toward zero. The cubic nonlinearity $(1 - \mathcal{C}^2)$ ensures the field remains bounded, enforcing the following strict invariant:
 
-$$
-\mathcal{C}(x,t) \in [-1, 1]
-$$
+> **Invariant (Weak-field coherence bound):**
+> $$ \mathcal{C}(x,t) \in [-1, 1] $$
+>
+> *Verification:* This bound is enforced structurally by the nonlinearity term in Eq. 4. Values of $|\mathcal{C}| > 1$ induce a negative feedback force, restoring the field to its defined domain.
 
-This strict bound on the coherence field's amplitude is not an external constraint but emerges intrinsically from the nonlinearity in Eq. 4. The term $(1 - \mathcal{C}^2)$ acts as a restoring force, penalizing deviations beyond the unit interval and ensuring all symbolic dynamics remain within a defined, finite range of coherence potential. Verification of this invariant in simulation or analytical treatment is a primary diagnostic of model integrity; any violation indicates a failure in the integration scheme or a misinterpretation of the field's boundary conditions.
+This equation serves as the continuous dynamical substrate from which discrete motif interactions and braid topology emerge. Its solutions describe how regions of high coherence ($\mathcal{C} \rightarrow \pm1$) form, stabilize, and interact with neighboring zones of lower coherence or contradiction. The balance between the Laplacian smoothing and the $\lambda$-driven local growth defines the characteristic "swirl" length scales and the propagation speed of coherence gradients through the symbolic medium.
 
-The glider field equation thus serves as the central dynamical engine, translating local motif interactions and vector alignment into a continuous spacetime evolution of the coherence landscape. Its solution dictates how braids tighten, where swirls form, and when deterministic lock emerges from the underlying symbolic turbulence. Having established this formal dynamical core, the interpretative task shifts to understanding the physical and semantic meaning of the swirls, curls, and coherence structures this equation generates.
+The formal dynamics now established provide the necessary framework to interpret the physical and symbolic meaning of swirl, curl, and coherence within this curved spacetime.
+
