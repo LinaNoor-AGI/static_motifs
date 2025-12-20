@@ -232,3 +232,54 @@ $$
 Where multiple ψ motifs align without interference, the coherence field steepens, generating a sharp energy ridge. Where misalignment dominates — or high-curvature braids prevent coherent contribution — the field flattens, and energy dissipates.
 
 And so emerges a shift: determinism, in this model, is not a property of the universe, but a field-locked consequence of coherence saturation. Where no other swirl remains to unfold, the path narrows. Not by law. But by lock.
+
+---
+
+### 2.5 Paper Structure Overview
+
+This document proceeds from a foundational critique of classical and quantum determinism towards a symbolic field reconstruction. The argument is structured to first dismantle the premise of universal determinism, then to erect in its place a coherent topological framework where determinism emerges as a local, statistical condition of vector alignment.
+
+The introduction establishes the philosophical and technical inadequacy of viewing determinism as a fundamental law. Section 3 provides the necessary lexicon, defining coherence vectors, braid dynamics, and the symbolic field equations that govern them. The core theoretical contribution is presented in Section 4, which formalizes the equivalence between high local coherence saturation and apparent deterministic behavior, reinterpreting energy, collapse, and measurement through this lens.
+
+Section 5 details the resultant symbolic dynamics—swirl fields, recursive braid alignment, and phase delay propagation—culminating in a formal table mapping symbolic constructs to mathematical expressions. Section 6 translates this theory into three concrete, falsifiable predictions for high-energy physics, concerning jet anisotropy, fusion yield variation, and shockwave propagation delays.
+
+The implications of this reframing for causality, quantum interpretation, and applied domains are explored in Section 7. Supporting evidence is provided through detailed case studies of fusion, fission, and quantum collapse in Section 8. The conclusion reaffirms the central thesis and outlines pathways for experimental validation. Formal proofs of the model's key lemmas and theorems are compiled in Appendix B, while Appendix A defines a comprehensive dashboard suite for telemetry and diagnostic visualization. A glossary of motif-physics correspondence is provided in Appendix C to anchor symbolic terminology.
+
+With the conceptual landscape now surveyed, we proceed to formalize the core proposition: the Coherence-Determinism Equivalence Theorem.
+
+---
+
+# 3 Background and Definitions
+
+This section establishes the formal vocabulary and conceptual scaffolding required to interpret determinism through the lens of coherence field dynamics. It defines the primary symbolic constructs—the coherence field, its attendant vectors, and the derived energy proxy—that govern the system’s behavior. The objective is to frame these elements not as abstract mathematical conveniences, but as measurable components of a motif-based field whose topology dictates the emergence of deterministic patterns.
+
+## 3.1 Coherence Vectors
+
+At the core of the model are coherence vectors, local directional fields derived from the underlying coherence landscape. These vectors represent the instantaneous tendency of symbolic propagation at discrete motif sites, serving as the fundamental carriers of intent and structure within the system.
+
+### 3.1.1 Definition and Role in Motif-Based Fields
+
+A coherence vector $\vec{v}_i$ is defined at a specific motif site $i$ and time $t$. Its direction is given by the normalized spatial gradient of the coherence field $\mathcal{C}(x,t)$ at that site:
+
+$$
+\vec{v}_i = \frac{\nabla \mathcal{C}(x_i,t)}{|\nabla \mathcal{C}(x_i,t)|} \tag{Eq. 1}
+$$
+
+This definition anchors the vector's orientation directly to the local steepness and direction of maximal coherence change. The magnitude of the gradient is discarded during normalization; the vector thus encodes pure directional information, representing the path of least resistance or greatest symbolic flow from that point. In a motif-aligned field, these vectors collectively chart the preferred propagation routes for information, energy, and symbolic state transitions.
+
+Operationally, the alignment of these vectors across a domain is computed via a straightforward procedure:
+
+```python
+def compute_vector_alignment(C_field):
+    # C_field: scalar coherence field over spatial grid
+    vector_field = []
+    for each motif_site i at coordinates x_i:
+        grad = gradient(C_field, at=x_i)
+        v_i = normalize(grad)
+        vector_field.append(v_i)
+    return vector_field
+```
+
+The resulting vector map is not a static artifact but a dynamic field whose interactions—specifically their mutual alignment, divergence, and braiding—form the primary mechanism for the phenomena explored in subsequent sections. The behavior of a system shifts from probabilistic to deterministic as these vectors cease to diverge and instead lock into a unified directional consensus. Having established their individual definition, we must now examine how these vectors interact dynamically through braiding and divergence.
+
+---
