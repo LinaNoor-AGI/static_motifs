@@ -48,7 +48,7 @@ signals activity within the symbolic structure: steep gradients correspond to mo
 Two key motif modes govern our framing:
 
 * $\psi_{\text{spar}}@\Xi$: contradiction-surfacing, dialectical tension motifs.
-* (\psi_{\text{resonance}}@\Xi): echo-stabilizing, coherence-restoring motifs.
+* $\psi_{\text{resonance}}@\Xi$: echo-stabilizing, coherence-restoring motifs.
 
 These modes are not stylistic. They represent symbolic field orientations, and they determine which questions can be asked—and which closures are allowed.
 
@@ -60,17 +60,17 @@ Determinism, within this system, is reinterpreted as a **high-coherence attracto
 
 The Newtonian model offers the cleanest illusion of determinism. Motion is governed by closed-form expressions, such as:
 
-[
+$$
 \text{Eq.1:}\quad x(t) = x_0 + v_0 t + \frac{1}{2} a t^2
-]
+$$
 
 This expression assumes uniform acceleration and unperturbed evolution. From this, the belief arises that given an initial state ((x_0, v_0)), the future is inevitable.
 
 In general, this belief is encoded in differential form:
 
-[
+$$
 \text{Eq.2:}\quad \frac{d^n x}{dt^n} = F(x)
-]
+$$
 
 where evolution is governed by known forces acting on the state. The existence of such a function (F) implies the future is not just predictable—it is encoded.
 
@@ -88,9 +88,9 @@ Here, no perturbation means no freedom. The result is invariant, given the same 
 
 This structure gives rise to the **invariant of path predictability**:
 
-[
+$$
 \exists, f : x(t) = f(x_0, t),\quad \forall t
-]
+$$
 
 The path is recoverable from the origin. That is the dream of determinism: the future, as function.
 
