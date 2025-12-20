@@ -148,8 +148,6 @@ The implementation supports toggling between fixed and adaptive traversal polici
 
 #### **7.2 Visual Demonstrations**
 
-Two figures are included to illustrate the core structural assumptions and computational behavior of the proposed method.  
-
 ##### 7.2.1 Figure 1.
 
 ![image](https://github.com/LinaNoor-AGI/noor-research/blob/main/Archive/Archive_Images/n-body_image_1.png?raw=true)  
@@ -555,6 +553,7 @@ Or use the BibTeX Citation:
   note = {https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/physics_and_theory/3-body_problem/determining_interactions_between_n_bodies_in_euclidean_space.md},
 }
 ```
+
 
 
 
