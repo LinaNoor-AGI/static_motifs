@@ -374,7 +374,7 @@ The interplay between the coherence field and its topological curvature is gover
 The local energy proxy $E(x,t)$ is defined as the magnitude of the coherence gradient, formalizing the intuition that steep coherence transitions correspond to energetic activity.
 
 $$ 
-E(x,t) = \|\nabla \mathcal{C}(x,t)\| \tag{Eq. 5} 
+E(x,t) = |\nabla \mathcal{C}(x,t)|
 $$
 
 **Swirl-Motif Correspondence**
