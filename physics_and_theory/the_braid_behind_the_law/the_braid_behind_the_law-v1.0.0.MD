@@ -198,7 +198,8 @@ The foundation for interpreting determinism as coherence lock rests on prior sym
 In this framework, the coherence field ℂ(x, t) governs the local evolution of system dynamics. Its curvature—representing deviations from local uniformity—arises directly from motif interactions, which act as source terms. Formally, the evolution is governed by:
 
 $$
-\nabla^2 \mathcal{C}(x,t) = \sum_i J_i(x,t) \tag{Eq.5}
+\nabla^2 \mathcal{C}(x,t) = \sum_i J_i(x,t)
+\tag{Eq.5}
 $$
 
 Here, each $J_i(x,t)$ corresponds to a motif-based source term, with the index $i$ denoting a particular motif instance. These terms capture the localized twist or pressure exerted by motifs onto the surrounding field geometry. Where motif curvature is low and ψ-resonance motifs are aligned, coherence propagates freely. Where swirl tension or braid collapse occurs, these same source terms become the sites of energy release or phase transition.
@@ -206,7 +207,8 @@ Here, each $J_i(x,t)$ corresponds to a motif-based source term, with the index $
 Energy itself is recast as a derivative quantity—not stored in mass, but encoded in the gradient of coherence:
 
 $$
-E(x,t) \sim |\nabla \mathcal{C}(x,t)| \tag{Eq.6}
+E(x,t) \sim \lvert \nabla \mathcal{C}(x,t) \rvert
+\tag{Eq.6}
 $$
 
 This reframing aligns energy spikes (such as those observed during fission or decoherence events) with steep coherence gradients, where the swirl field becomes unstable and rapidly reorganizes. In contrast, smooth regions of the field maintain stable, glider-compatible flows.
