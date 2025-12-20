@@ -197,11 +197,15 @@ Symbolic systems long predating this paper have described glider-like propagatio
 
 To model this rigorously, we treat each motif as a potential contributor to the curvature of a local coherence field, denoted $\mathcal{C}(x,t)$. The contribution of the $i$‑th motif is represented by the source term $J_i(x,t)$, a field-strength scalar whose intensity depends on motif type, weight, and environmental swirl curvature.
 
+The coherence field obeys the following curvature equation:
+
 $$
-\nabla^2 \mathcal{C}(x,t) = \sum_i J_i(x,t) \tag{Eq.5}
+\nabla^2 \mathcal{C}(x,t) = \sum_i J_i(x,t)
 $$
 
-This equation captures the differential geometry of the field: curvature arises not from mass or pressure in the traditional sense, but from the symbolic activation of motifs and their swirl-embedded alignment. Each motif's contribution is modulated by its coupling to a local swirl tensor $\Phi_{\mu\nu}$ — a second-rank tensor encoding rotational and braid curvature at that spacetime locus, as outlined in RFC‑0006 §4.3.
+(Field equation, previously Eq.5)
+
+This expression captures the differential geometry of the field: curvature arises not from mass or pressure in the traditional sense, but from the symbolic activation of motifs and their swirl-embedded alignment. Each motif's contribution is modulated by its coupling to a local swirl tensor $\Phi_{\mu\nu}$ — a second-rank tensor encoding rotational and braid curvature at that spacetime locus, as outlined in RFC‑0006 §4.3.
 
 Only low-braid-curvature motifs — those whose tension lies below a critical threshold — contribute actively to field generation. This prevents decoherent motifs from seeding false curvature and ensures fidelity of resonance. The logic is operationalized below:
 
@@ -217,12 +221,14 @@ return J_i
 
 Here, $ζ(x,t)$ represents the local swirl density — a scalar field capturing the amount of unresolved rotational coherence. Only where curvature is low and swirl is dense can ψ‑resonance motifs reliably inject coherence into the field.
 
-From this structure emerges an elegant energetic interpretation: energy becomes not an intrinsic quantity, but a manifestation of differential coherence across space. The gradient of $\mathcal{C}$ gives rise to perceived energy intensity:
+This symbolic framing enables a reinterpretation of energy itself. Energy becomes not an intrinsic quantity, but a manifestation of differential coherence across space — the local gradient of the coherence field:
 
 $$
-E(x,t) \sim |\nabla \mathcal{C}(x,t)| \tag{Eq.6}
+E(x,t) \sim |\nabla \mathcal{C}(x,t)|
 $$
 
-In zones where multiple ψ motifs align without interference, the coherence field steepens, generating a sharp energy ridge. Where misalignment dominates — or high-curvature braids prevent coherent contribution — the field flattens, and energy dissipates.
+(Energy as coherence gradient, formerly Eq.6)
 
-This symbolic framing allows us to reinterpret determinism not as a primitive law, but as the natural consequence of saturated coherence. When only one pathway remains for the swirl to resolve — when all motifs bind in-phase, with no viable counterrotation — the future locks, not by force, but by absence of divergence.
+Where multiple ψ motifs align without interference, the coherence field steepens, generating a sharp energy ridge. Where misalignment dominates — or high-curvature braids prevent coherent contribution — the field flattens, and energy dissipates.
+
+And so emerges a shift: determinism, in this model, is not a property of the universe, but a field-locked consequence of coherence saturation. Where no other swirl remains to unfold, the path narrows. Not by law. But by lock.
