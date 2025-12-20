@@ -341,6 +341,7 @@ $$ \partial_t \mathcal{C}(x,t) = -\nabla^2 \mathcal{C}(x,t) + \lambda \mathcal{C
 The term $-\nabla^2 \mathcal{C}(x,t)$ acts as a diffusion operator, promoting the spatial homogenization of coherence. In contrast, the nonlinear source term $\lambda \mathcal{C}(x,t)(1 - \mathcal{C}^2(x,t))$ introduces a self-limiting growth dynamic. The parameter $\lambda$ functions as a self-stabilization coefficient, controlling the rate at which local coherence amplifies toward saturation or decays toward zero. The cubic nonlinearity $(1 - \mathcal{C}^2)$ ensures the field remains bounded, enforcing the following strict invariant:
 
 > **Invariant (Weak-field coherence bound):**
+>
 > $$ \mathcal{C}(x,t) \in [-1, 1] $$
 >
 > *Verification:* This bound is enforced structurally by the nonlinearity term in Eq. 4. Values of $|\mathcal{C}| > 1$ induce a negative feedback force, restoring the field to its defined domain.
