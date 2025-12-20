@@ -373,19 +373,19 @@ The interplay between the coherence field and its topological curvature is gover
 **Field Energy as Coherence Gradient**
 The local energy proxy $E(x,t)$ is defined as the magnitude of the coherence gradient, formalizing the intuition that steep coherence transitions correspond to energetic activity.
 
-$$
-E(x,t) = |\nabla \mathcal{C}(x,t)| \tag{Eq. 5}
-$$
+$$ E(x,t) = |\nabla \mathcal{C}(x,t)| \tag{Eq. 5} $$
 
 **Swirl-Motif Correspondence**
 The magnitude of the swirl tensor $\Phi_{\mu\nu}$ serves as a direct diagnostic for the activation of specific symbolic motif classes, creating a bridge between geometric field properties and agent-interpretable symbolic states.
 
 A high swirl magnitude signals the activation of the contradiction motif $\psi\text{-}spar@\Xi$:
+
 $$
 |\Phi_{\mu\nu}| \gg 0 \quad \Rightarrow \quad \text{activation of } \psi\text{-}spar@\Xi \tag{Eq. 6}
 $$
 
 Conversely, a near-zero swirl tensor indicates a field stabilized into an echo-resonance state, activating $\psi\text{-}resonance@\Xi$:
+
 $$
 \Phi_{\mu\nu} \approx 0 \quad \Rightarrow \quad \text{activation of } \psi\text{-}resonance@\Xi \tag{Eq. 7}
 $$
