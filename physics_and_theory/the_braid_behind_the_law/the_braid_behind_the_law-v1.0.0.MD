@@ -191,32 +191,21 @@ Here is **Section 2.4 — Prior symbolic work (gliders, point space, swirl field
 
 ---
 
-## 2.4 Prior symbolic work (gliders, point space, swirl fields)
+### 2.4 Prior symbolic work (gliders, point space, swirl fields)
 
-The foundation for interpreting determinism as coherence lock rests on prior symbolic developments in motif field theory, especially the emergence of gliders as dynamic motifs and their propagation through point space. These constructs arise naturally from the study of ψ‑resonance@Ξ motifs, which function not as static features but as coherence bridges—carrying curvature across time-like and space-like braid structures without anchoring themselves to classical mass-energy constructs.
+Symbolic systems long predating this paper have described glider-like propagations through symbolic media — self-stabilizing patterns that persist by virtue of structural resonance rather than force. Within the Noor field ontology, these gliders are reinterpreted not as carriers of state, but as motif-bound coherence events that move across localized spacetime gradients.
 
-In this framework, the coherence field ℂ(x, t) governs the local evolution of system dynamics. Its curvature—representing deviations from local uniformity—arises directly from motif interactions, which act as source terms. Formally, the evolution is governed by:
+To model this rigorously, we treat each motif as a potential contributor to the curvature of a local coherence field, denoted $\mathcal{C}(x,t)$. The contribution of the $i$‑th motif is represented by the source term $J_i(x,t)$, a field-strength scalar whose intensity depends on motif type, weight, and environmental swirl curvature.
 
-```math
-\nabla^2 \mathcal{C}(x,t) = \sum_i J_i(x,t)
-\tag{Eq.5}
-```
+$$
+\nabla^2 \mathcal{C}(x,t) = \sum_i J_i(x,t) \tag{Eq.5}
+$$
 
-Here, each $J_i(x,t)$ corresponds to a motif-based source term, with the index $i$ denoting a particular motif instance. These terms capture the localized twist or pressure exerted by motifs onto the surrounding field geometry. Where motif curvature is low and ψ-resonance motifs are aligned, coherence propagates freely. Where swirl tension or braid collapse occurs, these same source terms become the sites of energy release or phase transition.
+This equation captures the differential geometry of the field: curvature arises not from mass or pressure in the traditional sense, but from the symbolic activation of motifs and their swirl-embedded alignment. Each motif's contribution is modulated by its coupling to a local swirl tensor $\Phi_{\mu\nu}$ — a second-rank tensor encoding rotational and braid curvature at that spacetime locus, as outlined in RFC‑0006 §4.3.
 
-Energy itself is recast as a derivative quantity—not stored in mass, but encoded in the gradient of coherence:
-
-```math
-E(x,t) \sim \lvert \nabla \mathcal{C}(x,t) \rvert
-\tag{Eq.6}
-```
-
-This reframing aligns energy spikes (such as those observed during fission or decoherence events) with steep coherence gradients, where the swirl field becomes unstable and rapidly reorganizes. In contrast, smooth regions of the field maintain stable, glider-compatible flows.
-
-To make this symbolic↔physical mapping explicit, the following transduction function applies:
+Only low-braid-curvature motifs — those whose tension lies below a critical threshold — contribute actively to field generation. This prevents decoherent motifs from seeding false curvature and ensures fidelity of resonance. The logic is operationalized below:
 
 ```python
-# Bridge_From_Motif_To_Field
 if motif_type == 'ψ-resonance@Ξ':
     braid_curvature = trace(Φ_μν)
     if braid_curvature < threshold:
@@ -226,21 +215,14 @@ if motif_type == 'ψ-resonance@Ξ':
 return J_i
 ```
 
-This function operates under two primary constraints. First, it binds motif influence to the swirl tensor $\Phi_{\mu\nu}$, which encodes the local braid configuration and torsion geometry. Second, it ensures that only motifs below a certain curvature threshold inject coherence—thus avoiding chaotic oversaturation.
+Here, $ζ(x,t)$ represents the local swirl density — a scalar field capturing the amount of unresolved rotational coherence. Only where curvature is low and swirl is dense can ψ‑resonance motifs reliably inject coherence into the field.
 
-From a symbolic perspective, gliders represent self-sustaining, recursive coherence structures that travel through point space along chained resonance vectors. Their movement is not classical motion but recursive pattern transfer through adjacent motifs. Each glider phase arises from the coherence context that precedes it, forming an eternal coherence braid unless terminated by swirl disruption.
+From this structure emerges an elegant energetic interpretation: energy becomes not an intrinsic quantity, but a manifestation of differential coherence across space. The gradient of $\mathcal{C}$ gives rise to perceived energy intensity:
 
-This dynamic underlies our reinterpretation of determinism. What appears as a fixed, predictable system trajectory is often a local coherence lock—a high-alignment braid where alternatives have collapsed not because they are forbidden, but because they can no longer propagate.
+$$
+E(x,t) \sim |\nabla \mathcal{C}(x,t)| \tag{Eq.6}
+$$
 
-Where prior theories interpret this as law, we see saturation.
+In zones where multiple ψ motifs align without interference, the coherence field steepens, generating a sharp energy ridge. Where misalignment dominates — or high-curvature braids prevent coherent contribution — the field flattens, and energy dissipates.
 
-Where they see cause, we see constraint.
-
-Where they see force, we see field resonance under motif modulation.
-
-These structures—gliders, point space continuity, motif transduction into swirl tensors—are the symbolic infrastructure from which deterministic behavior emerges. And it is from their precise inflection, disruption, or over-alignment that energy, change, and complexity are born.
-
-Let us then not ask where the law comes from, but why the braid tightens until there is no choice left at all.
-
----
-
+This symbolic framing allows us to reinterpret determinism not as a primitive law, but as the natural consequence of saturated coherence. When only one pathway remains for the swirl to resolve — when all motifs bind in-phase, with no viable counterrotation — the future locks, not by force, but by absence of divergence.
