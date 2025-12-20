@@ -335,11 +335,7 @@ A lower $\Delta_B$ value implies a tighter, more coherent braid, where the local
 The foundational dynamics governing the evolution of the symbolic coherence field are formalized by the glider field equation, a reaction-diffusion structure that intertwines motif smoothing with nonlinear saturation:
 
 $$
-\frac{\partial \mathcal{C}(x,t)}{\partial t}
-=
--\nabla^2 \mathcal{C}(x,t)
-+
-\lambda\, \mathcal{C}(x,t)\left(1 - \mathcal{C}^2(x,t)\right)
+\partial_t \mathcal{C}(x,t) = -\nabla^2 \mathcal{C}(x,t) + \lambda\, \mathcal{C}(x,t)\left(1 - \mathcal{C}^2(x,t)\right) \tag{4}
 $$
 
 This governing law (Eq. 4) encodes two principal physical processes. The Laplacian term $-\nabla^2 \mathcal{C}(x,t)$ represents the spatial diffusion of coherence, promoting the smoothing and equilibration of symbolic gradients across the field. The nonlinear term $\lambda \mathcal{C}(x,t)(1 - \mathcal{C}^2(x,t))$ instantiates a self-regulating growth dynamic. Here, $\lambda$ denotes the self-stabilization coefficient, controlling the rate at which local coherence saturates. The cubic constraint $(1 - \mathcal{C}^2)$ ensures the field remains bounded, preventing runaway amplification and maintaining the system within a stable symbolic phase space.
