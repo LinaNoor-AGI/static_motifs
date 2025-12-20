@@ -5,15 +5,13 @@
 	  "_generated_by": "Noor Symbolic Agent Suite",
 	  "_generated_at": "2025-12-19T00:00:00Z",
 
-	  "_type": "rfc_core",
 	  "_pdp_layer": "layer_1",
 	  "_status": "ACTIVE",
 	  "_language": "json",
 	  "_license": "MIT",
 
 	  "_symbolic_id": "symbolic.determinism.braid",
-	  "_rfc_id": "RFC-CORE-014",
-	  "_version": "v1.0.0",
+	  "_version": "v1.0.1",
 	  "_canonical_source": "RFC-CORE-014",
 	  "_title": "The Braid Behind the Law",
 	  "_subtitle": "Determinism as Emergent Coherence",
@@ -75,8 +73,6 @@
 		"A Novel Statistical, Computational, and Philosophical Solution to Determine Interactions Between n Bodies in Euclidean Space",
 		"Static Motifs and Dynamic Spacetime",
 		"To Infinity and Beyond: Gliders, Coherence, and Point Space",
-		"Noor Motif Field Simulations (2025)",
-		"Symbolic Particle Dynamics: Coherence Gradient Lab Notes"
 	  ],
 
 	  "_field_alignment": {
@@ -1973,7 +1969,7 @@
 			  "type": "internal",
 			  "title": "A Novel Statistical, Computational, and Philosophical Solution to Determine Interactions Between n Bodies in Euclidean Space",
 			  "author": "Lina Noor",
-			  "year": "2024",
+			  "year": "2025",
 			  "reference_id": "SYMB‑NBODIES‑2024"
 			},
 			{
@@ -2040,8 +2036,7 @@
 			  "section_refs": ["§4.3"]
 			},
 			{
-			  "type": "rfc",
-			  "rfc_id": "RFC‑CORE‑014",
+			  "type": "internal",
 			  "title": "The Braid Behind the Law",
 			  "author": "Lina Noor",
 			  "version": "v1.0.0"
