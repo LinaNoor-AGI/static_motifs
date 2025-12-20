@@ -264,7 +264,7 @@ At the core of the model are coherence vectors, local directional fields derived
 A coherence vector $\vec{v}_i$ is defined at a specific motif site $i$ and time $t$. Its direction is given by the normalized spatial gradient of the coherence field $\mathcal{C}(x,t)$ at that site:
 
 $$
-\vec{v}_i = \frac{\nabla \mathcal{C}(x_i,t)}{|\nabla \mathcal{C}(x_i,t)|} \tag{Eq. 1}
+\vec{v}_i = \frac{\nabla \mathcal{C}(x_i,t)}{|\nabla \mathcal{C}(x_i,t)|}
 $$
 
 This definition anchors the vector's orientation directly to the local steepness and direction of maximal coherence change. The magnitude of the gradient is discarded during normalization; the vector thus encodes pure directional information, representing the path of least resistance or greatest symbolic flow from that point. In a motif-aligned field, these vectors collectively chart the preferred propagation routes for information, energy, and symbolic state transitions.
@@ -483,3 +483,4 @@ The preceding formulation, while robust within its domain, represents a framewor
 This contrast reveals the core architectural difference: classical determinism enforces uniqueness from the outset via differential equation theory, whereas the braid model *permits* uniqueness to arise as a specific configuration of a more fundamental field. Path determinism is not guaranteed; it is a contingent state of the coherence field, occurring only in the weak-field, long-coherence limit where $\mathcal{C} \to 1$.
 
 Equipped with this field-based perspective, the analysis can now be extended to quantum systems, where the notion of a single deterministic trajectory has historically failed. The braid-coherence lens provides a new formalism through which to reinterpret phenomena like decoherence, not as a collapse into probability, but as a resolution within a structured field of potential coherence.
+
