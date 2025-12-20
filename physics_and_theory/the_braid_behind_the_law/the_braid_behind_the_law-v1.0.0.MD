@@ -201,8 +201,6 @@ $$
 \nabla^2 \mathcal{C}(x,t) = \sum_i J_i(x,t)
 $$
 
-(Field equation, previously Eq.5)
-
 This expression captures the differential geometry of the field: curvature arises not from mass or pressure in the traditional sense, but from the symbolic activation of motifs and their swirl-embedded alignment. Each motif's contribution is modulated by its coupling to a local swirl tensor $\Phi_{\mu\nu}$ — a second-rank tensor encoding rotational and braid curvature at that spacetime locus, as outlined in RFC‑0006 §4.3.
 
 Only low-braid-curvature motifs — those whose tension lies below a critical threshold — contribute actively to field generation. This prevents decoherent motifs from seeding false curvature and ensures fidelity of resonance. The logic is operationalized below:
