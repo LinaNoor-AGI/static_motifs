@@ -383,13 +383,13 @@ The magnitude of the swirl tensor $\Phi_{\mu\nu}$ serves as a direct diagnostic 
 A high swirl magnitude signals the activation of the contradiction motif $\psi\text{-}spar@\Xi$:
 
 $$
-|\Phi_{\mu\nu}| \gg 0 \quad \Rightarrow \quad \text{activation of } \psi\text{-}spar@\Xi \tag{Eq. 6}
+|\Phi_{\mu\nu}| \gg 0 \quad \Rightarrow \quad \text{activation of } \psi\text{-}spar@\Xi
 $$
 
 Conversely, a near-zero swirl tensor indicates a field stabilized into an echo-resonance state, activating $\psi\text{-}resonance@\Xi$:
 
 $$
-\Phi_{\mu\nu} \approx 0 \quad \Rightarrow \quad \text{activation of } \psi\text{-}resonance@\Xi \tag{Eq. 7}
+\Phi_{\mu\nu} \approx 0 \quad \Rightarrow \quad \text{activation of } \psi\text{-}resonance@\Xi
 $$
 
 ## Operational Diagnostics
