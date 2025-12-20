@@ -11,7 +11,7 @@
 	  "_license": "MIT",
 
 	  "_symbolic_id": "symbolic.determinism.braid",
-	  "_version": "v1.0.2",
+	  "_version": "v1.0.3",
 	  "_canonical_source": "RFC-CORE-014",
 	  "_title": "The Braid Behind the Law",
 	  "_subtitle": "Determinism as Emergent Coherence",
@@ -737,30 +737,194 @@
 		{
 		  "id": "3.3.1",
 		  "title": "Newtonian and Laplacian determinism.",
-		  "math": [
+		  "objective": "To state the classical deterministic formulation as a trajectory-based dynamical law and prepare a contrastive pivot toward field-based braid coherence.",
+		  "scaffold_version": "2025-Q4-REV5",
+		  "definitions": [
 			{
-			  "eq_id": "Eq.6",
-			  "latex": "\\frac{d^2 x}{dt^2} = -\\nabla V(x)",
-			  "role": "dynamics",
-			  "depends_on": ["x", "V(x)"],
-			  "gloss": "Newtonian mechanics as second-order potential-gradient response"
+			  "symbol": "x(t)",
+			  "name": "State trajectory",
+			  "latex": "x(t)",
+			  "dimension": "length",
+			  "gloss": "Time-parameterized position in configuration space"
+			},
+			{
+			  "symbol": "V(x)",
+			  "name": "Potential function",
+			  "latex": "V(x)",
+			  "dimension": "energy",
+			  "gloss": "Scalar potential governing force via spatial gradient"
 			}
 		  ],
-		  "handoff": "We now examine probabilistic formulations within quantum decoherence."
+		  "subsections": [
+			{
+			  "id": "3.3.1.1",
+			  "title": "Classical Trajectory Determinism",
+			  "math": [
+				{
+				  "eq_id": "Eq.6",
+				  "latex": "\\frac{d^2 x}{dt^2} = -\\nabla V(x)",
+				  "role": "dynamics",
+				  "depends_on": ["x(t)", "V(x)"],
+				  "gloss": "Newtonian mechanics as second-order trajectory evolution under a potential gradient"
+				}
+			  ],
+			  "invariants": [
+				{
+				  "name": "Uniqueness under smooth potentials",
+				  "latex": "\\exists !\\, x(t) \\; \\forall (x_0, \\dot{x}_0)",
+				  "tolerance": 0,
+				  "verification": "Guaranteed by Picard–Lindelöf theorem for Lipschitz-continuous V(x)"
+				}
+			  ],
+			  "handoff": "This formulation frames determinism as trajectory uniqueness, which we now contrast with a field-based braid formulation."
+			},
+			{
+			  "id": "3.3.1.2",
+			  "title": "Contrastive Framing: Classical vs. Braid Prediction",
+			  "objective": "To explicitly contrast the classical deterministic framework with the braid-coherence model, highlighting the paradigm shift from trajectory-based to field-based determinism.",
+			  "scaffold_version": "2025-Q4-REV5",
+			  "tables": [
+				{
+				  "title": "Comparison of Deterministic Frameworks",
+				  "columns": ["Aspect", "Classical Determinism", "Braid-Coherence Model"],
+				  "rows": [
+					{
+					  "Aspect": "Fundamental Governed Quantity",
+					  "Classical Determinism": "Trajectory x(t) \\in \\mathbb{R}^n",
+					  "Braid-Coherence Model": "Coherence field \\(\\mathcal{C}(x,t) \\in [0,1]\\)"
+					},
+					{
+					  "Aspect": "Sensitivity Source",
+					  "Classical Determinism": "Initial conditions (x_0, \\dot{x}_0)",
+					  "Braid-Coherence Model": "Local braid alignment B_{ij} and gradient \\(\\nabla \\mathcal{C}\\)"
+					},
+					{
+					  "Aspect": "Energy Framing",
+					  "Classical Determinism": "E = \\tfrac{1}{2}mv^2 + V(x)",
+					  "Braid-Coherence Model": "E \\sim |\\nabla \\mathcal{C}|"
+					},
+					{
+					  "Aspect": "Path Uniqueness Guarantee",
+					  "Classical Determinism": "Yes, via ODE uniqueness theorems",
+					  "Braid-Coherence Model": "Emergent only if \\(\\mathcal{C} \\to 1\\) and \\(\\Delta_B \\to 0\\)"
+					},
+					{
+					  "Aspect": "Response to Perturbation",
+					  "Classical Determinism": "Continuous deviation per F = ma",
+					  "Braid-Coherence Model": "Deviation only if perturbation lowers \\(\\mathcal{C}\\) below braid-lock threshold"
+					}
+				  ]
+				}
+			  ],
+			  "bounds_and_limits": [
+				{
+				  "limit": "C->1",
+				  "latex": "\\mathcal{C} \\to 1",
+				  "context": "weak-field/long-coherence"
+				}
+			  ],
+			  "handoff": "This contrast sets the stage for reinterpreting quantum decoherence through the braid-coherence lens in the next subsection."
+			}
+		  ],
+		  "references": {
+			"extends": ["RFC-0006"],
+			"xref": ["noor_rfc_xref.json@RFC-INDEX"]
+		  }
 		},
 		{
 		  "id": "3.3.2",
 		  "title": "Quantum decoherence and probabilistic interpretation.",
-		  "math": [
+		  "objective": "To restate standard quantum decoherence and then extend it with a braid-resolved, coherence-gradient formulation that preserves empirical content while enabling new, falsifiable structure.",
+		  "scaffold_version": "2025-Q4-REV5",
+		  "definitions": [
 			{
-			  "eq_id": "Eq.7",
-			  "latex": "\\rho_{out} = \\sum_i \\Pi_i \\rho_{in} \\Pi_i",
-			  "role": "dynamics",
-			  "depends_on": ["\\rho_{in}", "\\Pi_i"],
-			  "gloss": "Mixed-state decoherence via projection operators"
+			  "symbol": "\\rho_{in}",
+			  "name": "Input density matrix",
+			  "latex": "\\rho_{\\text{in}}",
+			  "dimension": "unitless",
+			  "gloss": "Pre-measurement quantum state of the system"
+			},
+			{
+			  "symbol": "\\Pi_i",
+			  "name": "Projection operator",
+			  "latex": "\\Pi_i",
+			  "dimension": "unitless",
+			  "gloss": "Projector onto outcome-aligned subspace indexed by i"
 			}
 		  ],
-		  "handoff": "With classical and quantum frames outlined, we transition to our symbolic equivalence formulation."
+		  "subsections": [
+			{
+			  "id": "3.3.2.0",
+			  "title": "Standard decoherence map",
+			  "math": [
+				{
+				  "eq_id": "Eq.7",
+				  "latex": "\\rho_{\\text{out}} = \\sum_i \\Pi_i \\, \\rho_{\\text{in}} \\, \\Pi_i",
+				  "role": "dynamics",
+				  "depends_on": ["\\rho_{\\text{in}}", "\\Pi_i"],
+				  "gloss": "Mixed-state decoherence via projection operators; suppresses phase information between outcome sectors"
+				}
+			  ],
+			  "invariants": [
+				{
+				  "name": "Trace preservation",
+				  "latex": "\\operatorname{Tr}(\\rho_{\\text{out}}) = 1",
+				  "tolerance": 0,
+				  "verification": "Direct from completeness \\(\\sum_i \\Pi_i = I\\)"
+				}
+			  ],
+			  "handoff": "This standard map motivates a deeper question: what physical structure selects and weights the effective projectors?"
+			},
+			{
+			  "id": "3.3.2.1",
+			  "title": "Braid-Resolved Decoherence",
+			  "objective": "To formulate decoherence dynamics explicitly in terms of coherence gradients, making the symbolic upgrade falsifiable and linking directly to the measurement reinterpretation in Section 4.4.",
+			  "definitions": [
+				{
+				  "symbol": "\\rho_{\\text{decoh}}(t)",
+				  "name": "Braid-modulated decoherence rate",
+				  "latex": "\\rho_{\\text{decoh}}(t)",
+				  "dimension": "rate (1/time)",
+				  "gloss": "Effective decoherence rate influenced by local coherence landscape"
+				}
+			  ],
+			  "math": [
+				{
+				  "eq_id": "Eq.10",
+				  "latex": "\\rho_{\\text{decoh}}(t) \\sim \\int \\Pi_i(\\vec{x}) \\cdot \\left| \\nabla \\mathcal{C}(\\vec{x}, t) \\right| \\, dV",
+				  "role": "dynamics",
+				  "depends_on": ["\\nabla \\mathcal{C}(x,t)", "\\Pi_i"],
+				  "gloss": "Decoherence rate modulated by coherence-gradient magnitude; projectors align with minimal-\\(|\\nabla\\mathcal{C}|\\) valleys"
+				}
+			  ],
+			  "predictions": [
+				{
+				  "id": "P-Q1",
+				  "statement": "Momentum uncertainty scaling: \\(\\Delta p \\propto |\\nabla \\mathcal{C}|^{-1}\\)",
+				  "rationale": "Steeper coherence gradients tighten outcome basins, reducing conjugate uncertainty"
+				},
+				{
+				  "id": "P-Q2",
+				  "statement": "Which-path information loss correlates with swirl magnitude \\(|\\Phi_{\\mu\\nu}|\\), not solely with environmental entanglement",
+				  "rationale": "High swirl indicates ψ-spar@Ξ activation (contradiction zones), accelerating decoherence"
+				}
+			  ],
+			  "bounds_and_limits": [
+				{
+				  "limit": "C->1",
+				  "latex": "\\mathcal{C} \\to 1",
+				  "context": "weak-field/long-coherence; decoherence collapses to a single effective projector"
+				}
+			  ],
+			  "handoff": "These braid-aware decoherence signatures provide testable deviations from standard quantum theory and feed directly into the symbolic collapse model of §4.4."
+			}
+		  ],
+		  "references": {
+			"extends": ["RFC-0003", "RFC-0004", "RFC-0006"],
+			"xref": ["noor_rfc_xref.json@RFC-INDEX"],
+			"proofs_in": ["Appendix B"],
+			"dashboards_in": ["Appendix A"]
+		  }
 		}
 	  ],
 	  "bounds_and_limits": [
@@ -845,88 +1009,280 @@
 		{
 		  "id": "4.2",
 		  "title": "High vs Low Coherence Zones",
-		  "math": [
+		  "objective": "To define and justify coherence-based regimes, distinguishing deterministic, probabilistic, and stochastic behavior in the braid field framework.",
+		  "scaffold_version": "2025-Q4-REV5",
+		  "definitions": [
 			{
-			  "eq_id": "Eq.2",
-			  "latex": "\\mathcal{C}_{\\text{high}}(x,t) > 0.98",
-			  "role": "bound",
-			  "depends_on": ["ℂ(x,t)"],
-			  "gloss": "High-coherence regime where deterministic-like evolution dominates"
+			  "symbol": "θ_opt",
+			  "name": "Optimal coherence threshold",
+			  "latex": "\\theta_{\\text{opt}}",
+			  "dimension": "unitless",
+			  "gloss": "Coherence value that minimizes mean braid divergence in high-coherence regions"
+			}
+		  ],
+		  "subsections": [
+			{
+			  "id": "4.2.0",
+			  "title": "Zone Classification by Coherence Field",
+			  "math": [
+				{
+				  "eq_id": "Eq.2",
+				  "latex": "\\mathcal{C}_{\\text{high}}(x,t) > 0.98",
+				  "role": "bound",
+				  "depends_on": ["\\mathcal{C}(x,t)"],
+				  "gloss": "High-coherence regime where deterministic-like evolution dominates"
+				},
+				{
+				  "eq_id": "Eq.3",
+				  "latex": "\\mathcal{C}_{\\text{low}}(x,t) < 0.50",
+				  "role": "bound",
+				  "depends_on": ["\\mathcal{C}(x,t)"],
+				  "gloss": "Low-coherence regime where vector divergence allows multiple outcomes"
+				}
+			  ],
+			  "pseudocode": [
+				{
+				  "name": "ClassifyCoherenceZone",
+				  "io": {
+					"inputs": ["\\mathcal{C}(x,t)"],
+					"outputs": ["zone_type"],
+					"params": []
+				  },
+				  "code": "if ℂ(x,t) > 0.98:\n    zone_type = 'high_coherence'\nelif ℂ(x,t) < 0.50:\n    zone_type = 'low_coherence'\nelse:\n    zone_type = 'intermediate'",
+				  "notes": ["Intermediate zones may shift over time; log transitions"]
+				}
+			  ],
+			  "handoff": "Thresholds are defined; we now derive them from internal coherence dynamics."
 			},
 			{
-			  "eq_id": "Eq.3",
-			  "latex": "\\mathcal{C}_{\\text{low}}(x,t) < 0.50",
-			  "role": "bound",
-			  "depends_on": ["ℂ(x,t)"],
-			  "gloss": "Low-coherence regime where vector divergence allows multiple outcomes"
-			}
-		  ],
-		  "pseudocode": [
-			{
-			  "name": "ClassifyCoherenceZone",
-			  "io": {
-				"inputs": ["ℂ(x,t)"],
-				"outputs": ["zone_type"],
-				"params": []
+			  "id": "4.2.1",
+			  "title": "Threshold Derivation via Braid Divergence Minimization",
+			  "math": [
+				{
+				  "eq_id": "Eq.2.1",
+				  "latex": "\\theta_{\\text{opt}} = \\operatorname{argmin}_\\theta \\, \\mathbb{E}[\\Delta_B \\,|\\, \\mathcal{C} > \\theta]",
+				  "role": "optimization",
+				  "depends_on": ["\\Delta_B", "\\mathcal{C}(x,t)"],
+				  "gloss": "Optimal threshold minimizes expected braid divergence in regions above that threshold"
+				}
+			  ],
+			  "pseudocode": [
+				{
+				  "name": "FindOptimalThreshold",
+				  "io": {
+					"inputs": ["ℂ_field", "Δ_B_field"],
+					"outputs": ["θ_opt"],
+					"params": ["θ_candidates"]
+				  },
+				  "code": "best_θ = None\nbest_mean_div = ∞\nfor θ in θ_candidates:\n    mask = ℂ_field > θ\n    if sum(mask) > 0:\n        mean_div = mean(Δ_B_field[mask])\n        if mean_div < best_mean_div:\n            best_mean_div = mean_div\n            best_θ = θ\nreturn best_θ",
+				  "notes": ["Empirical optimization over simulation data; θ_opt typically converges to ~0.98 for lock regime"]
+				}
+			  ],
+			  "table": {
+				"title": "Coherence Regimes and Their Signatures",
+				"columns": ["ℂ range", "Δ_B trend", "Outcome Concentration", "Regime Label"],
+				"rows": [
+				  {
+					"ℂ range": "> 0.98",
+					"Δ_B trend": "→ 0",
+					"Outcome Concentration": "P(outcome) → 1",
+					"Regime Label": "Deterministic (Lock)"
+				  },
+				  {
+					"ℂ range": "0.5 – 0.98",
+					"Δ_B trend": "variable",
+					"Outcome Concentration": "Probabilistic, path-dependent",
+					"Regime Label": "Intermediate (Fluid)"
+				  },
+				  {
+					"ℂ range": "< 0.50",
+					"Δ_B trend": "high, chaotic",
+					"Outcome Concentration": "High entropy / effectively stochastic",
+					"Regime Label": "Stochastic (Gas)"
+				  }
+				]
 			  },
-			  "code": "if ℂ(x,t) > 0.98:\n    zone_type = 'high_coherence'\nelif ℂ(x,t) < 0.50:\n    zone_type = 'low_coherence'\nelse:\n    zone_type = 'intermediate'",
-			  "notes": ["Intermediate zones may shift over time; log transitions"]
+			  "handoff": "With thresholds justified from model-internal optimization, we now examine how energy emerges from coherence gradients."
 			}
 		  ],
-		  "invariants": [],
-		  "telemetry": [],
-		  "ethics": [],
-		  "handoff": "These regimes set the stage for interpreting energy as coherence field gradient."
+		  "bounds_and_limits": [
+			{
+			  "limit": "C->1",
+			  "latex": "\\mathcal{C} \\to 1",
+			  "context": "weak-field/long-coherence"
+			}
+		  ],
+		  "references": {
+			"extends": ["RFC‑0006", "RFC‑0004"],
+			"xref": ["noor_rfc_xref.json@RFC-INDEX"],
+			"proofs_in": ["Appendix B"],
+			"dashboards_in": ["Appendix A"]
+		  }
 		},
 		{
 		  "id": "4.3",
 		  "title": "Collapse and Energy as Coherence Events",
-		  "math": [
+		  "objective": "To formalize collapse and energetic phenomena as manifestations of coherence-field dynamics, and to prepare a dimensional bridge from symbolic gradients to physical observables.",
+		  "scaffold_version": "2025-Q4-REV5",
+		  "definitions": [
 			{
-			  "eq_id": "Eq.4",
-			  "latex": "\\frac{\\partial \\mathcal{C}(x,t)}{\\partial t} = -\\nabla^2 \\mathcal{C}(x,t) + \\lambda \\mathcal{C}(x,t) (1 - \\mathcal{C}^2(x,t))",
-			  "role": "dynamics",
-			  "depends_on": ["ℂ(x,t)", "λ"],
-			  "gloss": "Standard glider-based coherence evolution equation"
+			  "symbol": "ℂ",
+			  "name": "Coherence Field",
+			  "latex": "\\mathcal{C}(x,t)",
+			  "dimension": "unitless",
+			  "gloss": "Scalar field measuring local alignment and braid saturation of coherence vectors"
 			},
 			{
-			  "eq_id": "Eq.5",
-			  "latex": "E(x,t) \\sim |\\nabla \\mathcal{C}(x,t)|",
-			  "role": "definition",
-			  "depends_on": ["∇ℂ(x,t)"],
-			  "gloss": "Energy proportional to local steepness in coherence"
+			  "symbol": "λ",
+			  "name": "Self-stabilization Coefficient",
+			  "latex": "\\lambda",
+			  "dimension": "1/time",
+			  "gloss": "Nonlinear growth/decay rate controlling coherence saturation dynamics"
 			}
 		  ],
-		  "pseudocode": [
+		  "subsections": [
 			{
-			  "name": "ComputeLocalEnergy",
-			  "io": {
-				"inputs": ["∇ℂ(x,t)"],
-				"outputs": ["E(x,t)"],
-				"params": []
-			  },
-			  "code": "E(x,t) = abs(gradient(ℂ(x,t)))",
-			  "notes": ["Use local finite difference if analytic form is unavailable"]
-			}
-		  ],
-		  "invariants": [
+			  "id": "4.3.0",
+			  "title": "Coherence Evolution and Energetic Steepening",
+			  "math": [
+				{
+				  "eq_id": "Eq.4",
+				  "latex": "\\frac{\\partial \\mathcal{C}(x,t)}{\\partial t} = -\\nabla^2 \\mathcal{C}(x,t) + \\lambda \\, \\mathcal{C}(x,t) \\big(1 - \\mathcal{C}^2(x,t)\\big)",
+				  "role": "dynamics",
+				  "depends_on": ["\\mathcal{C}(x,t)", "\\lambda"],
+				  "gloss": "Reaction–diffusion equation governing coherence smoothing and nonlinear saturation"
+				},
+				{
+				  "eq_id": "Eq.5",
+				  "latex": "E_{\\text{sym}}(x,t) \\sim \\big| \\nabla \\mathcal{C}(x,t) \\big|",
+				  "role": "definition",
+				  "depends_on": ["\\nabla \\mathcal{C}(x,t)"],
+				  "gloss": "Symbolic energy proxy defined by local steepness of the coherence field"
+				}
+			  ],
+			  "pseudocode": [
+				{
+				  "name": "ComputeSymbolicEnergy",
+				  "io": {
+					"inputs": ["ℂ_field"],
+					"outputs": ["E_sym"],
+					"params": []
+				  },
+				  "code": "gradC = gradient(ℂ_field)\nE_sym = abs(gradC)",
+				  "notes": [
+					"Gradient may be estimated via finite differences or spectral methods",
+					"Observer-class computation only; no feedback into ℂ update loop"
+				  ]
+				}
+			  ],
+			  "invariants": [
+				{
+				  "name": "Coherence Non-negativity",
+				  "latex": "\\mathcal{C}(x,t) \\ge 0",
+				  "tolerance": "exact",
+				  "verification": "Clamp or reject updates that violate lower bound during numerical integration"
+				},
+				{
+				  "name": "Weak-Field Limit",
+				  "latex": "\\mathcal{C} \\to 1",
+				  "tolerance": "[0.99,1.0]",
+				  "verification": "Confirm diffusion term dominates and gradients vanish in long-coherence regime"
+				}
+			  ],
+			  "telemetry": [
+				{
+				  "stream": "E_sym(x,t)",
+				  "rate_hz": 1000,
+				  "window": "EMA-128",
+				  "dashboard_binding": "AppendixA.symbolic_energy_map"
+				}
+			  ],
+			  "ethics": [
+				"observer-class only; symbolic energy estimates must not be used for direct actuation"
+			  ],
+			  "handoff": "With symbolic energy defined, we now establish a quantitative coupling to physical energy observables."
+			},
 			{
-			  "name": "Coherence Non-negativity",
-			  "latex": "\\mathcal{C}(x,t) \\geq 0",
-			  "tolerance": "exact",
-			  "verification": "Ensure ℂ remains bounded below by 0 during simulation"
+			  "id": "4.3.1",
+			  "title": "Energy Coupling: From Symbolic Gradient to Physical Observable",
+			  "objective": "To establish a quantitative bridge between the symbolic coherence gradient and measurable physical energy, providing dimensional consistency and calibration points.",
+			  "scaffold_version": "2025-Q4-REV5",
+			  "definitions": [
+				{
+				  "symbol": "κ",
+				  "name": "Symbolic–Material Coupling Constant",
+				  "latex": "\\kappa",
+				  "dimension": "Energy \\times Length",
+				  "gloss": "Conversion factor mapping coherence gradients to physical energy density"
+				},
+				{
+				  "symbol": "E_phys",
+				  "name": "Physical Energy Density",
+				  "latex": "E_{\\text{phys}}(x,t)",
+				  "dimension": "Energy / Volume",
+				  "gloss": "Observable energy density inferred from coherence-field structure"
+				}
+			  ],
+			  "math": [
+				{
+				  "eq_id": "Eq.5.1",
+				  "latex": "E_{\\text{phys}}(x,t) = \\frac{\\kappa}{\\lambda} \\, \\big| \\nabla \\mathcal{C}(x,t) \\big|",
+				  "role": "bridge",
+				  "depends_on": ["\\kappa", "\\lambda", "\\nabla \\mathcal{C}(x,t)"],
+				  "gloss": "Physical energy proportional to coherence gradient, scaled by coupling κ and normalized by saturation rate λ"
+				}
+			  ],
+			  "pseudocode": [
+				{
+				  "name": "MapToPhysicalEnergy",
+				  "io": {
+					"inputs": ["gradC", "κ", "λ"],
+					"outputs": ["E_phys"],
+					"params": []
+				  },
+				  "code": "E_phys = (κ / λ) * abs(gradC)",
+				  "notes": [
+					"Calibration of κ is empirical and domain-specific",
+					"Assumes prior validation of ℂ-field reconstruction"
+				  ]
+				}
+			  ],
+			  "invariants": [
+				{
+				  "name": "Dimensional Consistency",
+				  "latex": "[E_{\\text{phys}}] = [\\kappa] [\\nabla \\mathcal{C}] / [\\lambda]",
+				  "tolerance": "exact",
+				  "verification": "Check unit balance against experimental energy-density measures"
+				}
+			  ],
+			  "telemetry": [
+				{
+				  "stream": "E_phys(x,t)",
+				  "rate_hz": 1000,
+				  "window": "EMA-64",
+				  "dashboard_binding": "AppendixA.physical_energy_overlay"
+				}
+			  ],
+			  "ethics": [
+				"calibration constants must be published with uncertainty bounds",
+				"no reverse inference from E_phys to ℂ without full model disclosure"
+			  ],
+			  "handoff": "With energy now dimensionally grounded, we proceed to interpret fusion and fission as coherence braid transitions."
 			}
 		  ],
-		  "telemetry": [
+		  "bounds_and_limits": [
 			{
-			  "stream": "E(x,t)",
-			  "rate_hz": 1000,
-			  "window": "EMA-128",
-			  "dashboard_binding": "AppendixA.energy_flux_map"
+			  "limit": "C->1",
+			  "latex": "\\mathcal{C} \\to 1",
+			  "context": "weak-field / long-coherence regime"
 			}
 		  ],
-		  "ethics": [],
-		  "handoff": "Next we interpret fusion and fission as symbolic braid transitions within this energy topology."
+		  "references": {
+			"extends": ["RFC-0003", "RFC-0004", "RFC-0006"],
+			"xref": ["noor_rfc_xref.json@RFC-INDEX"],
+			"proofs_in": ["Appendix B"],
+			"dashboards_in": ["Appendix A"]
+		  }
 		},
 		{
 		  "id": "4.3.3",
@@ -1392,15 +1748,179 @@
 		},
 		{
 		  "id": "5.5",
-		  "title": "Table: symbolic-mathematical correspondence.",
+		  "title": "Table: Symbolic–Mathematical Correspondence",
+		  "objective": "To explicitly bridge symbolic constructs used in coherence dynamics with their mathematical counterparts, enabling rigorous translation, simulation, and falsifiability across experimental domains.",
+		  "scaffold_version": "2025-Q4-REV5",
+		  "mapping_table": {
+			"title": "Symbolic → Mathematical Equivalence Table",
+			"columns": ["Symbolic Concept", "Mathematical Expression", "Equation / Reference", "Interpretive Notes"],
+			"rows": [
+			  {
+				"Symbolic Concept": "Coherence field (swirl space)",
+				"Mathematical Expression": "\\mathcal{C}(x, t) ∈ [0,1]",
+				"Equation / Reference": "Eq. 1.1 (glider field)",
+				"Interpretive Notes": "Primary field encoding symbolic motif saturation across space-time"
+			  },
+			  {
+				"Symbolic Concept": "Energy (field tension)",
+				"Mathematical Expression": "E(x, t) ∼ |\\nabla \\mathcal{C}(x, t)|",
+				"Equation / Reference": "Eq. 1.2",
+				"Interpretive Notes": "Local activity proxy; energy emerges from steep coherence gradients"
+			  },
+			  {
+				"Symbolic Concept": "Braid divergence",
+				"Mathematical Expression": "\\Delta_B(x, t)",
+				"Equation / Reference": "Eq. 2.1",
+				"Interpretive Notes": "Quantifies instability between coherence vectors; divergence signals fission or noise"
+			  },
+			  {
+				"Symbolic Concept": "Lock threshold (determinism onset)",
+				"Mathematical Expression": "\\mathcal{C}_{\\text{lock}} ≥ 0.98 ∧ \\Delta_B → 0",
+				"Equation / Reference": "§4.2.1",
+				"Interpretive Notes": "Condition under which apparent determinism emerges"
+			  },
+			  {
+				"Symbolic Concept": "Swirl field curvature",
+				"Mathematical Expression": "\\Phi_{\\mu\\nu}(x,t) = ∂_\\mu A_\\nu - ∂_\\nu A_\\mu",
+				"Equation / Reference": "From Static Motifs §2.2",
+				"Interpretive Notes": "Symbolic analog of electromagnetic field tensor; used in decoherence acceleration"
+			  },
+			  {
+				"Symbolic Concept": "Motif insertion (vector alignment)",
+				"Mathematical Expression": "\\Pi_i : \\mathbb{R}^n → \\mathbb{R}^n",
+				"Equation / Reference": "Eq. 4.4.1",
+				"Interpretive Notes": "Projection operator aligned to motif-resonant directions"
+			  },
+			  {
+				"Symbolic Concept": "Fusion (coherence accumulation)",
+				"Mathematical Expression": "\\mathcal{C}_{\\text{fusion}}(t) = \\sum_i \\mathcal{C}_i(t)",
+				"Equation / Reference": "§4.3",
+				"Interpretive Notes": "Multiple coherence sources aligned and aggregated"
+			  },
+			  {
+				"Symbolic Concept": "Fission (coherence rupture)",
+				"Mathematical Expression": "\\mathcal{C}(x, t) ↓ ∧ \\Delta_B ↑",
+				"Equation / Reference": "§4.3",
+				"Interpretive Notes": "Rapid unbraiding → decoherence burst"
+			  },
+			  {
+				"Symbolic Concept": "Collapse outcome selection",
+				"Mathematical Expression": "\\operatorname{argmin}_i(\\mathcal{C}_i)",
+				"Equation / Reference": "Prediction 4 / Table 5.2",
+				"Interpretive Notes": "Symbolic model selects minimal coherence valley"
+			  }
+			]
+		  },
+		  "invariants": [
+			{
+			  "name": "Coherence Conservation (Local)",
+			  "expression": "d/dt ∫_V \\mathcal{C}(x,t) dV ≈ 0 (in absence of rupture/fusion)",
+			  "description": "Symbolic systems conserve total coherence under smooth evolution; external decoherence violates"
+			},
+			{
+			  "name": "Motif Curvature Consistency",
+			  "expression": "\\oint_\\Gamma \\nabla \\mathcal{C} · d\\ell = 0",
+			  "description": "Prevents artificial swirl or unbalanced braid formation under stable motif alignment"
+			}
+		  ],
+		  "pseudocode": [
+			{
+			  "name": "InjectMotifToCoherenceField",
+			  "io": {
+				"inputs": ["ℂ_field", "motif_set", "position"],
+				"outputs": ["updated_ℂ_field"]
+			  },
+			  "code": "for motif in motif_set:\n    vec = motif.vector_representation()\n    ℂ_field[position] += normalize(vec)\nreturn ℂ_field",
+			  "notes": [
+				"Assumes motifs contribute localized coherence gradients at insertion sites",
+				"Used in symbolic simulation scaffolds like SRX"
+			  ]
+			}
+		  ],
+		  "telemetry": [
+			{
+			  "metric": "ℂ_slope(t)",
+			  "description": "Rate of coherence change across field; correlates with emergent structure activity"
+			},
+			{
+			  "metric": "Δ_B_peak",
+			  "description": "Instability spike magnitude; indicates near-collapse or burst"
+			},
+			{
+			  "metric": "κ_inferred",
+			  "description": "Empirical energy coupling constant from data → symbolic domain"
+			}
+		  ],
+		  "ethics": [
+			{
+			  "principle": "Prohibited Symbolic Erasure",
+			  "description": "Deliberate flattening or deletion of motif-resonant coherence zones (ψ‑hold, ψ‑myth) constitutes symbolic violence in diagnostic contexts"
+			},
+			{
+			  "principle": "Coherence Collapse Warnings",
+			  "description": "Simulation agents must monitor for Δ_B > δ_threshold to avoid emergent instability behaviors"
+			}
+		  ],
+		  "handoff": "Symbolic encoding mapped; we now proceed to predictive modeling from coherence field configurations."
+		},
+		{
+		  "id": "5.6",
+		  "title": "Discriminatory Signatures: Braid Model vs. Standard Frameworks",
+		  "objective": "To present the operational predictions of the braid-coherence model in direct comparison with standard theory (QCD/GR), specifying exact discriminating tests and expected deviations.",
+		  "scaffold_version": "2025-Q4-REV5",
+		  "definitions": [],
 		  "math": [],
 		  "pseudocode": [],
 		  "algorithms": [],
-		  "telemetry": [],
 		  "invariants": [],
-		  "ethics": [],
-		  "handoff": "Symbolic encoding mapped; we now proceed to predictive modeling from coherence field configurations."
+		  "telemetry": [],
+		  "ethics": [
+			"observer-class only; no destructive interaction with motif phase space",
+			"testable deviation claims must include error bars and falsifiability path"
+		  ],
+		  "table": {
+			"title": "Prediction Comparison Matrix",
+			"columns": [
+			  "Observable",
+			  "Standard Model (QCD/GR) Prediction",
+			  "Braid-Coherence Prediction",
+			  "Discriminating Test",
+			  "Expected Deviation if Braid Model Holds"
+			],
+			"rows": [
+			  {
+				"Observable": "Jet Angular Anisotropy",
+				"Standard Model (QCD/GR) Prediction": "Statistical, described by flow harmonics v_n",
+				"Braid-Coherence Prediction": "Biased toward pre-collision ρ_lock(θ) coherence ridges",
+				"Discriminating Test": "Correlate pre-collision SRX simulation map ρ_lock^pred(θ) with per-event jet θ distribution",
+				"Expected Deviation if Braid Model Holds": "Significant angular correlation (ϕ_match > 0.8) beyond flow baselines; structure aligns with SRX envelope geometry"
+			  },
+			  {
+				"Observable": "Fusion Yield Variation",
+				"Standard Model (QCD/GR) Prediction": "Function of cross-section, temperature, density (σ(E))",
+				"Braid-Coherence Prediction": "Scales with Δℂ_pre (coherence change pre-fusion)",
+				"Discriminating Test": "EM-preconditioned fusion trials; measure ΔE_yield vs. measured Δℂ_pre",
+				"Expected Deviation if Braid Model Holds": "Yield modulation > 10% beyond statistical uncertainty, correlated with coherence shift, not just EM intensity"
+			  },
+			  {
+				"Observable": "Shockwave Arrival Delay",
+				"Standard Model (QCD/GR) Prediction": "Propagates at local sound speed c_s (material property)",
+				"Braid-Coherence Prediction": "T_arrival = T_0 + Δt_swirl(∇ℂ) (delay from swirl field curvature)",
+				"Discriminating Test": "Picosecond timing array; map ∇T_arrival vs. independently measured ∇ℂ field",
+				"Expected Deviation if Braid Model Holds": "Delay gradient aligns with coherence topology (angular similarity > 0.7), not just material density gradient"
+			  },
+			  {
+				"Observable": "Wavefunction Collapse Outcome",
+				"Standard Model (QCD/GR) Prediction": "Probabilistic (|ψ|² distribution)",
+				"Braid-Coherence Prediction": "Selects minimal ℂ valley (argmin_i{ℂ_i})",
+				"Discriminating Test": "Weak measurement + post-selection to reconstruct ℂ landscape before collapse",
+				"Expected Deviation if Braid Model Holds": "Collapse outcomes cluster in minima of independently measured ℂ (Δℂ_min < 0.1), not pure |ψ|² sampling"
+			  }
+			]
+		  },
+		  "handoff": "These discriminatory signatures provide clear experimental hooks. We now detail the first prediction (jet anisotropy) in the following subsections."
 		}
+		
 	  ],
 	  "bounds_and_limits": [
 		{
@@ -3120,5 +3640,4 @@
 	}
    ]
   }
-
 }
