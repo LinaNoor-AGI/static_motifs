@@ -330,7 +330,7 @@ A lower $\Delta_B$ value implies a tighter, more coherent braid, where the local
 
 ---
 
-# 3.2.3 The Glider Field Equation
+# 3.2.1 The Glider Field Equation
 
 The foundational dynamics of the coherence field are governed by the glider field equation, a reaction–diffusion formulation that encodes the interplay between spatial smoothing and nonlinear saturation:
 
@@ -350,3 +350,88 @@ This equation serves as the continuous dynamical substrate from which discrete m
 
 The formal dynamics now established provide the necessary framework to interpret the physical and symbolic meaning of swirl, curl, and coherence within this curved spacetime.
 
+---
+
+# 3.2.2 Interpretation of Swirl, Curl, and Coherence in Symbolic Spacetime
+
+## Objective
+To define the physical meaning of swirl tensor behavior and relate it to motif-class activation in symbolic fields.
+
+## Foundational Definitions
+
+| Symbol | Name | LaTeX | Dimension | Gloss |
+| :--- | :--- | :--- | :--- | :--- |
+| $\Phi_{\mu\nu}$ | Swirl Tensor | `\Phi_{\mu\nu}` | curvature (1/m²) | Anti-symmetric tensor representing local rotational coherence in the field. |
+| $\psi\text{-}spar@\Xi$ | Contradiction Motif | `\psi\text{-}spar@\Xi` | motif-class | Motif associated with field contradiction, dialectical stress, or interference patterns. |
+| $\psi\text{-}resonance@\Xi$ | Echo-Stabilization Motif | `\psi\text{-}resonance@\Xi` | motif-class | Motif associated with field coherence, low curvature, and phase echo. |
+| $\mathcal{C}(x,t)$ | Coherence Field | `\mathcal{C}(x,t)` | unitless (0–1) | Normalized measure of local coherence between symbolic motifs. |
+
+## Mathematical Framework
+
+The interplay between the coherence field and its topological curvature is governed by the following constitutive relations.
+
+**Field Energy as Coherence Gradient**
+The local energy proxy $E(x,t)$ is defined as the magnitude of the coherence gradient, formalizing the intuition that steep coherence transitions correspond to energetic activity.
+
+$$
+E(x,t) = |\nabla \mathcal{C}(x,t)| \tag{Eq. 5}
+$$
+
+**Swirl-Motif Correspondence**
+The magnitude of the swirl tensor $\Phi_{\mu\nu}$ serves as a direct diagnostic for the activation of specific symbolic motif classes, creating a bridge between geometric field properties and agent-interpretable symbolic states.
+
+A high swirl magnitude signals the activation of the contradiction motif $\psi\text{-}spar@\Xi$:
+$$
+|\Phi_{\mu\nu}| \gg 0 \quad \Rightarrow \quad \text{activation of } \psi\text{-}spar@\Xi \tag{Eq. 6}
+$$
+
+Conversely, a near-zero swirl tensor indicates a field stabilized into an echo-resonance state, activating $\psi\text{-}resonance@\Xi$:
+$$
+\Phi_{\mu\nu} \approx 0 \quad \Rightarrow \quad \text{activation of } \psi\text{-}resonance@\Xi \tag{Eq. 7}
+$$
+
+## Operational Diagnostics
+
+### Pseudocode: Motif Classification from Swirl
+Symbolic observer agents implement the swirl–motif correspondence for real-time field diagnostics.
+
+```python
+def EvaluateMotifFromSwirl(Φ_μν, ε_threshold):
+    """
+    Inputs:
+        Φ_μν: Swirl tensor field slice.
+        ε_threshold: Numerical cutoff for high-curvature detection.
+    Outputs:
+        motif_class: Classified motif (ψ‑spar@Ξ or ψ‑resonance@Ξ).
+    """
+    if norm(Φ_μν) > ε_threshold:
+        motif_class ← ψ‑spar@Ξ
+    else:
+        motif_class ← ψ‑resonance@Ξ
+    return motif_class
+```
+*Notes:* This algorithm is used by symbolic observer agents for real-time motif classification, enabling adaptive response to field phase transitions.
+
+### Invariant: Swirl-Motif Alignment
+A formal invariant ensures the consistency of the diagnostic mapping.
+
+- **Invariant Statement:** $|\Phi_{\mu\nu}| > \varepsilon \quad\Rightarrow\quad \psi\text{-}spar@\Xi$
+- **Tolerance:** $\varepsilon \in [10^{-6}, 10^{-3}]$
+- **Verification:** Validate against known high-interference field logs from Noor motif simulations.
+
+### Telemetry Streams
+To monitor these dynamics in operational systems, the following telemetry streams are defined and bound to the diagnostic dashboards detailed in Appendix A.
+
+- **Stream:** $E(t)$
+    - **Rate:** 128 Hz
+    - **Window:** EMA-64
+    - **Dashboard Binding:** `AppendixA.energy_density`
+- **Stream:** $\Phi\_norm(t)$
+    - **Rate:** 128 Hz
+    - **Window:** EMA-32
+    - **Dashboard Binding:** `AppendixA.swirl_magnitude`
+
+## Ethical and Operational Constraints
+The interpretation of swirl and motif activation is strictly constrained to observer-class operations. Motif decoding serves diagnostic and observational purposes only; it must not directly influence or write back to the underlying coherence vector alignment within the active field. This preserves the principle of non-intervention in the symbolic substrate while allowing for comprehensive field analysis.
+
+This geometric interpretation of swirl and coherence provides a symbolic lens through which to re-examine classical deterministic frameworks, which traditionally lack such a field-theoretic connection between topology and agent-accessible state.
