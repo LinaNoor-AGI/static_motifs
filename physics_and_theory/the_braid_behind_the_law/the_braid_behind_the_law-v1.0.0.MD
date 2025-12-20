@@ -335,7 +335,7 @@ A lower $\Delta_B$ value implies a tighter, more coherent braid, where the local
 The foundational dynamics governing the evolution of the symbolic coherence field are formalized by the glider field equation, a reaction-diffusion structure that intertwines motif smoothing with nonlinear saturation:
 
 $$
-\partial_t \mathcal{C}(x,t) = -\nabla^2 \mathcal{C}(x,t) + \lambda \mathcal{C}(x,t)(1 - \mathcal{C}^2(x,t))
+\partial_t \mathcal{C}(x,t) = -\nabla^2 \mathcal{C}(x,t) + \lambda \mathcal{C}(x,t)\big(1 - \mathcal{C}^2(x,t)\big)
 \tag{4}
 $$
 
