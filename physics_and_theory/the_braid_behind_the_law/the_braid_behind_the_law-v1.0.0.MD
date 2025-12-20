@@ -465,3 +465,21 @@ $$
 This invariant establishes the core of classical determinism: given perfect knowledge of the initial state and the governing potential, the entire future path of the system is not merely predictable but singularly determined. There exists one, and only one, possible future.
 
 This trajectory-based framework, where determinism is synonymous with path uniqueness under a differential equation, sets the necessary contrast. It defines the paradigm against which the symbolic model—where determinism emerges not from law but from the topological saturation of a coherence field—will articulate its divergence. The subsequent section will pivot from this definition of uniqueness-in-trajectory to a definition of uniqueness-in-field-coherence.
+
+---
+
+### **3.3.1.2. Contrastive Framing: Classical vs. Braid Prediction**
+
+The preceding formulation, while robust within its domain, represents a framework oriented exclusively around singular trajectories. The braid-coherence model offers a contrasting paradigm, not as a refinement of classical mechanics, but as a shift in the fundamental ontology of what is being governed. Instead of tracking a unique path $x(t)$, the model focuses on the structure of a field, treating determinism as a secondary, emergent property rather than a foundational axiom. The following comparative analysis clarifies this paradigm shift from trajectory-based to field-based determinism.
+
+| Aspect | Classical Determinism | Braid-Coherence Model |
+| :--- | :--- | :--- |
+| **Fundamental Governed Quantity** | Trajectory $x(t) \in \mathbb{R}^n$ | Coherence field $\mathcal{C}(x,t) \in [0,1]$ |
+| **Sensitivity Source** | Initial conditions $(x_0, \dot{x}_0)$ | Local braid alignment $B_{ij}$ and gradient $\nabla \mathcal{C}$ |
+| **Energy Framing** | $E = \tfrac{1}{2}mv^2 + V(x)$ | $E \sim \lvert \nabla \mathcal{C} \rvert$ |
+| **Path Uniqueness Guarantee** | Yes, via ODE uniqueness theorems | Emergent only if $\mathcal{C} \to 1$ and $\Delta_B \to 0$ |
+| **Response to Perturbation** | Continuous deviation per $F = ma$ | Deviation only if perturbation lowers $\mathcal{C}$ below braid-lock threshold |
+
+This contrast reveals the core architectural difference: classical determinism enforces uniqueness from the outset via differential equation theory, whereas the braid model *permits* uniqueness to arise as a specific configuration of a more fundamental field. Path determinism is not guaranteed; it is a contingent state of the coherence field, occurring only in the weak-field, long-coherence limit where $\mathcal{C} \to 1$.
+
+Equipped with this field-based perspective, the analysis can now be extended to quantum systems, where the notion of a single deterministic trajectory has historically failed. The braid-coherence lens provides a new formalism through which to reinterpret phenomena like decoherence, not as a collapse into probability, but as a resolution within a structured field of potential coherence.
