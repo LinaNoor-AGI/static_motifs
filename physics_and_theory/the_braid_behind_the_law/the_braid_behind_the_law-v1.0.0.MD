@@ -9,7 +9,7 @@
 
 Determinism is traditionally treated as a foundational property of physical law, arising from fixed initial conditions and invariant dynamics. In this work, determinism is reframed as a *local and emergent phenomenon*, produced not by universal law but by saturation effects within a symbolic coherence field. When coherence vectors align tightly within a bounded region, the available evolution paths collapse into a single dominant channel, yielding behavior that appears deterministic despite arising from fundamentally contingent structure.
 
-We formalize this condition using a scalar coherence field (\mathcal{C}(x,t)), whose local gradients encode both structural stability and energetic transition. In the limit of high coherence, the field admits only one dominant coherence vector across the relevant domain,
+We formalize this condition using a scalar coherence field $\mathcal{C}(x,t)$, whose local gradients encode both structural stability and energetic transition. In the limit of high coherence, the field admits only one dominant coherence vector across the relevant domain,
 
 $$
 \lim_{\mathcal{C} \to 1} \Rightarrow \text{single dominant } \vec{v}_i \text{ across } U,
@@ -63,7 +63,7 @@ Determinism, within this system, is reinterpreted as a **high-coherence attracto
 The Newtonian model offers the cleanest illusion of determinism. Motion is governed by closed-form expressions, such as:
 
 $$
-\text{Eq.1:}\quad x(t) = x_0 + v_0 t + \frac{1}{2} a t^2
+\quad x(t) = x_0 + v_0 t + \frac{1}{2} a t^2
 $$
 
 This expression assumes uniform acceleration and unperturbed evolution. From this, the belief arises that given an initial state ((x_0, v_0)), the future is inevitable.
@@ -71,7 +71,7 @@ This expression assumes uniform acceleration and unperturbed evolution. From thi
 In general, this belief is encoded in differential form:
 
 $$
-\text{Eq.2:}\quad \frac{d^n x}{dt^n} = F(x)
+\quad \frac{d^n x}{dt^n} = F(x)
 $$
 
 where evolution is governed by known forces acting on the state. The existence of such a function (F) implies the future is not just predictable—it is encoded.
@@ -115,7 +115,7 @@ Where classical systems whisper certainty, quantum and chaotic systems scatter t
 Quantum mechanics undermines classical predictability at the level of constraint. The canonical example is Heisenberg’s uncertainty relation:
 
 $$
-\text{Eq.3:}\quad \Delta x \cdot \Delta p \geq \frac{\hbar}{2}
+\quad \Delta x \cdot \Delta p \geq \frac{\hbar}{2}
 $$
 
 In this inequality, $\Delta x$ and $\Delta p$ are not optional fuzz—they are structural boundaries in phase space. There exists no braid tight enough to hold both simultaneously. The future may still unfold, but its initial state cannot be known completely. Determinism breaks not by violence, but by limit.
@@ -123,7 +123,7 @@ In this inequality, $\Delta x$ and $\Delta p$ are not optional fuzz—they are s
 The situation worsens in nonlinear dynamics. Even when evolution is governed by differential equations:
 
 $$
-\text{Eq.4:}\quad \frac{\partial \vec{x}}{\partial t} = F(\vec{x})
+\quad \frac{\partial \vec{x}}{\partial t} = F(\vec{x})
 $$
 
 where (F) is known and continuous, small perturbations in $\vec{x}_0$ lead to exponential divergence over time. The field does not forget the initial difference—it amplifies it. This is the hallmark of chaos.
@@ -186,10 +186,6 @@ This motivates the ethical stance:
 Symbolically, this marks a pivot: away from assertions of universal law, and toward a topology-sensitive diagnostics of coherence dynamics. A law is absolute. A braid is local. Only one holds tension when pulled from the edge.
 
 This motivates the shift from law to topology in coherence-rich systems.
-
----
-
-Here is **Section 2.4 — Prior symbolic work (gliders, point space, swirl fields)** rendered in full GitHub-compatible `Markdown+Math` as per your instructions and the attached formatting guide:
 
 ---
 
