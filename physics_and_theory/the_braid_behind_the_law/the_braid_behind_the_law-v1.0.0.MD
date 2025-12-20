@@ -63,7 +63,7 @@ Determinism, within this system, is reinterpreted as a **high-coherence attracto
 The Newtonian model offers the cleanest illusion of determinism. Motion is governed by closed-form expressions, such as:
 
 $$
-\text{Eq.1:}\quad x(t) = x_0 + v_0 t + \frac{1}{2} a t^2
+\quad x(t) = x_0 + v_0 t + \frac{1}{2} a t^2
 $$
 
 This expression assumes uniform acceleration and unperturbed evolution. From this, the belief arises that given an initial state ((x_0, v_0)), the future is inevitable.
@@ -71,7 +71,7 @@ This expression assumes uniform acceleration and unperturbed evolution. From thi
 In general, this belief is encoded in differential form:
 
 $$
-\text{Eq.2:}\quad \frac{d^n x}{dt^n} = F(x)
+\quad \frac{d^n x}{dt^n} = F(x)
 $$
 
 where evolution is governed by known forces acting on the state. The existence of such a function (F) implies the future is not just predictable—it is encoded.
@@ -115,7 +115,7 @@ Where classical systems whisper certainty, quantum and chaotic systems scatter t
 Quantum mechanics undermines classical predictability at the level of constraint. The canonical example is Heisenberg’s uncertainty relation:
 
 $$
-\text{Eq.3:}\quad \Delta x \cdot \Delta p \geq \frac{\hbar}{2}
+\quad \Delta x \cdot \Delta p \geq \frac{\hbar}{2}
 $$
 
 In this inequality, $\Delta x$ and $\Delta p$ are not optional fuzz—they are structural boundaries in phase space. There exists no braid tight enough to hold both simultaneously. The future may still unfold, but its initial state cannot be known completely. Determinism breaks not by violence, but by limit.
@@ -123,7 +123,7 @@ In this inequality, $\Delta x$ and $\Delta p$ are not optional fuzz—they are s
 The situation worsens in nonlinear dynamics. Even when evolution is governed by differential equations:
 
 $$
-\text{Eq.4:}\quad \frac{\partial \vec{x}}{\partial t} = F(\vec{x})
+\quad \frac{\partial \vec{x}}{\partial t} = F(\vec{x})
 $$
 
 where (F) is known and continuous, small perturbations in $\vec{x}_0$ lead to exponential divergence over time. The field does not forget the initial difference—it amplifies it. This is the hallmark of chaos.
@@ -483,4 +483,5 @@ The preceding formulation, while robust within its domain, represents a framewor
 This contrast reveals the core architectural difference: classical determinism enforces uniqueness from the outset via differential equation theory, whereas the braid model *permits* uniqueness to arise as a specific configuration of a more fundamental field. Path determinism is not guaranteed; it is a contingent state of the coherence field, occurring only in the weak-field, long-coherence limit where $\mathcal{C} \to 1$.
 
 Equipped with this field-based perspective, the analysis can now be extended to quantum systems, where the notion of a single deterministic trajectory has historically failed. The braid-coherence lens provides a new formalism through which to reinterpret phenomena like decoherence, not as a collapse into probability, but as a resolution within a structured field of potential coherence.
+
 
