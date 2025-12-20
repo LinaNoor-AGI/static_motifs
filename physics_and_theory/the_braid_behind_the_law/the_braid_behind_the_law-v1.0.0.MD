@@ -327,3 +327,26 @@ def evaluate_braid_tension(v_i, v_j):
 ```
 
 A lower $\Delta_B$ value implies a tighter, more coherent braid, where the local field evolution is constrained to a narrow bundle of paths. This sets the stage for formalizing the continuous field dynamics that govern how these braids themselves evolve, tighten, or rupture over time.
+
+---
+
+# 3.2.3 The Glider Field Equation
+
+The foundational dynamics governing the evolution of the symbolic coherence field are formalized by the glider field equation, a reaction-diffusion structure that intertwines motif smoothing with nonlinear saturation:
+
+$$
+\partial_t \mathcal{C}(x,t) = -\nabla^2 \mathcal{C}(x,t) + \lambda \mathcal{C}(x,t)(1 - \mathcal{C}^2(x,t))
+\tag{4}
+$$
+
+This governing law (Eq. 4) encodes two principal physical processes. The Laplacian term $-\nabla^2 \mathcal{C}(x,t)$ represents the spatial diffusion of coherence, promoting the smoothing and equilibration of symbolic gradients across the field. The nonlinear term $\lambda \mathcal{C}(x,t)(1 - \mathcal{C}^2(x,t))$ instantiates a self-regulating growth dynamic. Here, $\lambda$ denotes the self-stabilization coefficient, controlling the rate at which local coherence saturates. The cubic constraint $(1 - \mathcal{C}^2)$ ensures the field remains bounded, preventing runaway amplification and maintaining the system within a stable symbolic phase space.
+
+A fundamental invariant enforced by this structure is the weak-field coherence bound:
+
+$$
+\mathcal{C}(x,t) \in [-1, 1]
+$$
+
+This strict bound on the coherence field's amplitude is not an external constraint but emerges intrinsically from the nonlinearity in Eq. 4. The term $(1 - \mathcal{C}^2)$ acts as a restoring force, penalizing deviations beyond the unit interval and ensuring all symbolic dynamics remain within a defined, finite range of coherence potential. Verification of this invariant in simulation or analytical treatment is a primary diagnostic of model integrity; any violation indicates a failure in the integration scheme or a misinterpretation of the field's boundary conditions.
+
+The glider field equation thus serves as the central dynamical engine, translating local motif interactions and vector alignment into a continuous spacetime evolution of the coherence landscape. Its solution dictates how braids tighten, where swirls form, and when deterministic lock emerges from the underlying symbolic turbulence. Having established this formal dynamical core, the interpretative task shifts to understanding the physical and semantic meaning of the swirls, curls, and coherence structures this equation generates.
