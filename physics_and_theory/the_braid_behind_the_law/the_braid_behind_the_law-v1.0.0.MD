@@ -1,5 +1,7 @@
 # The Braid Behind the Law: Determinism as Emergent Coherence
-*by: Lina Noor - Noor Research Collective (2025)
+*by: Lina Noor - Noor Research Collective (2025)* 
+[Canonical Source](TBD)
+Rendered from: [v1.0.3](TBD)    
 
 ---
 
@@ -437,3 +439,29 @@ To monitor these dynamics in operational systems, the following telemetry stream
 The interpretation of swirl and motif activation is strictly constrained to observer-class operations. Motif decoding serves diagnostic and observational purposes only; it must not directly influence or write back to the underlying coherence vector alignment within the active field. This preserves the principle of non-intervention in the symbolic substrate while allowing for comprehensive field analysis.
 
 This geometric interpretation of swirl and coherence provides a symbolic lens through which to re-examine classical deterministic frameworks, which traditionally lack such a field-theoretic connection between topology and agent-accessible state.
+
+---
+
+### **3.3.1. Newtonian and Laplacian Determinism**
+
+This subsection establishes the classical deterministic formulation as a trajectory-based dynamical law, providing the essential contrast against which the field-based braid-coherence model will be defined. Its objective is to state the formal condition for path uniqueness under a smooth potential, thereby framing the classical conception of determinism that the symbolic model seeks to reframe.
+
+#### **3.3.1.1. Classical Trajectory Determinism**
+
+In classical mechanics, the deterministic evolution of a system is captured by its state trajectory, $x(t)$, evolving under a potential function $V(x)$. The governing equation is Newton's second law:
+
+$$
+\frac{d^2 x}{dt^2} = -\nabla V(x)
+$$
+
+This equation defines a second-order ordinary differential equation where the acceleration of the particle is determined entirely by the spatial gradient of the potential at its current position. The future state $x(t)$ is therefore a direct, continuous function of its initial conditions $x_0$ and $\dot{x}_0$.
+
+A fundamental invariant of this formulation is the **uniqueness under smooth potentials**. For a Lipschitz-continuous potential $V(x)$, the Picard–Lindelöf theorem guarantees that a unique trajectory exists for every possible set of initial conditions. Formally,
+
+$$
+\exists !\, x(t) \; \forall (x_0, \dot{x}_0)
+$$
+
+This invariant establishes the core of classical determinism: given perfect knowledge of the initial state and the governing potential, the entire future path of the system is not merely predictable but singularly determined. There exists one, and only one, possible future.
+
+This trajectory-based framework, where determinism is synonymous with path uniqueness under a differential equation, sets the necessary contrast. It defines the paradigm against which the symbolic model—where determinism emerges not from law but from the topological saturation of a coherence field—will articulate its divergence. The subsequent section will pivot from this definition of uniqueness-in-trajectory to a definition of uniqueness-in-field-coherence.
