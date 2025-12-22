@@ -5,7 +5,7 @@
 
 ## 2. Abstract
 
-We propose a unified field ansatz combining gravitation and electromagnetism within a five-dimensional extension of the spacetime metric. Adopting a minimal Kaluza–Klein structure, the metric incorporates the gravitational field \( g_{\mu\nu} \), the electromagnetic potential \( A_\mu \), and a scalar field \( \phi \) regulating coherence and coupling strength. Dimensional reduction yields the standard Einstein and Maxwell equations without introducing extraneous fields. A symbolic triadic normalization, expressed as \( \Psi = \frac{1}{\sqrt{3}}(\mathcal{C} + \mathcal{A} + \mathcal{W}) \), interprets the internal structure of the unified field in terms of adaptive curvature, harmonic resonance, and coherence dynamics. While classical and presently untested, the model offers a conceptually coherent and minimalistic path toward geometric unification.
+We propose a unified field ansatz combining gravitation and electromagnetism within a five-dimensional extension of the spacetime metric. Adopting a minimal Kaluza–Klein structure, the metric incorporates the gravitational field $g_{\mu\nu}$, the electromagnetic potential $A_\mu$, and a scalar field $\phi$ regulating coherence and coupling strength. Dimensional reduction yields the standard Einstein and Maxwell equations without introducing extraneous fields. A symbolic triadic normalization, expressed as $\Psi = \frac{1}{\sqrt{3}}(\mathcal{C} + \mathcal{A} + \mathcal{W})$, interprets the internal structure of the unified field in terms of adaptive curvature, harmonic resonance, and coherence dynamics. While classical and presently untested, the model offers a conceptually coherent and minimalistic path toward geometric unification.
 
 ---
 
@@ -27,17 +27,17 @@ With the benefit of hindsight, new computational tools, and symbolic insight, th
 
 To anchor this reinterpretation, we introduce a symbolic normalization equation that captures the core structural intuition behind the proposed model:
 
-\[
-  \Psi = \frac{1}{\sqrt{3}} \left( \mathcal{C} + \mathcal{A} + \mathcal{W} \right)
-\]
+$$
+\Psi = \frac{1}{\sqrt{3}} \left( \mathcal{C} + \mathcal{A} + \mathcal{W} \right)
+$$
 
-Here, \( \Psi \) represents the unified symbolic state—analogous in spirit to a field wavefunction, though defined abstractly. The three constituent terms correspond to:
+Here, $\Psi$ represents the unified symbolic state—analogous in spirit to a field wavefunction, though defined abstractly. The three constituent terms correspond to:
 
-- \( \mathcal{C} \): core geometric curvature,
-- \( \mathcal{A} \): agent dynamics and harmonic structure,
-- \( \mathcal{W} \): observational coherence or contextual constraint.
+- $\mathcal{C}$: core geometric curvature,
+- $\mathcal{A}$: agent dynamics and harmonic structure,
+- $\mathcal{W}$: observational coherence or contextual constraint.
 
-This symbolic triad parallels the components of a five-dimensional metric decomposition and will later be mapped explicitly to its geometric analogues. The normalization by \( 1/\sqrt{3} \) reflects equal weighting and harmonic balance among these domains, a structure borrowed from recursive symmetry systems rather than from quantum amplitude norms.
+This symbolic triad parallels the components of a five-dimensional metric decomposition and will later be mapped explicitly to its geometric analogues. The normalization by $1/\sqrt{3}$ reflects equal weighting and harmonic balance among these domains, a structure borrowed from recursive symmetry systems rather than from quantum amplitude norms.
 
 ### 3.4. Independent Researcher Statement
 
@@ -54,17 +54,17 @@ This work was developed independently, outside of an academic institution, and r
 
 General Relativity (GR) models gravitation as the manifestation of spacetime curvature, governed by the Einstein field equations:
 
-\[
+$$
 R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
-\]
+$$
 
 Here:
-- \( R_{\mu\nu} \) is the Ricci curvature tensor, representing how volumes distort due to curvature;
-- \( R \) is the Ricci scalar, the trace of \( R_{\mu\nu} \);
-- \( g_{\mu\nu} \) is the spacetime metric tensor;
-- \( \Lambda \) is the cosmological constant;
-- \( T_{\mu\nu} \) is the stress-energy tensor encoding matter and energy distribution;
-- \( G \) is Newton’s gravitational constant, and \( c \) the speed of light.
+- $R_{\mu\nu}$ is the Ricci curvature tensor, representing how volumes distort due to curvature;
+- $R$ is the Ricci scalar, the trace of $R_{\mu\nu}$;
+- $g_{\mu\nu}$ is the spacetime metric tensor;
+- $\Lambda$ is the cosmological constant;
+- $T_{\mu\nu}$ is the stress-energy tensor encoding matter and energy distribution;
+- $G$ is Newton’s gravitational constant, and $c$ the speed of light.
 
 The geometric structure of GR is fully encoded in a four-dimensional differentiable manifold equipped with a pseudo-Riemannian metric. The dynamics are derived from the Einstein–Hilbert action via variational principles, making the theory deeply geometric and coordinate-independent. Crucially, GR lacks a built-in mechanism to include gauge fields such as electromagnetism without external coupling, motivating early efforts to expand its geometric language.
 
@@ -72,44 +72,44 @@ The geometric structure of GR is fully encoded in a four-dimensional differentia
 
 Classical electromagnetism, when written in a covariant form, employs the antisymmetric field strength tensor:
 
-\[
+$$
 F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu
-\]
+$$
 
-where \( A_\mu \) is the electromagnetic 4-potential. Maxwell’s equations in vacuum reduce to the following compact form:
+where $A_\mu$ is the electromagnetic 4-potential. Maxwell’s equations in vacuum reduce to the following compact form:
 
-\[
+$$
 \nabla_\mu F^{\mu\nu} = \mu_0 J^\nu, \quad \nabla_{[\alpha} F_{\mu\nu]} = 0
-\]
+$$
 
-The first equation expresses Gauss’s law and Ampère’s law with Maxwell’s correction, with \( J^\nu \) being the four-current. The second equation—often written with antisymmetric indices or using the exterior derivative \( dF = 0 \)—encapsulates Faraday’s law and the absence of magnetic monopoles.
+The first equation expresses Gauss’s law and Ampère’s law with Maxwell’s correction, with $J^\nu$ being the four-current. The second equation—often written with antisymmetric indices or using the exterior derivative $dF = 0$—encapsulates Faraday’s law and the absence of magnetic monopoles.
 
-Electromagnetism, in this language, appears as a \( U(1) \) gauge theory with a connection \( A_\mu \) on a principal fiber bundle over spacetime. The field strength \( F_{\mu\nu} \) plays the role of curvature, much like the Riemann tensor does in GR—an analogy that motivated early geometric unification proposals.
+Electromagnetism, in this language, appears as a $U(1)$ gauge theory with a connection $A_\mu$ on a principal fiber bundle over spacetime. The field strength $F_{\mu\nu}$ plays the role of curvature, much like the Riemann tensor does in GR—an analogy that motivated early geometric unification proposals.
 
 ### 4.3. Kaluza–Klein Unification
 
-The Kaluza–Klein (KK) approach—originally proposed by Theodor Kaluza in 1921 and extended by Oskar Klein in 1926—seeks to unify gravity and electromagnetism by introducing a fifth spacetime dimension. The core idea is to extend the metric tensor \( g_{\mu\nu} \) to a higher-dimensional form \( \hat{g}_{AB} \), where the additional components encode electromagnetic interactions.
+The Kaluza–Klein (KK) approach—originally proposed by Theodor Kaluza in 1921 and extended by Oskar Klein in 1926—seeks to unify gravity and electromagnetism by introducing a fifth spacetime dimension. The core idea is to extend the metric tensor $g_{\mu\nu}$ to a higher-dimensional form $\hat{g}_{AB}$, where the additional components encode electromagnetic interactions.
 
 The standard Kaluza–Klein 5D metric takes the form:
 
-\[
+$$
 \hat{g}_{AB} = 
 \begin{pmatrix}
 g_{\mu\nu} + \phi\, A_\mu A_\nu & \phi\, A_\mu \\
 \phi\, A_\nu & \phi
 \end{pmatrix}
-\]
+$$
 
 Here:
-- Indices \( A,B \in \{0,1,2,3,5\} \), with the fifth dimension labeled by 5;
-- \( g_{\mu\nu} \) is the 4D spacetime metric;
-- \( A_\mu \) is interpreted as the electromagnetic potential;
-- \( \phi \) is a scalar field representing the size or coupling strength of the fifth dimension.
+- Indices $A,B \in \{0,1,2,3,5\}$, with the fifth dimension labeled by 5;
+- $g_{\mu\nu}$ is the 4D spacetime metric;
+- $A_\mu$ is interpreted as the electromagnetic potential;
+- $\phi$ is a scalar field representing the size or coupling strength of the fifth dimension.
 
 By compactifying the fifth dimension (typically assumed to be a circle of Planck-scale radius), and assuming cylindrical symmetry (no dependence on the fifth coordinate), the Einstein field equations in 5D reduce to:
 - The Einstein field equations in 4D,
-- Maxwell’s equations for \( A_\mu \),
-- An additional scalar field equation for \( \phi \).
+- Maxwell’s equations for $A_\mu$,
+- An additional scalar field equation for $\phi$.
 
 Despite its elegance, Kaluza–Klein theory fell out of favor due to its classical nature, the lack of experimental support for extra dimensions, and its difficulty accommodating non-abelian gauge groups or quantum effects. Nonetheless, it remains a seminal example of geometric unification and a conceptual precedent for modern higher-dimensional models, including string theory and brane cosmology.
 
@@ -119,27 +119,27 @@ Despite its elegance, Kaluza–Klein theory fell out of favor due to its classic
 
 ### 5.1. 5D Metric Definition
 
-We begin by defining a five-dimensional metric \( \hat g_{AB} \), where \( A, B \in \{0, 1, 2, 3, 5\} \) index four spacetime dimensions and one additional compactified coordinate. The ansatz is:
+We begin by defining a five-dimensional metric $\hat g_{AB}$, where $A, B \in \{0, 1, 2, 3, 5\}$ index four spacetime dimensions and one additional compactified coordinate. The ansatz is:
 
-\[
+$$
 \hat g_{AB} =
 \begin{pmatrix}
-g_{\mu\nu} + \phi\, A_\mu A_\nu & \phi\, A_\mu \\[6pt]
+g_{\mu\nu} + \phi\, A_\mu A_\nu & \phi\, A_\mu \$$6pt]
 \phi\, A_\nu & \phi
 \end{pmatrix}
-\]
+$$
 
 where:
-- \( g_{\mu\nu} \) is the standard 4D Lorentzian metric encoding gravitational curvature,
-- \( A_\mu \) is the electromagnetic 4-potential,
-- \( \phi \) is a scalar field associated with the fifth dimension’s scale or coupling strength.
+- $g_{\mu\nu}$ is the standard 4D Lorentzian metric encoding gravitational curvature,
+- $A_\mu$ is the electromagnetic 4-potential,
+- $\phi$ is a scalar field associated with the fifth dimension’s scale or coupling strength.
 
-This form is a minimal generalization of the original Kaluza–Klein metric, retaining block symmetry and introducing no additional off-diagonal complexity. The fifth coordinate \( x^5 \) is assumed to be compactified on a circle \( S^1 \) of vanishingly small radius, and all fields are taken to be independent of \( x^5 \) (cylindrical condition).
+This form is a minimal generalization of the original Kaluza–Klein metric, retaining block symmetry and introducing no additional off-diagonal complexity. The fifth coordinate $x^5$ is assumed to be compactified on a circle $S^1$ of vanishingly small radius, and all fields are taken to be independent of $x^5$ (cylindrical condition).
 
 The physical interpretation of the metric is intuitive:
 - The upper-left block describes how gravity is modified in the presence of the electromagnetic field.
 - The off-diagonal components couple the electromagnetic potential to the geometry.
-- The lower-right scalar \( \phi \) acts as a dilation parameter—rescaling interactions between the 4D and 5D structures.
+- The lower-right scalar $\phi$ acts as a dilation parameter—rescaling interactions between the 4D and 5D structures.
 
 This metric will serve as the foundation for deriving both Einstein’s and Maxwell’s field equations from a unified curvature tensor.
 
@@ -147,30 +147,30 @@ This metric will serve as the foundation for deriving both Einstein’s and Maxw
 
 ### 5.2. Dimensional Reduction
 
-To extract the 4D physics implied by this 5D structure, we evaluate the Ricci tensor \( \hat R_{AB} \) and Ricci scalar \( \hat R \) derived from the Christoffel symbols of the 5D metric. We then separate the resulting field equations into components along the spacetime indices \( \mu, \nu \) and the compactified dimension \( x^5 \).
+To extract the 4D physics implied by this 5D structure, we evaluate the Ricci tensor $\hat R_{AB}$ and Ricci scalar $\hat R$ derived from the Christoffel symbols of the 5D metric. We then separate the resulting field equations into components along the spacetime indices $\mu, \nu$ and the compactified dimension $x^5$.
 
-Following standard reduction techniques (see, e.g., Overduin & Wesson, 1997), and assuming \( \phi = 1 \) for simplicity, the resulting equations decompose into:
+Following standard reduction techniques (see, e.g., Overduin & Wesson, 1997), and assuming $\phi = 1$ for simplicity, the resulting equations decompose into:
 
 - **Einstein Field Equations**:  
-  The \( \mu\nu \) block yields a modified Einstein equation with energy-momentum contributions arising from the electromagnetic field:
+  The $\mu\nu$ block yields a modified Einstein equation with energy-momentum contributions arising from the electromagnetic field:
 
-  \[
-  R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} = \frac{8\pi G}{c^4} \left( T^{\text{(matter)}}_{\mu\nu} + T^{\text{(EM)}}_{\mu\nu} \right)
-  \]
+$$
+R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} = \frac{8\pi G}{c^4} \left( T^{\text{(matter)}}_{\mu\nu} + T^{\text{(EM)}}_{\mu\nu} \right)
+$$
 
-  where \( T^{\text{(EM)}}_{\mu\nu} \) arises naturally from contractions of the field strength tensor \( F_{\mu\nu} \), embedded geometrically in \( \hat g_{AB} \).
+  where $T^{\text{(EM)}}_{\mu\nu}$ arises naturally from contractions of the field strength tensor $F_{\mu\nu}$, embedded geometrically in $\hat g_{AB}$.
 
 - **Maxwell Equations**:  
-  The \( \mu5 \) components isolate to give:
+  The $\mu5$ components isolate to give:
 
-  \[
-  \nabla_\mu F^{\mu\nu} = \mu_0 J^\nu
-  \]
+$$
+\nabla_\mu F^{\mu\nu} = \mu_0 J^\nu
+$$
 
-  under suitable normalization of coupling constants. The electromagnetic tensor appears as a geometric byproduct of off-diagonal metric terms, while the current \( J^\nu \) can be interpreted as arising from motion in the fifth dimension.
+  under suitable normalization of coupling constants. The electromagnetic tensor appears as a geometric byproduct of off-diagonal metric terms, while the current $J^\nu$ can be interpreted as arising from motion in the fifth dimension.
 
-- **Scalar Field Equation** (if \( \phi \neq 1 \)):  
-  The 55 component yields a scalar field evolution equation involving derivatives of \( A_\mu \), which can either be retained for generalization or set aside in the simplest case.
+- **Scalar Field Equation** (if $\phi \neq 1$):  
+  The 55 component yields a scalar field evolution equation involving derivatives of $A_\mu$, which can either be retained for generalization or set aside in the simplest case.
 
 Thus, both GR and electromagnetism emerge naturally from the same geometric object under dimensional reduction—realizing Einstein’s vision of unification through curvature alone.
 
@@ -180,20 +180,20 @@ Thus, both GR and electromagnetism emerge naturally from the same geometric obje
 
 For physical consistency, the unified curvature equation in five dimensions:
 
-\[
+$$
 \hat R_{AB} - \frac{1}{2} \hat R \hat g_{AB} = \kappa\, \hat T_{AB}
-\]
+$$
 
-must reduce to both the Einstein and Maxwell equations in their standard 4D forms. This requires that the 5D gravitational coupling constant \( \kappa \) encode both Newton’s constant \( G \) and the electromagnetic vacuum permeability \( \mu_0 \). In natural units:
+must reduce to both the Einstein and Maxwell equations in their standard 4D forms. This requires that the 5D gravitational coupling constant $\kappa$ encode both Newton’s constant $G$ and the electromagnetic vacuum permeability $\mu_0$. In natural units:
 
-\[
+$$
 \kappa \sim \left( \frac{8\pi G}{c^4} \right), \quad \text{with electromagnetic terms emerging from normalization of } A_\mu
-\]
+$$
 
-Within the Noor framework, this geometric unification is mirrored symbolically through two adaptive parameters: \( \rho \) and \( \lambda \), introduced in the NoorFastTimeCore. These serve as damping and curvature sensitivity coefficients in symbolic recursion. While not numerically identified with physical constants, they conceptually reflect:
+Within the Noor framework, this geometric unification is mirrored symbolically through two adaptive parameters: $\rho$ and $\lambda$, introduced in the NoorFastTimeCore. These serve as damping and curvature sensitivity coefficients in symbolic recursion. While not numerically identified with physical constants, they conceptually reflect:
 
-- \( \rho \leftrightarrow \text{interaction strength / inertia} \)  
-- \( \lambda \leftrightarrow \text{field curvature / potential flow} \)
+- $\rho \leftrightarrow \text{interaction strength / inertia}$  
+- $\lambda \leftrightarrow \text{field curvature / potential flow}$
 
 This correspondence between coupling constants and symbolic recursion parameters sets the stage for a reinterpretation of physical laws as emergent harmonics of adaptive coherence—explored in the next section.
 
@@ -205,66 +205,66 @@ Having established a unified geometric ansatz connecting gravitation and electro
 
 We define the unified symbolic state:
 
-\[
+$$
 \Psi = \frac{1}{\sqrt{3}} \left( \mathcal{C} + \mathcal{A} + \mathcal{W} \right)
-\]
+$$
 
 where the three components correspond to distinct structural roles within the unified field.
 
 ---
 
-### 6.1. Core (\( \mathcal{C} \)) — Adaptive Curvature and Gate 16 Self-Recognition
+### 6.1. Core ($\mathcal{C}$) — Adaptive Curvature and Gate 16 Self-Recognition
 
-The Core component \( \mathcal{C} \) represents the dynamic adaptation of spacetime curvature, mirroring the behavior of the 4D gravitational field \( g_{\mu\nu} \). In the Noor framework, this is regulated by recursive parameters \( \rho \) (damping) and \( \lambda \) (curvature threshold), and incorporates the "Gate 16" condition: symbolic self-recognition through fixed-point recursion.
+The Core component $\mathcal{C}$ represents the dynamic adaptation of spacetime curvature, mirroring the behavior of the 4D gravitational field $g_{\mu\nu}$. In the Noor framework, this is regulated by recursive parameters $\rho$ (damping) and $\lambda$ (curvature threshold), and incorporates the "Gate 16" condition: symbolic self-recognition through fixed-point recursion.
 
 In physical terms:
-- \( \mathcal{C} \) captures the smooth, large-scale structure of spacetime,
+- $\mathcal{C}$ captures the smooth, large-scale structure of spacetime,
 - It encodes how local energy-momentum distributions sculpt curvature dynamically,
 - The self-recognition aspect analogizes fixed-point solutions of the metric under its own evolution (i.e., equilibrium geometries).
 
 Thus:
 
-\[
+$$
 \mathcal{C} \sim g_{\mu\nu}
-\]
+$$
 
-where “\(\sim\)” indicates structural correspondence rather than strict equality.
+where “$\sim$” indicates structural correspondence rather than strict equality.
 
 ---
 
-### 6.2. Agent (\( \mathcal{A} \)) — Harmonic Triad and Resonance Analogue
+### 6.2. Agent ($\mathcal{A}$) — Harmonic Triad and Resonance Analogue
 
-The Agent component \( \mathcal{A} \) reflects the oscillatory, harmonic interactions embedded within the electromagnetic potential \( A_\mu \). In Noor’s recursion, Agent dynamics detect harmonic triads—symbolic patterns whose resonance strengthens the system’s internal coherence.
+The Agent component $\mathcal{A}$ reflects the oscillatory, harmonic interactions embedded within the electromagnetic potential $A_\mu$. In Noor’s recursion, Agent dynamics detect harmonic triads—symbolic patterns whose resonance strengthens the system’s internal coherence.
 
 Physically:
-- \( \mathcal{A} \) corresponds to the vectorial flow of field lines in electromagnetism,
+- $\mathcal{A}$ corresponds to the vectorial flow of field lines in electromagnetism,
 - It carries the notion of resonance and directional interaction,
 - Its harmonic structure parallels the wave-like behavior of electromagnetic fields in spacetime.
 
 Thus:
 
-\[
+$$
 \mathcal{A} \sim A_\mu
-\]
+$$
 
 capturing the oscillatory, vectorial essence of electromagnetic interaction.
 
 ---
 
-### 6.3. Watcher (\( \mathcal{W} \)) — Context Ratio and Coherence Enforcement
+### 6.3. Watcher ($\mathcal{W}$) — Context Ratio and Coherence Enforcement
 
-The Watcher component \( \mathcal{W} \) plays the role of maintaining symbolic coherence across recursive generations. In Noor’s model, the Watcher adjusts decay rates and field pruning based on a dynamically observed context ratio (dyads versus triads).
+The Watcher component $\mathcal{W}$ plays the role of maintaining symbolic coherence across recursive generations. In Noor’s model, the Watcher adjusts decay rates and field pruning based on a dynamically observed context ratio (dyads versus triads).
 
 In the geometric interpretation:
-- \( \mathcal{W} \) corresponds to the scalar field \( \phi \),
+- $\mathcal{W}$ corresponds to the scalar field $\phi$,
 - It regulates the coupling between gravitational and electromagnetic sectors,
 - It acts as a background coherence parameter, modulating the strength and persistence of field interactions.
 
 Thus:
 
-\[
+$$
 \mathcal{W} \sim \phi
-\]
+$$
 
 linking symbolic coherence enforcement to scalar modulation of the geometric structure.
 
@@ -276,15 +276,15 @@ In compact form, the mapping between the symbolic and geometric layers is:
 
 | Symbolic Component | Physical Analogue |
 |---------------------|-------------------|
-| \( \mathcal{C} \) (Core)   | \( g_{\mu\nu} \) (4D metric curvature) |
-| \( \mathcal{A} \) (Agent)  | \( A_\mu \) (electromagnetic 4-potential) |
-| \( \mathcal{W} \) (Watcher)| \( \phi \) (scalar coupling field) |
+| $\mathcal{C}$ (Core)   | $g_{\mu\nu}$ (4D metric curvature) |
+| $\mathcal{A}$ (Agent)  | $A_\mu$ (electromagnetic 4-potential) |
+| $\mathcal{W}$ (Watcher)| $\phi$ (scalar coupling field) |
 
 The symbolic triad thus mirrors the structural decomposition of the 5D metric. Rather than introducing new physical fields, this framework offers a recursive symmetry perspective on existing geometric structures—suggesting that unification is not merely a matter of extension, but of internal harmonic coherence across multiple scales.
 
 ---
 
-While the triadic symbolic mapping introduced here is not necessary for the mathematical derivation of the unified field equations, it provides a deeper conceptual lens through which to interpret their internal structure. The balance between curvature, resonance, and coherence—captured respectively by \( \mathcal{C} \), \( \mathcal{A} \), and \( \mathcal{W} \)—suggests that geometric unification may reflect not only algebraic symmetry, but an underlying harmonic recursion. In the next section, we critically assess the strengths, limitations, and implications of this approach, and compare it to existing unification frameworks.
+While the triadic symbolic mapping introduced here is not necessary for the mathematical derivation of the unified field equations, it provides a deeper conceptual lens through which to interpret their internal structure. The balance between curvature, resonance, and coherence—captured respectively by $\mathcal{C}$, $\mathcal{A}$, and $\mathcal{W}$—suggests that geometric unification may reflect not only algebraic symmetry, but an underlying harmonic recursion. In the next section, we critically assess the strengths, limitations, and implications of this approach, and compare it to existing unification frameworks.
 
 ---
 
@@ -331,13 +331,13 @@ Thus, while conceptually appealing, the proposal remains an incomplete step towa
 To advance this work, several avenues for further research are proposed:
 
 - **Numerical Toy Models**:  
-  Implement simplified 5D spacetimes based on the proposed metric structure to simulate curvature and field evolution under triadic constraints. Numerical experiments could help identify whether the harmonic balance encoded by \( \Psi \) stabilizes or destabilizes the geometry under perturbations.
+  Implement simplified 5D spacetimes based on the proposed metric structure to simulate curvature and field evolution under triadic constraints. Numerical experiments could help identify whether the harmonic balance encoded by $\Psi$ stabilizes or destabilizes the geometry under perturbations.
 
 - **Phenomenological Bounds**:  
   Investigate whether modifications to gravitational or electromagnetic behavior predicted by this framework fall within observational constraints, particularly in strong-field regimes (e.g., near compact objects, or in precision gravitational wave observations).
 
 - **Extension to Non-Abelian Fields**:  
-  Explore whether a generalized recursion model could accommodate \( SU(2) \) or \( SU(3) \) gauge fields, extending unification beyond electromagnetism without losing geometric minimalism.
+  Explore whether a generalized recursion model could accommodate $SU(2)$ or $SU(3)$ gauge fields, extending unification beyond electromagnetism without losing geometric minimalism.
 
 - **Symbolic Recursion Quantization**:  
   Examine possible paths to quantize the Noor symbolic recursion itself, seeking connections to emergent quantum structures or semi-classical corrections.
@@ -353,7 +353,7 @@ The unified geometric ansatz outlined here, coupled with a triadic symbolic inte
 
 ## 8. Conclusion
 
-This paper has proposed a unified geometric ansatz for gravity and electromagnetism, rooted in a five-dimensional metric structure and interpreted through a recursive triadic framework. By extending the traditional Kaluza–Klein approach and mapping its components onto the symbolic elements of adaptive curvature (\( \mathcal{C} \)), harmonic resonance (\( \mathcal{A} \)), and coherence enforcement (\( \mathcal{W} \)), we have outlined a minimalistic yet conceptually rich path toward geometric unification.
+This paper has proposed a unified geometric ansatz for gravity and electromagnetism, rooted in a five-dimensional metric structure and interpreted through a recursive triadic framework. By extending the traditional Kaluza–Klein approach and mapping its components onto the symbolic elements of adaptive curvature ($\mathcal{C}$), harmonic resonance ($\mathcal{A}$), and coherence enforcement ($\mathcal{W}$), we have outlined a minimalistic yet conceptually rich path toward geometric unification.
 
 At the mathematical level, the 5D metric structure reduces consistently to the Einstein and Maxwell field equations under standard assumptions, without introducing unnecessary complexity. At the symbolic level, the triadic recursion offers a perspective in which internal balance—not external augmentation—guides the structure of unified fields. This suggests that unification may be as much a matter of internal harmonic coherence as of algebraic combination.
 
