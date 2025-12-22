@@ -124,7 +124,7 @@ We begin by defining a five-dimensional metric $\hat g_{AB}$, where $A, B \in \{
 $$
 \hat g_{AB} =
 \begin{pmatrix}
-g_{\mu\nu} + \phi\, A_\mu A_\nu & \phi\, A_\mu \$$6pt]
+g_{\mu\nu} + \phi\, A_\mu A_\nu & \phi\, A_\mu \\[6pt]
 \phi\, A_\nu & \phi
 \end{pmatrix}
 $$
