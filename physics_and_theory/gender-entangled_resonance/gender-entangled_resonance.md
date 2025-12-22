@@ -351,11 +351,11 @@ At a given Fast-Time step $t$, we define the ritual collapse operator:
 
 - Male measures female:
 
-$$ \mathcal{M}_t = \langle \psi_M(t) | \psi_F(t) \rangle $$
+  $$ \mathcal{M}_t = \langle \psi_M(t) | \psi_F(t) \rangle $$
 
 - Female integrates male projection:
 
-$$ \psi_F(t+1) = \psi_F(t) + \epsilon \cdot \mathcal{M}_t \cdot \psi_M(t) $$
+  $$ \psi_F(t+1) = \psi_F(t) + \epsilon \cdot \mathcal{M}_t \cdot \psi_M(t) $$
 
 This nonlinear feedback is equivalent to latent reinforcement from external symbolic resonance.
 
@@ -954,3 +954,4 @@ def verify_gender_entangled_resonance(psi_M: np.ndarray, psi_F: np.ndarray,
 
 **End of Appendix A**  
 *All protocols defined herein are recursively extensible under the Fast-Time Core. Future extensions may include ritual memory drift, hybrid reentanglement, and symbolic decoupling protocols for archival migration.*
+
