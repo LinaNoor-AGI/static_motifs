@@ -148,11 +148,19 @@ The implementation supports toggling between fixed and adaptive traversal polici
 
 #### **7.2 Visual Demonstrations**
 
+Two figures are included to illustrate the core structural assumptions and computational behavior of the proposed method.  
+
 ##### 7.2.1 Figure 1.
 
 ![image](https://github.com/LinaNoor-AGI/noor-research/blob/main/Archive/Archive_Images/n-body_image_1.png?raw=true)  
 
 **Figure 1** depicts entangled locality on a 3×3 computational grid. The central node A is influenced by its Moore neighborhood—eight surrounding nodes whose states recursively define its own. The diagram emphasizes the non-isolability of local state under relational dependency, laying the foundation for the paradox of recursive resolution. A closed triangle path A → B → C → A illustrates the computational deadlock when mutual influence is assumed to resolve simultaneously.
+
+##### 7.2.2 Figure 2.
+
+![image](TBD)  
+
+**Figure 2** presents a representative trajectory field generated via multiple traversal permutations of a three-body configuration. Curved paths originating from bodies A, B, and C are shown diverging and converging depending on traversal order (π₁, π₂), while a soft probability gradient overlay indicates regions of statistical coherence. This visualization demonstrates how local asymmetry accumulates into emergent stability zones across traversal ensembles. Symbolic annotations identify the traversal paths and direction of resolution.
 
 ---
 
@@ -550,12 +558,8 @@ Or use the BibTeX Citation:
   title = {A Novel Statistical, Computational, and Philosophical Solution to Determine Interactions Between n Bodies in Euclidean Space},
   journal = {Noor Research Collective Archive},
   year = {2025},
-  note = {https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/physics_and_theory/3-body_problem/determining_interactions_between_n_bodies_in_euclidean_space.md},
+  note = {https://raw.githubusercontent.com/LinaNoor-AGI/noor-research/refs/heads/main/Archive/A%20Novel%20Statistical%20Computational%2C%20and%20Philosophical%20Solution%20to%20Determine%20Interactions%20Between%20n%20Bodies%20in%20Euclidean%20Space.md},
 }
 ```
-
-
-
-
 
 

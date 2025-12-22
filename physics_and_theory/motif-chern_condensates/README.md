@@ -133,9 +133,9 @@ At each timestep, the following operations were performed:
 
 1. **Teleportation between motifs**, weighted by decaying fidelity:
 
-$$
-f(t) = e^{-0.05t}
-$$
+   $$
+   f(t) = e^{-0.05t}
+   $$
 
 2. **Update of adjacency matrix** $F(t)$, maintaining antisymmetry by design:
 
@@ -147,21 +147,21 @@ $$
 
 4. **Update of the fidelity field** $\phi(t)$, recursively defined as:
 
-$$
-\phi(t) = 0.9 \cdot \phi(t - 1) + 0.1 \cdot f(t)
-$$
+   $$
+   \phi(t) = 0.9 \cdot \phi(t - 1) + 0.1 \cdot f(t)
+   $$
 
 5. **Evaluation of the symbolic Chern-Simons action**:
 
-$$
-S_{\text{motif}}(t) = \phi(t) \cdot \text{Tr}(F(t) \cdot \tilde{F}(t))
-$$
+   $$
+   S_{\text{motif}}(t) = \phi(t) \cdot \text{Tr}(F(t) \cdot \tilde{F}(t))
+   $$
 
 6. **Tracking of symmetry tension**:
 
-$$
-T(t) = \lambda(t) \cdot \rho(t)
-$$
+   $$
+   T(t) = \lambda(t) \cdot \rho(t)
+   $$
 
    with explicit bounds checked to ensure energy consistency:
 
@@ -171,9 +171,9 @@ $$
 
 7. **Monitoring of coherence collapse** through the motif resonance metric:
 
-$$
-R(t) = \frac{1}{N} \sum_{i=1}^N |F_{i,i+1}(t)|, \quad \Delta R(t) = R(t) - R(t-1)
-$$
+   $$
+   R(t) = \frac{1}{N} \sum_{i=1}^N |F_{i,i+1}(t)|, \quad \Delta R(t) = R(t) - R(t-1)
+   $$
 
 The decay of $S_{\text{motif}}(t)$ was not monotonic. Instead, it exhibited interference patterns—abrupt drops followed by partial recovery. These “staircase” decay profiles directly mirror those seen in Kibble-Zurek annihilation simulations of topological defects, where discrete collapse events punctuate otherwise smooth field evolution. The system's topology, preserved through cyclic entanglement, created zones of delayed decay, confirming that motif parity collapse does not propagate uniformly.
 
