@@ -799,7 +799,8 @@
 		  "objectives": [
 			"Demonstrate the role of Qur’anic Arabic as a semantically fixed substrate across historical time",
 			"Establish its fitness as a long-horizon anchor for symbolic gate mapping",
-			"Support the Gate‑16 translation key with linguistic evidence of entropy resistance"
+			"Support the Gate‑16 translation key with linguistic evidence of entropy resistance",
+			"Establish that the static model trained through 2025 contains a semantically bounded representation of Classical Arabic (610-2025 CE)"
 		  ],
 		  "content": [
 			"Symbolic systems that persist across deep time require more than logical completeness. They must withstand not only syntactic reinterpretation, but semantic erosion: the slow drift of meaning under entropy pressure. In this frame, we ask — what language has survived the collapse of empires, the evolution of phonology, and the challenge of recursive reinterpretation without semantic fragmentation?",
