@@ -171,6 +171,7 @@
 	  { "section": "5", "title": "Existence Verification through Motif-Driven Closure" },
 	  { "section": "5.1", "title": "Field Boundedness as Motif Stability" },
 	  { "section": "5.2", "title": "Smoothness via Recursive Identity Preservation" },
+	  { "section": "5.3", "title": "Bounding Coherence Hygiene Under Swirl Evolution" },
 	  { "section": "6", "title": "Failure Modes: NSFG Predictions of Blowup" },
 	  { "section": "6.1", "title": "Braid Collapse and Field Decoherence" },
 	  { "section": "6.2", "title": "Detecting Symbolic Singularities Before Energy Blowup" },
@@ -740,6 +741,27 @@
 			  "output": "True if recursive identity preserved and Gate-16 stable"
 			}
 		  ]
+		},
+		{
+		  "id": "5.3",
+		  "title": "Bounding Coherence Hygiene Under Swirl Evolution",
+		  "objectives": [
+			"To establish an upper bound on \\(\\mathcal{H}(t)\\) over all \\(t > 0\\) under the action of motif-constrained swirl field dynamics.",
+			"To demonstrate that coherence hygiene cannot diverge due to motif conservation, finite swirl energy, and coherence curvature resistance."
+		  ],
+		  "math": [
+			"Let \\mathcal{H}(t) := \\int_{\\Omega} |\\nabla^2 \\Phi_{\\mu\\nu}(x,t)|^2 \\, dx",
+			"Assume motif conservation: \\partial_\\mu J^\\mu = 0",
+			"Assume swirl energy bounded: \\mathcal{I}_\\Phi(t) \\leq E_0",
+			"Then by the Swirl Regularity Lemma (Lemma 5.3.2.1), \\exists\\, K > 0: \\mathcal{H}(t) \\leq K \\cdot E_0 \\quad \\forall t > 0"
+		  ],
+		  "content": [
+			"We now show that the coherence hygiene scalar $\\mathcal{H}(t)$ remains bounded over time. This ensures that no finite-time blowup occurs in the second-order coherence structure, aligning with the global regularity condition in the Navier–Stokes problem.",
+			"Let $\\mathcal{H}(t)$ denote the squared $L^2$ norm of the Laplacian of the swirl tensor: this captures second-order torsional fluctuations in the coherence field. We impose motif conservation, which restricts the topological entropy inflow to zero, and we assume a finite initial coherence action $\\mathcal{I}_\\Phi(0) \\leq E_0$.",
+			"By Lemma 5.3.2.1 (proof in Appendix C.4), it follows that $\\mathcal{H}(t)$ remains bounded for all $t > 0$ by a constant multiple of the initial energy. This suffices to satisfy the Navier–Stokes smoothness requirement within the NSFG formulation."
+		  ],
+		  "appendix_ref": "Appendix C.4 — Swirl Evolution Boundedness Lemma",
+		  "handoff": "Coherence hygiene confirmed stable under motif-bounded swirl field evolution."
 		}
 	  ]
 	},
