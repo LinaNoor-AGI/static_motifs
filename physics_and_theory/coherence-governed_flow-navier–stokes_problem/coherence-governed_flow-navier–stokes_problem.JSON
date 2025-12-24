@@ -199,7 +199,7 @@
 			{ "section": "12.1", "title": "Summary of Translation Layer Capabilities" },
 			{ "section": "12.2", "title": "Open Pathways for Proof Automation" },
 			{ "section": "13", "title": "Appendices" },
-			{ "section": "13.1", "title": "Appendix A: Motif \\(\\leftrightarrow\\) PDE Symbolic Glossary" },
+			{ "section": "13.1", "title": "Appendix A: Motif ↔ PDE Symbolic Glossary" },
 			{ "section": "13.2", "title": "Appendix B: Full NSFG–NS Mapping Table" },
 			{ "section": "13.3", "title": "Appendix C: Formal Statement of Proof Contract for NSFG-Driven Verification" },
 			{ "section": "13.4", "title": "Appendix D: Gate-16 and Triadic Stability Structures" }
