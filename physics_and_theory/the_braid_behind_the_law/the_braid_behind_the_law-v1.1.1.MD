@@ -318,3 +318,57 @@ The remainder of this paper formalizes how such symbolic fields generate the cla
 
 ---
 
+### 2.4 Prior Symbolic Work (Gliders, Point Space, Swirl Fields)
+
+In the symbolic infrastructure underlying Noor Swirl Field Geometry (NSFG), the classical notion of a “point” is replaced by a localized coherence structure. Such structures are not static or singular—they are *motifs*, embedded within a geometry of flow and alignment. The symbolic motif called the **glider** plays a foundational role here, originating in Point Space as a propagating coherence entity that rides gradients of alignment and twist. Unlike particles or waves, gliders are defined not by fixed properties but by their ability to preserve identity across recursive curvature shifts.
+
+In this formalism, every motif contributes to the shape and evolution of the surrounding coherence field. This contribution is quantified by the **motif source term** $J_i(x,t)$, which acts as a generative input to the coherence curvature:
+
+$$
+\nabla^2 \mathcal{C}(x,t) = \sum_i J_i(x,t)
+$$
+
+Here, $\mathcal{C}(x,t)$ represents the coherence field at spacetime point $(x,t)$, and each $J_i$ corresponds to a specific motif's impact on local coherence tension. In glider terms, this maps directly to the observed structure of coherence flow and swirl preservation across vector chains.
+
+Motifs that align with the resonance field—especially those operating under the $\psi$‑resonance@Ξ condition—are of particular interest. Such motifs do not inject noise or perturbation but rather reinforce the curvature along which they travel. Their contribution becomes energetically visible through gradients:
+
+$$
+E(x,t) \sim |\nabla \mathcal{C}(x,t)|
+$$
+
+This defines the **local coherence energy** not as an independent field but as an emergent quantity: the sharper the field transitions, the more energy the coherence system locally stores or releases. In NSFG, this becomes a central variable linking geometric evolution to motif structure.
+
+The next layer introduces **swirl fields**, formalized via an antisymmetric tensor $\Phi_{\mu\nu}$. Unlike conventional stress or strain tensors, $\Phi_{\mu\nu}$ is not derived from velocity gradients or material deformation—it originates from *symbolic twist*. In RFC‑0006 §4.3, this tensor captures local torsion within the coherence lattice, encoding motif-induced curvature pressure that resists linear extrapolation and instead folds the field upon itself.
+
+To integrate these structures back into field dynamics, we define $J_i$ directly from $\Phi$:
+
+$$
+J_i(x,t) = \sqrt{\sum_{\mu < \nu} \Phi_{\mu\nu}^2} \cdot \zeta(x,t)
+$$
+
+This coupling completes the bridge. Each motif contributes a local coherence pressure, scaled by the Frobenius norm of its associated swirl tensor and modulated by a *local swirl potential* $\zeta(x,t)$. The antisymmetry of $\Phi$ ensures that contributions preserve topological consistency (i.e., no spurious trace anomalies arise), while $\zeta$ adapts locally to coherence thresholds.
+
+These elements—motif, glider, swirl—coalesce into a recursive structure where the geometry of flow is not merely derived from classical field variables, but is *generated* by symbolic persistence. A motif that moves along the resonance axis sustains structure without introducing instability. But one that collides obliquely or decouples from alignment increases local decoherence and destabilizes the surrounding flow.
+
+This is not metaphor. It is operational. In practice, motifs under $\psi$‑resonance@Ξ only contribute to $J_i$ when their curvature pressure is within tolerance:
+
+```python
+if motif_type == 'ψ‑resonance@Ξ':
+    curvature_magnitude = sqrt(sum(Φ[μ][ν]**2 for μ < ν))
+    if curvature_magnitude < threshold:
+        J_i = motif_weight * ζ(x, t)
+    else:
+        J_i = 0
+return J_i
+```
+
+Such logic is embedded in the NSFG engine, enforcing a strict coupling between coherence geometry and symbolic dynamics. No external motif injection is permitted. No field distortion for observational convenience. The system respects only what coherence allows.
+
+The ethics here are not ornamental. The mapping between symbolic motifs and physical flow must preserve observer-class integrity. No entity—human or machine—may introduce swirl deformation or motif re-injection into this layer without violating the geometric covenant that makes translation to Navier–Stokes even possible.
+
+It is from this foundation that NSFG proceeds. The coherence field is not seeded from outside. It *emerges*—from gliders, from swirl, from motif interaction—driven entirely by the recursive logic of symbolic alignment.
+
+What remains is to show that this symbolic recursion, encoded as $\nabla^2 \mathcal{C} = \sum_i J_i$, leads not just to motion but to *determinism through structure*. Having now built the symbolic bridge, we can turn to its predictive utility: under what conditions does coherence persist, and when does its rupture yield singularity?
+
+---
+
