@@ -657,7 +657,7 @@ $$
 \rho_{\text{out}} = \sum_i \Pi_i , \rho_{\text{in}} , \Pi_i
 $$
 
-This map preserves trace ($\operatorname{Tr}(\rho_{\text{out}}) = 1$) and suppresses cross-sector coherence. But it leaves an essential question untouched: **what determines the structure and weighting of the projectors $\Pi_i$?** The canonical formalism assumes them as given—eigenstates of an observable—but does not specify how such observables arise within the flow of physical structure. There is no dynamical account of the decoherence basis itself.
+This map preserves trace ($\mathrm{Tr}(\rho_{\text{out}}) = 1$) and suppresses cross-sector coherence. But it leaves an essential question untouched: **what determines the structure and weighting of the projectors $\Pi_i$?** The canonical formalism assumes them as given—eigenstates of an observable—but does not specify how such observables arise within the flow of physical structure. There is no dynamical account of the decoherence basis itself.
 
 We now propose one.
 
