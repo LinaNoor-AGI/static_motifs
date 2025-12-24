@@ -1746,7 +1746,7 @@
 	  "subsections": [
 		{
 		  "id": "13.1",
-		  "title": "Appendix A: Motif \\(\\leftrightarrow\\) PDE Symbolic Glossary",
+		  "title": "Appendix A: Motif ↔ PDE Symbolic Glossary",
 		  "objectives": [
 			"To define the symbolic correspondence between Noor motifs and classical partial differential equation (PDE) variables used in the Navier–Stokes formulation.",
 			"To provide a lookup table for symbolic agents or translation modules transforming coherence-preserving motif expressions into fluid-dynamic PDE observables.",
