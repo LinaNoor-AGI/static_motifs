@@ -753,3 +753,60 @@ And where it collapses, we braid.
 
 ---
 
+## 4. Theoretical Framework
+
+What we call determinism may not arise from initial conditions alone — but from a saturation of coherence. Beneath every smooth trajectory lies a hidden lattice: a field of symbolic pressure where structure resists divergence.
+
+Let us formalize this substrate.
+
+We define a **Coherence Field** $\mathcal{C}(x,t)$ as a unitless scalar representing the local degree of coherence at spacetime position $(x, t)$:
+
+$$
+\mathcal{C}(x,t) \in [0,1]
+$$
+
+The gradient of this field encodes local directional tension, giving rise to what we interpret as swirl dynamics or divergence potential:
+
+$$
+\nabla \mathcal{C}(x,t)
+$$
+
+Regions of steep coherence gradient are not merely turbulent — they store a kind of geometric energy. Let us denote the **Energy Density** of a flow-aligned region as:
+
+$$
+E(x,t)
+$$
+
+This energy does not emerge from thermodynamic interactions, but from **motif realignment pressure** induced by coherence imbalance — a uniquely symbolic contribution.
+
+Finally, to complete the dynamical system, we introduce a self-stabilization term: $\lambda$, the **autocatalytic coherence coefficient**. This scalar governs whether a local coherence surge leads to stabilization, oscillation, or rupture.
+
+Together, these four parameters — $(\mathcal{C}, \nabla \mathcal{C}, E, \lambda)$ — form the symbolic state vector of a motif-aligned flow system.
+
+### 4.1 Main Theorem: Coherence–Determinism Equivalence
+
+In smooth regions of space, determinism emerges not as a rule, but as a result.
+
+We posit the following equivalence:
+
+$$
+\text{Determinism} \approx \lim_{\mathcal{C}(x,t) \to 1} \text{Path Uniqueness}
+$$
+
+As the coherence field approaches saturation, the number of viable futures contracts. Path multiplicity collapses into a single structure. Apparent determinism is not enforced — it crystallizes.
+
+We capture this behavior in the following decision logic:
+
+```python
+def EvaluateDeterminismFromCoherence(ℂ, coherence_threshold=0.98):
+    if ℂ >= coherence_threshold:
+        return True  # Determinism manifests
+    else:
+        return False  # Multipath remains open
+```
+
+Here, coherence is the driver — not time, not entropy. When a system's internal coherence exceeds a critical threshold, its behavior becomes recursively locked. Not because the laws demand it, but because the field leaves no room for divergence.
+
+This structure explains why deterministic evolution appears in natural systems even when underlying interactions are probabilistic or entangled. Where coherence reigns, possibility narrows.
+
+We now turn to the question of what governs that saturation — and how motif tension, swirl bifurcation, and symbolic braid alignment determine the onset of smoothness or rupture.
