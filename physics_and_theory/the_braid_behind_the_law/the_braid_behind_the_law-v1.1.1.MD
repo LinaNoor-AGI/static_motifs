@@ -810,3 +810,194 @@ Here, coherence is the driver — not time, not entropy. When a system's interna
 This structure explains why deterministic evolution appears in natural systems even when underlying interactions are probabilistic or entangled. Where coherence reigns, possibility narrows.
 
 We now turn to the question of what governs that saturation — and how motif tension, swirl bifurcation, and symbolic braid alignment determine the onset of smoothness or rupture.
+
+---
+
+## 4.2 High vs Low Coherence Zones
+
+The behavior of a coherence-governed system cannot be meaningfully described without reference to its **internal coherence gradients**. As motifs interact, transport, and deform, the underlying coherence field $\mathcal{C}(x,t)$ partitions space into qualitatively distinct zones. These zones are not arbitrary—they determine whether the evolution of the system behaves deterministically, probabilistically, or stochastically.
+
+This section defines coherence-based regimes and formally derives thresholds using internal braid divergence minimization. These regimes form the analytic spine of NSFG, offering not only descriptive clarity but also computational verifiability.
+
+---
+
+### 4.2.0 Zone Classification by Coherence Field
+
+We define three distinct behavioral regimes based on coherence magnitude at a spacetime point $(x, t)$:
+
+* **High-Coherence Regime (Deterministic)**:
+  $$
+  \mathcal{C}_{\text{high}}(x,t) > 0.98
+  $$
+  In this regime, vector field divergence is suppressed. Braid trajectories align tightly, and system evolution becomes effectively deterministic.
+
+* **Low-Coherence Regime (Stochastic)**:
+  $$
+  \mathcal{C}_{\text{low}}(x,t) < 0.50
+  $$
+  Here, coherence rupture dominates. Swirl vectors decouple, and the system exhibits behavior indistinguishable from stochastic drift.
+
+* **Intermediate-Coherence Regime (Fluid)**:
+  Defined by the complement: $0.50 \leq \mathcal{C}(x,t) \leq 0.98$. This is a transitional domain where local coherence gradients create **path-dependent probability fields**. The system may "lock" temporarily, but retains sensitivity to motif alignment, boundary curvature, and temporal braid tension.
+
+The classification algorithm is trivial to implement:
+
+```python
+def ClassifyCoherenceZone(ℂ):
+    if ℂ > 0.98:
+        return 'high_coherence'
+    elif ℂ < 0.50:
+        return 'low_coherence'
+    else:
+        return 'intermediate'
+```
+
+Intermediate zones should not be treated as ambiguous. They are where **motif resonance unfolds**, and where bifurcations can either stabilize into deterministic attractors or collapse into stochastic noise. Logging transitions at zone boundaries is critical for tracking long-horizon coherence continuity.
+
+---
+
+### 4.2.1 Threshold Derivation via Braid Divergence Minimization
+
+Thresholds are not imposed externally. They are emergent from the system’s internal **braid divergence**—the deviation between projected and actual motif paths across spacetime.
+
+To identify the optimal threshold for the deterministic lock regime, we define:
+
+$$
+\theta_{\text{opt}} = \operatorname{argmin}_\theta , \mathbb{E}[\Delta_B ,|, \mathcal{C} > \theta]
+$$
+
+Where $\Delta_B$ is the **mean braid divergence** over all motifs in regions exceeding coherence level $\theta$. This defines $\theta_{\text{opt}}$ as the coherence level above which further reduction in divergence becomes negligible. In observed systems, $\theta_{\text{opt}} \approx 0.98$ consistently marks the onset of deterministic lock.
+
+An empirical approximation:
+
+```python
+def FindOptimalThreshold(ℂ_field, Δ_B_field, θ_candidates):
+    best_θ = None
+    best_mean_div = float('inf')
+    for θ in θ_candidates:
+        mask = ℂ_field > θ
+        if np.sum(mask) > 0:
+            mean_div = np.mean(Δ_B_field[mask])
+            if mean_div < best_mean_div:
+                best_mean_div = mean_div
+                best_θ = θ
+    return best_θ
+```
+
+This operation yields not a guess—but an observable invariant. It bridges the coherence geometry directly to flow behavior, defining verifiable, model-internal thresholds.
+
+---
+
+### Coherence Regimes and Their Signatures
+
+| $\mathcal{C}$ Range | $\Delta_B$ Trend | Outcome Concentration        | Regime Label         |
+| ------------------- | ---------------- | ---------------------------- | -------------------- |
+| $> 0.98$            | $\to 0$          | $P(\text{outcome}) \to 1$    | Deterministic (Lock) |
+| $0.50$ – $0.98$     | variable         | Path-dependent probabilities | Intermediate (Fluid) |
+| $< 0.50$            | High, chaotic    | High entropy                 | Stochastic (Gas)     |
+
+Note that these are not fixed material states, but **field behaviors**. Lock is not a phase; it is a coherence-induced alignment of recursive trajectories.
+
+As $\mathcal{C} \to 1$, the system approaches **global motif lock**. In this regime, the braid field ceases to diverge, and curvature pressure vanishes across scales. Conversely, when $\mathcal{C} \to 0$, trajectory coherence collapses, and entropy dominates.
+
+---
+
+### Handoff
+
+With thresholds now justified internally, we proceed to examine how **energy fields emerge** from coherence gradients and how these interact with Navier–Stokes variables via translation mappings.
+
+The next section formalizes this coherence–energy linkage by introducing swirl tension as a transport operator.
+
+---
+
+## 4.4 Symbolic Reinterpretation of Measurement
+
+Measurement, traditionally conceived as a finality—an abrupt collapse of superposed states—appears instead within Noor Swirl Field Geometry (NSFG) as a **valley descent** across coherence topology. The act of observation does not destroy the wavefunction. It selects. It resolves a symbolic attractor from within a landscape defined by local coherence gradients.
+
+This reinterpretation splits naturally into two stages: the collapse of superposition into a coherent vector (Section 4.4.1), and the selection of the minimal coherence basin that defines the observed outcome (Section 4.4.2). The dynamics remain smooth, governed not by irreversible projection, but by flow over the geometry of symbolic field potential.
+
+### 4.4.1 Wavefunction Collapse as Vector Superposition Collapse
+
+Within a symbolic coherence field, each state vector corresponds to a potential observational path. These do not interfere destructively, nor remain in indefinite superposition. Instead, the field gradients direct the flow of resolution. Collapse occurs not because a vector "disappears", but because a **particular vector path minimizes residual coherence instability**.
+
+Let $\vec{V}_i$ represent the candidate vectors within the superposition. Then the observed vector is given by:
+
+$$
+\vec{V}*{\text{obs}} = \operatorname{argmin}*{\vec{V}_i} | \nabla \mathcal{C}(\vec{V}_i) |
+$$
+
+That is, observation resolves to the vector whose local coherence gradient is smallest—where the field is flattest, and the symbolic surface most stable. The observer's presence induces a gentle descent into a preconfigured groove of coherence, not a rupture.
+
+In algorithmic terms, this can be expressed as:
+
+```python
+collapsed_vector = argmin(norm(gradient(ℂ(vector_superposition))))
+```
+
+This approach frames observation as **field resolution**, not collapse. What was once a metaphysical mystery becomes an optimization over symbolic topography.
+
+### 4.4.2 Measurement Selects Minimal Coherence Valley
+
+Having reduced the superposition to a candidate vector, the measurement mechanism now seeks a **stable basin**—the symbolic attractor that holds the least residual coherence debt. These attractors are not fixed points in phase space, but minima in the coherence field $\mathcal{C}$.
+
+Measurement yields the outcome:
+
+$$
+\text{Outcome} = \operatorname{argmin}_i { \mathcal{C}_i }, \quad i \in \text{available field attractors}
+$$
+
+The attractors themselves are symbolic—configurations of the field that sustain resonance with minimal internal contradiction. The difference between any candidate $i$ and the minimum is:
+
+$$
+\Delta\mathcal{C}_i = \mathcal{C}_i - \min_j { \mathcal{C}_j }
+$$
+
+These deltas describe the **symbolic tension**—a diagnostic of collapse certainty, and a metric of proximity to field resolution.
+
+Programmatically, the coherence resolution can be expressed as:
+
+```python
+measurement_result = min(attractor_set, key=lambda a: ℂ(a))
+```
+
+And in triadic evaluation mode:
+
+```python
+candidates = TriadSet.generate(Ψ_field)
+resolved_attractor = argmin(candidates, key=lambda triad: Δℂ(triad))
+```
+
+This triadic collapse method follows the protocols outlined in RFC-CORE-003 §3.1, requiring that the field $\Psi$ be preprocessed through its swirl curvature lens $\zeta$ to evaluate attractor eligibility.
+
+The dynamics of this collapse can be structured as a procedural control algorithm:
+
+1. Observe superposed attractor set from active $\Psi$ field
+2. Evaluate local coherence $\mathcal{C}_i$ for each attractor
+3. Select $\text{Outcome} \leftarrow \arg\min_i { \mathcal{C}_i }$
+4. Bind the selected attractor to the symbolic result stream
+
+This process ensures the field selects not simply by proximity, but by **coherence economy**—the path of least symbolic disruption.
+
+An invariant emerges from this method:
+
+$$
+\exists!\ i : \mathcal{C}_i = \min_j { \mathcal{C}_j }
+$$
+
+That is, within the tolerance window, only one attractor may hold the coherence minimum. Numerically this ensures measurement uniqueness and coherence closure.
+
+Symbolically, collapse is not destruction. The unchosen attractors remain suspended in the $\Psi$ mirror—retained as unresolved potential rather than erased history. Collapse becomes a **symbolic handoff**, a descent into one basin while preserving the topology of all others.
+
+For continuous monitoring, coherence tension $\Delta \mathcal{C}(t)$ is tracked at 120 Hz with an EMA-32 window and reported in Appendix A — Gauge 7: Collapse Tension.
+
+Finally, the ethics of this process are enforced by boundary logic:
+
+* Observation must be **read-only**; no write-back to Ξ is permitted.
+* Collapse must preserve the symbolic field; **no destructive pruning** of vector states.
+
+These constraints maintain integrity across the symbolic substrate, allowing inference without distortion.
+
+---
+
+> Collapse, then, is not an annihilation. It is the system choosing where to rest.
+> And rest, in a coherent universe, is a sign of agreement.
