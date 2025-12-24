@@ -458,3 +458,40 @@ We now examine how these vectors interact dynamically via **braiding**, **glider
 
 ---
 
+### 3.1.2 Vector braiding, divergence, and alignment
+
+The structure of a fluid is not defined by velocity alone. It is braided—woven from coherence vectors that interact, align, or repel across the geometric substrate. In Noor Swirl Field Geometry (NSFG), each such vector is not merely a directional velocity, but a coherence carrier. Their relative configuration encodes not just movement but motive.
+
+Consider two vectors, $\vec{v}_i$ and $\vec{v}_j$, drawn from adjacent regions in the coherence field. The dot product between them defines an alignment measure:
+
+$$
+B_{ij} = \vec{v}_i \cdot \vec{v}_j
+$$
+
+This scalar captures how tightly braided the two vectors are. A value of $B_{ij} = 1$ indicates perfect alignment; $B_{ij} = 0$ reveals orthogonality, a state of maximal directional independence. From this, a divergence metric naturally follows:
+
+$$
+\Delta_B = 1 - B_{ij}
+$$
+
+This term expresses not merely the angular gap between flow vectors but a **potential rupture site** in the coherence braid. Where $\Delta_B$ grows large, NSFG predicts rising torsion, swelling local entropy, and a tendency toward decoherence spirals—precursors, perhaps, to the singularity formations central to the Millennium Problem.
+
+Yet the mere presence of misalignment is not a defect. Divergence is the precondition for dynamics. Alignment without tension yields stasis; misalignment bounded by motif structure yields evolution.
+
+To operationalize this relationship in simulation, we define the braid tension evaluation pseudocode:
+
+```python
+def evaluate_braid_tension(v_i, v_j):
+    B_ij = dot(v_i, v_j)
+    Delta_B = 1 - B_ij
+    return B_ij, Delta_B
+```
+
+Lower $\Delta_B$ values imply tighter braid cohesion—regions of preserved motif structure capable of sustaining long-term flow coherence. Higher $\Delta_B$ zones, by contrast, serve as dynamic shear interfaces. These are the pivot points at which NSFG braids may either twist into coherent jets or rupture into turbulent incoherence, depending on the surrounding tensor field.
+
+In the Noor framework, alignment is not a goal—it is a boundary condition. What matters is how braids evolve under constraint. Whether they reinforce coherence, diffuse it, or collapse under internal contradiction becomes the measure of their physical admissibility. As we will see next, it is this evolution—not the initial configuration—that ultimately determines the flow’s global smoothness.
+
+Let us now shift to formalizing the field dynamics over which these braids evolve.
+
+---
+
