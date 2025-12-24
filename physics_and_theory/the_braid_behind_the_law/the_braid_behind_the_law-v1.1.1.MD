@@ -593,3 +593,163 @@ With swirl, curvature, and coherence now formalized as a mutually evolving triad
 
 ---
 
+### 3.3.1 Newtonian and Laplacian Determinism
+
+The classical formulation of determinism begins not with fields—but with particles. In this framing, the state of a system is given by a position trajectory $x(t)$ evolving under a deterministic force law. The evolution is second-order in time and fully specified by initial conditions $(x_0, \dot{x}_0)$ and a potential $V(x)$ that governs the force via spatial gradient. The canonical equation is:
+
+$$
+\frac{d^2 x}{dt^2} = -\nabla V(x)
+$$
+
+This formulation captures the heart of Laplacian determinism: given perfect knowledge of position and velocity at a moment, the system’s future (and past) is fully determined. Time unfolds as a trajectory, not a field; and evolution is a function, not a wave. The potential $V(x)$ contains the encoded structure of interaction, and its smoothness guarantees a unique solution for each initial state.
+
+This uniqueness is formalized under the Picard–Lindelöf theorem, which states that for Lipschitz-continuous $V(x)$, there exists a unique solution $x(t)$ for all $t$:
+
+$$
+\exists !, x(t) \quad \forall (x_0, \dot{x}_0)
+$$
+
+This theorem renders classical determinism into a contract: smooth laws yield predictable paths. Perturbations in initial conditions lead to proportionate deviations in trajectories—a frame of logic upon which entire fields of physics have been built.
+
+But trajectory-based determinism is not the only way to conceive order.
+
+---
+
+### 3.3.1.1 Contrastive Framing: Classical vs. Braid Prediction
+
+The braid-coherence framework rejects the notion that determinism must be path-based. Instead, it treats reality as a field of interactions—structured not by the trace of a single particle, but by the alignment of coherence across space and time. The central quantity is no longer the trajectory $x(t)$ but the coherence field $\mathcal{C}(x,t)$, a scalar field valued in $[0,1]$ that encodes the degree of motif alignment at each spacetime point.
+
+To draw the distinction sharply, we present the following comparison:
+
+| **Aspect**                    | **Classical Determinism**             | **Braid-Coherence Model**                                                             |                    |   |
+| ----------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------- | ------------------ | - |
+| Fundamental Governed Quantity | Trajectory $x(t) \in \mathbb{R}^n$    | Coherence field $\mathcal{C}(x,t) \in [0,1]$                                          |                    |   |
+| Sensitivity Source            | Initial conditions $(x_0, \dot{x}_0)$ | Local braid alignment $B_{ij}$ and gradient $\nabla \mathcal{C}$                      |                    |   |
+| Energy Framing                | $E = \tfrac{1}{2}mv^2 + V(x)$         | $E \sim                                                                               | \nabla \mathcal{C} | $ |
+| Path Uniqueness Guarantee     | Yes, via ODE uniqueness theorems      | Emergent only if $\mathcal{C} \to 1$ and $\Delta_B \to 0$                             |                    |   |
+| Response to Perturbation      | Continuous deviation per $F = ma$     | Deviation occurs only if perturbation lowers $\mathcal{C}$ below braid-lock threshold |                    |   |
+
+In the braid model, determinism is not hard-coded—it is emergent. Path uniqueness is not an axiom but a consequence of coherence saturation. When $\mathcal{C} \to 1$ and local braid fluctuation $\Delta_B \to 0$, flow behaves deterministically. Where coherence drops, paths branch. Reality becomes multivalued—but not random.
+
+This introduces a shift in logic. Classical systems respond to every perturbation; braid-locked systems resist until coherence drops beneath a critical threshold. Trajectories are not primary—they are emergent attractors of local coherence alignment.
+
+In the limiting case:
+
+$$
+\mathcal{C} \to 1
+$$
+
+the braid model reduces to classical determinism. But this is not a reduction—it is a perspective shift. Classical laws are recovered as high-coherence approximations. The braid model is not a replacement; it is a generalization.
+
+This contrast reframes determinism as a field phenomenon. The thread of a trajectory is no longer the axiom, but the residue of a coherent weave. In what follows, we will reinterpret quantum decoherence not as collapse, but as coherence rupture—an entanglement pattern falling out of alignment, not probability turning into fact.
+
+Let us now descend from the curve of the particle into the field of the braid.
+
+---
+
+### 3.3.2 Quantum Decoherence and Probabilistic Interpretation
+
+The standard account of quantum decoherence casts it as an emergent statistical effect—where coherent superpositions, once entangled with an environment, appear to collapse into classical mixtures. This loss of phase information is not attributed to any explicit measurement event, but to a dynamical process that effectively suppresses interference terms in the system’s density matrix.
+
+Let $\rho_{\text{in}}$ represent the input state prior to environmental interaction. Projecting this state into classical outcome sectors via a complete set of orthogonal projection operators ${\Pi_i}$ yields the standard decohered output:
+
+$$
+\rho_{\text{out}} = \sum_i \Pi_i , \rho_{\text{in}} , \Pi_i
+$$
+
+This map preserves trace ($\operatorname{Tr}(\rho_{\text{out}}) = 1$) and suppresses cross-sector coherence. But it leaves an essential question untouched: **what determines the structure and weighting of the projectors $\Pi_i$?** The canonical formalism assumes them as given—eigenstates of an observable—but does not specify how such observables arise within the flow of physical structure. There is no dynamical account of the decoherence basis itself.
+
+We now propose one.
+
+---
+
+### Braid-Resolved Decoherence
+
+In a coherence-governed framework, projection cannot be purely algebraic. It must be **spatially and temporally selected**—emerging from gradients within the coherence field $\mathcal{C}(\vec{x}, t)$. Under this lens, decoherence rate becomes a field-sensitive process. Let the decoherence rate $\rho_{\text{decoh}}(t)$ be modulated by both the structure of the projection operator $\Pi_i(\vec{x})$ and the local coherence gradient:
+
+$$
+\rho_{\text{decoh}}(t) \sim \int \Pi_i(\vec{x}) \cdot \left| \nabla \mathcal{C}(\vec{x}, t) \right| , dV
+$$
+
+The integral is taken over a bounded interaction region. Here, valleys in $|\nabla \mathcal{C}|$ act as attractors for projector alignment, implying that **measurement-like outcomes emerge preferentially in regions of low coherence gradient**. Decoherence is not just external—it is geometrically situated.
+
+---
+
+#### Prediction Q1: Coherence Gradient vs. Momentum Uncertainty
+
+Let $\Delta p$ be the momentum uncertainty in a system subject to decoherence. We propose the scaling:
+
+$$
+\Delta p \propto |\nabla \mathcal{C}|^{-1}
+$$
+
+Steep gradients imply tighter localization of coherence, restricting phase space for superposition and thereby **reducing uncertainty**. In ψ-resonant regimes (low contradiction), uncertainty approximates the hydrogenic ground state:
+
+$$
+\Delta p \approx \frac{\hbar}{a_0}
+$$
+
+In ψ-spar zones—characterized by contradiction swirls with $|\Phi| \approx 10^3 ,\mathrm{m}^{-2}$—gradient steepness increases the outcome spread. Using a dimensional ansatz $\alpha \approx 0.1$, we derive:
+
+$$
+\Delta p \approx \left(1 + 0.1 |\Phi|^2 \right) \frac{\hbar}{a_0} \approx 11 , \frac{\hbar}{a_0}
+$$
+
+Here, the swirl field amplifies uncertainty through internal contradiction pressure. Decoherence thus becomes a function of motif turbulence.
+
+---
+
+#### Prediction Q2: Swirl-Driven Decoherence Rate
+
+Let $\Gamma$ be the which-path decoherence rate. We propose a second-order scaling relation:
+
+$$
+\Gamma = \Gamma_0 + \alpha |\Phi_{\mu\nu}|^2
+$$
+
+The swirl field $\Phi_{\mu\nu}$—a geometric expression of local motif torsion—acts as an **internal decoherence catalyst**, especially under ψ-spar@Ξ conditions. The term $\Gamma_0$ accounts for baseline environmental effects, while the coefficient $\alpha \sim 10^{-2} ,\mathrm{m}^4/\mathrm{s}$ emerges from dimensional fitting against known decoherence baselines.
+
+This formulation reveals an important implication: **not all decoherence is exogenous**. Internal field contradictions can drive phase collapse even in nominally isolated systems, echoing dynamics described in the Point Space glider model.
+
+---
+
+### Decoherence Bounds and Collapse Limits
+
+We identify two critical asymptotic behaviors that govern the onset and suppression of decoherence in coherence-governed systems.
+
+**Limit 1 — Coherence Lock**: As $\mathcal{C} \to 1$, the coherence field reaches maximal alignment.
+
+$$
+\mathcal{C} \to 1 \quad \Rightarrow \quad \text{Projector basis collapses to single outcome}
+$$
+
+This creates **apparent determinism**, as the system favors one resolution path with probability near unity. Effective Hilbert dimensionality collapses to one, and all off-path interference is suppressed.
+
+**Limit 2 — Swirl Nullification**: When $\Phi_{\mu\nu} \to 0$, decoherence rate slows.
+
+$$
+\Phi_{\mu\nu} \to 0 \quad \Rightarrow \quad \Gamma \to \Gamma_0
+$$
+
+In swirl-free regimes, decoherence reverts to classical environmental models. This provides experimental continuity: **our framework reduces smoothly to standard quantum mechanics in the limit of vanishing coherence structure**.
+
+---
+
+### Interpretive Shift
+
+The braid-resolved model reframes decoherence not as a collapse mystery—but as **a geometric phenomenon arising from the local coherence field**. Outcome sectors emerge from the shape of $\nabla \mathcal{C}$, and measurement-like behavior is catalyzed by motif-induced swirl.
+
+This structure ties directly into the symbolic collapse model presented in §4.4, where outcome selection follows from field topology, not stochastic fiat. The coherence field does not merely support the wavefunction—it **determines its resolution**.
+
+This makes decoherence not only observable, but **predictively computable**—and falsifiable through spatial decoherence asymmetry under controlled swirl manipulations.
+
+Where standard quantum theory assumes, this model resolves.
+
+Where it postulates, we compute.
+
+Where it interprets, we derive.
+
+And where it collapses, we braid.
+
+---
+
