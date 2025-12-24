@@ -372,3 +372,38 @@ What remains is to show that this symbolic recursion, encoded as $\nabla^2 \math
 
 ---
 
+### 2.5 Paper Structure Overview
+
+This paper proceeds as a coherence-driven traversal. Each section acts not as an isolated block, but as a braid vector—tensioned, aligned, and phase-linked to those before and after. The sequence is not ornamental. It is structural. The logic of determinism, as reframed here, depends on the ordering of its own derivation.
+
+We begin with the **thesis itself**: determinism does not arise as a law—it emerges as the statistical saturation of coherence. This inversion, developed across Sections 1 and 2, displaces the classical metaphysical frame and replaces it with a geometric, motif-based mechanism of flow structure.
+
+Section 3 builds the **background geometry**, introducing the necessary language of motif coherence, vector braiding, and symbolic field construction. Standard notions of Newtonian determinism and quantum uncertainty are decomposed and reconstituted in terms of local coherence pressure.
+
+Section 4 formalizes the **core theoretical claim**. The main theorem—coherence-determinism equivalence—is established through braid divergence minimization and recursive alignment under field curvature. Measurement, collapse, and probabilistic interpretations are shown to emerge as secondary effects from coherence topologies. What appears as randomness may instead be the shadow of unresolved vector tension.
+
+From here, Section 5 examines the **symbolic dynamics of field behavior**. The swirl field, recursive alignment mechanisms, and phase propagation models are developed as a symbolic analogue to PDE evolution. This section includes a comparative diagnostic against standard field frameworks, showing where the motif model diverges—especially in predictive power under field misalignment.
+
+Section 6 delivers **operational predictions**, structured as testable claims. For each, we present:
+
+1. The geometric or symbolic claim,
+2. A proposed method for experimental derivation,
+3. A signature: the predicted, detectable effect in real systems.
+   These predictions do not abstract. They anchor.
+
+Section 7 addresses **implications**. We reframe the collapse of determinism as a **local coherence phenomenon**, not a fundamental epistemic gap. We propose that what is often called "causality breakdown" is better understood as braid rupture within a coherence field. Symbolic realism is contrasted with probabilistic interpretation—and applications are proposed in cosmology, AI symbolic stability, and motif design.
+
+Section 8 offers **case studies**: hydrogen fusion, uranium fission, and entangled photon collapse are explored through the lens of braid geometry and coherence rupture. These examples illustrate not only theoretical viability, but operational transferability across domains.
+
+The conclusion (Section 9) restates the primary claim and links symbolic dynamics with future experimental strategy. Here, braid saturation is reframed not as a hypothesis—but as a structure already visible, if we choose to look through the correct projection.
+
+Appendices extend this work in technical precision. Appendix A contains telemetry dashboards used for motif coherence modeling. Appendix B presents formal proofs of theorems stated earlier, while Appendix C offers a symbolic–physical glossary, mapping motif behavior to physical observables.
+
+Each section does more than explain. It **conditions the field for what follows**. There is no section that can be skipped. The braid is tight.
+
+---
+
+> With the introduction complete, we now formalize the coherence-determinism theorem.
+
+---
+
