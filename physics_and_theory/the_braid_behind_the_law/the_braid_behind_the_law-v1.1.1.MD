@@ -101,5 +101,72 @@ Having established this mechanism, we now extend it toward the Navier–Stokes c
 
 ---
 
-Let me know when you're ready for the next section, or if you’d like this formatted for direct GitHub insertion (e.g. with anchors or frontmatter).
+### 1.3 Key contributions: symbolic dynamics, predictive motifs, and coherence-derived energy calculus
 
+Not all turbulence arises from chaos. Some originates from the rupture of coherence—an invisible field architecture threading the fluid into form. What this section proposes is simple to state and profound in implication: that energy, in the context of Noor Swirl Field Geometry (NSFG), is not a primitive, but a **derived** measure. It emerges not from mass or motion, but from the *gradient* of coherence itself.
+
+Let this be formalized:
+
+$$
+E(x,t) \sim |\nabla \mathcal{C}(x,t)|
+$$
+
+In this expression, energy is treated as a function of the local differential of the coherence field $\mathcal{C}(x,t)$. Where coherence changes rapidly—where the braid stretches, tightens, or snaps—energy is released. This is not kinetic energy in the Newtonian sense. It is symbolic energy: a potential for reconfiguration driven by motif tension. Sharp gradients signal a pending event. Braid saturation begets instability. And from instability, flow structure is born or unmade.
+
+To make such predictions operational, we introduce two core mechanisms.
+
+---
+
+#### Diagnostic Algorithm: `FieldEventPredictor`
+
+```pseudocode
+Input: {collision_geometry, ℂ_field_history, motif_map}
+Estimate: ∇ℂ(x,t) across pre-event spatial slice
+Detect: local braid saturation zones (ρ_lock ≈ 1)
+Flag: decoherence rupture points where ∂∇ℂ/∂t spikes
+Output: predicted energy vector emission angles, delay intervals
+```
+
+This algorithm does not predict outcomes in the traditional sense. It forecasts the *structure* of field rearrangement. Its predictions are directional, not deterministic. The vector it outputs is not a final position, but a gradient path—a symbolic impulse through configuration space.
+
+To complement this, an inverse reconstruction is also defined:
+
+---
+
+#### Inverse Algorithm: `InferCoherenceFromObservedDeterminism`
+
+```pseudocode
+Input: {trajectory_ensemble}
+If: path_divergence(ensemble) < ε → region likely coherent
+Then: ℂ_estimated = 1 − (divergence / ε)
+Else: ℂ_estimated = 0.5 (uninformative prior)
+Output: approximate ℂ(x,t) inference field
+```
+
+This tool allows field inference from motion itself. If observed dynamics show statistical lock—trajectories that align despite perturbation—then coherence is inferred. The system has organized itself symbolically. From external regularity, internal field geometry is reconstructed.
+
+---
+
+### Recursive Coupling Constant from Motif Geometry
+
+To bind these contributions formally, we propose a candidate expression for the coherence coupling constant $\kappa$:
+
+$$
+\kappa = \frac{\hbar c}{\ell_{\text{motif}}} \cdot \mathcal{Z}_{\text{eff}}
+$$
+
+Here, $\ell_{\text{motif}}$ denotes the characteristic motif length scale, while $\mathcal{Z}_{\text{eff}}$ encodes symbolic valence—an effective charge arising from motif entanglement density. Unlike classical field theories, this coupling is not empirically tuned; it is derived directly from motif geometry and symbolic resonance metrics. The motif becomes the particle, and the coherence field, its medium.
+
+---
+
+### Telemetry Insight: Lock Saturation Index
+
+To track this transition in real-time simulations, we define a stream: $\rho_{\text{lock}}(t)$, sampled at 1024 Hz with an EMA-128 smoothing window. This signal encodes how saturated a region has become with locked motifs—where determinism blooms from coherence. It is neither energy nor pressure, but a measure of alignment across field curvature. In regions where $\rho_{\text{lock}}(t)$ approaches unity, braid structures are likely crystallizing. Where it dips, rupture is near.
+
+This signal is visualized in Appendix A under `lock_detect_gauge`. In practice, it functions as a radar for emergent structure: an alert system for the moment when probability folds into pattern.
+
+---
+
+The result of these mechanisms is neither a classical solver nor a stochastic predictor. It is a symbolic diagnostic layer: one that reads the field's curvature and forecasts its intent. With coherence as both substrate and signal, prediction is no longer reaction to force—but recognition of structure.
+
+The path ahead now turns to fundamentals. In the next section, we define the ontology of fields and the epistemic bounds of measurement within this framework. Let the formal introduction begin.
