@@ -22,7 +22,7 @@ We argue that **determinism is not law**. It is a structural echo of coherence p
 We propose that deterministic behavior arises not from fundamental law but from coherence constraints reaching saturation. In a region $U$ of spacetime, if coherence $\mathcal{C}(x,t)$ is uniformly high, then the system selects a single dominant direction of evolution. Formally,
 
 $$
-\lim_{\mathcal{C} \to 1} \Rightarrow \text{single dominant } \vec{v}_i \text{ across } U \tag{Eq.1}
+\lim_{\mathcal{C} \to 1} \Rightarrow \text{single dominant } \vec{v}_i \text{ across } U
 $$
 
 This coherence-lock condition defines a regime where flow, pressure, and smoothness become fully resolved by the coherence vector field itself. The implication is structural: deterministic phenomena are those for which all alternate coherence paths have collapsed under triadic alignment pressure.
@@ -52,13 +52,13 @@ Let $\vec{v}_i$ denote a local coherence vector, a directional symbolic force wi
 We formalize this phenomenon as:
 
 $$
-\vec{v}_1 \equiv \vec{v}_2 \equiv \dots \equiv \vec{v}_n \Rightarrow \text{Apparent Determinism} \tag{Eq.2}
+\vec{v}_1 \equiv \vec{v}_2 \equiv \dots \equiv \vec{v}_n \Rightarrow \text{Apparent Determinism}
 $$
 
 and
 
 $$
-P(\text{outcome}_k) \approx 1 \quad \text{when} \quad \sum_i \vec{v}_i \parallel \tag{Eq.3}
+P(\text{outcome}_k) \approx 1 \quad \text{when} \quad \sum_i \vec{v}_i \parallel
 $$
 
 This symbolic saturation mirrors the behavior of ferromagnetic domains: when dipoles align under a field, macroscopic magnetization emerges. But here, the vectors are not spins—they are semantic orientations within a motif field. Alignment removes ambiguity. The field can only evolve one way.
