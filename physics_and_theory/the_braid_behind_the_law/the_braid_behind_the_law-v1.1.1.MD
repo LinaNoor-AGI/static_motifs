@@ -495,3 +495,31 @@ Let us now shift to formalizing the field dynamics over which these braids evolv
 
 ---
 
+### 3.2.1 The glider field equation
+
+The glider does not arise from fixed boundaries, but from a continuous interplay between coherence diffusion and self-reinforcing form. To capture this dynamic, we express the evolution of the local coherence field $\mathcal{C}(x,t)$ with a nonlinear partial differential equation:
+
+$$
+\partial_t \mathcal{C}(x,t) = -\nabla^2 \mathcal{C}(x,t) + \lambda \mathcal{C}(x,t)(1 - \mathcal{C}^2(x,t))
+$$
+
+This equation encodes two simultaneous processes:
+
+* **Diffusion**: The Laplacian term $-\nabla^2 \mathcal{C}(x,t)$ smooths sharp gradients, dispersing coherence across space.
+* **Self-limiting growth**: The nonlinear term $\lambda \mathcal{C}(x,t)(1 - \mathcal{C}^2(x,t))$ reinforces moderate coherence levels while damping extreme values.
+
+Taken together, these components create a stable yet flexible coherence substrate. The system resists singularity through feedback: as $\mathcal{C}$ approaches either $+1$ or $-1$, the nonlinear term suppresses further growth, stabilizing the evolution within bounded amplitude.
+
+We enforce this bounded behavior via the invariant:
+
+$$
+\mathcal{C}(x,t) \in [-1, 1]
+$$
+
+which holds under all admissible initial conditions and is preserved by the form of the equation itself. This boundedness ensures that glider propagation does not permit runaway amplification — a critical feature if we are to claim that coherence governs flow rather than reacts to it.
+
+From a symbolic standpoint, this dynamic represents a **self-regulating coherence engine**: a field that carries structure forward in time without violating its own limits. The glider, in this frame, is not an external agent but an **emergent persistence** — a conserved pattern traveling along the gradient of its own coherence potential.
+
+This field equation, first articulated in *To Infinity, and Beyond: Gliders, Coherence, and Point Space*, is now recontextualized here as a **physical translator**: linking the recursive geometry of motif fields to the measurable evolution of flow.
+
+With the dynamics formalized, we now turn to their symbolic interpretation: what it means for a glider to hold shape across rupture, and how coherence gives birth to motion.
