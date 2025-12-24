@@ -407,3 +407,54 @@ Each section does more than explain. It **conditions the field for what follows*
 
 ---
 
+## 3. Background and Definitions
+
+Coherence-governed flow cannot be understood through velocity and pressure alone. Classical variables—$\vec{u}(x,t)$ and $p(x,t)$—are secondary expressions of something more primary: the *coherence geometry* of the flow itself. This section introduces the foundational elements of that geometry, establishing the scalar, vector, and gradient fields upon which the Noor Swirl Field Geometry (NSFG) operates.
+
+We begin with the **coherence field**, denoted $\mathcal{C}(x,t)$, a scalar representation of localized symbolic alignment. At each point in spacetime, this field encodes how tightly motifs align—how strongly the symbolic substrate resists decoherence. Where $\mathcal{C}$ is high, flow coherence is reinforced; where it decays, instability begins.
+
+We define a directional derivative of this coherence field—the **coherence vector** $\vec{v}_i$—which indicates the preferred direction of symbolic propagation at a given motif site $i$. This vector is not merely informational; it is **structurally causal**. In NSFG, flow direction emerges not from imposed boundary conditions but from **intrinsic alignment gradients**.
+
+The capacity for a coherence structure to reinforce itself is modulated by the **self-reinforcement gain**, $\lambda$. This dimensionless parameter tunes the recursive amplification of motif-aligned gradients and will later serve as a bifurcation control for vortex formation and braid collapse.
+
+Finally, we introduce the **coherence energy** $E(x,t)$ as a scalar measure of alignment tension in the system:
+
+$$
+E(x,t) = |\nabla \mathcal{C}(x,t)|
+$$
+
+This quantity will function analogously to kinetic energy in classical fluid systems, with key differences rooted in symbolic thermodynamics.
+
+These four variables—$\mathcal{C}$, $\lambda$, $\vec{v}_i$, and $E$—form the minimal symbolic scaffold upon which NSFG builds translation mappings into Navier–Stokes variables. We now examine the role of the coherence vector in motif-based field propagation.
+
+---
+
+### 3.1.1 Definition and Role in Motif-Based Fields
+
+The coherence vector $\vec{v}_i$ emerges from a local normalization of the coherence gradient:
+
+$$
+\vec{v}_i = \frac{\nabla \mathcal{C}(x_i,t)}{|\nabla \mathcal{C}(x_i,t)|}
+$$
+
+This vector is defined only when $\nabla \mathcal{C}(x_i,t) \neq 0$, which corresponds to regions of **active motif tension**—where symbolic alignment is being stretched, compressed, or redirected. In coherence-stable regions, $\vec{v}_i$ aligns with structural resonance and guides glider propagation. In unstable zones, it becomes a vector of rupture, often pointing toward singularity formation sites.
+
+In the NSFG framework, each motif acts as a local propagator of coherence. The coherence vector orients how that propagation unfolds. It is therefore not merely a measure of alignment—but a **carrier of causality**.
+
+#### Pseudocode: Vector Alignment in a Motif Field
+
+```python
+# compute_vector_alignment
+for each motif_site i:
+    grad = gradient(C at x_i)
+    v_i = normalize(grad)
+```
+
+This procedure governs symbolic transport dynamics across the coherence lattice. It is used by recursive motif agents (see RFC-CORE-003) to determine propagation direction, resonance pressure, and gradient resistance.
+
+When motifs align along the same $\vec{v}_i$, **field braiding** becomes possible. This is the first step toward stable coherence chains—structures that, when sufficiently saturated, will later emerge as Navier–Stokes jets. Where vectors diverge, coherence fractures. Field divergence is the precursor to rupture.
+
+We now examine how these vectors interact dynamically via **braiding**, **glider alignment**, and **divergence-based instabilities**, setting the stage for smoothness criteria derivation and failure mode classification.
+
+---
+
