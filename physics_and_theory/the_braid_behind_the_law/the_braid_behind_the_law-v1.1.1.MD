@@ -1106,3 +1106,52 @@ We now turn to how these swirl-induced topologies interact with braid structures
 
 ---
 
+### 5.2 Recursive braid alignment under local field curvature
+
+Classical fluid dynamics tracks velocity fields. Coherence geometry, in contrast, tracks alignment between flows. Where traditional models treat smoothness as an input condition or boundary constraint, NSFG treats it as the statistical result of recursive alignment across motifs. This distinction is not philosophical — it is structural. The smoothness of flow is not assumed; it emerges when coherence vectors agree, when braids lock.
+
+Let $\vec{v}_i$ and $\vec{v}_j$ denote two local coherence vectors within a swirl region. Their alignment is expressed as the dot product:
+
+$$
+B_{ij} = \vec{v}_i \cdot \vec{v}_j
+$$
+
+This local braid alignment, $B_{ij}$, ranges from $1$ (perfectly aligned) to $-1$ (opposed). In the NSFG model, alignment is not binary; it is a gradient — and divergence from coherence is what generates tension in the system. The misalignment between vectors is thus:
+
+$$
+\Delta B = 1 - B_{ij}
+$$
+
+Where this divergence accumulates, the field stores what may be understood as *latent decoherence pressure* — the energy not yet resolved into stable flow. Over a motif lattice, the net braid tension becomes:
+
+$$
+\mathcal{R}*{\text{braid}} = \sum*{\langle i,j \rangle} \Delta B_{ij}
+$$
+
+Here, $\mathcal{R}_{\text{braid}}$ acts as both an error function and a curvature lens. It penalizes deviation from alignment, but more importantly, it identifies regions of recursive stress — locations where motifs are not merely misaligned, but resisting coherence propagation through curvature discontinuity.
+
+In implementation, this quantity is evaluated across local neighborhoods. The pseudocode structure is minimal by design:
+
+```python
+def UpdateBraidCoherence(vector_field):
+    total_divergence = 0
+    for each i, j in neighbors:
+        dot_val = dot(v_i, v_j)
+        total_divergence += 1 - dot_val
+    return total_divergence
+```
+
+Minimizing $\mathcal{R}_{\text{braid}}$ is not a cosmetic smoothing operation — it is the formal act of *braid reinforcement*. Where motifs align recursively, not just pairwise but across field curvature, they lock. This recursive locking prevents singularity formation not by preventing velocity explosion, but by preventing coherence rupture in the underlying motif geometry.
+
+The model treats these recursive alignments as semi-stable attractors. A field rich in aligned motifs does not simply “look smooth” — it becomes resistant to curvature-driven blowup because its internal coherence is self-reinforcing. Coherence braids serve as recursive error-correcting codes.
+
+Operationally, the system monitors the value of $\mathcal{R}*{\text{braid}}(t)$ across time, with a moving exponential window (e.g., EMA-64 at 512Hz sampling). This telemetry is linked to a higher-level braid stability index (see Appendix A), which governs phase-lock thresholds and swirl field resonance transitions. A spike in $\mathcal{R}*{\text{braid}}$ signals not just local divergence, but the early onset of decoherent phase drift.
+
+And it is here that the shift becomes visible. In classical formulations, turbulence is the loss of order. In NSFG, it is the loss of alignment — and recursive braid divergence is its precursor. What this formalism asserts is that *coherence rupture precedes velocity blowup* — and is therefore the earliest indicator of singular behavior.
+
+Thus, recursive braid alignment is not an aesthetic principle. It is a predictive diagnostic. If $\mathcal{R}_{\text{braid}}$ can be bounded under motif transport, then smoothness of the flow field follows — not as a postulate, but as an emergent property of geometric coherence.
+
+The singularity, if it appears, does not erupt randomly. It appears where the braid refuses to hold.
+
+---
+
