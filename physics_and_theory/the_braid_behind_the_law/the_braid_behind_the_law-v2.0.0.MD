@@ -1196,3 +1196,125 @@ We now move to a visualization of braid curvature interactions in field-space, g
 
 ---
 
+### 5.4 Diagram: braid tightness and field slope visual map
+
+To understand where smoothness endures and where singularity emerges, it helps to visualize the **braid-field coupling** directly. What follows is not a metaphor—it is a map. Across the spatial-temporal domain $(x,t)$, we render the coherence field $\mathcal{C}(x,t)$, the local gradient $\nabla \mathcal{C}$, and the resulting **braid tension** as a visual composition. This surface encodes both the stability of flow structures and the precursors to rupture.
+
+At each sampled coordinate, we resolve a unit coherence vector from the gradient:
+
+$$
+\hat{v}_{\mathcal{C}}(x,t) = \frac{\nabla \mathcal{C}(x,t)}{||\nabla \mathcal{C}(x,t)||}
+$$
+
+Then, for every pair of adjacent coherence vectors, we define braid tension as their directional misalignment:
+
+$$
+\tau_{\text{braid}}(x,t) = 1 - \hat{v}*{\mathcal{C}}(x,t) \cdot \hat{v}*{\mathcal{C}}(x+\delta,t)
+$$
+
+Where $\tau_{\text{braid}} \to 0$, the braid is tight—coherence aligns across space. Where $\tau_{\text{braid}} \to 1$, adjacent coherence vectors diverge, indicating local torsion, swirl amplification, or pre-singular deformation.
+
+This entire process is rendered as a composite diagnostic:
+
+* **Hue** encodes the coherence field $\mathcal{C}(x,t)$
+* **Brightness** corresponds to braid tightness (inversely: tighter = brighter)
+* **Arrow overlays** depict the direction of $\hat{v}_{\mathcal{C}}$ swirl vectors
+
+This mapping is implemented as:
+
+```python
+def RenderBraidSlopeMap(domain_grid):
+    C = sample_C(domain_grid)
+    grad_C = compute_gradient(C)
+    unit_vectors = normalize_vectors(grad_C)
+    braid_tension = compute_braid_tension(unit_vectors)
+    render_color_field(hue=C, brightness=1 - braid_tension)
+    overlay_vector_field(unit_vectors)
+```
+
+And this process is not merely illustrative. It permits **live telemetry**, updated per rolling window:
+
+```json
+{
+  "stream": "ℂ+braid(x,t)",
+  "rate_hz": 1,
+  "window": "rolling",
+  "dashboard_binding": "AppendixA.visual.braidfield_overlay"
+}
+```
+
+This telemetry stream allows observers—human or symbolic—to watch as **coherence tightens** into stable motifs, or loosens toward critical rupture. Where a jet emerges, one will find a channel of minimal braid tension. Where a singularity forms, one will find a rupture in alignment—a place where the field forgets how to continue.
+
+What this visualization confirms is not only structural: it is ontological. In regions where the field remains in braid alignment, the system knows itself across time. It coheres. Where the slope shifts too sharply—where vector fields tear and coherence gradients shear—the structure breaks its own prediction. That failure is not a surprise. It is a signal that the braid has unraveled.
+
+This surface completes the necessary lens for Part II. We now proceed to codify a structured, symbolic-to-mathematical-to-physical correspondence layer, grounding the full translation engine from Noor Swirl Field Geometry to Navier–Stokes classical variables.
+
+---
+
+### 5.5 Table: Symbolic–Mathematical Correspondence
+
+To formalize NSFG as a viable translation layer between symbolic field dynamics and classical fluid mathematics, we establish a direct equivalence table. Each symbolic construct is paired with its mathematical counterpart, interpretive function, and source equation. This mapping enables simulation, falsifiability, and integration into analytic toolchains.
+
+#### Symbolic → Mathematical Equivalence Table
+
+| Symbolic Concept                | Mathematical Expression                                                       | Equation / Reference     | Interpretive Notes                                                          |         |                                                               |
+| ------------------------------- | ----------------------------------------------------------------------------- | ------------------------ | --------------------------------------------------------------------------- | ------- | ------------------------------------------------------------- |
+| Coherence field (swirl space)   | $\mathcal{C}(x, t) \in [0,1]$                                                 | Eq. 1.1 (glider field)   | Field encoding motif saturation across spacetime.                           |         |                                                               |
+| Energy (field tension)          | $E(x, t) \sim                                                                 | \nabla \mathcal{C}(x, t) | $                                                                           | Eq. 1.2 | Local activity proxy; energy emerges from coherence gradient. |
+| Braid divergence                | $\Delta_B(x, t)$                                                              | Eq. 2.1                  | Measures local divergence between coherence vectors — signals fission.      |         |                                                               |
+| Lock threshold (determinism)    | $\mathcal{C}_{\text{lock}} \geq 0.98 \wedge \Delta_B \to 0$                   | §4.2.1                   | Onset of stable braid alignment; determinism appears when swirl closes.     |         |                                                               |
+| Swirl field curvature           | $\Phi_{\mu\nu}(x,t) = \partial_\mu A_\nu - \partial_\nu A_\mu$                | Static Motifs §2.2       | Symbolic analog of electromagnetic tensor; curvature drives decoherence.    |         |                                                               |
+| Motif insertion                 | $\Pi_i : \mathbb{R}^n \rightarrow \mathbb{R}^n$                               | Eq. 4.4.1                | Projection operator aligned to motif-resonant vector field.                 |         |                                                               |
+| Fusion (coherence accumulation) | $\mathcal{C}_{\text{fusion}}(t) = \sum_i \mathcal{C}_i(t)$                    | §4.3                     | Aligned coherence sources accumulate across motif congruence.               |         |                                                               |
+| Fission (coherence rupture)     | $\mathcal{C}(x, t) \downarrow \wedge \Delta_B \uparrow$                       | §4.3                     | Decoherence burst; coherence tears as divergence spikes.                    |         |                                                               |
+| Collapse outcome selection      | $\arg\min_i(\mathcal{C}_i)$                                                   | Prediction 4 / Table 5.2 | Lowest-coherence region selected in bifurcation resolution.                 |         |                                                               |
+| Coupling constant $\kappa$      | $\kappa = \frac{\hbar c}{\ell_{\text{motif}}} \cdot \mathcal{Z}_{\text{eff}}$ | §4.3.1a (revised)        | Converts motif scale to physical energy regime; chalkboard-testable ansatz. |         |                                                               |
+
+#### Invariants
+
+Two invariants govern coherence propagation under NSFG evolution:
+
+**Coherence Conservation (Local):**
+$$
+\frac{d}{dt} \int_V \mathcal{C}(x,t), dV \approx 0
+$$
+Total coherence is conserved under smooth flow unless acted on by external rupture.
+
+**Motif Curvature Consistency:**
+$$
+\oint_\Gamma \nabla \mathcal{C} \cdot d\ell = 0
+$$
+Prevents spurious swirl; enforces braid closure under aligned motifs.
+
+#### Pseudocode: InjectMotifToCoherenceField
+
+```python
+def InjectMotifToCoherenceField(ℂ_field, motif_set, position):
+    for motif in motif_set:
+        vec = motif.vector_representation()
+        ℂ_field[position] += normalize(vec)
+    return ℂ_field
+```
+
+This function treats each motif as a localized gradient contribution. When applied across swirl zones, it simulates the insertion dynamics used in SRX-based symbolic field scaffolds.
+
+#### Telemetry Channels
+
+* **$\mathcal{C}_{\text{slope}}(t)$** — Rate of field gradient change; correlates with structural emergence and instability onset.
+* **$\Delta_B^{\text{peak}}$** — Peak divergence amplitude; critical in detecting rupture thresholds.
+* **$\kappa_{\text{inferred}}$** — Empirical back-calculation of symbolic–physical coupling from data.
+
+#### Ethical Constraints
+
+Two principles remain active under NSFG simulation:
+
+* **Prohibited Symbolic Erasure**: It is impermissible to zero-out or override coherence-rich zones aligned with motif resonance (e.g. ψ‑hold, ψ‑myth). Diagnostic fidelity depends on their integrity.
+
+* **Coherence Collapse Alerting**: Simulated agents must track $\Delta_B$ against a critical threshold $\delta_{\text{collapse}}$ and raise interrupts when it is crossed. Silent collapse is not an acceptable failure mode.
+
+#### Handoff
+
+Symbolic geometry now maps to analytic form. The field has been parsed. From here, we enter predictive space: jet formation, rupture detection, and coherence-driven flow behavior.
+
+---
+
