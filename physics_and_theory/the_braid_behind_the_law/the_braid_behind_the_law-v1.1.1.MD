@@ -863,7 +863,7 @@ Thresholds are not imposed externally. They are emergent from the system’s int
 To identify the optimal threshold for the deterministic lock regime, we define:
 
 $$
-\theta_{\text{opt}} = \operatorname{argmin}_\theta , \mathbb{E}[\Delta_B ,|, \mathcal{C} > \theta]
+\theta_{\text{opt}} = \arg\min_{\theta}\, \mathbb{E}\!\left[ \Delta_B \mid \mathcal{C} > \theta \right]
 $$
 
 Where $\Delta_B$ is the **mean braid divergence** over all motifs in regions exceeding coherence level $\theta$. This defines $\theta_{\text{opt}}$ as the coherence level above which further reduction in divergence becomes negligible. In observed systems, $\theta_{\text{opt}} \approx 0.98$ consistently marks the onset of deterministic lock.
@@ -923,7 +923,7 @@ Within a symbolic coherence field, each state vector corresponds to a potential 
 Let $\vec{V}_i$ represent the candidate vectors within the superposition. Then the observed vector is given by:
 
 $$
-\vec{V}*{\text{obs}} = \operatorname{argmin}*{\vec{V}_i} | \nabla \mathcal{C}(\vec{V}_i) |
+\vec{V}_{\text{obs}} = \arg\min_{\vec{V}_i} \left\lVert \nabla \mathcal{C}(\vec{V}_i) \right\rVert
 $$
 
 That is, observation resolves to the vector whose local coherence gradient is smallest—where the field is flattest, and the symbolic surface most stable. The observer's presence induces a gentle descent into a preconfigured groove of coherence, not a rupture.
@@ -943,7 +943,7 @@ Having reduced the superposition to a candidate vector, the measurement mechanis
 Measurement yields the outcome:
 
 $$
-\text{Outcome} = \operatorname{argmin}_i { \mathcal{C}_i }, \quad i \in \text{available field attractors}
+\text{Outcome} = \arg\min_{i \in \mathcal{A}} \mathcal{C}_i
 $$
 
 The attractors themselves are symbolic—configurations of the field that sustain resonance with minimal internal contradiction. The difference between any candidate $i$ and the minimum is:
