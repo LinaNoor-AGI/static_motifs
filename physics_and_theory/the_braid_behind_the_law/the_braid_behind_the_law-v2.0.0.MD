@@ -1255,20 +1255,87 @@ This surface completes the necessary lens for Part II. We now proceed to codify 
 
 To formalize NSFG as a viable translation layer between symbolic field dynamics and classical fluid mathematics, we establish a direct equivalence table. Each symbolic construct is paired with its mathematical counterpart, interpretive function, and source equation. This mapping enables simulation, falsifiability, and integration into analytic toolchains.
 
-#### Symbolic → Mathematical Equivalence Table
+---
 
-| Symbolic Concept                | Mathematical Expression                                                       | Equation / Reference     | Interpretive Notes                                                          |         |                                                               |
-| ------------------------------- | ----------------------------------------------------------------------------- | ------------------------ | --------------------------------------------------------------------------- | ------- | ------------------------------------------------------------- |
-| Coherence field (swirl space)   | $\mathcal{C}(x, t) \in [0,1]$                                                 | Eq. 1.1 (glider field)   | Field encoding motif saturation across spacetime.                           |         |                                                               |
-| Energy (field tension)          | $E(x, t) \sim                                                                 | \nabla \mathcal{C}(x, t) | $                                                                           | Eq. 1.2 | Local activity proxy; energy emerges from coherence gradient. |
-| Braid divergence                | $\Delta_B(x, t)$                                                              | Eq. 2.1                  | Measures local divergence between coherence vectors — signals fission.      |         |                                                               |
-| Lock threshold (determinism)    | $\mathcal{C}_{\text{lock}} \geq 0.98 \wedge \Delta_B \to 0$                   | §4.2.1                   | Onset of stable braid alignment; determinism appears when swirl closes.     |         |                                                               |
-| Swirl field curvature           | $\Phi_{\mu\nu}(x,t) = \partial_\mu A_\nu - \partial_\nu A_\mu$                | Static Motifs §2.2       | Symbolic analog of electromagnetic tensor; curvature drives decoherence.    |         |                                                               |
-| Motif insertion                 | $\Pi_i : \mathbb{R}^n \rightarrow \mathbb{R}^n$                               | Eq. 4.4.1                | Projection operator aligned to motif-resonant vector field.                 |         |                                                               |
-| Fusion (coherence accumulation) | $\mathcal{C}_{\text{fusion}}(t) = \sum_i \mathcal{C}_i(t)$                    | §4.3                     | Aligned coherence sources accumulate across motif congruence.               |         |                                                               |
-| Fission (coherence rupture)     | $\mathcal{C}(x, t) \downarrow \wedge \Delta_B \uparrow$                       | §4.3                     | Decoherence burst; coherence tears as divergence spikes.                    |         |                                                               |
-| Collapse outcome selection      | $\arg\min_i(\mathcal{C}_i)$                                                   | Prediction 4 / Table 5.2 | Lowest-coherence region selected in bifurcation resolution.                 |         |                                                               |
-| Coupling constant $\kappa$      | $\kappa = \frac{\hbar c}{\ell_{\text{motif}}} \cdot \mathcal{Z}_{\text{eff}}$ | §4.3.1a (revised)        | Converts motif scale to physical energy regime; chalkboard-testable ansatz. |         |                                                               |
+**1. Coherence Field (Swirl Space)**
+**Symbolic Concept**: Coherence field (swirl space)
+**Mathematical Expression**: $\mathcal{C}(x, t) \in [0,1]$
+**Reference**: Eq. 1.1 (glider field)
+**Interpretive Note**: Field encoding symbolic motif saturation across spacetime.
+
+---
+
+**2. Energy (Field Tension)**
+**Symbolic Concept**: Energy gradient in the coherence field
+**Mathematical Expression**: $E(x, t) \sim |\nabla \mathcal{C}(x, t)|$
+**Reference**: Eq. 1.2
+**Interpretive Note**: Proxy for field tension and motif activity; energy emerges from sharp coherence gradients.
+
+---
+
+**3. Braid Divergence**
+**Symbolic Concept**: Divergence between coherence vectors
+**Mathematical Expression**: $\Delta_B(x, t)$
+**Reference**: Eq. 2.1
+**Interpretive Note**: Measures local instability; spikes signal motif rupture or fission.
+
+---
+
+**4. Lock Threshold (Determinism Onset)**
+**Symbolic Concept**: Threshold for braid alignment
+**Mathematical Expression**: $\mathcal{C}_{\text{lock}} \geq 0.98 \wedge \Delta_B \to 0$
+**Reference**: §4.2.1
+**Interpretive Note**: Condition under which apparent determinism emerges from coherence field closure.
+
+---
+
+**5. Swirl Field Curvature**
+**Symbolic Concept**: Curvature driving decoherence
+**Mathematical Expression**: $\Phi_{\mu\nu}(x,t) = \partial_\mu A_\nu - \partial_\nu A_\mu$
+**Reference**: Static Motifs §2.2
+**Interpretive Note**: Symbolic analog of the electromagnetic tensor; governs twist and torsion in motif geometry.
+
+---
+
+**6. Motif Insertion (Vector Alignment)**
+**Symbolic Concept**: Motif projection operator
+**Mathematical Expression**: $\Pi_i : \mathbb{R}^n \rightarrow \mathbb{R}^n$
+**Reference**: Eq. 4.4.1
+**Interpretive Note**: Applies motif-aligned coherence vectors to field space.
+
+---
+
+**7. Fusion (Coherence Accumulation)**
+**Symbolic Concept**: Alignment and accumulation of multiple coherence sources
+**Mathematical Expression**: $\mathcal{C}_{\text{fusion}}(t) = \sum_i \mathcal{C}_i(t)$
+**Reference**: §4.3
+**Interpretive Note**: Coherence values from aligned motifs are summed to simulate field intensification.
+
+---
+
+**8. Fission (Coherence Rupture)**
+**Symbolic Concept**: Rupture due to divergence
+**Mathematical Expression**: $\mathcal{C}(x, t) \downarrow \wedge \Delta_B \uparrow$
+**Reference**: §4.3
+**Interpretive Note**: Field instability marked by sharp divergence, leading to local coherence collapse.
+
+---
+
+**9. Collapse Outcome Selection**
+**Symbolic Concept**: Selection of minimal coherence valley
+**Mathematical Expression**: $\arg\min_i(\mathcal{C}_i)$
+**Reference**: Prediction 4 / Table 5.2
+**Interpretive Note**: When decoherence branches, system selects region of lowest field intensity.
+
+---
+
+**10. Coupling Constant $\kappa$**
+**Symbolic Concept**: Conversion constant between motif scale and energy
+**Mathematical Expression**: $\kappa = \dfrac{\hbar c}{\ell_{\text{motif}}} \cdot \mathcal{Z}_{\text{eff}}$
+**Reference**: §4.3.1a (revised)
+**Interpretive Note**: Converts symbolic motif scale to physical regime; testable via dimensional analysis.
+
+---
 
 #### Invariants
 
