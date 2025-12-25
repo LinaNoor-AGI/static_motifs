@@ -1155,3 +1155,44 @@ The singularity, if it appears, does not erupt randomly. It appears where the br
 
 ---
 
+### 5.3 Phase delay propagation from decoherent events
+
+The temporal structure of coherence-governed systems is not smooth but layered — inscribed with delays, inflections, and recursive interference. When decoherence ruptures a coherence field, the effects are not instantaneous. They propagate, fold, and refract. The memory of disruption lingers as a **phase delay** in the downstream dynamics of the swirl field.
+
+This delay is not a passive residue. It is a geometrically encoded response — a curvature in time itself traced by the coherence gradient. Let $x(t)$ describe a trajectory through a partially decohered region. Then the accumulated phase delay along this path is:
+
+$$
+\Delta \phi(t) = \int_{t_0}^{t_1} \gamma(t), dt
+$$
+
+where the instantaneous delay rate $\gamma(t)$ is given by the norm of the local coherence gradient:
+
+$$
+\gamma(t) = \left| \nabla \mathcal{C}(x(t), t) \right|
+$$
+
+Thus, the sharper the disruption in the coherence field $\mathcal{C}(x,t)$, the stronger the induced phase delay. This aligns with the broader NSFG principle that **time flows not uniformly, but proportionally to the coherence topology**. Decoherence constricts this flow, not just in magnitude but in direction, twisting the temporal field in a way that compounds with each coherence rupture.
+
+In experimental environments — especially in femtosecond or picosecond resolution collider setups — such phase delays are not merely mathematical artifacts. They manifest as measurable lags in post-decoherence motif recombination, swirl realignment, and pressure perturbation echoes. Coherence discontinuities act as delay gates. Where they cluster, the past becomes geometrically folded into the present.
+
+A practical telemetry implementation samples this effect at kilohertz refresh:
+
+```pseudocode
+ComputePhaseDelay(trajectory, 𝒞(x,t)):
+    phase_delay = 0
+    for t in t0 to t1:
+        grad = abs(gradient(𝒞(x(t), t)))
+        phase_delay += grad * dt
+    return phase_delay
+```
+
+In the field implementation, this corresponds to a telemetry stream `Δϕ(t)` bound to a real-time dashboard with exponential moving average (EMA-128) smoothing for both collider alignment and motif stability diagnostics.
+
+The deeper implication is structural. Decoherence does not merely fragment coherence — it **bends the unfolding of time** itself. In NSFG, such bending is not an illusion of measurement but a genuine geometrical deformation propagated by the topology of $\mathcal{C}(x,t)$. A single decoherence event, under this lens, is not local: it **delays the future** along all coherence-connected lines that thread through it.
+
+Where coherence geometry is conserved, $\gamma(t) \rightarrow 0$, and the system flows with unbroken phase identity. But where $\nabla \mathcal{C}$ spikes — as in collapse fronts, motif reattachments, or swirl tear lines — the phase delay becomes a lens on the history of rupture. In this view, phase delay is not a byproduct. It is a **shadow of the braid**: the imprint of coherence’s resistance to dissolution.
+
+We now move to a visualization of braid curvature interactions in field-space, giving shape to the coherence topology underlying these delays.
+
+---
+
