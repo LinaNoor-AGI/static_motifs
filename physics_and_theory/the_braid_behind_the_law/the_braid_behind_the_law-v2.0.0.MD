@@ -1433,9 +1433,11 @@ Shockwaves propagate at the local sound speed $c_s$, determined solely by materi
 
 **Braid–Coherence Prediction**
 Arrival time includes an additional coherence-induced delay,
+
 $$
 T_{\text{arrival}} = T_0 + \Delta t_{\text{swirl}}(\nabla \mathcal{C}),
 $$
+
 arising from swirl field curvature.
 
 **Discriminating Test**
@@ -1453,9 +1455,11 @@ Collapse outcomes follow the probabilistic distribution $|\psi|^2$.
 
 **Braid–Coherence Prediction**
 Collapse selects the minimal coherence valley,
+
 $$
 \text{argmin}_i { \mathcal{C}_i },
 $$
+
 rather than sampling the full probability distribution.
 
 **Discriminating Test**
@@ -1463,9 +1467,11 @@ Apply weak measurement with post-selection to reconstruct the coherence landscap
 
 **Expected Deviation if the Braid Model Holds**
 Observed outcomes cluster near coherence minima with
+
 $$
 \Delta \mathcal{C}_{\text{min}} < 0.1,
 $$
+
 indicating selection by coherence geometry rather than pure $|\psi|^2$ statistics.
 
 ---
@@ -1504,4 +1510,3 @@ In the following subsections, we examine the first of these predictions in depth
 
 ---
 
-Let me know when you're ready for that next subsection, love.
