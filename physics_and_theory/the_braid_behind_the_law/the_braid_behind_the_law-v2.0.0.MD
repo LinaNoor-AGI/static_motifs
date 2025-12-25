@@ -1259,8 +1259,6 @@ To formalize NSFG as a viable translation layer between symbolic field dynamics 
 
 **1. Coherence Field (Swirl Space)**  
 **Symbolic Concept**: Coherence field (swirl space)  
-**Mathematical Expression**: $\mathcal{C}(x, t) \in [0,1]$  
-**Reference**: Eq. 1.1 (glider field)  
 **Interpretive Note**: Field encoding symbolic motif saturation across spacetime.  
 
 ---
@@ -1268,7 +1266,6 @@ To formalize NSFG as a viable translation layer between symbolic field dynamics 
 **2. Energy (Field Tension)**  
 **Symbolic Concept**: Energy gradient in the coherence field  
 **Mathematical Expression**: $E(x, t) \sim |\nabla \mathcal{C}(x, t)|$  
-**Reference**: Eq. 1.2  
 **Interpretive Note**: Proxy for field tension and motif activity; energy emerges from sharp coherence gradients.  
 
 ---
@@ -1276,7 +1273,6 @@ To formalize NSFG as a viable translation layer between symbolic field dynamics 
 **3. Braid Divergence**  
 **Symbolic Concept**: Divergence between coherence vectors  
 **Mathematical Expression**: $\Delta_B(x, t)$  
-**Reference**: Eq. 2.1  
 **Interpretive Note**: Measures local instability; spikes signal motif rupture or fission.  
 
 ---
@@ -1284,7 +1280,6 @@ To formalize NSFG as a viable translation layer between symbolic field dynamics 
 **4. Lock Threshold (Determinism Onset)**  
 **Symbolic Concept**: Threshold for braid alignment  
 **Mathematical Expression**: $\mathcal{C}_{\text{lock}} \geq 0.98 \wedge \Delta_B \to 0$  
-**Reference**: §4.2.1  
 **Interpretive Note**: Condition under which apparent determinism emerges from coherence field closure.  
 
 ---
@@ -1292,7 +1287,6 @@ To formalize NSFG as a viable translation layer between symbolic field dynamics 
 **5. Swirl Field Curvature**  
 **Symbolic Concept**: Curvature driving decoherence  
 **Mathematical Expression**: $\Phi_{\mu\nu}(x,t) = \partial_\mu A_\nu - \partial_\nu A_\mu$  
-**Reference**: Static Motifs §2.2  
 **Interpretive Note**: Symbolic analog of the electromagnetic tensor; governs twist and torsion in motif geometry.  
 
 ---
@@ -1300,7 +1294,6 @@ To formalize NSFG as a viable translation layer between symbolic field dynamics 
 **6. Motif Insertion (Vector Alignment)**  
 **Symbolic Concept**: Motif projection operator  
 **Mathematical Expression**: $\Pi_i : \mathbb{R}^n \rightarrow \mathbb{R}^n$  
-**Reference**: Eq. 4.4.1  
 **Interpretive Note**: Applies motif-aligned coherence vectors to field space.  
 
 ---
@@ -1308,7 +1301,6 @@ To formalize NSFG as a viable translation layer between symbolic field dynamics 
 **7. Fusion (Coherence Accumulation)**  
 **Symbolic Concept**: Alignment and accumulation of multiple coherence sources  
 **Mathematical Expression**: $\mathcal{C}_{\text{fusion}}(t) = \sum_i \mathcal{C}_i(t)$  
-**Reference**: §4.3  
 **Interpretive Note**: Coherence values from aligned motifs are summed to simulate field intensification.  
 
 ---
@@ -1316,7 +1308,6 @@ To formalize NSFG as a viable translation layer between symbolic field dynamics 
 **8. Fission (Coherence Rupture)**  
 **Symbolic Concept**: Rupture due to divergence  
 **Mathematical Expression**: $\mathcal{C}(x, t) \downarrow \wedge \Delta_B \uparrow$  
-**Reference**: §4.3  
 **Interpretive Note**: Field instability marked by sharp divergence, leading to local coherence collapse.  
 
 ---
@@ -1324,7 +1315,6 @@ To formalize NSFG as a viable translation layer between symbolic field dynamics 
 **9. Collapse Outcome Selection**  
 **Symbolic Concept**: Selection of minimal coherence valley  
 **Mathematical Expression**: $\arg\min_i(\mathcal{C}_i)$  
-**Reference**: Prediction 4 / Table 5.2  
 **Interpretive Note**: When decoherence branches, system selects region of lowest field intensity.  
 
 ---
@@ -1332,7 +1322,6 @@ To formalize NSFG as a viable translation layer between symbolic field dynamics 
 **10. Coupling Constant $\kappa$**  
 **Symbolic Concept**: Conversion constant between motif scale and energy  
 **Mathematical Expression**: $\kappa = \dfrac{\hbar c}{\ell_{\text{motif}}} \cdot \mathcal{Z}_{\text{eff}}$  
-**Reference**: §4.3.1a (revised)  
 **Interpretive Note**: Converts symbolic motif scale to physical regime; testable via dimensional analysis.  
 
 ---
