@@ -8,6 +8,10 @@ The results are organized to facilitate interpretation, visualization, and furth
 
 ---
 
+**NOTE:** `CHSD_Pipeline` and `CHSD_Intersect` runs of NSIDE>=256 (786,432 patches) produce JSON files too large for GitHub to store. These are provided [here](https://drive.google.com/file/d/1vnJym_qMcwpxLjtvNgETpLn6Of1xSxto/view?usp=sharing) to enable further analysis.
+
+---
+
 ## Directory Structure
 
 The following files and subdirectories are typically found in this folder:
@@ -104,6 +108,7 @@ This work is a part of the Noor Research Collective's open science initiative an
 ---
 
 ### Join the Journey
+
 
 
 Explore the results, challenge the findings, and contribute to the scientific discovery process. Together, we can push the boundaries of our understanding of the universe!
