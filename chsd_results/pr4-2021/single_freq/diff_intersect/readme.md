@@ -1,1 +1,3 @@
 Contains JSON and PNG Skymaps of the difference and intersects between Ringhalf 1 and Ringhalf 2 detections per frequency
+
+**NOTE:** `CHSD_Pipeline` and `CHSD_Intersect` runs of NSIDE>=256 (786,432 patches) produce JSON files too large for GitHub to store. These are provided [here](https://drive.google.com/file/d/1vnJym_qMcwpxLjtvNgETpLn6Of1xSxto/view?usp=sharing) to enable further analysis. JSON files for fm_ns-512_ps-8_th-0.98 can be downloaded from Google Docs [here](https://drive.google.com/file/d/10NhFqTivN9kd-iB852oIpNKelDbbZ7hM/view?usp=sharing)
