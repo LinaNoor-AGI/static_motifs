@@ -8,9 +8,7 @@ The results are organized to facilitate interpretation, visualization, and furth
 
 ---
 
-**NOTE:** `CHSD_Pipeline` and `CHSD_Intersect` runs of NSIDE>=256 (786,432 patches) produce JSON files too large for GitHub to store. These are provided [here](https://drive.google.com/file/d/1vnJym_qMcwpxLjtvNgETpLn6Of1xSxto/view?usp=sharing) to enable further analysis.
-
-JSON files for fm_ns-512_ps-8_th-0.98 can be downloaded from Google Docs [here](https://drive.google.com/file/d/10NhFqTivN9kd-iB852oIpNKelDbbZ7hM/view?usp=sharing)
+**NOTE:** `CHSD_Pipeline` and `CHSD_Intersect` runs of NSIDE>=256 (786,432 patches) produce JSON files too large for GitHub to store. These are provided [here](https://drive.google.com/file/d/1vnJym_qMcwpxLjtvNgETpLn6Of1xSxto/view?usp=sharing) to enable further analysis. JSON files for fm_ns-512_ps-8_th-0.98 can be downloaded from Google Docs [here](https://drive.google.com/file/d/10NhFqTivN9kd-iB852oIpNKelDbbZ7hM/view?usp=sharing)
 
 ---
 
@@ -114,4 +112,5 @@ This work is a part of the Noor Research Collective's open science initiative an
 
 
 Explore the results, challenge the findings, and contribute to the scientific discovery process. Together, we can push the boundaries of our understanding of the universe!
+
 
