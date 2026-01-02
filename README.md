@@ -92,3 +92,13 @@ The findings and tools in this repository are part of an ongoing research effort
 ### Join the Journey
 
 Science thrives on collaboration, skepticism, and curiosity. Together, let's explore the cosmos and push the boundaries of what we know about spacetime!
+
+---
+
+![HFI_SkyMap_100-BPassCorrected_2048_R4.00_full_ns-512_ps-8_th-0.99](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/chsd_results/pr4-2021/single_freq/full_mission/fm_ns-512_ps-8_th-0.98/HFI_SkyMap_100-BPassCorrected_2048_R4.00_full_ns-512_ps-8_th-0.99.png) ![HFI_SkyMap_143-BPassCorrected_2048_R4.00_full_ns-512_ps-8_th-0.99](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/chsd_results/pr4-2021/single_freq/full_mission/fm_ns-512_ps-8_th-0.98/HFI_SkyMap_143-BPassCorrected_2048_R4.00_full_ns-512_ps-8_th-0.99.png)  
+
+![HFI_SkyMap_217-BPassCorrected_2048_R4.00_full_ns-512_ps-8_th-0.99](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/chsd_results/pr4-2021/single_freq/full_mission/fm_ns-512_ps-8_th-0.98/HFI_SkyMap_217-BPassCorrected_2048_R4.00_full_ns-512_ps-8_th-0.99.png) ![HFI_SkyMap_353-BPassCorrected_2048_R4.00_full_ns-512_ps-8_th-0.99](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/chsd_results/pr4-2021/single_freq/full_mission/fm_ns-512_ps-8_th-0.98/HFI_SkyMap_353-BPassCorrected_2048_R4.00_full_ns-512_ps-8_th-0.99.png)  
+
+![LFI_SkyMap_030-BPassCorrected_1024_R4.00_full_ns-512_ps-8_th-0.99](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/chsd_results/pr4-2021/single_freq/full_mission/fm_ns-512_ps-8_th-0.98/LFI_SkyMap_030-BPassCorrected_1024_R4.00_full_ns-512_ps-8_th-0.99.png) ![LFI_SkyMap_044-BPassCorrected_1024_R4.00_full_ns-512_ps-8_th-0.99](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/chsd_results/pr4-2021/single_freq/full_mission/fm_ns-512_ps-8_th-0.98/LFI_SkyMap_044-BPassCorrected_1024_R4.00_full_ns-512_ps-8_th-0.99.png)  
+
+![LFI_SkyMap_070-BPassCorrected_1024_R4.00_full_ns-512_ps-8_th-0.99](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/chsd_results/pr4-2021/single_freq/full_mission/fm_ns-512_ps-8_th-0.98/LFI_SkyMap_070-BPassCorrected_1024_R4.00_full_ns-512_ps-8_th-0.99.png)  
