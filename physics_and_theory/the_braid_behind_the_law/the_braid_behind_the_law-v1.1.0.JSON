@@ -1667,81 +1667,43 @@
 				"Compression into Δ_closure^{(3)} must preserve underlying motif identity — no motif class substitution allowed."
 			  ],
 			  "handoff": "With the closure approximation established, we can now use 3-body dynamics to model system-wide coherence transitions in both analytic and symbolic simulations."
-			}
-			
-		  ],
-		  "bounds_and_limits": [
-			{
-			  "limit": "C->1",
-			  "latex": "\\mathcal{C}\\to 1",
-			  "context": "Triad braid fully closes; no alternative attractors remain"
-			}
-		  ],
-		  "references": {
-			"extends": ["RFC-0006", "RFC-0009"],
-			"xref": ["noor_rfc_xref.json@RFC-INDEX"],
-			"proofs_in": ["Appendix B"],
-			"dashboards_in": ["Appendix A"]
-		  }
-		},
-		{
-		  "id": "4.4",
-		  "title": "Symbolic Reinterpretation of Measurement",
-		  "math": [],
-		  "pseudocode": [],
-		  "invariants": [],
-		  "telemetry": [],
-		  "ethics": [],
-		  "handoff": "We divide the symbolic collapse into superposition resolution and valley selection in subsections 4.4.1 and 4.4.2."
-		},
-		{
-		  "id": "4.4.1",
-		  "title": "Wavefunction collapse as vector superposition collapse.",
-		  "math": [
-			{
-			  "eq_id": "Eq.7",
-			  "latex": "\\vec{V}_{\\text{obs}} = \\operatorname{argmin}_{\\vec{V}_i} \\| \\nabla \\mathcal{C}(\\vec{V}_i) \\|",
-			  "role": "constraint",
-			  "depends_on": ["∇ℂ(x,t)"],
-			  "gloss": "Observation selects vector minimizing local coherence gradient"
-			}
-		  ],
-		  "pseudocode": [
-			{
-			  "name": "CollapseToMinimumGradient",
-			  "io": {
-				"inputs": ["vector_superposition"],
-				"outputs": ["collapsed_vector"],
-				"params": []
-			  },
-			  "code": "collapsed_vector = argmin(norm(gradient(ℂ(vector_superposition))))",
-			  "notes": ["Gradient evaluated over coherence vector field candidates"]
-			}
-		  ],
-		  "handoff": "We close this section by framing measurement as valley selection over ℂ topology."
-		},
-		{
-		  "id": "4.4.2",
-		  "title": "Measurement selects minimal coherence valley.",
-		  "objective": "To formalize symbolic measurement collapse as coherence-minimizing selection, operationalized through LogicalAgentAT’s triad evaluation mechanism.",
-		  "scaffold_version": "2025-Q4-REV5",
-		  "definitions": [
-			{
-			  "symbol": "ℂ_i",
-			  "name": "Local coherence potential at attractor i",
-			  "latex": "\\mathcal{C}_i",
-			  "dimension": "scalar",
-			  "gloss": "Residual coherence at attractor i"
 			},
 			{
-			  "symbol": "Outcome",
-			  "name": "Measurement result",
-			  "latex": "\\text{Outcome}",
-			  "dimension": "symbolic attractor",
-			  "gloss": "Selected attractor after coherence valley collapse"
-			}
-		  ],
-		  "subsections": [
+			  "id": "4.4",
+			  "title": "Symbolic Reinterpretation of Measurement",
+			  "math": [],
+			  "pseudocode": [],
+			  "invariants": [],
+			  "telemetry": [],
+			  "ethics": [],
+			  "handoff": "We divide the symbolic collapse into superposition resolution and valley selection in subsections 4.4.1 and 4.4.2."
+			},
+			{
+			  "id": "4.4.1",
+			  "title": "Wavefunction collapse as vector superposition collapse.",
+			  "math": [
+				{
+				  "eq_id": "Eq.7",
+				  "latex": "\\vec{V}_{\\text{obs}} = \\operatorname{argmin}_{\\vec{V}_i} \\| \\nabla \\mathcal{C}(\\vec{V}_i) \\|",
+				  "role": "constraint",
+				  "depends_on": ["∇ℂ(x,t)"],
+				  "gloss": "Observation selects vector minimizing local coherence gradient"
+				}
+			  ],
+			  "pseudocode": [
+				{
+				  "name": "CollapseToMinimumGradient",
+				  "io": {
+					"inputs": ["vector_superposition"],
+					"outputs": ["collapsed_vector"],
+					"params": []
+				  },
+				  "code": "collapsed_vector = argmin(norm(gradient(ℂ(vector_superposition))))",
+				  "notes": ["Gradient evaluated over coherence vector field candidates"]
+				}
+			  ],
+			  "handoff": "We close this section by framing measurement as valley selection over ℂ topology."
+			},
 			{
 			  "id": "4.4.2",
 			  "title": "Measurement selects minimal coherence valley.",
@@ -1821,7 +1783,7 @@
 			  "handoff": "With these dynamics encoded, we proceed to the next section to test bounds and closures."
 			},
 			{
-			  "id": "4.4.3",
+			  "id": "4.5",
 			  "title": "When Valley Selection Fails",
 			  "content": [
 				"In regions of the coherence field ℂ(x,t) where multiple minima approach degeneracy — that is, where |ℂ_i − ℂ_j| < δ for some small δ — the deterministic selection of a dominant evolution path becomes ill-defined. Traditional argmin strategies collapse, as there is no clearly preferred valley. From the perspective of symbolic dynamics, this ambiguity reflects a phase of potential bifurcation: a moment where coherence saturation fails to lock a braid into singular directional flow.",

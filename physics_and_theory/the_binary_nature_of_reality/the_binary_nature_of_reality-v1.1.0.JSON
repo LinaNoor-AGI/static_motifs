@@ -1077,7 +1077,7 @@
 			{
 			  "ref": "RFC-CORE-014",
 			  "title": "The Braid Behind the Law",
-			  "note": "See RFC-CORE-014 §3.3.1 on braid tension and triadic saturation, and RFC-CORE-014 §4.1.2 on glider saturation and motif locking. Together these establish the mathematical precedent for contradiction persistence under coherence-vector braid saturation, and for stability in the lock regime."
+			  "note": "See RFC-CORE-014 §3.2.2 for the Lyapunov functional governing coherence-glider convergence (glider saturation and attractor locking), and RFC-CORE-014 §4.3.3.2 for the Triad Closure reduction in the lock regime (triadic saturation under high braid density). Together these establish the mathematical precedent for contradiction persistence under coherence-vector braid saturation, and for stability in the lock regime."
 			}
 		  ],
 		  "semantic_caution": [
