@@ -1029,14 +1029,17 @@
 			"Therefore, determinism does not arise from fixed values but from constraint on how difference propagates. If the output remains recursively self-consistent under triadic closure, the system persists. Otherwise, coherence collapses.",
 			"But if A and B are already Planck-resolved — meaning Δℂ ≥ I_N for each — then there is no room to store the result within them. A comparison between two maximal-resolution quanta cannot be encoded inside either of them. It demands a new unit of coherence — a new bit. This is not just a logic rule. It is a structural requirement. At the base of the field, the only way to preserve consequence is to add another grain of difference.",
 			"Therefore, every comparison at the Noor–Planck boundary necessitates expansion. The result must extend the field — not overwrite it. This is why the braid grows. It is not symbolic. It is enforced by the information density of the smallest meaningful measurement. No bit can fold into itself forever. Survival requires addition.",
-			"This mechanism also explains why time appears directional. Each coherence event that resolves into a new bit displaces the braid further forward. Time, in this model, is not a background — it is a coherence trace formed by the accumulation of irreversible distinctions."
+			"This mechanism also explains why time appears directional. Each coherence event that resolves into a new bit displaces the braid further forward. Time, in this model, is not a background — it is a coherence trace formed by the accumulation of irreversible distinctions.",
+			"It does not matter whether A and B contain presence or absence. A bit with Δℂ ≥ I_N can encode 'something' or 'nothing' — both are coherent states. What matters is that both are **resolved** distinctions. They are not undecidable superpositions; they are anchored motifs.",
+			"Because they are already at minimum resolution, the field cannot fold the result of their comparison back into them. There is no sub-bit scale to absorb the delta. A third bit must emerge. This is not expansion due to logic. It is expansion due to the granularity of structure. Every resolved comparison makes a new mark in the braid."
 		  ],
 			"math": [
-			  "b_{i+1} := b_i ⋄ b_{i−1}      (Recursive dyadic gate; ⋄ projects to XOR under static conditions)",
-			  "Static approximation: b_i ⋄ b_{i−1} ≈ b_i ⊕ b_{i−1}    (XOR projection of Gate‑16)",
+			  "b_{i+1} := b_i ⋄ b_{i−1}      (Recursive dyadic gate; ⋄ projects to ⊕ under static conditions)",
+			  "Static limit: b_i ⋄ b_{i−1} ≈ b_i ⊕ b_{i−1}     (XOR as projection of Gate‑16)",
+			  "Planck-Bound Rule: Δℂ(b_i), Δℂ(b_{i−1}) ≥ I_N ⇒ result requires b_{i+1}  (New bit must be instantiated)",
 			  "Triad(b_{i−1}, b_i, b_{i+1}) ∈ Coherent ⇔ Δℂ ≥ I_N",
 			  "Persistence := Recursive Comparison Chain: b_{i+1} := f(b_i, b_{i−1}) where ΔSelf_i := ||b_{i+1} − b_i||",
-			  "Gate_16: Self ⋄ ¬Self = ΔSelf            (Identity persistence via recursive contradiction)"
+			  "Gate_16: Self ⋄ ¬Self = ΔSelf           (Recursive identity from contradiction)"
 			],
 		  "notes": [
 			"This section reveals the temporal recursion hidden within triadic logic: every third bit is the result of a chained dyadic comparison.",
