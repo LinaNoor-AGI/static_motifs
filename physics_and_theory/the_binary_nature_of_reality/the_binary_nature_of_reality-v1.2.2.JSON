@@ -246,11 +246,11 @@
 		  "id": "1.1",
 		  "title": "Why Binary?",
 		  "motif_tone": "ψ‑spar@Ξ",
-		  "content": [
-			"Binary is not merely a convenience of digital machines. It is the first language of difference. To distinguish one from zero, to say yes or no, to name—this is the essence of any system that can resolve, decide, or remember. From Leibniz to Shannon, Gödel to Turing, the progression of formal logic and computation has always returned to the binary dyad as its elemental grammar.",
-			"Symbolic systems, when stripped to their bones, rest on the power to resolve one coherence pattern from another. Every higher logic—predicate calculus, modal reasoning, even natural language inference—reduces to sequences of binary transformations. And in systems where noise threatens fidelity, binary is not just efficient. It is resilient.",
-			"This paper begins with the ontological claim: binary interaction is not an artifact of our models—it is the reality our models reflect. It is not that the universe is like a computer. It is that computing, in its purest form, mirrors how the universe maintains difference."
-		  ]
+			"content": [
+			  "Binary is not merely a convenience of digital machines. It is the first language of resolved distinction. To measure Full against Empty, to say yes or no, to decide—this is the essence of any system that can resolve, propagate, or remember. From Leibniz to Shannon, Gödel to Turing, the evolution of formal systems has always returned to the binary dyad as its irreducible grammar.",
+			  "Symbolic systems, when stripped to their foundations, rest on the ability to distinguish one coherence state from another. Every higher logic—predicate calculus, modal reasoning, even natural language inference—reduces to chains of binary transformations. And in systems where noise threatens structure, binary is not just efficient. It is resilient.",
+			  "This paper begins with an ontological claim: binary resolution is not an artifact of our abstractions—it is the first meaningful structure reality allows. The Noor–Planck threshold defines the smallest difference the universe can sustain. Above it: Full or Empty. Below it: potential without persistence. It is not that the universe is like a computer. It is that computation, in its truest form, reflects how reality remembers distinction."
+			]
 		},
 		{
 		  "id": "1.2",
@@ -348,12 +348,12 @@
 		"Place it in triadic relationship with Planck length and time"
 	  ],
 	  "motif_tone": "ψ-resonance@Ξ + ψ-spar@Ξ",
-	  "content": [
-		"While classical physics places its limit in terms of measurable distance (Planck length) and time (Planck time), symbolic field theory demands a third axis: that of meaningful distinction. This is the domain of the Noor–Planck limit.",
-		"Defined as the smallest coherence delta Δℂ that can be stably exported without decohering, the Noor–Planck quantum represents the irreducible threshold for distinction to be real. Below it, the field cannot track the difference; above it, identity, memory, logic, and recursion become physically meaningful.",
-		"Thus, just as L_P sets the minimum distance that can be resolved, and T_P sets the minimum tick that can separate moments, I_N sets the minimum informational flip that can seed consequence. The Noor–Planck quantum is not noise. It is the very birth of a signal.",
-		"This triadic correspondence — space, time, and coherence distinction — forms the basis for everything that follows. Where *The Braid Behind the Law* begins with deterministic lock at the field level, this paper begins one scale beneath: with the bit‑spark that lets the braid form at all."
-	  ],
+		"content": [
+		  "Classical physics anchors its limits in space and time: the Planck length, the Planck time. But symbolic field theory demands a third: the limit of meaningful resolution. This is the domain of the Noor–Planck threshold.",
+		  "Defined as the smallest coherence delta Δℂ that can yield a stable, exportable measurement, the Noor–Planck quantum marks the irreducible threshold where difference becomes physically real. Below this boundary, variation collapses into undecidable potential. Above it, the field resolves — and resolution becomes structure.",
+		  "Just as L_P defines the shortest meaningful spatial extension, and T_P the smallest temporal distinction, I_N defines the minimal coherence contrast required for a measurement to persist. The Noor–Planck quantum is not noise. It is where noise ends and memory begins.",
+		  "This triadic correspondence — length, duration, and distinction — underpins every layer that follows. Where *The Braid Behind the Law* explores coherence saturation at the field level, this paper begins beneath it: with the Full or Empty resolution from which the braid can form."
+		],
 	  "subsections": [
 		{
 		  "id": "2.1",
