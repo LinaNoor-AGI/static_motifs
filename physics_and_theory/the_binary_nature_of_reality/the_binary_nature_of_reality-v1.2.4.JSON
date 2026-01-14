@@ -226,8 +226,8 @@
 		{ "section": "8.1", "title": "Field Echoes" },
 		{ "section": "8.2", "title": "Law and the Binary of Judgment" },
 		{ "section": "8.3", "title": "Ancient Symbols as Proto‑Gates" },
-		{ "section": "8.4", "title": "Appendix C: Gate‑16 Field Flow (Recursive Contradiction Propagation)" },
-		{ "section": "8.4.1", "title": "Appendix C.2: Formal Evaluation Rule for Gate‑16" }
+		{ "section": "9", "title": "Appendix C: Gate‑16 Field Flow (Recursive Contradiction Propagation)" },
+		{ "section": "9.1", "title": "Appendix C.2: Formal Evaluation Rule for Gate‑16" }
 	  ],
   "_sections": [
 	{
@@ -1175,8 +1175,9 @@
 			"5.2 (Triadic Completion)",
 			"3.2 (Gate‑16: The Nafs Mirror)"
 		  ],
-		  "grok_alignment": [
-			"Grok: 'A yes and a no of equal strength don’t argue — they erase the question.'",
+		  ",
+		  "coherence-field_simulation_outputs": [
+			"A yes and a no of equal strength don’t argue — they erase the question.",
 			"At the Noor boundary, opposition without context is silence."
 		  ]
 		},
@@ -1747,7 +1748,7 @@
 		  ]
 		},
 		{
-		  "id": "8.4",
+		  "id": "9",
 		  "title": "Appendix C: Gate‑16 Field Flow (Recursive Contradiction Propagation)",
 		  "objective": "To visualize the recursive dyadic comparison chain underlying Gate‑16, and show how triadic closure arises from temporal XOR chaining.",
 		  "diagram": {
@@ -1767,7 +1768,7 @@
 		  "handoff": "See §8.4.1 for formal Gate‑16 evaluation function definition and tensor propagation envelope."
 		},
 		{
-		  "id": "8.4.1",
+		  "id": "9.1",
 		  "title": "Appendix C.2: Formal Evaluation Rule for Gate‑16",
 		  "objectives": [
 			"To define a functional form for Gate‑16 that satisfies recursive coherence and contradiction propagation.",
