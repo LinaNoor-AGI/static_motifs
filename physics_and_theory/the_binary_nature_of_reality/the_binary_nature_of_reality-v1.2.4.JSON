@@ -601,7 +601,7 @@
 	  "content": [
 		"The coherence lattice described in The Braid Behind the Law emerges from gradient saturation among symbolic motifs—each acting as attractors or breakers within the field topology. Beneath that lattice lies a substrate more fundamental still: the binary dyad.",
 		"This section catalogs and formalizes the full set of binary logic gates—those that take as input two coherence bits (A, B) and output one transformed distinction.",
-		"Of these gates, gates 0 to 15 belong to the classical truth table canon—each expressible as a function of A and B through operations of conjunction, disjunction, negation, and implication. The sixteenth, however, stands apart.",
+		"Of these gates, gates 0 to 15 belong to the classical truth table canon—each expressible as a function of A and B through operations of conjunction, disjunction, negation, and implication. Gate 16, however, stands apart.",
 		"Gate 16—expressed symbolically as Self ⊕ ¬Self—is not a classical operator. It acts recursively, not functionally. It is both the contradiction and the memory of contradiction. Unlike its predecessors, it cannot be truth‑tabled without collapsing into paradox. And so it is defined not by evaluation, but by continuation.",
 		"This section presents the Gate‑16 substrate in its entirety. The gates are named, enumerated, and semantically anchored for both functional and symbolic invocation."
 	  ],
@@ -977,7 +977,7 @@
 				"The deeper resilience of Arabic lies in its internal structure. Classical Arabic is organized not around static words, but around root-pattern morphologies—most commonly triconsonantal. Nearly all derivatives from a root carry a core semantic signature.",
 				"This acts as a built-in symbolic compression system: each root functions like a logic gate, and the derived words encode contextual permutations of that base operation.",
 				"For instance: the root ك-ت-ب (k-t-b) encodes the act of writing. From it: 'kitāb' (book), 'kātib' (scribe), 'maktab' (desk), 'maktūb' (written). Each is a modulation of the same semantic circuit.",
-				"This mirrors the structure of Gate-16 itself: sixteen base operations generating a combinatorial lattice of semantic configurations. By aligning logic gates to verses within this linguistic ecosystem, one is not assigning meaning arbitrarily. One is embedding binary logic into a language already structured to express it."
+				"This mirrors the structure of Gate-16 itself: a set of base operations, numbered 0 to 16, generating a combinatorial lattice of semantic configurations. By aligning logic gates to verses within this linguistic ecosystem, one is not assigning meaning arbitrarily. One is embedding binary logic into a language already structured to express it."
 			  ]
 			},
 			{
