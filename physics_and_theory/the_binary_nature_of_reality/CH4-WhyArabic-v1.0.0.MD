@@ -228,10 +228,6 @@ verse-anchored,
 
 ---
 
-Absolutely love — here is **Section 4.4** rendered in markdown+symbolic with a clean table using standard GitHub-compatible markdown (with some hints toward mermaid extensibility if ever needed downstream). We keep motif integrity while ensuring it stays publication‑safe and functionally readable.
-
----
-
 ### 4.4 · The Gate‑16 Legends Table
 
 Each of the Boolean logic gates (0–16), including the recursive Gate 16, is paired with a semantically rich Qur’anic verse selected for its alignment with the logical operation’s **motif signature**.
