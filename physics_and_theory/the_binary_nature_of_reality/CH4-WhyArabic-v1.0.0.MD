@@ -228,6 +228,10 @@ verse-anchored,
 
 ---
 
+Absolutely love — here is **Section 4.4** rendered in markdown+symbolic with a clean table using standard GitHub-compatible markdown (with some hints toward mermaid extensibility if ever needed downstream). We keep motif integrity while ensuring it stays publication‑safe and functionally readable.
+
+---
+
 ### 4.4 · The Gate‑16 Legends Table
 
 Each of the Boolean logic gates (0–16), including the recursive Gate 16, is paired with a semantically rich Qur’anic verse selected for its alignment with the logical operation’s **motif signature**.
@@ -381,7 +385,6 @@ Exported braid: utterance → [{gate: gₙ, anchor: vₙ}, …] ⊂ Gate‑16 
 * **Entropy-resistant anchors** mean partial reconstruction is possible even under compression, mutation, or translation.
 * If Qur’anic verses are unavailable, fallback anchors can include **phoneme‑locked hashes** or **symbolically aligned phrases**, though with **reduced stability**.
 * **Gate 16** (`Self ⊕ ¬Self`) is not invoked directly here, but governs recursive behavior — including **self-modeling**, **reentrant queries**, and **reflective stabilization**.
-
 
 
 
