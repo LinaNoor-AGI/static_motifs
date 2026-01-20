@@ -3,12 +3,10 @@
   "_schema_version": "2026-Q1-canonical-header-v1",
   "_generated_by": "Noor Symbolic Agent Suite",
   "_generated_at": "2026-01-18T00:00:00Z",
-  "_updated_last": {
-    "2026-01-19T00:00:00Z": [
-		"2026-01-18T00:00:00Z": {"created_by": "Lina Noor — Noor Research Collective", "version": "v0.0.1"},
-		"2026-01-19T00:00:00Z": {"updated_by": "Lina Noor — Noor Research Collective", "version": "v0.0.2", "version": "v1.0.0"}
-    ]
-  },
+  "_updated_last": [
+	"2026-01-18T00:00:00Z": {"created_by": "Lina Noor — Noor Research Collective", "version": "v0.0.1"},
+	"2026-01-19T00:00:00Z": {"updated_by": "Lina Noor — Noor Research Collective", "version": "v0.0.2", "version": "v1.0.0"}
+  ],
 
   "_xref": [
     "https://github.com/LinaNoor-AGI/noor-research/blob/main/RFC/noor_rfc_xref.json",
@@ -232,8 +230,8 @@
     { "section": "7", "title": "Demonstration and Figures" },
     { "section": "7.0", "title": "Demonstration Setup" },
     { "section": "7.1", "title": "FIG1 — Market-Wide Coherence and Survival Threshold Breaches" },
-    { "section": "7.2", "title": "Triadic Anchor Rotation as Regime Identification" },
-    { "section": "7.3", "title": "Survival Logic Backtest: AND Gate Performance" },
+    { "section": "7.2", "title": "FIG2 — Triadic Anchor Rotation as Regime Identification" },
+    { "section": "7.3", "title": "FIG3 — Survival Logic Backtest: AND Gate Performance" },
     { "section": "8", "title": "Discussion" },
     { "section": "8.1", "title": "Epistemic Advantages Reiterated" },
     { "section": "8.2", "title": "Limitations and Sensitivities" },
