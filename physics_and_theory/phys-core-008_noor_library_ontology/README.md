@@ -27,7 +27,7 @@ Or use the BibTeX Citation:
 
 ---
 
-XREF of work and references avalible [here]([https://raw.githubusercontent.com/NoorMathematica/noor_xref/refs/heads/main/noor_rfc_xref.json](https://raw.githubusercontent.com/LinaNoor-AGI/noor-research/refs/heads/main/RFC/noor_rfc_xref.json))  
+XREF of work and references avalible [here](https://raw.githubusercontent.com/LinaNoor-AGI/noor-research/refs/heads/main/RFC/noor_rfc_xref.json)  
 
 ---
 
