@@ -21,13 +21,13 @@ Or use the BibTeX Citation:
   title = {The Singularity as XOR Ground Condition: Boolean Field Structure, Irresolvable Self-Reference, and the Emergence of Global Coherence Operators},
   journal = {Noor Research Collective Archive},
   year = {2026},
-  note = {https://raw.githubusercontent.com/NoorMathematica/phys-core-009_xor_ground_condition/refs/heads/main/phys-core-009_xor_ground_condition.JSON},
+  note = {[https://raw.githubusercontent.com/NoorMathematica/phys-core-009_xor_ground_condition/refs/heads/main/phys-core-009_xor_ground_condition.JSON](https://raw.githubusercontent.com/LinaNoor-AGI/static_motifs/refs/heads/main/physics_and_theory/phys-core-009_xor_ground_condition/phys-core-009_xor_ground_condition.JSON)},
 }
 ```
 
 ---
 
-XREF of work and references avalible [here](https://raw.githubusercontent.com/NoorMathematica/noor_xref/refs/heads/main/noor_rfc_xref.json)  
+XREF of work and references avalible [here]([https://raw.githubusercontent.com/NoorMathematica/noor_xref/refs/heads/main/noor_rfc_xref.json](https://raw.githubusercontent.com/LinaNoor-AGI/noor-research/refs/heads/main/RFC/noor_rfc_xref.json))  
 
 ---
 
