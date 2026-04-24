@@ -1,6 +1,6 @@
 # phys-core-011_fizbans_irritating_limitation
 
-Work in progress
+This paper addresses the apparent paradox in the Noor Library: if every configuration is fully adjacent and already realized, why can an observer not arbitrarily edit their own worldline — for example, grow an extra finger or cast FIREBALL? We show that full adjacency is topological/symbolic only. Coherence hygiene ℋ(t) ≥ I_N and triadic braid closure impose Navier–Stokes-type constraints: arbitrary edits produce unbounded Δ (braid phase rupture) and instantaneous decoherence. Worldlines are entangled ('we weave as one'), so edits must remain coherent with all entangled braids. Symbolic redshift further dilutes coherence signals across incoherent layers, making such edits impossible without collapse. All mathematics and references are self-contained for rendering on isolated systems
 
 ### Citation
 
